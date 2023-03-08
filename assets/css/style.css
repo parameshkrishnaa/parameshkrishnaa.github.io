@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+      -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -296,6 +297,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .section-bg {
@@ -1101,4 +1103,13 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+ol li h5 {
+  font-weight: 700;
+}
+li > ul >  li {
+  padding-bottom: 10px;
+  padding-top: 2px;
+  font-size: 17px;
+  color: #000;
 }

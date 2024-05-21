@@ -9,11 +9,16 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   color: #272829;
       -webkit-text-size-adjust: 100%;
 }
-
+span.highlight {
+  color: #0b72ff;
+}
+span.highlight-bg {
+  background: #e4edf9;
+}
 a {
   color: #149ddd;
   text-decoration: none;

@@ -1,539 +1,349 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+	<head><script src="../assets/js/color-modes.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+		<meta name="generator" content="Hugo 0.122.0">
+		<title>Top navbar example · Bootstrap v5.3</title>
+		
+		<link href="bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
 
-  <title>Parameswari Krishnamurthy</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+				}
+			}
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+			.b-example-divider {
+				width: 100%;
+				height: 3rem;
+				background-color: rgba(0, 0, 0, .1);
+				border: solid rgba(0, 0, 0, .15);
+				border-width: 1px 0;
+				box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+			}
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+			.b-example-vr {
+				flex-shrink: 0;
+				width: 1.5rem;
+				height: 100vh;
+			}
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+			.bi {
+				vertical-align: -.125em;
+				fill: currentColor;
+			}
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.10.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-<style>
-  p {
-    text-align :justify;
-  }
-</style>
-<body>
+			.nav-scroller {
+				position: relative;
+				z-index: 2;
+				height: 2.75rem;
+				overflow-y: hidden;
+			}
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+			.nav-scroller .nav {
+				display: flex;
+				flex-wrap: nowrap;
+				padding-bottom: 1rem;
+				margin-top: -1px;
+				overflow-x: auto;
+				text-align: center;
+				white-space: nowrap;
+				-webkit-overflow-scrolling: touch;
+			}
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+			.btn-bd-primary {
+				--bd-violet-bg: #712cf9;
+				--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-      <div align="center" class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h3 class="text-light"><a href="index.html">Parameswari Krishnamurthy</a></h3>
-        
-      </div>
+				--bs-btn-font-weight: 600;
+				--bs-btn-color: var(--bs-white);
+				--bs-btn-bg: var(--bd-violet-bg);
+				--bs-btn-border-color: var(--bd-violet-bg);
+				--bs-btn-hover-color: var(--bs-white);
+				--bs-btn-hover-bg: #6528e0;
+				--bs-btn-hover-border-color: #6528e0;
+				--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+				--bs-btn-active-color: var(--bs-btn-hover-color);
+				--bs-btn-active-bg: #5a23c8;
+				--bs-btn-active-border-color: #5a23c8;
+			}
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-		<!--          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>-->
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#research" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Research</span></a></li>
-          <!--<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
-          <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Publications</span></a></li>
-          <li><a href="#lectures" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Lectures</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-      <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/paramesh.krishna.94" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus" target="_blank"><i class="bx bxl-skype"></i></a>
-          <a href="https://www.linkedin.com/in/parameswari-krishnamurthy-83039020/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
-        </div>
-    </div>
-  </header><!-- End Header -->
+			.bd-mode-toggle {
+				z-index: 1500;
+			}
 
-  <!-- ======= Hero Section ======= Home page with animation of auto typing is commented, to uncomment delete: style="display: none !important;" -->
-  <section style="display: none !important;" id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1 style="font-size: 2em;">Parameswari Krishnamurthy</h1>
-      <p>I'm <span class="typed" data-typed-items="Computational Linguist, Teacher, Artist, Photographer"></span></p>
-    </div>
-  </section><!-- End Hero -->
+			.bd-mode-toggle .dropdown-menu .active .bi {
+				display: block !important;
+			}
+		</style>
 
-  <main id="main">
+		
+		<!-- Custom styles for this template -->
+		<link href="navbar-static.css" rel="stylesheet">
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#mynavbar">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+		<nav id="mynavbar" class="navbar navbar-expand-md navbar-dark bg-dark mb-4 sticky-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Parameswari Krishnamurthy</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#publications">Publications</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#lectures">Lectures</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-        <div class="section-title">
-          <h2>About Me</h2>
-          <p>Hello, I am a <span class="highlight">computational linguist</span>. My areas of specilization includes <span class="highlight">Tamil-Telugu Divergence, Morphological analyzers, generators</span> for Indian languages, <span class="highlight">Tamil-Telugu Rule Based Machine Translation</span>. NLP is my favorite field. </p>
-        </div>
+		<main style="margin-top: 2%;" class="container">
+			<div id="aboutme" class="row bg-body-tertiary p-2 rounded">
+				<div class="col-md-8 col-lg-8 col-sm-8 col-xl-8">
+				
+					<h2 class="section-title">About Me</h2>
+					<p>Hello, I am a <span class="highlight">computational linguist</span>. My areas of specilization includes <span class="highlight">Tamil-Telugu Divergence, Morphological analyzers, generators</span> for Indian languages, <span class="highlight">Tamil-Telugu Rule Based Machine Translation</span>. NLP is my favorite field. </p>
 
-        <div class="row">
-          <!--<div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>-->
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Assistant Professor</h3>
-            <p class="fst-italic">
-              LTRC, International Institute of Information Technology, Hyderabad.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>6 June 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>-->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 40 6653 1266</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Hyderabad, INDIA</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>35</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>PHD</span></li>-->
-		  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>parameshkrishnaa@gmail.com, param.krishnaa@iiit.ac.in</span></li>
-                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Not Available</span></li>-->
-                </ul>
-              </div>
-            </div>
-            <!--<p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>-->
-          </div>
-        </div>
+					<h5>Assistant Professor</h5>
+					<p class="fst-italic">
+					LTRC, International Institute of Information Technology, Hyderabad.
+					</p>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-4 col-xl-4">
+					<img src="images/profile-img.jpg" class="rounded-circle" style="width: 150px;" alt="Avatar" ></img>
+				</div>
+			</div>
 
-      </div>
-    </section><!-- End About Section -->
+			<div id="projects" class="bg-body-tertiary p-2 rounded">
+				<h2 class="section-title">Projects</h2>
+				<ol class="list-group list-group-numbered">
+					<li class="list-group-item d-flex justify-content-between align-items-start"> 
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">
+							Discourse Integrated Dravidian language to Dravidian language machine translation <span class="highlight-bg">(2022-2025)</span>	
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">Develop and deploy <span class="highlight">Tamil-Telugu neural MT</span> including discourse analysis and  integrate in speech to speech MT</li>
+							<li class="list-group-item">Create annotated data for POS, syntatcic & semantic parsing and discourse markers  </li>
+							<li class="list-group-item">Use Machine Learning techniques in building tools such as POS tagger, parser, discourse analyser and integrate them in a neural MT</li>
+							<li class="list-group-item">Software used: Python, Perl, C, Web-based tools</li>
+							<li class="list-group-item">Funded by MEITY, Govt. of India (Rs. 140.19 Lakhs). Collaborators: AUKBC-Chennai, IIIT-Hyd, ICFOSS Trivandrum, MIT-Manipal, C-DAC Noida, DAIICT Gandhinagar</li>
+						</ul>
+					  </div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">
+							Sanskrit to Indian Language Machine Translation cum Language Accessor <span 	class="highlight-bg">(2022-2024)</span>
+						</div>
+						<ul class="list-group">
+						<li class="list-group-item">Develop <span class="highlight">Sanskrit-Telugu</span> and <span class="highlight">Sanskrit-Marathi</span> transfer-based machine translation </li>
+						<li class="list-group-item">Provide access to linguistic analysis to the readers to decipher the meaning of source language</li>
+						<li class="list-group-item">Funded by Indian Knowledge System, Department of Higher Education, Govt. of India (Rs. 10 Lakhs)</li>
+						</ul>
+					  </div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">
+							Syntactic Parser for Tamil: A Data-driven Approach <span class="highlight-bg">(2023-2024)</span>
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">Annotate <span class="highlight">100K tokens</span> in Tamil for POS, Morph and dependency relations</li>
+							<li class="list-group-item">Build a machine learning model for <span class="highlight">Tamil parser</span></li>
+							<li class="list-group-item">Funded by Tamil Virtual Academy, Govt. of Tamilnadu</li>
+							<li class="list-group-item">Link to access <a target="_blank" href="http://plural.iiit.ac.in/tamilparser">Tamil Parser : http://plural.iiit.ac.in/tamilparser</a> or access from </a><a target="_blank" href="http://tamilvu.in/">here</a></li>
+						</ul>
+					  </div>
+				   </li>
+				   <li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">
+							Sanskrit Knowledge Accessor
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">Develop and deploy <span class="highlight">Sanskrit-Tamil</span> hybrid (transfer+neural) MT </li>
+							<li class="list-group-item">Build high quality linguistically rich annotated data, needed for Machine Learning  techniques.</li>
+							<li class="list-group-item">Integrate MT in dialogue modelling</li>
+							<li class="list-group-item">Funded by MEITY, Govt. of India (Rs. 72.012 Lakhs). Collaborators: UoH-DSS, IIT-KGP, IIT-Kanpur, MAHE, CVV, IGDTUW </li>
+						</ul>
+					</div>
+				   </li>
+				   <li class="list-group-item d-flex justify-content-between align-items-start">
+					<div class="ms-2 me-auto">
+						<div class="fw-bold">
+							Speech to Speech Machine Translation (SSMT): Pilot System: <span class="highlight-bg">(March 2020-July 2021)</span>
+						</div>
+						<ul class="list-group">
+						<li class="list-group-item">Built web-based SSMT API for <span class="highlight">Tamil-Telugu MT</span></li>
+						<li class="list-group-item">Compiled a huge parallel corpora and domain dictionaries for building neural MT</li></div>
+						</ul>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-start"> 
+						<div class="ms-2 me-auto">
+							<div class="fw-bold">
+								Indian Language to Indian Language Machine Translation (IL-IL MT) <span class="highlight-bg">2010-2016</span>
+							</div>
+						<ul class="list-group">
+						<li class="list-group-item">IL-IL MT is a bidirectional Indian language to Indian language machine translation project. This project intends to develop 18 MT systems involving 9 Indian language pairs based on transfer approach. It is being developed in a consortium mode involving International Institute of Information Technology Hyderabad, University of Hyderabad, Institute of Information Technology (IIT) Bombay, IIT Kharagpur, Indian Institute of Science Bangalore, Anna University and Centre for Development Of Advanced Computing Pune. It is funded under Technology Development for Indian Languages (TDIL) Program by the Department Of Electronics and Information Technology (DeitY), Ministry Of Communications and Information Technology(MCIT), Government of India.
+						</li>
+						<li class="list-group-item">Language Technology Laboratory at Centre for Applied Linguistics and Translation Studies(CALTS) has conducted the research and development for building Telugu-Hindi, Hindi-Telugu, Telugu-Tamil and Tamil-Telugu MTs. As principal investigator, Prof. G. Uma Maheshwar Rao coordinates this project and as an investigator I (Dr. K. Parameswari) carried out research and development in building Telugu-Tamil and Tamil-Telugu MT systems with the research team consisting linguists and computer scientists.
+						</li>
+						<li class="list-group-item">
+						My contribution to this project is mainly in building <span class="highlight">Transfer Grammars, Tamil Morphological Analyser & Generator, POS tagger, Chunker, Dependency parser, Multi Word Expression & Agreement Generation modules for Tamil and Telugu</span>.
+						</li>
+						<li class="list-group-item">
+							<a target="_blank" href="http://sampark.iiit.ac.in/sampark/web/index.php/content">Link to access IL-IL MT(Telugu-Tamil & Tamil-Telugu) : http://sampark.iiit.ac.in/sampark/web/index.php/content</a>
+						</li>
+						</ul>
+						</div>
+					</li>
+					
+				  	<li class="list-group-item d-flex justify-content-between align-items-start">
+						<div class="ms-2 me-auto">
+								<div class="fw-bold">
+								Building Shallow Parser tools, Ontological Lexicon and Full Parser for Tamil funded by University Grand Commission, Delhi under UGC-SAP DSA-1. <span class="highlight-bg">2015-2020</span>
+							</div>
+						</div>
+				  </li>
+				 </ol>
+			</div>
+			<div id="publications" class="bg-body-tertiary p-2 rounded">
+				<div class="section-title">
+					<h2 class="section-title">Publications</h2>
+				  </div>
+				  <div class="row">
+					<div class="col-lg-12">
+					  <p><b>Edited Book</b>: Parameswari, K. & Sampathbabu Tokala (Eds.). 2018. <span class="highlight">moḻivādam</span>: Collected Papers in Applied Linguistics. KY Publications: India</p>
+					  <br>
+					  <div class="section-title">
+						<h2 style="font-size: 20px;">Conference Papers</h2>
+					  </div>
+		  
+					  <p>Sangeetha P., Parameswari K. and Amba Kulkarni. 2019. A Rule-based Dependency parser for Telugu: An Experiment with Simple Sentences. Poster Presentation at Women in NLP, co-located with the sixteenth International Conference on Natural Language Processing (ICON-2019), during December 18-21, 2019, held at IIIT Hyderabad, India. </p>
+					  <p>Parameswari K. 2019. Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence. Tamil Internet Conference 2019 during 20-22 September 2019 at the Anna University Guindy-Chennai Campus. </p>
+					  <p>Keerthana B and Parameswari K. 2019. Towards building a dependency parser for Tamil: A discussion on tags. Tamil Internet Conference 2019 during 20-22 September 2019 at the Anna University Guindy-Chennai Campus.</p>
+					  <p>Sangeetha P. and Parameswari K. 2019. Classification of Anaphoric Elements in Telugu: An Attempt to Develop an Anaphora Resolution System An International Journal of Language Sciences, An online journal published by School of Language Sciences, EFL-U, Volume 1, Issue 1, August 2019. pp138-162. </p>
+					  <p>Parameswari K. 2019. “Connecting Language and Technology: Can indigenous languages benefit?”. Paper presented at International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI-2019), February 21-22, 2019 at University of Hyderabad, Hyderabad.</p>
+					  <p>Uma Maheshwar Rao, Parameswari  K. et.al. 2019. “White Paper on Telugu Language Technology”. Paper presented at SOIL-Tech-1: Sanskrit and Other Indian Languages -Technology, February 15-17, 2019 at School of Sanskrit and Indic Studies, Jawaharlal Nehru University, New Delhi. </p>
+					  <p>Parameswari K. and Uma Maheshwar Rao. 2019. “Machine Translation in India: A report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems”. Paper presented at Brainstorming Workshop on Spoken Language Machine Translation (for Making Content Accessible in Indian Languages) January 31-February 1 2019, at International Institute of Information Technology, Hyderabad. </p>
+					  <p>Parameswari, K., Nagaraju, V., AngelineLinda, K. 2018. A Transfer-rule based Verb Phrase Translation from English to Tamil. Working Notes of FIRE 2018 - Forum for Information Retrieval Evaluation . ISSN 1613-0073. </p>
+					  <p>Atheena M. and Parameswari K. 2018. “Case markers in Tamil and Malayalam: A study in Divergence”. Paper presented at 40 International Conference of Linguistic Society of India (ICOLSI-40) December 5-7, 2018, at Central Institute of Indian Languages (CIIL), Mysore. </p>
+					  <p>Sangeetha P. and Parameswari K. 2018. “The classification of anaphoric elements in Telugu for developing an Anaphora Resolution system”. Paper presented at 40 International Conference of Linguistic Society of India (ICOLSI-40) December 5-7, 2018, at Central Institute of Indian Languages (CIIL), Mysore.</p>
+					  <p>Parameswari K. 2018. “Development of Telugu-Tamil Transfer-based machine Translation system: Parameswari Krishnamurthy Page 3 An improvization using Divergence Index”. Journal of Intelligent Systems, De Gruyter: Germany Article-DOI: https://doi.org/10.1515/jisys-2018-0214. </p>
+					  <p>Parameswari K. 2018. “Accusative Case Marking in Telugu and Tamil: Translation Divergence in Transfer-based Machine Translation”. In Journal Dravidian Studies, Dravidian University: Kuppam. ISSN 0976-5182 </p>
+					  <p>Keerthana B. and Parameswari K. 2018. “Parsing in Indian Languages: With Special Reference to Tamil The State-of-the-Art”. In Journal Dravidian Studies, Dravidian University: Kuppam. ISSN 0976-5182 </p>
+					  <p>Sangeetha P. and Parameswari K. “Annotation Issues in Building Anaphora Resolution for Telugu” in the 9th National Conference of TelF March 7-8, 2018, Department of Dravidian and Computational Linguistics, Dravidian University, Kuppam, Andhra Pradesh. </p>
+					  <p>Parameswari K. 2018. “Computing linguistic divergence and its relevance in building machine translation systems: A case study with Telugu and Tamil” in Proceedings of AMLaP-Asia 2018 February 1 - 3, 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad, Hyderabad. </p>
+					  <p>Parameswari K. 2018. “Technology Integration in Mother Tongue Medium of Instruction: State-ofthe-art, Needs and Perspectives” in Two-day National Symposium on Mother Tongue Medium of Instruction in School Education in India from 29th January-30th January 2018 at CALTS, University of Hyderabad, Hyderabad</p>
+					  <p>Parameswari K. 2017. “Development of Telugu-Tamil Transfer-based Machine Translation System: An Improvization using Divergence Index” in Shared Task cum Workshop on Machine Translation in Indian Languages (MTIL) from September 7 - 8, 2017 at Amrita Vishwa Vidyapeetham, Coimbatore. </p>
+					  <p>Parameswari, K. 2016. “Divergence Index for Quantifying Translation Differences in Machine Translation: An implementation in Telugu-Tamil Machine Translation”. International Conference on Dravidian Linguistics (ICDL-2016) & 44 th All India Conference of Dravidian Linguists (44th AICDL) on June 16-18, 2016 at CALTS, UoH. </p>
+					  <p>Parameswari, K. and Keerthana, B. 2016.“Infinitival Clauses in Tamil: Some issues and challenges in building a Parser”. International Conference on Dravidian Linguistics (ICDL-2016) & 44 th All India Conference of Dravidian Linguists (44th AICDL) on June 16-18, 2016 at CALTS, UoH. </p>
+					  <p>Parameswari, K. 2015. “Handling Divergence in Telugu-Tamil Machine Translation”. Proceedings of Natural Language Symposium on Dravidian Languages (iDravidian 2015) on 10 December 2015, Co-located with International Conference on Natural Language Processing (ICON-2015), December 11-14, 2015, at IIITM-K, Technopark, Trivandrum, India. </p>
+					  <p>Parameswari, K. 2015. “Development of Telugu-Tamil Transfer-Based Machine Translation System: With Special Reference to Diveregence Index”. In Proceedings of Deep Machine Translation Workshop 2015, and poster session in Tenth Machine Translation Marathon, Prague, 7th - 12th September 2015.</p>
+					  <p>Uma Maheshwar Rao, G., Hari Santosh, Parameswari K., Christopher Mala & Nagaraju. 2014. “CALTS- mAta: Unicode Based Indian Language Keyboard for Android Device”. Paper presented in 42nd All India Conference of Dravidian Linguistics at Dravidian University, Kuppam, June-2014. </p>
+					  <p>Uma Maheshwar Rao, G., Christopher M., Nagaraju V.& Parameswari, K. 2013. “Developing a Telugu Spell Checker with an add-on plugin for OpenOffice”. Paper presented in 41st All India Conference of Dravidian Linguistics at University of Madras, Chennai from June 20-22, 2013. </p>
+					  <p>Uma Maheshwar Rao G., Christopher M., Santosh Kumar H. & Parameswari K. 2013. “Android Apps for Dravidian Languages”. Paper presented in 41st All India Conference of Dravidian Linguistics at University of Madras, Chennai from June 20-22, 2013. </p>
+					  <p>Uma Maheshwar Rao, G., Parameswari K., Christopher M., & Ganapathy Raju N.V. 2012. “Telugu Spell checker based on morphological analyser: error detection and suggestion generation”. Proceedings of II International Telugu Internet Conference, GITAM University,Pp 127-134. Ministry of IT&C, Govt. of Andhra Pradesh. India </p>
+					  <p>Parameswari, K., Uma Maheshwar Rao, G., Sreenivas N.V. & M. Christopher. 2012. “Development of Telugu-Tamil Bidirectional Machine Translation System: A Special Focus on Case Divergence”. In 11th International Tamil Internet Conference.,180191. Annamalainagar: Annamalai University. </p>
+					  <p>Parameswari, K., Uma Maheshwar Rao, G., N. Krupanandam, Christopher M. & Sreenivasulu N. V. 2012. “A Tamil-Telugu Machine Translation”. In Vaagartha, A Festschrift for Prof. Padmakar R. Dadegaonkar, CALTS: University of Hyderabad,7889, ISBN: 978-93-5087-691-6</p>
+					  <p>Parameswari, K. 2011. “Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation”. In C. Sivashanmugam & V. Thayalan(eds.), New Perspectives in Linguistics, 7484. On the occasion of Silver Jubilee Commemoration Volume, Department of Linguistics. Coimbatore: Bharathiar University. </p>
+					  <p>Parameswari, K. 2011. “A Tamil-Telugu Transfer-based Bidirectional Machine Translation System”. In Proceedings of International Telugu Internet Conference, Milpitas, California, September 28-10, 2011. </p>
+					  <p>Parameswari, K. 2011. “An Implementation of APERTIUM Morphological Analyzer and Generator for Tamil”. Paper published in online journal Language in India. Volume 11 : 5 May 2011. ISSN 1930-2940. </p>
+					  <p>Parameswari, K. Uma Maheshwar Rao, G. & Christopher M. 2011. “Introducing a Measure of Morphological Complexity in Indian Languages from the Perspective of Morphological Analyzers”. Paper presented at 29th Meeting of the South Asian Languages Analysis Roundtable (SALA) hosted by the Central Institute of Indian Languages, Mysore, Karnataka, India, from 6th 8th January, 2011. </p>
+					  <p>Parameswari, K. & Uma Maheshwar Rao, G. 2010. Dative Divergences in Telugu-Tamil Machine Translation. in Proceedings of 32nd All India Conference of Linguistics (AICL-32), at Lucknow University, Lucknow, 21st to 23rd December, 2010. </p>
+					  <p>Parameswari, K., Uma Maheshwar Rao, G., Krupanandam, N., Lavanya, J., & Christopher, M. 2010. Certain Issues in the development of Telugu-Tamil Machine Translation system : A view from Lexicon. Published in Tamil Internet-2010 Conference Papers, (pp: 601-608 ), June 23-27,2010, Coimbatore.</p>
+					  <p>Parameswari, K. Uma Maheshwar Rao, G. Krupanandam, & N. Christopher Mala. 2010. “Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation”. in New Perspectives in Linguistics, Edited by Prof. C. Sivashanmugam and Prof. V. Thayalan, on the occasion of Silver Jubilee Commemoration Volume, Department of Linguistics, Bharathiar University, Coimbatore. 15th to 16th of December, 2010. Pg. 74-84. </p>
+					  <p>Uma Maheshwar Rao, G., & Parameswari, K. 2010. “Tamil Hyper Grammar”. Published in Tamil Internet-2010 Conference Papers, (pp: 585-591), June 23-27, 2010, Coimbatore. </p>
+					  <p>Parameswari K. 2010. “An improvized Morphological Analyzer for Tamil”. Paper presented in 9th International Conference on South Asian Languages, Punjabi University, Punjabi. </p>
+					  <p>Parameswari, K. 2010. “An Improvised Morphological Analyser cum Generator for Tamil: A Case of Implementing the Open Source Platform Apertium”. In Mona Parekh (ed.), Morphological Analysers and Generators, 124131. Mysore: LDCIL, Central Institute of Indian Languages.</p>
+					  <p>Uma Maheshwar Rao, G., & Parameswari, K. 2010. “On the Description of Morphological Data for Morphological Analysers and Generators: A case of Telugu, Tamil and Kannada”. In Mona Parekh (ed.), Morphological Analysers and Generators, 7381. Mysore: LDCIL, Central Institute of Indian languages.</p>
+					</div>
+				  </div>
+			</div>
+			<div id="lectures" class="bg-body-tertiary p-2 rounded">
+				<h2 class="section-title">Lectures Delivered</h2>
+				<p><em>Linguistic Features of Dravidian Languages.</em> A lecture delivered at Workshop on Writing Report on Minor Languages at 09 th 13 th December, 2019 at CIIL, Mysore. </p>
+				<p><em>Understanding Sentence Structure.</em> A lecture delivered at Workshop on Writing Report on Minor Languages at 09 th 13 th December, 2019 at CIIL, Mysore. </p>
+				<p><em>Morphosyntax.</em> A lecture delivered at The Panini Linguistics Olympiad-2019 at IIIT-Hyderabad which held from 5th May to 15th May 2019.</p>
+				<p><em>Computational Morphology.</em> A lecture delivered at ninth IIIT-H Advanced Summer School on NLP (IASNLP-2018) at IIIT-Hyderabad which held from 25th June to 7th July 2018. </p>
+				
+				<p><em>Computing linguistic divergence and its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil.</em> An invited Symposium talk in AMLaP-Asia 2018 February 1 - 3, 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad, Hyderabad. </p>
+				
+				<p><em>Corpus analysis and Annotation, Ontology and NLP, Ontology Annotation Guideline.</em> A series of lecture delivered at Shared Task cum Workshop on OntoLex in Indian Languages held from 29th November to 1st December 2017 (3 days) at CALTS, University of Hyderabad, Hyderabad under UGC-SAP DSA-1. </p>
+				<p><em>Computational Morphology.</em> A lecture delievered at a Seven day Workshop for women on “Natural Language Processing” from 21st 28th July, 2016 at LDC-IL, CIIL, Mysore. </p>
+				<p><em>Machine Translation for Indian Languages.</em> A lecture delievered at a Seven day Workshop for women on “Natural Language Processing” from 21st 28th July, 2016 at LDC-IL, CIIL, Mysore. </p>
+				<p><em>An overview of Machine Translation Research and Techniques.</em> A lecture delivered at Workshop on Natural Language Processing: Dravidian Languages scheduled for 5 days at LDC-IL, CIIL, Mysore from December 14-18, 2015. </p>
+				<p><em>Computational Application of Divergence between Dravidian languages: With special reference to Telugu and Tamil.</em> Presented in A short term intensive course in Dravidian linguistics, CALTS, University of Hyderabad in collaboration with CIIL-Mysore from 21st September to 26th September 2015. </p>
+				<p><em>Rule based POS tagging.</em> A talk delivered at Five day national workshop on POS tagging , Department of Linguistics, Central University of Kerala, Kasargode from 27th to 31st October 2014. </p>
+				<p><em>What is POS tagging? Different approaches to POS tagging.</em> A lecture delivered at Five day national workshop on POS tagging , Department of Linguistics, Central University of Kerala, Kasargode from 27th to 31st October 2014. </p>
+				<p><em>Computing Morphology in Dravidian languages.</em> Talks delivered at Five day Training Programme on Natural Language Processing at the Department of Computer Science and Applications & Computer Science and Engineering, Periyar Maniammai University, Vallam, Thanjavur from 5-9th November, 2013. </p>
+				<p><em>Syntactic Divergence (Telugu-Tamil):</em> Description and Solution in Machine Translation. Presented in the International Conference on Syntax and Language Contact at the University of Hyderabad, 27th February- 3rd March 2012.</p>
+			</div>
 
-    <!-- ======= Facts Section ======= -->
-    <section id="research" class="facts">
-      <div class="container">
+			<div id="contact" class="bg-body-tertiary p-2 rounded">
+				<h2 class="section-title">Contact</h2>
+				<p>Contact me through below channels for colloborations and new ideas/suggestions</p>
+			
+				<div class="info">
+				  <div class="address">
+					<i class="bi bi-geo-alt"></i>
+					<h4>Location:</h4>
+					<p>Gachibowli, LTRC, IIIT Hyderabad Campus</p>
+				  </div>
+	
+				  <div class="email">
+					<i class="bi bi-envelope"></i>
+					<h4>Email:</h4>
+					<p>param.krishnaa@iiit.ac.in</p>
+				  </div>
+	
+				  <div class="phone">
+					<i class="bi bi-phone"></i>
+					<h4>Call:</h4>
+					<p>+91 40 6653 1266</p>
+				  </div>
+	
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.310118232061!2d78.34723887589578!3d17.44486488345212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bce0a03f17ff82b%3A0x9d02e89b98deb496!2sIIIT-H%20%7C%20The%20International%20Institute%20of%20Information%20Technology%20-%20Hyderabad!5e0!3m2!1sen!2sin!4v1720431396167!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+	
+		</main>
+		<script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
-        <div class="section-title">
-          <h2>Research Project</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-          <ol style="font-size: 20px; ">
-            <li> <h5>Discourse Integrated Dravidian language to Dravidian language machine translation <span class="highlight-bg">(2022-2025)</span></h5>
-               <ul>
-                <li>Develop and deploy <span class="highlight">Tamil-Telugu neural MT</span> including discourse analysis and  integrate in speech to speech MT</li>
-                <li>Create annotated data for POS, syntatcic & semantic parsing and discourse markers  </li>
-                <li>Use Machine Learning techniques in building tools such as POS tagger, parser, discourse analyser and integrate them in a neural MT</li>
-                <li>Software used: Python, Perl, C, Web-based tools</li>
-                <li>Funded by MEITY, Govt. of India (Rs. 140.19 Lakhs). Collaborators: AUKBC-Chennai, IIIT-Hyd, ICFOSS Trivandrum, MIT-Manipal, C-DAC Noida, DAIICT Gandhinagar</li>
-              </ul>
-            </li>
-            <li><h5>Sanskrit to Indian Language Machine Translation cum Language Accessor <span class="highlight-bg">(2022-2024)</span></h5>
-            
-              <ul>
-               <li>Develop <span class="highlight">Sanskrit-Telugu</span> and <span class="highlight">Sanskrit-Marathi</span> transfer-based machine translation </li>
-               <li>Provide access to linguistic analysis to the readers to decipher the meaning of source language</li>
-               <li>Funded by Indian Knowledge System, Department of Higher Education, Govt. of India (Rs. 10 Lakhs)</li>
-              </ul>
-            </li>
-            <li><h5>Syntactic Parser for Tamil: A Data-driven Approach <span class="highlight-bg">(2023-2024)</span></h5>
-              <ul>
-                <li>Annotate <span class="highlight">100K tokens</span> in Tamil for POS, Morph and dependency relations</li>
-                <li>Build a machine learning model for <span class="highlight">Tamil parser</span></li>
-                <li>Funded by Tamil Virtual Academy, Govt. of Tamilnadu</li>
-                <li>Link to access <a target="_blank" href="http://plural.iiit.ac.in/tamilparser">Tamil Parser : http://plural.iiit.ac.in/tamilparser</a> or access from </a><a target="_blank" href="http://tamilvu.in/">here</a></li>
-              </ul>
-           </li>
-           <li><h5>Sanskrit Knowledge Accessor</h5>
-             <ul>
-                <li>Develop and deploy <span class="highlight">Sanskrit-Tamil</span> hybrid (transfer+neural) MT </li>
-                <li>Build high quality linguistically rich annotated data, needed for Machine Learning  techniques.</li>
-                <li>Integrate MT in dialogue modelling</li>
-                <li>Funded by MEITY, Govt. of India (Rs. 72.012 Lakhs). Collaborators: UoH-DSS, IIT-KGP, IIT-Kanpur, MAHE, CVV, IGDTUW </li>
-              </ul>
-           </li>
-           <li><h5>Speech to Speech Machine Translation (SSMT): Pilot System: <span class="highlight-bg">(March 2020-July 2021)</span></h5>
-              <ul>
-               <li>Built web-based SSMT API for <span class="highlight">Tamil-Telugu MT</span></li>
-               <li>Compiled a huge parallel corpora and domain dictionaries for building neural MT</li>
-             </ul>
-            </li>
-          <li> <h5>Indian Language to Indian Language Machine Translation (IL-IL MT) <span class="highlight-bg">2010-2016</span></h5>
-            <ul>
-              <li>IL-IL MT is a bidirectional Indian language to Indian language machine translation project. This project intends to develop 18 MT systems involving 9 Indian language pairs based on transfer approach. It is being developed in a consortium mode involving International Institute of Information Technology Hyderabad, University of Hyderabad, Institute of Information Technology (IIT) Bombay, IIT Kharagpur, Indian Institute of Science Bangalore, Anna University and Centre for Development Of Advanced Computing Pune. It is funded under Technology Development for Indian Languages (TDIL) Program by the Department Of Electronics and Information Technology (DeitY), Ministry Of Communications and Information Technology(MCIT), Government of India.
-              </li>
-             <li>Language Technology Laboratory at Centre for Applied Linguistics and Translation Studies(CALTS) has conducted the research and development for building Telugu-Hindi, Hindi-Telugu, Telugu-Tamil and Tamil-Telugu MTs. As principal investigator, Prof. G. Uma Maheshwar Rao coordinates this project and as an investigator I (Dr. K. Parameswari) carried out research and development in building Telugu-Tamil and Tamil-Telugu MT systems with the research team consisting linguists and computer scientists.
-             </li>
-             <li>
-              My contribution to this project is mainly in building <span class="highlight">Transfer Grammars, Tamil Morphological Analyser & Generator, POS tagger, Chunker, Dependency parser, Multi Word Expression & Agreement Generation modules for Tamil and Telugu</span>.
-             </li>
-             <li>
-                <a target="_blank" href="http://sampark.iiit.ac.in/sampark/web/index.php/content">Link to access IL-IL MT(Telugu-Tamil & Tamil-Telugu) : http://sampark.iiit.ac.in/sampark/web/index.php/content</a>
-              </li>
-            </ul>
-          </li>
-          <li><h5>Building Shallow Parser tools, Ontological Lexicon and Full Parser for Tamil funded by University Grand Commission, Delhi under UGC-SAP DSA-1. <span class="highlight-bg">2015-2020</span></h5>
-          </li>
-         </ol>
-       </div>
-     </div>
-      </div>
-    </section><!-- End Facts Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section style="display: none;" id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section style="display: none;" id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Parameshwari Krishnamurthy</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>IIIT Faculty Quarters</li>
-                <li>(+91) 40 6653 1266</li>
-                <li>parameshkrishnaa@gmail.com</li>
-              </ul>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Ph.D. in Applied Linguistics</h4>
-              <h5>2009 - 2014</h5>
-              <p><em>University of Hyderabad, Telangana</em></p>
-              <p>Thesis: Development of Telugu-Tamil Machine Translation: With Special Reference to Divergence</p>
-            </div>
-            <div class="resume-item">
-              <h4>M.Phil. in Applied Linguistics, University of Hyderabad</h4>
-              <h5>2008 - 2009</h5>
-              <p><em>University of Hyderabad, Telangana</em></p>
-              <p>Dissertation: An improvized Morphological Analyzer for Tamil: A Case of Implementing the Open Source Platform Apertium</p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Associate Professor</h4>
-              <h5>2022 - Present</h5>
-              <p><em>LTRC, IIIT Hyderabad </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Assistant Professor</h4>
-              <h5>2010 - 2022</h5>
-              <p><em>Centre for Applied Linguistics and Translation Studies, University of Hyderabad </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-           
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="publications" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Publications</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <p><b>Edited Book</b>: Parameswari, K. & Sampathbabu Tokala (Eds.). 2018. <span class="highlight">moḻivādam</span>: Collected Papers in Applied Linguistics. KY Publications: India</p>
-            <br>
-            <div class="section-title">
-              <h2 style="font-size: 20px;">Conference Papers</h2>
-            </div>
-
-            <p>Sangeetha P., Parameswari K. and Amba Kulkarni. 2019. A Rule-based Dependency parser for Telugu: An Experiment with Simple Sentences. Poster Presentation at Women in NLP, co-located with the sixteenth International Conference on Natural Language Processing (ICON-2019), during December 18-21, 2019, held at IIIT Hyderabad, India. </p>
-            <p>Parameswari K. 2019. Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence. Tamil Internet Conference 2019 during 20-22 September 2019 at the Anna University Guindy-Chennai Campus. </p>
-            <p>Keerthana B and Parameswari K. 2019. Towards building a dependency parser for Tamil: A discussion on tags. Tamil Internet Conference 2019 during 20-22 September 2019 at the Anna University Guindy-Chennai Campus.</p>
-            <p>Sangeetha P. and Parameswari K. 2019. Classification of Anaphoric Elements in Telugu: An Attempt to Develop an Anaphora Resolution System An International Journal of Language Sciences, An online journal published by School of Language Sciences, EFL-U, Volume 1, Issue 1, August 2019. pp138-162. </p>
-            <p>Parameswari K. 2019. “Connecting Language and Technology: Can indigenous languages benefit?”. Paper presented at International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI-2019), February 21-22, 2019 at University of Hyderabad, Hyderabad.</p>
-            <p>Uma Maheshwar Rao, Parameswari  K. et.al. 2019. “White Paper on Telugu Language Technology”. Paper presented at SOIL-Tech-1: Sanskrit and Other Indian Languages -Technology, February 15-17, 2019 at School of Sanskrit and Indic Studies, Jawaharlal Nehru University, New Delhi. </p>
-            <p>Parameswari K. and Uma Maheshwar Rao. 2019. “Machine Translation in India: A report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems”. Paper presented at Brainstorming Workshop on Spoken Language Machine Translation (for Making Content Accessible in Indian Languages) January 31-February 1 2019, at International Institute of Information Technology, Hyderabad. </p>
-            <p>Parameswari, K., Nagaraju, V., AngelineLinda, K. 2018. A Transfer-rule based Verb Phrase Translation from English to Tamil. Working Notes of FIRE 2018 - Forum for Information Retrieval Evaluation . ISSN 1613-0073. </p>
-            <p>Atheena M. and Parameswari K. 2018. “Case markers in Tamil and Malayalam: A study in Divergence”. Paper presented at 40 International Conference of Linguistic Society of India (ICOLSI-40) December 5-7, 2018, at Central Institute of Indian Languages (CIIL), Mysore. </p>
-            <p>Sangeetha P. and Parameswari K. 2018. “The classification of anaphoric elements in Telugu for developing an Anaphora Resolution system”. Paper presented at 40 International Conference of Linguistic Society of India (ICOLSI-40) December 5-7, 2018, at Central Institute of Indian Languages (CIIL), Mysore.</p>
-            <p>Parameswari K. 2018. “Development of Telugu-Tamil Transfer-based machine Translation system: Parameswari Krishnamurthy Page 3 An improvization using Divergence Index”. Journal of Intelligent Systems, De Gruyter: Germany Article-DOI: https://doi.org/10.1515/jisys-2018-0214. </p>
-            <p>Parameswari K. 2018. “Accusative Case Marking in Telugu and Tamil: Translation Divergence in Transfer-based Machine Translation”. In Journal Dravidian Studies, Dravidian University: Kuppam. ISSN 0976-5182 </p>
-            <p>Keerthana B. and Parameswari K. 2018. “Parsing in Indian Languages: With Special Reference to Tamil The State-of-the-Art”. In Journal Dravidian Studies, Dravidian University: Kuppam. ISSN 0976-5182 </p>
-            <p>Sangeetha P. and Parameswari K. “Annotation Issues in Building Anaphora Resolution for Telugu” in the 9th National Conference of TelF March 7-8, 2018, Department of Dravidian and Computational Linguistics, Dravidian University, Kuppam, Andhra Pradesh. </p>
-            <p>Parameswari K. 2018. “Computing linguistic divergence and its relevance in building machine translation systems: A case study with Telugu and Tamil” in Proceedings of AMLaP-Asia 2018 February 1 - 3, 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad, Hyderabad. </p>
-            <p>Parameswari K. 2018. “Technology Integration in Mother Tongue Medium of Instruction: State-ofthe-art, Needs and Perspectives” in Two-day National Symposium on Mother Tongue Medium of Instruction in School Education in India from 29th January-30th January 2018 at CALTS, University of Hyderabad, Hyderabad</p>
-            <p>Parameswari K. 2017. “Development of Telugu-Tamil Transfer-based Machine Translation System: An Improvization using Divergence Index” in Shared Task cum Workshop on Machine Translation in Indian Languages (MTIL) from September 7 - 8, 2017 at Amrita Vishwa Vidyapeetham, Coimbatore. </p>
-            <p>Parameswari, K. 2016. “Divergence Index for Quantifying Translation Differences in Machine Translation: An implementation in Telugu-Tamil Machine Translation”. International Conference on Dravidian Linguistics (ICDL-2016) & 44 th All India Conference of Dravidian Linguists (44th AICDL) on June 16-18, 2016 at CALTS, UoH. </p>
-            <p>Parameswari, K. and Keerthana, B. 2016.“Infinitival Clauses in Tamil: Some issues and challenges in building a Parser”. International Conference on Dravidian Linguistics (ICDL-2016) & 44 th All India Conference of Dravidian Linguists (44th AICDL) on June 16-18, 2016 at CALTS, UoH. </p>
-            <p>Parameswari, K. 2015. “Handling Divergence in Telugu-Tamil Machine Translation”. Proceedings of Natural Language Symposium on Dravidian Languages (iDravidian 2015) on 10 December 2015, Co-located with International Conference on Natural Language Processing (ICON-2015), December 11-14, 2015, at IIITM-K, Technopark, Trivandrum, India. </p>
-            <p>Parameswari, K. 2015. “Development of Telugu-Tamil Transfer-Based Machine Translation System: With Special Reference to Diveregence Index”. In Proceedings of Deep Machine Translation Workshop 2015, and poster session in Tenth Machine Translation Marathon, Prague, 7th - 12th September 2015.</p>
-            <p>Uma Maheshwar Rao, G., Hari Santosh, Parameswari K., Christopher Mala & Nagaraju. 2014. “CALTS- mAta: Unicode Based Indian Language Keyboard for Android Device”. Paper presented in 42nd All India Conference of Dravidian Linguistics at Dravidian University, Kuppam, June-2014. </p>
-            <p>Uma Maheshwar Rao, G., Christopher M., Nagaraju V.& Parameswari, K. 2013. “Developing a Telugu Spell Checker with an add-on plugin for OpenOffice”. Paper presented in 41st All India Conference of Dravidian Linguistics at University of Madras, Chennai from June 20-22, 2013. </p>
-            <p>Uma Maheshwar Rao G., Christopher M., Santosh Kumar H. & Parameswari K. 2013. “Android Apps for Dravidian Languages”. Paper presented in 41st All India Conference of Dravidian Linguistics at University of Madras, Chennai from June 20-22, 2013. </p>
-            <p>Uma Maheshwar Rao, G., Parameswari K., Christopher M., & Ganapathy Raju N.V. 2012. “Telugu Spell checker based on morphological analyser: error detection and suggestion generation”. Proceedings of II International Telugu Internet Conference, GITAM University,Pp 127-134. Ministry of IT&C, Govt. of Andhra Pradesh. India </p>
-            <p>Parameswari, K., Uma Maheshwar Rao, G., Sreenivas N.V. & M. Christopher. 2012. “Development of Telugu-Tamil Bidirectional Machine Translation System: A Special Focus on Case Divergence”. In 11th International Tamil Internet Conference.,180191. Annamalainagar: Annamalai University. </p>
-            <p>Parameswari, K., Uma Maheshwar Rao, G., N. Krupanandam, Christopher M. & Sreenivasulu N. V. 2012. “A Tamil-Telugu Machine Translation”. In Vaagartha, A Festschrift for Prof. Padmakar R. Dadegaonkar, CALTS: University of Hyderabad,7889, ISBN: 978-93-5087-691-6</p>
-            <p>Parameswari, K. 2011. “Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation”. In C. Sivashanmugam & V. Thayalan(eds.), New Perspectives in Linguistics, 7484. On the occasion of Silver Jubilee Commemoration Volume, Department of Linguistics. Coimbatore: Bharathiar University. </p>
-            <p>Parameswari, K. 2011. “A Tamil-Telugu Transfer-based Bidirectional Machine Translation System”. In Proceedings of International Telugu Internet Conference, Milpitas, California, September 28-10, 2011. </p>
-            <p>Parameswari, K. 2011. “An Implementation of APERTIUM Morphological Analyzer and Generator for Tamil”. Paper published in online journal Language in India. Volume 11 : 5 May 2011. ISSN 1930-2940. </p>
-            <p>Parameswari, K. Uma Maheshwar Rao, G. & Christopher M. 2011. “Introducing a Measure of Morphological Complexity in Indian Languages from the Perspective of Morphological Analyzers”. Paper presented at 29th Meeting of the South Asian Languages Analysis Roundtable (SALA) hosted by the Central Institute of Indian Languages, Mysore, Karnataka, India, from 6th 8th January, 2011. </p>
-            <p>Parameswari, K. & Uma Maheshwar Rao, G. 2010. Dative Divergences in Telugu-Tamil Machine Translation. in Proceedings of 32nd All India Conference of Linguistics (AICL-32), at Lucknow University, Lucknow, 21st to 23rd December, 2010. </p>
-            <p>Parameswari, K., Uma Maheshwar Rao, G., Krupanandam, N., Lavanya, J., & Christopher, M. 2010. Certain Issues in the development of Telugu-Tamil Machine Translation system : A view from Lexicon. Published in Tamil Internet-2010 Conference Papers, (pp: 601-608 ), June 23-27,2010, Coimbatore.</p>
-            <p>Parameswari, K. Uma Maheshwar Rao, G. Krupanandam, & N. Christopher Mala. 2010. “Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation”. in New Perspectives in Linguistics, Edited by Prof. C. Sivashanmugam and Prof. V. Thayalan, on the occasion of Silver Jubilee Commemoration Volume, Department of Linguistics, Bharathiar University, Coimbatore. 15th to 16th of December, 2010. Pg. 74-84. </p>
-            <p>Uma Maheshwar Rao, G., & Parameswari, K. 2010. “Tamil Hyper Grammar”. Published in Tamil Internet-2010 Conference Papers, (pp: 585-591), June 23-27, 2010, Coimbatore. </p>
-            <p>Parameswari K. 2010. “An improvized Morphological Analyzer for Tamil”. Paper presented in 9th International Conference on South Asian Languages, Punjabi University, Punjabi. </p>
-            <p>Parameswari, K. 2010. “An Improvised Morphological Analyser cum Generator for Tamil: A Case of Implementing the Open Source Platform Apertium”. In Mona Parekh (ed.), Morphological Analysers and Generators, 124131. Mysore: LDCIL, Central Institute of Indian Languages.</p>
-            <p>Uma Maheshwar Rao, G., & Parameswari, K. 2010. “On the Description of Morphological Data for Morphological Analysers and Generators: A case of Telugu, Tamil and Kannada”. In Mona Parekh (ed.), Morphological Analysers and Generators, 7381. Mysore: LDCIL, Central Institute of Indian languages.</p>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="lectures" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Lectures Delivered</h2>
-          <p><em>Linguistic Features of Dravidian Languages.</em> A lecture delivered at Workshop on Writing Report on Minor Languages at 09 th 13 th December, 2019 at CIIL, Mysore. </p>
-          <br>
-          <p><em>Understanding Sentence Structure.</em> A lecture delivered at Workshop on Writing Report on Minor Languages at 09 th 13 th December, 2019 at CIIL, Mysore. </p>
-          <br>
-          <p><em>Morphosyntax.</em> A lecture delivered at The Panini Linguistics Olympiad-2019 at IIIT-Hyderabad which held from 5th May to 15th May 2019.</p>
-          <br>
-          <p><em>Computational Morphology.</em> A lecture delivered at ninth IIIT-H Advanced Summer School on NLP (IASNLP-2018) at IIIT-Hyderabad which held from 25th June to 7th July 2018. </p>
-          <br>
-          <p><em>Computing linguistic divergence and its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil.</em> An invited Symposium talk in AMLaP-Asia 2018 February 1 - 3, 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad, Hyderabad. </p>
-          <br>
-          <p><em>Corpus analysis and Annotation, Ontology and NLP, Ontology Annotation Guideline.</em> A series of lecture delivered at Shared Task cum Workshop on OntoLex in Indian Languages held from 29th November to 1st December 2017 (3 days) at CALTS, University of Hyderabad, Hyderabad under UGC-SAP DSA-1. </p>
-          <br>
-          <p><em>Computational Morphology.</em> A lecture delievered at a Seven day Workshop for women on “Natural Language Processing” from 21st 28th July, 2016 at LDC-IL, CIIL, Mysore. </p>
-          <br>
-          <p><em>Machine Translation for Indian Languages.</em> A lecture delievered at a Seven day Workshop for women on “Natural Language Processing” from 21st 28th July, 2016 at LDC-IL, CIIL, Mysore. </p>
-          <br>
-          <p><em>An overview of Machine Translation Research and Techniques.</em> A lecture delivered at Workshop on Natural Language Processing: Dravidian Languages scheduled for 5 days at LDC-IL, CIIL, Mysore from December 14-18, 2015. </p>
-          <br>
-          <p><em>Computational Application of Divergence between Dravidian languages: With special reference to Telugu and Tamil.</em> Presented in A short term intensive course in Dravidian linguistics, CALTS, University of Hyderabad in collaboration with CIIL-Mysore from 21st September to 26th September 2015. </p>
-          <br>
-          <p><em>Rule based POS tagging.</em> A talk delivered at Five day national workshop on POS tagging , Department of Linguistics, Central University of Kerala, Kasargode from 27th to 31st October 2014. </p>
-          <br>
-          <p><em>What is POS tagging? Different approaches to POS tagging.</em> A lecture delivered at Five day national workshop on POS tagging , Department of Linguistics, Central University of Kerala, Kasargode from 27th to 31st October 2014. </p>
-          <br>
-          <p><em>Computing Morphology in Dravidian languages.</em> Talks delivered at Five day Training Programme on Natural Language Processing at the Department of Computer Science and Applications & Computer Science and Engineering, Periyar Maniammai University, Vallam, Thanjavur from 5-9th November, 2013. </p>
-          <br>
-          <p><em>Syntactic Divergence (Telugu-Tamil):</em> Description and Solution in Machine Translation. Presented in the International Conference on Syntax and Language Contact at the University of Hyderabad, 27th February- 3rd March 2012.</p>
-        </div>  
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact me through below channels for colloborations and new ideas/suggestions</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Gachibowli, LTRC, IIIT Hyderabad Campus</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>param.krishnaa@iiit.ac.in</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 40 6653 1266</p>
-              </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.310118232061!2d78.34723887589578!3d17.44486488345212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bce0a03f17ff82b%3A0x9d02e89b98deb496!2sIIIT-H%20%7C%20The%20International%20Institute%20of%20Information%20Technology%20-%20Hyderabad!5e0!3m2!1sen!2sin!4v1720431396167!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-          </div>
-
-          <div style="display: none !important;" class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+		</body>
+		<script>
+			$(document).ready(function() {
+				$('li.active').removeClass('active').removeAttr('aria-current');
+				$('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+			});
+		</script>
 </html>

@@ -1,0 +1,31 @@
+{
+  "photo": "prameshwari.jpg",
+  "biography": [
+    "People call me Param (short for Parameswari Krishnamurthy, the result of clipping, a common linguistic process for keeping things simple). I am an Assistant Professor at the Language Technologies Research Centre (LTRC), IIIT-Hyderabad, specializing in Computational Linguistics.",
+    "We focus on developing cutting-edge Machine Translation systems and innovative evaluation techniques, as well as building linguistic resources for both major and low-resource Indian languages. Our lab also explores the capabilities of Large Language Models (LLMs) for various language understanding and generation tasks, Bias in LLMs, NLP applications in the health domain, and exploratory research on multi-modal (speech and text) tasks.",
+    "Foundational research areas include Cross-linguistic Divergence studies, Shallow Parsing (Morphological Analysis, POS tagging, and Chunking), Dependency Parsing, Semantic Parsing, Named Entity Recognition, and Anaphora Resolution and Discourse Connectives. For more info, visit our lab PLURAL (https://plural.iiit.ac.in)."
+  ],
+  "research_interests": [
+    "Machine Translation & Evaluation",
+    "Computational Linguistics",
+    "Large Language Models (LLMs)",
+    "Bias in LLMs",
+    "NLP for Health Domain",
+    "Multi-modal (Speech and Text) Tasks",
+    "Cross-linguistic Divergence",
+    "Shallow Parsing (Morphological Analysis, POS Tagging, Chunking)",
+    "Dependency Parsing",
+    "Semantic Parsing",
+    "Named Entity Recognition",
+    "Anaphora Resolution and Discourse Connectives",
+    "Linguistic Resources for Indian Languages"
+  ],
+  "academic_philosophy": " sample lines",
+  "education": [
+    { "degree": "sample ",             "institution": "sample ", "year": "2026 " }
+    
+  ],
+  "affiliations": [
+    "Sample line "
+  ]
+}

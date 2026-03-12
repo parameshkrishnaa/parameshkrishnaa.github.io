@@ -1,0 +1,116 @@
+{
+  "lectures": [
+    {
+      "title": "Linguistic Features of Dravidian Languages",
+      "institution": "CIIL, Mysore",
+      "year": 2019,
+      "type": "Lecture",
+      "description": "A lecture delivered at the Workshop on Writing Report on Minor Languages, held from 9th–13th December 2019 at CIIL, Mysore.",
+      "downloads": []
+    },
+    {
+      "title": "Understanding Sentence Structure",
+      "institution": "CIIL, Mysore",
+      "year": 2019,
+      "type": "Lecture",
+      "description": "A lecture delivered at the Workshop on Writing Report on Minor Languages, held from 9th–13th December 2019 at CIIL, Mysore.",
+      "downloads": []
+    },
+    {
+      "title": "Morphosyntax",
+      "institution": "The Panini Linguistics Olympiad, IIIT-Hyderabad",
+      "year": 2019,
+      "type": "Lecture",
+      "description": "A lecture delivered at The Panini Linguistics Olympiad-2019 at IIIT-Hyderabad, held from 5th–15th May 2019.",
+      "downloads": []
+    },
+    {
+      "title": "Computational Morphology",
+      "institution": "Ninth IIIT-H Advanced Summer School on NLP (IASNLP-2018), IIIT-Hyderabad",
+      "year": 2018,
+      "type": "Lecture",
+      "description": "A lecture delivered at the ninth IIIT-H Advanced Summer School on NLP (IASNLP-2018) at IIIT-Hyderabad, held from 25th June to 7th July 2018.",
+      "downloads": []
+    },
+    {
+      "title": "Computing linguistic divergence and its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil",
+      "institution": "AMLaP-Asia 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad",
+      "year": 2018,
+      "type": "Invited Talk",
+      "description": "An invited Symposium talk delivered at AMLaP-Asia 2018, February 1–3, 2018, Centre for Neural and Cognitive Sciences, University of Hyderabad.",
+      "downloads": []
+    },
+    {
+      "title": "Corpus analysis and Annotation, Ontology and NLP, Ontology Annotation Guideline",
+      "institution": "Shared Task cum Workshop on OntoLex in Indian Languages, CALTS, University of Hyderabad",
+      "year": 2017,
+      "type": "Lecture Series",
+      "description": "A series of lectures delivered at the Shared Task cum Workshop on OntoLex in Indian Languages, held from 29th November to 1st December 2017 at CALTS, University of Hyderabad, under UGC-SAP DSA-1.",
+      "downloads": []
+    },
+    {
+      "title": "Computational Morphology",
+      "institution": "LDC-IL, CIIL, Mysore",
+      "year": 2016,
+      "type": "Lecture",
+      "description": "A lecture delivered at a seven day workshop for women on 'Natural Language Processing', from 21st–28th July 2016 at LDC-IL, CIIL, Mysore.",
+      "downloads": []
+    },
+    {
+      "title": "Machine Translation for Indian Languages",
+      "institution": "LDC-IL, CIIL, Mysore",
+      "year": 2016,
+      "type": "Lecture",
+      "description": "A lecture delivered at a seven day workshop for women on 'Natural Language Processing', from 21st–28th July 2016 at LDC-IL, CIIL, Mysore.",
+      "downloads": []
+    },
+    {
+      "title": "An overview of Machine Translation Research and Techniques",
+      "institution": "LDC-IL, CIIL, Mysore",
+      "year": 2015,
+      "type": "Lecture",
+      "description": "A lecture delivered at the Workshop on Natural Language Processing: Dravidian Languages, held for 5 days at LDC-IL, CIIL, Mysore from December 14–18, 2015.",
+      "downloads": []
+    },
+    {
+      "title": "Computational Application of Divergence between Dravidian languages: With special reference to Telugu and Tamil",
+      "institution": "CALTS, University of Hyderabad in collaboration with CIIL-Mysore",
+      "year": 2015,
+      "type": "Talk",
+      "description": "Presented at a short term intensive course in Dravidian linguistics, CALTS, University of Hyderabad in collaboration with CIIL-Mysore, from 21st–26th September 2015.",
+      "downloads": []
+    },
+    {
+      "title": "Rule based POS tagging",
+      "institution": "Department of Linguistics, Central University of Kerala, Kasargode",
+      "year": 2014,
+      "type": "Talk",
+      "description": "A talk delivered at a five day national workshop on POS tagging at the Department of Linguistics, Central University of Kerala, Kasargode, from 27th–31st October 2014.",
+      "downloads": []
+    },
+    {
+      "title": "What is POS tagging? Different approaches to POS tagging",
+      "institution": "Department of Linguistics, Central University of Kerala, Kasargode",
+      "year": 2014,
+      "type": "Lecture",
+      "description": "A lecture delivered at a five day national workshop on POS tagging at the Department of Linguistics, Central University of Kerala, Kasargode, from 27th–31st October 2014.",
+      "downloads": []
+    },
+    {
+      "title": "Computing Morphology in Dravidian languages",
+      "institution": "Periyar Maniammai University, Thanjavur",
+      "year": 2013,
+      "type": "Talk",
+      "description": "Talks delivered at a five day Training Programme on Natural Language Processing at the Department of Computer Science and Applications & CSE, Periyar Maniammai University, Vallam, Thanjavur, from 5th–9th November 2013.",
+      "downloads": []
+    },
+    {
+      "title": "Syntactic Divergence (Telugu-Tamil): Description and Solution in Machine Translation",
+      "institution": "University of Hyderabad",
+      "year": 2012,
+      "type": "Talk",
+      "description": "Presented at the International Conference on Syntax and Language Contact at the University of Hyderabad, 27th February–3rd March 2012.",
+      "downloads": []
+    }
+  ]
+}

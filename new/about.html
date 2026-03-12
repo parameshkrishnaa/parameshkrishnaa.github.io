@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About Dr.Parameshwari Krishnamurthy" />
+  <title>About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<button class="hamburger" aria-label="Open navigation"><span></span><span></span><span></span></button>
+
+<nav class="left-nav" aria-label="Main navigation">
+  <a class="nav-brand" href="index.html">Dr. Parmeshwari Krishnamurthy</a>
+  <div class="nav-bottom">
+    
+    <button class="dark-toggle" aria-label="Toggle dark mode">☾ Dark Mode</button>
+    <div class="nav-search" role="search" aria-label="Search site">
+      <input type="search" placeholder="Search…" aria-label="Search" autocomplete="off" />
+      <button type="button" aria-label="Submit search">↵</button>
+    </div>
+  </div>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="lab.html">Publications</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="students.html">Students</a></li>
+    <li><a href="lectures.html">Lectures</a></li>
+    <li><a href="news.html">News</a></li>
+  </ul>
+  
+</nav>
+
+<div id="search-dropdown" class="search-dropdown" role="listbox" aria-label="Search results"></div>
+
+<div class="page-body" id="about-root">
+  <main class="page-content">
+
+    <h1 class="page-title">ABOUT</h1>
+    <p class="page-sub">Biography · Research </p>
+
+    <!-- Photo + bio -->
+    <section aria-labelledby="bio-h" class="about-section">
+  <div class="about-photo-wrap">
+    <img id="about-photo" class="about-photo" src="" alt="Profile Photo">
+    <h3 id="about-name" style="margin-top:.8rem;"></h3>
+  </div>
+
+  <div class="about-bio" id="ab-bio"></div>
+</section>
+
+    <div class="divider"></div>
+    
+
+    <!-- Research Interests -->
+    <section aria-labelledby="int-h">
+  <h2 class="section-heading" id="int-h">Research Interests</h2>
+  <ul class="interest-wrap" id="ab-interests"></ul>
+</section>
+
+    <div class="divider"></div>
+
+    <!-- Academic Philosophy -->
+    <section aria-labelledby="phil-h">
+      <h2 class="section-heading" id="phil-h">Academic Philosophy</h2>
+      <p id="ab-philosophy" style="font-style:italic;font-size:1rem;line-height:1.95"></p>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Education -->
+    <section aria-labelledby="edu-h">
+      <h2 class="section-heading" id="edu-h">Education</h2>
+      <div id="ab-education"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Affiliations -->
+    <section aria-labelledby="aff-h">
+      <h2 class="section-heading" id="aff-h">Affiliations &amp; Memberships</h2>
+      <ul id="ab-affiliations"></ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <span>Dr. Parmeshwari Krishnamurthy · IIIT</span>
+    <span>© <span id="footer-yr"></span>IIIT Hyderabad</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

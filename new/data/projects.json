@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "year": 2022,
+      "name": "Discourse Integrated Dravidian language to Dravidian language machine translation",
+      "period": "(2022 – 2025)",
+      "description": "Develop and deploy Tamil-Telugu neural MT including discourse analysis and integrate in speech to speech MT. Create annotated data for POS, syntactic & semantic parsing and discourse markers. Use Machine Learning techniques in building tools such as POS tagger, parser, discourse analyser and integrate them in a neural MT. Software used: Python, Perl, C, Web-based tools.",
+      "funding": "Funded by MEITY, Govt. of India (Rs. 140.19 Lakhs). Collaborators: AUKBC-Chennai, IIIT-Hyd, ICFOSS Trivandrum, MIT-Manipal, C-DAC Noida, DAIICT Gandhinagar",
+      "links": []
+    },
+    {
+      "year": 2022,
+      "name": "Sanskrit to Indian Language Machine Translation cum Language Accessor",
+      "period": "(2022 – 2024)",
+      "description": "Develop Sanskrit-Telugu and Sanskrit-Marathi transfer-based machine translation. Provide access to linguistic analysis to the readers to decipher the meaning of source language.",
+      "funding": "Funded by Indian Knowledge System, Department of Higher Education, Govt. of India",
+      "links": []
+    },
+    {
+      "year": 2023,
+      "name": "Syntactic Parser for Tamil: A Data-driven Approach",
+      "period": "(2023 – 2024)",
+      "description": "Annotate 100K tokens in Tamil for POS, Morph and dependency relations. Build a machine learning model for Tamil parser.",
+      "funding": "Funded by Tamil Virtual Academy, Govt. of Tamilnadu",
+      "links": [
+        { "label": "Tamil Parser", "url": "http://plural.iiit.ac.in/tamilparser" }
+      ]
+    },
+    {
+      "year": 2022,
+      "name": "Sanskrit Knowledge Accessor",
+      "period": "",
+      "description": "Develop and deploy Sanskrit-Tamil hybrid (transfer+neural) MT. Build high quality linguistically rich annotated data needed for Machine Learning techniques. Integrate MT in dialogue modelling.",
+      "funding": "Funded by MEITY, Govt. of India. Collaborators: UoH-DSS, IIT-KGP, IIT-Kanpur, MAHE, CVV, IGDTUW",
+      "links": []
+    },
+    {
+      "year": 2020,
+      "name": "Speech to Speech Machine Translation (SSMT): Pilot System",
+      "period": "(March 2020 – July 2021)",
+      "description": "Built web-based SSMT API for Tamil-Telugu MT. Compiled a huge parallel corpora and domain dictionaries for building neural MT.",
+      "funding": "",
+      "links": []
+    },
+    {
+      "year": 2010,
+      "name": "Indian Language to Indian Language Machine Translation (IL-IL MT)",
+      "period": "(2010 – 2016)",
+      "description": "IL-IL MT is a bidirectional Indian language to Indian language machine translation project developing 18 MT systems involving 9 Indian language pairs based on transfer approach. Consortium involving IIIT Hyderabad, University of Hyderabad, IIT Bombay, IIT Kharagpur, IISc Bangalore, Anna University, and C-DAC Pune. Dr. Parameswari contributed to building Transfer Grammars, Tamil Morphological Analyser & Generator, POS tagger, Chunker, Dependency parser, Multi Word Expression & Agreement Generation modules for Tamil and Telugu.",
+      "funding": "Funded under Technology Development for Indian Languages (TDIL) Program by DeitY, MCIT, Government of India",
+      "links": [
+        { "label": "IL-IL MT (Telugu-Tamil & Tamil-Telugu)", "url": "http://sampark.iiit.ac.in/sampark/web/index.php/content" }
+      ]
+    },
+    {
+      "year": 2015,
+      "name": "Building Shallow Parser tools, Ontological Lexicon and Full Parser for Tamil",
+      "period": "(2015 – 2020)",
+      "description": "Building Shallow Parser tools, Ontological Lexicon and Full Parser for Tamil.",
+      "funding": "Funded by University Grants Commission, Delhi under UGC-SAP DSA-1",
+      "links": []
+    }
+  ]
+}

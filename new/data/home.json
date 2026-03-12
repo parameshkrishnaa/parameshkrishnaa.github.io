@@ -1,0 +1,25 @@
+{
+  "name": "Dr. Prameshawari Krishnamurthy",
+  "title": "Assistant Professor | Computational Linguistics & Language Technologies ",
+  "introduction": "People call me Param (short for Parameswari Krishnamurthy). I am an Assistant Professor at the Language Technologies Research Centre (LTRC), IIIT-Hyderabad, specializing in Computational Linguistics. We focus on developing cutting-edge Machine Translation systems and innovative evaluation techniques, as well as building linguistic resources for both major and low-resource Indian languages. Our lab also explores LLMs, Bias in LLMs, NLP for health, multi-modal tasks, and foundational research in Indian languages.",
+  "sidebar": {
+    "image": "prameshwari.jpg",
+    "location": "Room No- F12, 1st floor,Information Extraction and Retrieval Lab, Kohli Research Block, IIIT-Hyderabad",
+    "phone":"+91 40 6653 1266",
+    "email": " param.krishna@iiit.ac.in",
+
+    "social": {
+      "github": "https://github.com/parameshkrishnaa",
+      "linkedin": "https://www.linkedin.com/in/parameswari-krishnamurthy-83039020/",
+      "facebook": "https://www.facebook.com/paramesh.krishan.94",
+      "scholar": "https://scholar.google.com/"
+    }
+  },
+
+  "quick_stats": [
+    { "value": "52", "label": "Publications" },
+    { "value": "4,210", "label": "Citations" }
+  ],
+
+  "map_embed": "https://www.google.com/maps?q=IIIT%20Hyderabad&output=embed"
+}

@@ -1,0 +1,193 @@
+{
+  "current_students": [
+    {
+      "name": "Dasari Priyanka",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Surtani Monica",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "Co-advised with Prof. Chiranjeevi Yarra and Prof. Ponnurangam Kumaraguru (PK)",
+      "papers": []
+    },
+    {
+      "name": "Abhinaba Bala",
+      "photo": "",
+      "degree": "M.S.",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Jerrin John Thomas",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Aradhya Gupta",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Yash Bhaskar",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Sankalp Sanjay Bahad",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Akshit Kumar",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Ketaki Mangesh Shetye",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Saketh Reddy Vemula",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Modumudi Naga Sai Ritvik",
+      "photo": "",
+      "degree": "CSD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    },
+    {
+      "name": "Hari Shankar",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "Co-advised with PK",
+      "papers": []
+    },
+    {
+      "name": "Mupparapu Sohan Gupta",
+      "photo": "",
+      "degree": "Honors",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": []
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Sangeetha Perugu",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2022,
+      "period": "2018 – 2022",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "currently Language Division, Kolkata",
+      "papers": []
+    },
+    {
+      "name": "Prabhakar",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2022,
+      "period": "2018 – 2022",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "currently Asst. Prof",
+      "papers": []
+    },
+    {
+      "name": "Krishna Maya Magar",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2022,
+      "period": "2017 – 2022",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "currently Asst. Prof",
+      "papers": []
+    },
+    {
+      "name": "Keerthana Balasubramaniyam",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2022,
+      "period": "Completed",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "",
+      "papers": []
+    }
+  ]
+}

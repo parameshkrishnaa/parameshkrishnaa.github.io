@@ -1,0 +1,184 @@
+{
+  "teaching": [
+    {
+      "year_range": "2023-2025",
+      "season": "Spring",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Computational Linguistics 1: Comp Phonology, Morphology and Syntax"],
+      "level": "",
+      "notes": ""
+    },
+    {
+      "year_range": "2023-2024",
+      "season": "Monsoon",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Computational Linguistics II: Comp Semantics and Discourse Parsing"],
+      "level": "",
+      "notes": "Co-teaching with Dr. Rajakrishnan Rajkumar."
+    },
+    {
+      "year_range": "2025",
+      "season": "Spring",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Evaluation Methods for NLP"],
+      "level": "Open Elective",
+      "notes": "Co-teaching with Dr. Manish Shrivastava."
+    },
+    {
+      "year_range": "2025",
+      "season": "Spring",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Topics in Speech to Speech Machine Translation"],
+      "level": "Open Elective",
+      "notes": "Co-teaching with Dr. Chiranjeevi Yarra."
+    },
+    {
+      "year_range": "2023",
+      "season": "Spring",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Linguistic Data: Data Modeling in ILs"],
+      "level": "Elective",
+      "notes": ""
+    },
+    {
+      "year_range": "2023",
+      "season": "Spring",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Linguistic Divergence and Convergence"],
+      "level": "Elective",
+      "notes": ""
+    },
+    {
+      "year_range": "2023-2024,2023",
+      "season": "Spring & Monsoon",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Value Education"],
+      "level": "",
+      "notes": ""
+    },
+    {
+      "year_range": "2024–",
+      "season": "",
+      "institute": "IIT-Madras (BSDS Online Degree)",
+      "course_code": "",
+      "subjects": ["Introduction to Natural Language Processing"],
+      "level": "",
+      "notes": "Co-teaching with Dr. Rahul Mishra."
+    },
+    {
+      "year_range": "2016-2017",
+      "season": "Winter",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Machine Translation"],
+      "level": "Ph.D.",
+      "notes": ""
+    },
+    {
+      "year_range": "2015,2017,2019",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Advanced Course in Computational Linguistics"],
+      "level": "Ph.D.",
+      "notes": ""
+    },
+    {
+      "year_range": "2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Advanced Topics in Applied Linguistics"],
+      "level": "Ph.D.",
+      "notes": ""
+    },
+    {
+      "year_range": "2013-2019",
+      "season": "Winter",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Introduction to Computational Linguistics"],
+      "level": "Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2011,2012,2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Morphology"],
+      "level": "Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2014-2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Analytical Techniques in Linguistics"],
+      "level": "Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2011-2019",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Projects in Applied Linguistics"],
+      "level": "Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2011,2013,2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Introduction to Linguistics (Phonology, Morphology, Syntax and Semantics)"],
+      "level": "Integrated Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2014-2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Languages of India"],
+      "level": "Integrated Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2011,2013",
+      "season": "Winter",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Introduction to Morphology"],
+      "level": "Integrated Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2013-2015",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Linguistic Data Analysis"],
+      "level": "Integrated Masters",
+      "notes": ""
+    },
+    {
+      "year_range": "2018",
+      "season": "Monsoon",
+      "institute": "University of Hyderabad (UoH)",
+      "course_code": "",
+      "subjects": ["Introduction to Computer Applications in Indian Languages"],
+      "level": "Integrated Masters",
+      "notes": ""
+    }
+  ]
+}

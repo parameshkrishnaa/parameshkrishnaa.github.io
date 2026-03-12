@@ -1,0 +1,74 @@
+{
+  "news": [
+    {
+      "date": "March 2025",
+      "year": 2025,
+      "category": "Grant",
+      "title": "Awarded NSF CAREER Grant",
+      "description": "Received the NSF CAREER Award (#2342187, $650,000 over five years) for 'Interpretable Foundations for Trustworthy AI Systems.' The NSF CAREER Award is the National Science Foundation's most prestigious award for early-career faculty."
+    },
+    {
+      "date": "January 2025",
+      "year": 2025,
+      "category": "Publication",
+      "title": "ICML 2025 Paper Accepted",
+      "description": "'Causal Representation Learning with Structural Invariance' (with Jae-Won Kim and Arjun Patel) accepted to ICML 2025. Camera-ready version and code available in April 2025."
+    },
+    {
+      "date": "November 2024",
+      "year": 2024,
+      "category": "Invited Talk",
+      "title": "Keynote at NeurIPS Workshop on Trustworthy ML",
+      "description": "Delivered an invited keynote at the NeurIPS 2024 Workshop on Trustworthy Machine Learning in Vancouver, presenting recent results on causal representation learning and its implications for robust generalisation."
+    },
+    {
+      "date": "October 2024",
+      "year": 2024,
+      "category": "Award",
+      "title": "Northfield University Excellence in Research Award",
+      "description": "Received the annual Northfield University Excellence in Research Award, recognising outstanding research contributions by a faculty member in the natural sciences and engineering."
+    },
+    {
+      "date": "August 2024",
+      "year": 2024,
+      "category": "Publication",
+      "title": "Papers Published at KDD 2024 and VLDB 2024",
+      "description": "'Beyond SHAP: Causal Explanations for Black-Box Models' published at KDD 2024; 'Scalable Data Valuation for Collaborative Machine Learning' published in the VLDB Endowment."
+    },
+    {
+      "date": "June 2024",
+      "year": 2024,
+      "category": "Service",
+      "title": "Appointed Associate Editor at JMLR",
+      "description": "Appointed as Associate Editor for the Journal of Machine Learning Research (JMLR), one of the primary open-access venues for fundamental machine learning research."
+    },
+    {
+      "date": "May 2023",
+      "year": 2023,
+      "category": "Award",
+      "title": "Best Paper Honourable Mention at ICLR 2023",
+      "description": "'Robustness Certificates for Neural Networks via Interval Bound Propagation' received an Honourable Mention for Best Paper at ICLR 2023."
+    },
+    {
+      "date": "September 2023",
+      "year": 2023,
+      "category": "Grant",
+      "title": "DARPA GARD Renewal",
+      "description": "Northfield University's share of the DARPA Guaranteeing AI Robustness Against Deception (GARD) programme renewed with $820,000 in additional funding through 2026."
+    },
+    {
+      "date": "November 2022",
+      "year": 2022,
+      "category": "Publication",
+      "title": "NeurIPS 2022 Paper Accepted",
+      "description": "'Fairness-Aware Learning with Causal Constraints' accepted to NeurIPS 2022, introducing primal-dual training algorithms for enforcing path-specific causal fairness conditions."
+    },
+    {
+      "date": "September 2022",
+      "year": 2022,
+      "category": "Recognition",
+      "title": "Named to AI's 40 Under 40",
+      "description": "Named to the inaugural 'AI's 40 Under 40' list by Science & Technology Review, recognising leading researchers under the age of 40 making significant contributions to artificial intelligence."
+    }
+  ]
+}

@@ -169,6 +169,7 @@ Optional fields:
 * `topic`
 * `placement`
 * `papers`
+* `socials`
 
 ## Example
 
@@ -192,7 +193,8 @@ Optional fields:
             { "label": "Code", "url": "https://github.com/example" }
           ]
         }
-      ]
+      ],
+      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}]
     }
   ],
 
@@ -213,7 +215,8 @@ Optional fields:
             { "label": "PDF", "url": "https://example.com/sample.pdf" }
           ]
         }
-      ]
+      ],
+      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}]
     }
   ]
 }
@@ -344,7 +347,6 @@ Used for **research publications**.
 Optional:
 
 * `description`
-* `tags`
 * `image`
 * `abstract`
 * `bibtex`
@@ -362,7 +364,6 @@ Optional:
       "venue": "ICML 2025",
       "image": "g1.jpg",
       "description": "short description (optional)",
-      "tags": ["Causal Inference", "Representation Learning"],
       "abstract": "abstract should be written here",
       "bibtex": "@inproceedings{unique id,\n  author    = {author names},\n  title     = {name of the title},\n  booktitle = {title of book/venue},\n  year      = {2025},\n  month     = {July},\n address =   {India}\n}",
       "downloads": [

@@ -9,7 +9,14 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [{
+          "title": "Sample project title",
+          "venue": "Sample Venue",
+          "links": [
+            { "label": "PDF", "url": "https://example.com/sample.pdf" }
+          ]
+        }],
+      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}, {"label":"LinkedIn","url":"https://www.linkedin.com/"}]
     },
     {
       "name": "Surtani Monica",
@@ -20,7 +27,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "Co-advised with Prof. Chiranjeevi Yarra and Prof. Ponnurangam Kumaraguru (PK)",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Abhinaba Bala",
@@ -31,7 +39,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Jerrin John Thomas",
@@ -42,7 +51,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Aradhya Gupta",
@@ -53,7 +63,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Yash Bhaskar",
@@ -64,7 +75,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Sankalp Sanjay Bahad",
@@ -75,7 +87,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Akshit Kumar",
@@ -86,7 +99,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Ketaki Mangesh Shetye",
@@ -97,7 +111,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Saketh Reddy Vemula",
@@ -108,7 +123,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Modumudi Naga Sai Ritvik",
@@ -119,7 +135,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Hari Shankar",
@@ -130,7 +147,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "Co-advised with PK",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Mupparapu Sohan Gupta",
@@ -141,7 +159,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     }
   ],
   "alumni": [
@@ -154,7 +173,8 @@
       "status": "alumni",
       "institution": "University of Hyderabad",
       "placement": "currently Language Division, Kolkata",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Prabhakar",
@@ -165,7 +185,8 @@
       "status": "alumni",
       "institution": "University of Hyderabad",
       "placement": "currently Asst. Prof",
-      "papers": []
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Krishna Maya Magar",
@@ -176,7 +197,8 @@
       "status": "alumni",
       "institution": "University of Hyderabad",
       "placement": "currently Asst. Prof",
-      "papers": []
+      "papers": [],
+      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}]
     },
     {
       "name": "Keerthana Balasubramaniyam",
@@ -187,7 +209,8 @@
       "status": "alumni",
       "institution": "University of Hyderabad",
       "placement": "",
-      "papers": []
+      "papers": [],
+      "socials": []
     }
   ]
 }

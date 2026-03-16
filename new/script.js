@@ -500,7 +500,7 @@ async function initAbout() {
     var photoEl = document.getElementById('about-photo');
     if (photoEl) photoEl.src = d.photo;
     var nameEl = document.getElementById('about-name');
-    if (nameEl) nameEl.textContent = d.name || 'Dr. Parmeshwari Krishnamurthy';
+    if (nameEl) nameEl.textContent = d.name || 'Dr. Parameswari Krishnamurthy';
 
     setHTML('ab-bio', (d.biography || []).map(function(p) {
       return '<p>' + esc(p) + '</p>';
@@ -576,37 +576,38 @@ async function initLab() {
 
 function setupFilters(pubs) {
   var ySel = document.getElementById('flt-year');
-  var tSel = document.getElementById('flt-tag');
+  // var tSel = document.getElementById('flt-tag');
   var rst  = document.getElementById('flt-reset');
-  if (!ySel || !tSel) return;
+  if (!ySel) return;
 
   var years = pubs.map(function(p) { return p.year; }).filter(Boolean);
   years = years.filter(function(v, i, a) { return a.indexOf(v) === i; });
   years.sort(function(a,b) { return b - a; });
 
-  var tags = pubs.reduce(function(acc, p) {
-    (p.tags || []).forEach(function(t) { if (acc.indexOf(t) === -1) acc.push(t); });
-    return acc;
-  }, []).sort();
+  // var tags = pubs.reduce(function(acc, p) {
+  //   (p.tags || []).forEach(function(t) { if (acc.indexOf(t) === -1) acc.push(t); });
+  //   return acc;
+  // }, []).sort();
 
   years.forEach(function(y) {
     var o = document.createElement('option');
     o.value = y; o.textContent = y; ySel.appendChild(o);
   });
-  tags.forEach(function(t) {
-    var o = document.createElement('option');
-    o.value = t; o.textContent = t; tSel.appendChild(o);
-  });
+  // tags.forEach(function(t) {
+  //   var o = document.createElement('option');
+  //   o.value = t; o.textContent = t; tSel.appendChild(o);
+  // });
 
   function applyFilters() {
     renderPubs(pubs.filter(function(p) {
-      return (!ySel.value || String(p.year) === ySel.value) &&
-             (!tSel.value || (p.tags && p.tags.indexOf(tSel.value) !== -1));
+      return (!ySel.value || String(p.year) === ySel.value);
+            //  &&(!tSel.value || (p.tags && p.tags.indexOf(tSel.value) !== -1));
     }));
   }
   ySel.addEventListener('change', applyFilters);
-  tSel.addEventListener('change', applyFilters);
-  if (rst) rst.addEventListener('click', function() { ySel.value=''; tSel.value=''; renderPubs(pubs); });
+  // tSel.addEventListener('change', applyFilters);
+  // if (rst) rst.addEventListener('click', function() { ySel.value=''; tSel.value=''; renderPubs(pubs); });
+  if (rst) rst.addEventListener('click', function() { ySel.value=''; renderPubs(pubs); });
 }
 
 function renderPubs(pubs) {
@@ -625,8 +626,8 @@ function renderPubs(pubs) {
 
   container.innerHTML = sortedYrs.map(function(yr) {
     return '<div class="tl-year">' +
-      '<div class="tl-yr-label">' + yr +
-      '<span class="tl-yr-count">' + byYear[yr].length + ' paper' + (byYear[yr].length > 1 ? 's' : '') + '</span>' +
+       '<div class="tl-yr-label">' + yr +
+      // '<span class="tl-yr-count">' + byYear[yr].length + ' paper' + (byYear[yr].length > 1 ? 's' : '') + '</span>' +
       '</div>' +
       byYear[yr].map(function(p) { return pubHTML(p); }).join('') +
       '</div>';
@@ -752,8 +753,8 @@ function renderProjects(ps) {
 
   c.innerHTML = sortedYrs.map(function(yr) {
     return '<div class="tl-year">' +
-      '<div class="tl-yr-label">' + yr +
-      ' <span class="tl-yr-count">' + byYear[yr].length + ' project' + (byYear[yr].length>1?'s':'') + '</span></div>' +
+      '<div class="tl-yr-label">' + yr + '</div>' +
+      // ' <span class="tl-yr-count">' + byYear[yr].length + ' project' + (byYear[yr].length>1?'s':'') + '</span></div>' +
       byYear[yr].map(function(p) {
         return '<div class="proj-entry">' +
           '<div class="proj-meta">' +
@@ -854,7 +855,7 @@ function renderStudentCard(s) {
     ? '<button class="stu-pub-btn" data-target="' + uid + '-pubs" aria-expanded="false">' +
       'Publications' +
       '<span class="stu-chevron">▾</span>' +
-      '<span class="stu-pub-count">(' + s.papers.length + ')</span>' +
+      // '<span class="stu-pub-count">(' + s.papers.length + ')</span>' +
       '</button>'
     : '';
 
@@ -883,12 +884,45 @@ function renderStudentCard(s) {
       '</div>';
   }
 
+  var hasSocials = s.socials && s.socials.length;
+
+  // var socialBtn =
+  //   '<button class="stu-social-btn" ' +
+  //   (hasSocials ? 'data-target="' + uid + '-socials"' : 'disabled') +
+  //   ' aria-expanded="false">↗</button>';
+  var socialBtn = hasSocials
+  ? '<button class="stu-social-btn" data-target="' + uid + '-socials"' +
+    ' aria-expanded="false" aria-label="Social links">↗</button>'
+  : '';
+
+  var socialMenu = '';
+
+  if (hasSocials) {
+    var links = s.socials.map(function(l){
+      return '<a class="stu-social-link" href="' + esc(l.url) +
+        '" target="_blank" rel="noopener">' +
+        esc(l.label) + ' ↗</a>';
+    }).join('');
+
+    socialMenu =
+      '<div class="stu-social-pop" id="' + uid + '-socials">' +
+      links +
+      '</div>';
+  }
+
+  var nameHTML =
+    '<div class="stu-name-row">' +
+    '<span class="stu-name">' + esc(s.name) + '</span>' +
+    socialBtn +
+    socialMenu +
+    '</div>';
+
   return [
     '<div class="stu-card" data-uid="' + uid + '">',
     '  <div class="stu-card-top">',
     '    <div class="stu-photo-wrap">' + photoHTML + '</div>',
     '    <div class="stu-identity">',
-    '      <div class="stu-name">' + esc(s.name) + '</div>',
+    '      ' + nameHTML,
     '      <div class="stu-meta">',
     '        <span class="stu-deg">' + esc(s.degree) + '</span>',
     '        <span class="stu-period">' + esc(s.period) + '</span>',
@@ -901,6 +935,7 @@ function renderStudentCard(s) {
     '  ' + papersHTML,
     '</div>'
   ].join('\n');
+
 }
 
 async function initStudents() {
@@ -954,7 +989,32 @@ function attachStudentListeners(container) {
       this.setAttribute('aria-expanded', String(!isOpen));
     });
   });
+   container.querySelectorAll('.stu-social-btn').forEach(function(btn){
+
+    if(btn.disabled) return;
+
+    btn.addEventListener('click', function(e){
+
+      e.stopPropagation();
+
+      var menu = document.getElementById(this.dataset.target);
+
+      if(!menu) return;
+
+      var open = menu.classList.contains('open');
+
+      document.querySelectorAll('.stu-social-pop').forEach(function(p){
+        p.classList.remove('open');
+      });
+
+      if(!open) menu.classList.add('open');
+
+    });
+
+  });
+
 }
+
 
 
 /* ================================================================
@@ -1085,4 +1145,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var fy = document.getElementById('footer-yr');
   if (fy) fy.textContent = new Date().getFullYear();
+  
+document.addEventListener('click', function(){
+
+  document.querySelectorAll('.stu-social-pop').forEach(function(p){
+
+    p.classList.remove('open');
+
+  });
+
+});
 });

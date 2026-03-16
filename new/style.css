@@ -231,7 +231,7 @@ li     { margin-bottom: .4em; }
 
 
 /* ── Tag chips ── */
-.tag {
+/* .tag {
   display       : inline-block;
   font-family   : var(--mono);
   font-size     : .6875rem;
@@ -244,7 +244,7 @@ li     { margin-bottom: .4em; }
   cursor        : default;
   border-radius : 2px;
   transition    : border-color .2s, color .2s, background .2s;
-}
+} */
 /* .tag:hover {
   border-color: var(--text);
   color       : var(--btn-text);
@@ -290,9 +290,10 @@ li     { margin-bottom: .4em; }
 .pub-btn:hover,
 .pub-link:hover,
 .proj-link:hover,
-.lec-dl:hover,
-.cv-btn:hover,
-.flt-reset:hover {
+.lec-dl:hover
+/* .cv-btn:hover */
+/* .flt-reset:hover  */
+{
   background  : transparent;
   color       : var(--btn-border);
   border-color: var(--btn-border);
@@ -392,9 +393,13 @@ li     { margin-bottom: .4em; }
   font-weight    : 400;
   letter-spacing : .01em;
   text-decoration: none;
-  color          : var(--nav-muted);
+  color          : white;
   border-left    : 2px solid transparent;
   transition     : color .2s, background .2s, border-color .2s, padding-left .2s var(--ease);
+}
+
+body.dark .nav-links li a {
+  color: black;
 }
 
 .nav-links li a::before {
@@ -1380,30 +1385,44 @@ body.dark .section-heading {
 .edu-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
 .edu-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
 
-.cv-btn { margin-bottom: 1.8rem; }
+/* .cv-btn { margin-bottom: 1.8rem; } */
 
 
 /* ================================================================
    PUBLICATIONS — FILTER BOX
    ================================================================ */
+
 .pub-filters {
-  display      : flex;
-  align-items  : flex-end;
-  gap          : 1.25rem;
-  flex-wrap    : wrap;
-  padding      : 1.25rem 1.5rem;
-  border       : 1px solid var(--border);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  margin-bottom: 1rem;
+  margin-left: auto;
+
+  padding: .6rem .8rem;
+
+  border: 1px solid var(--border);
   border-radius: 6px;
-  background   : var(--bg-alt);
-  margin-bottom: 2.5rem;
-  border-top   : 3px solid var(--ink);
-  box-shadow   : 0 2px 12px rgba(0,0,0,.04);
+
+  background: var(--bg-alt);
+
+  width: fit-content;   
+}
+
+.news-page .page-sub,
+.pub-page .page-sub {
+  margin-bottom: 0;
 }
 
 .flt-group {
   display       : flex;
   flex-direction: column;
-  gap           : .35rem;
+  /* align-items: center; */
+  gap           : .25rem;
 }
 .flt-group label {
   font-family   : var(--body);
@@ -1414,14 +1433,15 @@ body.dark .section-heading {
   color         : var(--text-muted);
 }
 .flt-group select {
-  border            : 1.5px solid var(--border-strong);
+  border            : 1px solid var(--ink);
   border-radius     : 4px;
   background        : var(--bg);
   color             : var(--text);
   font-family       : var(--body);
-  font-size         : .875rem;
+  font-size         : .85rem;
   font-weight       : 400;
-  padding           : .45rem 2rem .45rem .8rem;
+  /* padding           : .45rem 2rem .45rem .8rem; */
+  padding           : .4rem .6rem;
   outline           : none;
   cursor            : pointer;
   appearance        : none;
@@ -1429,7 +1449,7 @@ body.dark .section-heading {
   background-image  : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
   background-repeat : no-repeat;
   background-position: right .7rem center;
-  min-width         : 160px;
+  min-width         : 130px;
   max-width         : 100%;
   transition        : border-color .2s, box-shadow .2s;
 }
@@ -1439,40 +1459,52 @@ body.dark .section-heading {
   outline     : none;
 }
 
+
 .flt-reset {
-  /* align-self: flex-end;
-  font-size : .75rem;
-  padding   : .45rem .9rem; */
-  display: flex;
-  flex-direction: column;
-  gap: .35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* margin-top: 1.2rem; */
+  align-self: flex-end;
+
+  font-size: .75rem;
+  padding: .4rem .8rem;
+
+  border: 1px solid var(--border);
+  border-radius: 4px;
+
+  background: black;
+  color: white;
+
+  cursor: pointer;
+  transition: background .2s, color .2s;
+}
+
+.dark .flt-reset {
+  background: white;
+  color: black;
 }
 
 
 .tl-year { margin-bottom: 0; }
 
-.tl-yr-label {
-  font-family   : var(--display);
-  font-size     : 1.6rem;
-  font-style    : italic;
-  letter-spacing: -.02em;
-  color         : var(--text);
-  border-bottom : 2px solid var(--ink);
-  padding-bottom: .35rem;
-  margin-bottom : 1.5rem;
-  display       : flex;
-  align-items   : baseline;
-  gap           : .75rem;
+ .tl-yr-label {
+  display: flex;
+  justify-content: flex-end;
+
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: var(--text);
+
+  /* margin: 2rem 0 .6rem; */
+
+  border-bottom: 1px solid var(--border);
+  padding-bottom: .2rem;
 }
-.tl-yr-count {
-  font-family   : var(--body);
-  font-size     : .75rem;
-  font-style    : normal;
-  font-weight   : 500;
-  letter-spacing: .06em;
-  color         : var(--text-muted);
-  text-transform: uppercase;
-}
+
 
 .pub-entry {
   display              : grid;
@@ -1687,7 +1719,6 @@ body.dark .section-heading {
    STUDENTS 
    ================================================================ */
 
-/* ── Section heading ── */
 .stu-group-title {
   font-family   : var(--body);
   font-size     : .95rem;
@@ -1772,6 +1803,13 @@ body.dark .section-heading {
 }
 
 .stu-identity { flex: 1; min-width: 0; }
+.stu-name-row {
+  display : flex;
+  align-items: center;
+  gap     : .35rem;
+  position: relative;   
+}
+ 
 
 .stu-name {
   font-family  : var(--display);
@@ -1782,6 +1820,86 @@ body.dark .section-heading {
   line-height  : 1.25;
   margin-bottom: .22rem;
   letter-spacing: -.01em;
+}
+
+.stu-social-btn{
+  flex-shrink:0;
+  border:1px solid var(--border);
+  background:transparent;
+  font-size:.98rem;
+  padding:.1rem .35rem;
+  border-radius:3px;
+  cursor:pointer;
+  line-height:1;
+
+  color:var(--text-muted);
+
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+
+  transition:
+    border-color .15s ease,
+    color .15s ease,
+    background .15s ease;
+}
+
+.stu-social-btn:hover:not(:disabled){
+  border-color:var(--text);
+  color:var(--text);
+  background:rgba(0,0,0,.04);
+}
+
+.stu-social-btn:disabled{
+  opacity:.35;
+  cursor:default;
+  background:transparent;
+  border-color:var(--border);
+  color:var(--text-muted);
+}
+
+.stu-social-pop{
+  position:absolute;
+  top:26px;
+  left:0;
+
+  display:none;
+  flex-direction:column;
+  gap:.35rem;
+
+  padding:.45rem .6rem;
+
+  border:1px solid var(--border);
+  border-radius:5px;
+
+  background:var(--bg);
+
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+
+  z-index:999;
+  min-width:130px;
+}
+
+.stu-social-pop.open{
+  display:flex;
+}
+
+.stu-social-link{
+  font-size:.75rem;
+  text-decoration:none;
+  color:var(--text);
+  white-space:nowrap;
+  transition:color .15s ease;
+}
+
+.stu-social-link:hover{
+  text-decoration:underline;
+}
+
+[data-theme="dark"] .stu-social-btn:hover:not(:disabled){
+  color:#fff;
+  border-color:#fff;
+  background:rgba(255,255,255,.08);
 }
 
 .stu-meta {
@@ -2269,8 +2387,12 @@ body.dark .section-heading {
   .home-news-item   { grid-template-columns: 88px 1fr; gap: 1rem; }
   .about-photo-wrap { width: 160px; }
 
-  .pub-filters         {  gap: 1rem; padding: 1rem 1.25rem; }/*flex-direction: column;*/
-  .flt-group select    { min-width: 100%; }
+  /* .pub-filters         {  gap: 1rem; padding: 1rem 1.25rem; }flex-direction: column; */
+  .flt-group select    { min-width: 100px; }
+  .pub-filters {
+    gap: .6rem;
+    padding: .5rem .6rem;
+  }
   /* .flt-group select  {width: auto;} */
   .flt-reset           {display: flex;flex-direction: column;gap: .35rem;}/*{ align-self: flex-start; }*/
 
@@ -2305,4 +2427,21 @@ body.dark .section-heading {
   .internship-block      { padding: 1.2rem 1rem; }
 } 
 
+
+@media (max-width: 768px) {
+
+  .pub-filters {
+    justify-content: flex-start;
+  }
+
+  .flt-group select {
+    min-width: 110px;
+  }
+
+  .tl-yr-label {
+    justify-content: flex-start;
+    font-size: .9rem;
+  }
+
+}
 

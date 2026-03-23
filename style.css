@@ -1737,7 +1737,7 @@ body.dark .section-heading {
   font-weight   : 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  color         : black;
+  color         : var(--text);
   white-space   : nowrap;
 }
 

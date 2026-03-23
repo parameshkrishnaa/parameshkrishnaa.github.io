@@ -45,6 +45,37 @@
     
   ],
   "affiliations": [
-    "Sample line "
+  "Senior Area Chair, Track T23: Parsing, Tagging, Chunking, Grammar, Syntax, Morphosyntax, Morphology, LREC 2026.",
+  "Reviewed papers for COLING, LREC, IJCNLP, TALLIP, LRE, Journal of NLP, Machine Translation (Springer Nature), Asian Journal of Interdisciplinary Research."
+],
+"researchProfile": {
+  "summary": "Co-editor of 4 workshop proceedings (ACL Anthology) and 1 edited volume (mo˘liv¯adam, 2018). Journal articles: 7, Conference papers (including ACL venues): 25+, Invited Talks: 10+, Organized Conferences/Workshops: 7.",
+  
+  "profiles": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=Kq5vVhkAAAAJ"
+    },
+    {
+      "name": "DBLP",
+      "url": "https://dblp.org/pid/231/4833.html"
+    },
+    {
+      "name": "ORCiD",
+      "url": "https://orcid.org/0000-0002-9014-4993"
+    },
+    {
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/author/Parameswari-Krishnamurthy/2265758072"
+    },
+    {
+      "name": "ACL Anthology",
+      "url": "https://aclanthology.org/people/parameswari-krishnamurthy/"
+    },
+    {
+      "name": "OpenReview",
+      "url": "https://openreview.net/profile?id=%7EParameswariKrishnamurthy1"
+    }
   ]
+}
 }

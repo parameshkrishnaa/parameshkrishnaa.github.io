@@ -1,25 +1,16 @@
 {
   "teaching": [
     {
-      "year_range": "2023-2025",
+      "year_range": "2023-2026",
       "season": "Spring",
       "institute": "IIIT Hyderabad",
       "course_code": "",
-      "subjects": ["Computational Linguistics 1: Comp Phonology, Morphology and Syntax"],
+      "subjects": ["Computational Linguistics 1: Computational Phonology, Morphology and Syntax"],
       "level": "",
       "notes": ""
     },
     {
-      "year_range": "2023-2024",
-      "season": "Monsoon",
-      "institute": "IIIT Hyderabad",
-      "course_code": "",
-      "subjects": ["Computational Linguistics II: Comp Semantics and Discourse Parsing"],
-      "level": "",
-      "notes": "Co-teaching with Dr. Rajakrishnan Rajkumar."
-    },
-    {
-      "year_range": "2025",
+      "year_range": "2025-2026",
       "season": "Spring",
       "institute": "IIIT Hyderabad",
       "course_code": "",
@@ -27,6 +18,16 @@
       "level": "Open Elective",
       "notes": "Co-teaching with Dr. Manish Shrivastava."
     },
+    {
+      "year_range": "2023-2024",
+      "season": "Monsoon",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["Computational Linguistics II: Computational Semantics and Discourse Parsing"],
+      "level": "",
+      "notes": "Co-teaching with Dr. Rajakrishnan Rajkumar."
+    },
+    
     {
       "year_range": "2025",
       "season": "Spring",
@@ -56,7 +57,7 @@
     },
     {
       "year_range": "2023-2024,2023",
-      "season": "Spring & Monsoon",
+      "season": "Spring , Monsoon",
       "institute": "IIIT Hyderabad",
       "course_code": "",
       "subjects": ["Value Education"],
@@ -64,7 +65,7 @@
       "notes": ""
     },
     {
-      "year_range": "2024–",
+      "year_range": "2024–Present",
       "season": "",
       "institute": "IIT-Madras (BSDS Online Degree)",
       "course_code": "",

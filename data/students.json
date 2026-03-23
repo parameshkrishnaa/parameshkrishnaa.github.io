@@ -9,14 +9,8 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "A discourse-integrated Machine Translation",
-      "papers": [{
-          "title": "Sample project title",
-          "venue": "Sample Venue",
-          "links": [
-            { "label": "PDF", "url": "https://example.com/sample.pdf" }
-          ]
-        }],
-      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}, {"label":"LinkedIn","url":"https://www.linkedin.com/"}]
+      "papers": [],
+      "socials": []
     },
     {
       "name": "Surtani Monica",
@@ -232,7 +226,7 @@
       "degree": "M.S.",
       "year": 2024,
       "period": "2022-2024",
-      "status": "Completed",
+      "status": "alumni",
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],

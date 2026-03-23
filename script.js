@@ -857,21 +857,44 @@ async function initTeaching() {
   if (!c) return;
   try {
     var d = await loadJSON('data/teaching.json');
-    c.innerHTML = (d.teaching || []).map(function(t) {
-      return '<div class="teach-row">' +
-        '<div class="teach-meta">' +
-        '<span class="teach-yrs">' + esc(t.year_range) + '</span>' +
-        '<span class="teach-season">' + esc(t.season) + '</span>' +
-        '<span class="teach-lvl">' + esc(t.level) + '</span>' +
-        '</div>' +
-        '<div class="teach-body">' +
-        (t.course_code ? '<p class="teach-code">' + esc(t.course_code) + '</p>' : '') +
-        '<p class="teach-subj">' + esc(t.subjects.join(', ')) + '</p>' +
-        '<p class="teach-inst">' + esc(t.institute) + '</p>' +
-        (t.notes ? '<p class="teach-note">' + esc(t.notes) + '</p>' : '') +
-        '</div></div>';
+    var courses = d.teaching || [];
+
+    // Group by institute
+    var groups = {};
+    var groupOrder = [];
+    courses.forEach(function(t) {
+      var key = t.institute || 'Other';
+      if (!groups[key]) {
+        groups[key] = [];
+        groupOrder.push(key);
+      }
+      groups[key].push(t);
+    });
+
+    c.innerHTML = groupOrder.map(function(inst) {
+      var rows = groups[inst].map(function(t) {
+        return '<div class="teach-row">' +
+          '<div class="teach-meta">' +
+          '<span class="teach-yrs">'    + esc(t.year_range) + '</span>' +
+          '<span class="teach-season">' + esc(t.season)     + '</span>' +
+          '<span class="teach-lvl">'    + esc(t.level)      + '</span>' +
+          '</div>' +
+          '<div class="teach-body">' +
+          (t.course_code ? '<p class="teach-code">' + esc(t.course_code) + '</p>' : '') +
+          '<p class="teach-subj">' + esc(t.subjects.join(', ')) + '</p>' +
+          (t.notes ? '<p class="teach-note">' + esc(t.notes) + '</p>' : '') +
+          '</div></div>';
+      }).join('');
+
+      return '<div class="teach-group">' +
+        '<div class="teach-group-header">' + esc(inst) + '</div>' +
+        rows +
+        '</div>';
     }).join('');
-  } catch(e) { document.getElementById('teach-container').innerHTML = '<p>Could not load teaching data.</p>'; }
+
+  } catch(e) {
+    document.getElementById('teach-container').innerHTML = '<p>Could not load teaching data.</p>';
+  }
 }
 
 
@@ -919,9 +942,16 @@ function renderStudentCard(s) {
     ? (s.topic     ? '<p class="stu-topic">'     + esc(s.topic)     + '</p>' : '')
     : (s.placement ? '<p class="stu-placement">' + esc(s.placement) + '</p>' : '');
 
+  // var alumBadge = s.institution
+  //   ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
+var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S.' || s.degree === 'MS' || s.degree === 'Honors';
+
   var alumBadge = s.institution
     ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
 
+  var completedBadge = isDualDegree && s.status === 'alumni'
+    ? '<span class="stu-completed-badge">Completed</span>'
+    : '';
   var hasPapers = s.papers && s.papers.length > 0;
 
   var pubBtnHTML = hasPapers
@@ -1000,6 +1030,8 @@ function renderStudentCard(s) {
     '        <span class="stu-deg">' + esc(s.degree) + '</span>',
     '        <span class="stu-period">' + esc(s.period) + '</span>',
     '        ' + alumBadge,
+    '        ' + completedBadge,
+
     '      </div>',
     '      ' + infoHTML,
     '    </div>',
@@ -1038,10 +1070,6 @@ async function initStudents() {
       html += '<div class="stu-group-title">Ongoing PhD Students</div>';
       html += twoColWrap(current);
     }
-	 if (alumni.length) {
-      html += '<div class="stu-group-title">PhD Students Supervised</div>';
-      html += twoColWrap(alumni);
-    }
 	if( dual_degree.length) {
 	  html += '<div class="stu-group-title">MS/Dual Degree Students</div>';
 	  html += twoColWrap(dual_degree);
@@ -1050,7 +1078,10 @@ async function initStudents() {
 	//   html += '<div class="stu-group-title">MS Students</div>';
 	//   html += twoColWrap(ms);
 	// }
-   
+    if (alumni.length) {
+      html += '<div class="stu-group-title">Alumni</div>';
+      html += twoColWrap(alumni);
+    }
 
     c.innerHTML = html;
     attachStudentListeners(c);

@@ -1271,7 +1271,32 @@ body.dark .section-heading {
 /* ================================================================
    ABOUT PAGE
    ================================================================ */
-.about-section {
+/* Research Profile links */
+#ab-rp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: .5rem;
+}
+
+.rp-link {
+  display: inline-block;
+  padding: .35rem .85rem;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: .875rem;
+  transition: background .18s, color .18s;
+}
+
+.rp-link:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+
+   .about-section {
   display    : flex;
   gap        : 3rem;
   align-items: flex-start;
@@ -1390,7 +1415,23 @@ body.dark .section-heading {
 }
 .edu-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
 .edu-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
-
+.exp-row {
+  display              : grid;
+  grid-template-columns: 160px 1fr;
+  gap                  : 1rem;
+  padding              : .7rem 0;
+  border-bottom        : 1px solid var(--border);
+}
+.exp-row:last-child { border-bottom: none; }
+.exp-yr {
+  font-family: var(--mono);
+  font-size  : .82rem;
+  color      : var(--text-sub);
+  padding-top: .18em;
+  line-height: 1.4;
+}
+.exp-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
+.exp-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
 /* .cv-btn { margin-bottom: 1.8rem; } */
 
 

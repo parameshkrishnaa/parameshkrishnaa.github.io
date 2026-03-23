@@ -549,8 +549,28 @@ async function initAbout() {
       return '<li>' + esc(a) + '</li>';
     }).join(''));
 
-    var btn = document.getElementById('cv-btn');
-    if (btn) btn.addEventListener('click', function() { generateCV(d); });
+    // Experience
+    setHTML('ab-experience', (d.experience || []).map(function(e) {
+      return '<div class="exp-row">' +
+       '<span class="exp-yr">' + esc(e.year).replace(/\n/g, '<br>').replace(/\t/g, '&nbsp;&nbsp;&nbsp;&nbsp;') + '</span>' +
+        '<div>' +
+          '<p class="exp-deg">' + esc(e.degree) + '</p>' +
+          '<p class="exp-uni">' + esc(e.institution) + '</p>' +
+        '</div></div>';
+    }).join(''));
+
+    // Research Profiles
+    if (d.researchProfile) {
+      setText('ab-rp-summary', d.researchProfile.summary || '');
+      setHTML('ab-rp-links', (d.researchProfile.profiles || []).map(function(p) {
+        return '<a class="rp-link" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+          esc(p.name) + ' ↗</a>';
+      }).join(''));
+    }
+
+
+    // var btn = document.getElementById('cv-btn');
+    // if (btn) btn.addEventListener('click', function() { generateCV(d); });
 
   } catch(e) { console.error('About load error:', e); }
 }

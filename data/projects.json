@@ -2,10 +2,59 @@
   "intro":"My research has consistently focused on developing practical language technology solutions for Indian languages, including machine translation systems, linguistic tools, annotated corpora, and opensource resources. Many of these systems have been developed through externally funded projects and collaborative national initiatives and are intended for use by researchers, developers, and language technology practitioners.",
   "projects": [
     {
+      "year": 2026,
+      "name": "Structured Radiology Intelligence (SRI): Clinical Multi-modality Reports (CMC Vellore)",
+      "funding": " IHub-Data, IIIT-H",
+      "role":"PI"
+    },
+    {
+      "year": 2026,
+      "name": "ProCon: Controllable Prosody for Speech Generation",
+      "funding": "ANRF-ARG, Govt. of India",
+      "role":"Co-PI"
+    },
+    {
+      "year": 2026,
+      "name": "Syntactic Assessment and Correction of Noisy Mandarin Text",
+      "funding": "CAIR, DRDO Bangalore",
+      "role":"Co-PI"
+    },
+    {
       "year": 2022,
       "name": "Discourse Integrated Dravidian language to Dravidian language machine translation",
       "funding": "Funded by MEITY, Govt. of India. Collaborators: AUKBC-Chennai, IIIT-Hyd, ICFOSS Trivandrum, MIT-Manipal, C-DAC Noida, DAIICT Gandhinagar",
       "links": [],
+      "role":"PI"
+    },
+     {
+      "year": 2022,
+      "name": "Sanskrit Knowledge Accessor",
+      "funding": "Funded by MEITY, Govt. of India. Collaborators: UoH-DSS, IIT-KGP, IIT-Kanpur, MAHE, CVV, IGDTUW",
+      "links": [],
+      "role":"PI"
+    },
+    {
+      "year": 2023,
+      "name": "Indian Language to Indian Language MT (HimangY)",
+      "funding": "MeitY (Bhashini Consortium)",
+      "role":"PI (English)"
+    },
+    {
+      "year": 2024,
+      "name": "Enriching LowResource Languages (Mizo, Khasi)",
+      "funding": "IHub-Data, IIIT-H",
+      "role":"PI"
+    },
+     {
+      "year": 2024,
+      "name": "Study of Dialects of Tamil (India & Sri Lanka)",
+      "funding": "India-Sri Lanka Foundation (ISLF)",
+      "role":"PI"
+    },
+     {
+      "year": 2023,
+      "name": "Syntactic Parser for Tamil: A Data-driven Approach",
+      "funding": "Funded by Tamil Virtual Academy, Govt. of Tamilnadu",
       "role":"PI"
     },
     {
@@ -14,19 +63,7 @@
       "funding": "Funded by Indian Knowledge System, Department of Higher Education, Govt. of India",
       "role":"PI"
     },
-    {
-      "year": 2023,
-      "name": "Syntactic Parser for Tamil: A Data-driven Approach",
-      "funding": "Funded by Tamil Virtual Academy, Govt. of Tamilnadu",
-      "role":"PI"
-    },
-    {
-      "year": 2022,
-      "name": "Sanskrit Knowledge Accessor",
-      "funding": "Funded by MEITY, Govt. of India. Collaborators: UoH-DSS, IIT-KGP, IIT-Kanpur, MAHE, CVV, IGDTUW",
-      "links": [],
-      "role":"PI"
-    },
+   
     {
       "year": 2010,
       "name": "Indian Language to Indian Language Machine Translation (IL-IL MT)",
@@ -41,43 +78,11 @@
       "name": "Building Shallow Parser tools, Ontological Lexicon and Full Parser for Tamil",
       "funding": "Funded by University Grants Commission, Delhi under UGC-SAP DSA-1",
       "role":"PI"
-    },
-    {
-      "year": 2024,
-      "name": "Study of Dialects of Tamil (India & Sri Lanka)",
-      "funding": "India-Sri Lanka Foundation (ISLF)",
-      "role":"PI"
-    },
-    {
-      "year": 2024,
-      "name": "Enriching LowResource Languages (Mizo, Khasi)",
-      "funding": "IHub-Data, IIIT-H",
-      "role":"PI"
-    },
-{
-      "year": 2023,
-      "name": "Indian Language to Indian Language MT (HimangY)",
-      "funding": "MeitY (Bhashini Consortium)",
-      "role":"PI (English)"
-    },
-    {
-      "year": 2026,
-      "name": "Syntactic Assessment and Correction of Noisy Mandarin Text",
-      "funding": "CAIR, DRDO Bangalore",
-      "role":"Co-PI"
-    },
-    {
-      "year": 2026,
-      "name": "ProCon: Controllable Prosody for Speech Generation",
-      "funding": "ANRF-ARG, Govt. of India",
-      "role":"Co-PI"
-    },
-    {
-      "year": 2026,
-      "name": "Structured Radiology Intelligence (SRI): Clinical Multi-modality Reports (CMC Vellore)",
-      "funding": " IHub-Data, IIIT-H",
-      "role":"PI"
     }
+   
+    
+    
+    
     
     
 

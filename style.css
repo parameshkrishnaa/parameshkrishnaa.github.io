@@ -1808,6 +1808,24 @@ body.dark .section-heading {
 /* ================================================================
    TEACHING
    ================================================================ */
+   /* ================================================================
+   TEACHING
+   ================================================================ */
+.teach-group {
+  margin-bottom: 2.5rem;
+}
+
+.teach-group-header {
+  font-family   : var(--body);
+  font-size     : .9rem;
+  font-weight   : 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color         : var(--text);
+  border-bottom : 2px solid var(--border-strong);
+  padding-bottom: .4rem;
+  /* margin-bottom : .25rem; */
+}
 .teach-row {
   display              : grid;
   grid-template-columns: 130px 1fr;
@@ -1815,6 +1833,7 @@ body.dark .section-heading {
   padding              : .95rem 0;
   border-bottom        : 1px solid var(--border);
 }
+ 
 .teach-row:last-child { border-bottom: none; }
 
 .teach-yrs    {
@@ -1972,7 +1991,20 @@ body.dark .section-heading {
   margin-bottom: .22rem;
   letter-spacing: -.01em;
 }
-
+.stu-completed-badge {
+  font-family   : var(--body);
+  font-size     : .62rem;
+  font-weight   : 600;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color         : var(--bg);
+  background    : var(--text-muted);
+  border        : 1px solid var(--border-strong);
+  border-radius : 2px;
+  padding       : .1em .5em;
+  line-height   : 1.5;
+  white-space   : nowrap;
+}
 .stu-social-btn{
   flex-shrink:0;
   border:1px solid var(--border);

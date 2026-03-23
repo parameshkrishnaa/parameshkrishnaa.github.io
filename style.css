@@ -787,17 +787,19 @@ body.dark .search-title mark {
    HOME PAGE
    ================================================================ */
 .home-wrapper {
-  display              : grid;
+  display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
-  max-width            : 1200px;
-  margin               : 0 auto;
-  padding              : 3rem 2.5rem;
-  gap                  : 5rem;
-  width                : 100%;
-}
 
+  max-width: 100%;   /* remove restriction */
+  margin: 0;         /* remove centering */
+
+  padding: 0;        /* remove side spacing */
+  gap: 1rem;
+ /* margin-bottom: 0; */
+  width: 100%;
+}
 .home-main {
-  max-width: 680px;
+  max-width: 100%;
   min-width: 0;
   animation: fadeUp .5s var(--ease) .1s both;
 }
@@ -924,7 +926,7 @@ body.dark .search-title mark {
 
 .profile-image,
 .profile-photo {
-  width        : 100%;
+  width        : 70%;
   aspect-ratio : 1;
   object-fit   : cover;
   display      : block;
@@ -1138,7 +1140,11 @@ body.dark .search-title mark {
 /* ================================================================
    MAP SECTION
    ================================================================ */
-.map-section { padding: 0 3.5rem 3.5rem; }
+.map-section { padding: 0 3.5rem 2.5rem;  }
+/* .map-section {
+  padding: 0 3.5rem 2rem;
+  margin-top: -1rem; }/* pulls map closer */
+
 
 .map-heading {
   font-family   : var(--body);

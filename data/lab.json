@@ -664,6 +664,7 @@
     {
       "id": "proceedings_of_the_first_workshop_on_parsing_and_i",
       "year": 2021,
+	  "type": "workshop",
       "title": "Proceedings of the First Workshop on Parsing and its Applications for Indian Languages",
       "venue": "",
       "image": "",
@@ -727,7 +728,7 @@
     },
     {
       "id": "towards_building_a_modern_written_tamil_treebank",
-      "year": 2021,
+      "year": 2022,
       "title": "Towards building a modern written tamil treebank",
       "venue": "",
       "image": "",
@@ -741,6 +742,40 @@
         }
       ]
     },
+	{
+		"id": "icolsi_mt_error_analysis_2021",
+		"year": 2021,
+		"type": "conference",
+		"title": "Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis",
+		"venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
+		"image": "",
+		"description": "Danaveni Madhukar and Parameswari Krishnamurthy",
+		"abstract": "This paper discusses the evaluation of English-Telugu machine translation output with a focus on systematic error analysis. It examines linguistic and structural errors arising in translation, highlighting challenges specific to Telugu such as morphology, syntax, and lexical ambiguity. The study provides insights into improving translation quality by identifying recurring error patterns and proposing strategies for refining machine translation systems for low-resource languages.",
+		"bibtex": "@inproceedings{icolsi_mt_error_analysis_2021,\n  author = {Danaveni Madhukar and Parameswari Krishnamurthy},\n  title = {Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "icolsi_linguistic_capital_2021",
+		"year": 2021,
+		"type": "conference",
+		"title": "Linguistic Capital In Production: An Evidence From a Worksite",
+		"venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
+		"image": "",
+		"description": "J. D. Prabhakar and Parameswari Krishnamurthy",
+		"abstract": "This paper examines the role of linguistic capital in workplace settings, focusing on how language functions as a resource in production environments. Through an analysis of real-world worksite interactions, the study highlights how linguistic abilities influence communication, efficiency, and social dynamics. The findings provide insights into the intersection of language, labor, and socio-economic structures, emphasizing the importance of language in shaping workplace practices.",
+		"bibtex": "@inproceedings{icolsi_linguistic_capital_2021,\n  author = {Prabhakar, J. D. and Krishnamurthy, Parameswari},\n  title = {Linguistic Capital In Production: An Evidence From a Worksite},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+		},
     {
       "id": "findings_of_the_shared_task_on_machine_translation",
       "year": 2021,
@@ -829,6 +864,18 @@
       ],
 	  "type":"journal"
     },
+	{
+		"id": "mozivdam_book_2018",
+		"year": 2018,
+		"type": "book",
+		"title": "moḻivādam: Collected Papers in Applied Linguistics",
+		"venue": "KY Publications, India",
+		"image": "",
+		"description": "Parameswari K. & Sampathbabu Tokala (Eds.)",
+		"abstract": "",
+		"bibtex": "@book{mozivdam_book_2018,\n  editor = {Parameswari, K. and Sampathbabu Tokala},\n  title = {moḻivādam: Collected Papers in Applied Linguistics},\n  publisher = {KY Publications},\n  address = {India},\n  year = {2018}\n}",
+		"downloads": []
+	},
 	 {
       "id": "accusative_case_telugu_tamil_2018",
       "year": 2018,

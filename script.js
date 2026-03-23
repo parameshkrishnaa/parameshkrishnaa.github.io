@@ -171,6 +171,30 @@ function indexDataSearch(d, page, label) {
         ].join(' '),
         page, label);
     });
+ if (d.ms_students)
+    d.ms.forEach(function(s) {
+      addItem(s.name,
+        [s.name, s.degree, s.topic||'',
+         (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+        ].join(' '),
+        page, label);
+    });
+if (d.dual_degre)
+    d.dual_degre.forEach(function(s) {
+      addItem(s.name,
+        [s.name, s.degree, s.topic||'',
+         (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+        ].join(' '),
+        page, label);
+    });
+if (d.mphil)
+    d.mphil.forEach(function(s) {
+      addItem(s.name,
+        [s.name, s.degree, s.topic||'',
+         (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+        ].join(' '),
+        page, label);
+    });
 
   if (d.alumni)
     d.alumni.forEach(function(s) {
@@ -806,7 +830,7 @@ async function initTeaching() {
    STUDENTS  —  two-column layout, isolated card expansion
    ================================================================ */
 
-var DEG_ORDER = { 'Ph.D.': 0, 'PhD': 0, 'M.S.': 1, 'MS': 1, 'M.Tech': 2, 'BTech': 3 };
+var DEG_ORDER = { 'Ph.D.': 0, 'PhD': 0, 'M.S.': 1, 'MS': 1, 'CLD': 2, 'CLS': 3 };
 
 function sortStudents(arr) {
   return arr.slice().sort(function(a, b) {
@@ -944,6 +968,8 @@ async function initStudents() {
   try {
     var d       = await loadJSON('data/students.json');
     var current = sortStudents(d.current_students || []);
+    var ms = sortStudents(d.ms_students || []);
+    var dual_degree = sortStudents(d.dual_degree || []);
     var alumni  = sortStudents(d.alumni || []);
     var html    = '';
 
@@ -960,9 +986,17 @@ async function initStudents() {
     }
 
     if (current.length) {
-      html += '<div class="stu-group-title">Current Students</div>';
+      html += '<div class="stu-group-title">Ongoing PhD Students</div>';
       html += twoColWrap(current);
     }
+	if( dual_degree.length) {
+	  html += '<div class="stu-group-title">MS/Dual Degree Students</div>';
+	  html += twoColWrap(dual_degree);
+	}
+	// if (ms.length) {
+	//   html += '<div class="stu-group-title">MS Students</div>';
+	//   html += twoColWrap(ms);
+	// }
     if (alumni.length) {
       html += '<div class="stu-group-title">Alumni</div>';
       html += twoColWrap(alumni);

@@ -1,5 +1,165 @@
 {
   "lectures": [
+	 {
+    "title": "Excitements in Natural Language Processing",
+    "institution": "SRM University AP, Amaravati (ACM ROCS 2026)",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered at ACM ROCS 2026 on 21st February 2026 at SRM University AP, Amaravati.",
+    "downloads": []
+  },
+  {
+    "title": "Advances in Multilingual NLP and Machine Translation for Indian Languages",
+    "institution": "EFLU Hyderabad (SCONLI-2026)",
+    "year": 2026,
+    "type": "Keynote",
+    "description": "Keynote talk delivered at Students Conference on Linguistics (SCONLI-2026) on 21st January 2026 at EFLU Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "LLMs and their Capabilities in Indian Languages Applications",
+    "institution": "HiPC GSNLP Track, Hyderabad",
+    "year": 2025,
+    "type": "Keynote",
+    "description": "Keynote talk delivered at HiPC GSNLP Track on 17th December 2025 in Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Named Entity Recognition for Indian Languages: Theory, Tagsets, Annotation Guidelines & Benchmarking",
+    "institution": "IIT Patna (COIL-D Programme, Bhashini)",
+    "year": 2025,
+    "type": "Lecture",
+    "description": "Lecture delivered at COIL-D Programme (Bhashini) on 5th December 2025 at IIT Patna.",
+    "downloads": []
+  },
+  {
+    "title": "Bridging Linguistic Diversity with Generative AI: Machine Translation and Beyond for Indian Languages",
+    "institution": "NIT Tiruchirappalli (FDP)",
+    "year": 2025,
+    "type": "Lecture",
+    "description": "Lecture delivered at Faculty Development Programme on 25th January 2025 at NIT Tiruchirappalli.",
+    "downloads": []
+  },
+  {
+    "title": "Multilingual Natural Language Processing: An Indian Context",
+    "institution": "Tamil University, Thanjavur (FDP)",
+    "year": 2024,
+    "type": "Lecture",
+    "description": "Lecture delivered at Faculty Development Programme on 18th November 2024 at Tamil University, Thanjavur.",
+    "downloads": []
+  },
+  {
+    "title": "Multilingual Natural Language Generation and Linguistic Challenges",
+    "institution": "IIIT Hyderabad (IASNLP 2024)",
+    "year": 2024,
+    "type": "Lecture",
+    "description": "Lecture delivered at IASNLP 2024 on 26th June 2024 at Language Technologies Research Centre, IIIT Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Fundamentals in NLP",
+    "institution": "IIT Madras (Paradox)",
+    "year": 2024,
+    "type": "Lecture",
+    "description": "Lecture delivered in May 2024 at Paradox event, IIT Madras.",
+    "downloads": []
+  },
+  {
+    "title": "Leveraging Natural Language Processing for Preserving and Promoting Cultural Diversity in India",
+    "institution": "University of Hyderabad",
+    "year": 2024,
+    "type": "Lecture",
+    "description": "Lecture delivered at Conference on Sustaining Cultural Diversity in the Context of Emerging Technologies in India on 21st May 2024 at University of Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Computational Linguistics",
+    "institution": "EFLU Hyderabad",
+    "year": 2023,
+    "type": "Lecture",
+    "description": "Lecture delivered on 21st August 2023 at English and Foreign Languages University (EFLU), Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Multilingual NLP and Linguistic Challenges: An Indian Context",
+    "institution": "KMIT Hyderabad",
+    "year": 2023,
+    "type": "Lecture",
+    "description": "Lecture delivered on 24th April 2023 at Keshav Memorial Institute of Technology (KMIT), Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Domain Adaptation in Building Machine Translation: A Linguistic Enquiry",
+    "institution": "Kongu Engineering College (SPELLL 2023)",
+    "year": 2023,
+    "type": "Keynote",
+    "description": "Keynote talk delivered at SPELLL 2023 at Kongu Engineering College, Tamil Nadu.",
+    "downloads": []
+  },
+  {
+    "title": "Connecting Language and Technology: Can Indigenous Languages Benefit? A Case Study in Machine Translation",
+    "institution": "University of Hyderabad (International Translation Day 2022)",
+    "year": 2022,
+    "type": "Lecture",
+    "description": "Lecture delivered on 30th September 2022 at International Translation Day (UNESCO Indigenous Languages) event, University of Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Challenges in Language Technology Development: Indian Languages Perspective",
+    "institution": "Central University of Rajasthan",
+    "year": 2021,
+    "type": "Lecture",
+    "description": "Lecture delivered on 26th August 2021 at Central University of Rajasthan.",
+    "downloads": []
+  },
+  {
+    "title": "Indian Language Technology and Machine Translation: Issues and Challenges",
+    "institution": "IIT Madras Research Students Forum (ReadLing)",
+    "year": 2021,
+    "type": "Lecture",
+    "description": "Lecture delivered on 30th July 2021 at ReadLing group initiated by IIT Madras Research Students Forum.",
+    "downloads": []
+  },
+  {
+    "title": "Linguistics and Language Technology",
+    "institution": "Sasurie College of Arts and Science, Vijayamangalam",
+    "year": 2021,
+    "type": "Lecture",
+    "description": "Lecture delivered on 21st February 2021 at Ingenium Literary Association Inaugural, Department of English, Sasurie College of Arts and Science.",
+    "downloads": []
+  },
+  {
+    "title": "Bridging Language Gap in Machine Translation: Understanding and Quantifying Linguistic Divergence",
+    "institution": "IC3C 2021 (Virtual Conference)",
+    "year": 2021,
+    "type": "Lecture",
+    "description": "Lecture delivered on 30th January 2021 at International Conference on Communication, Computation and Cognition (IC3C 2021).",
+    "downloads": []
+  },
+  {
+    "title": "Challenges in Parsing: A view from Dravidian languages",
+    "institution": "Central University of Kerala (Webinar Series-6)",
+    "year": 2020,
+    "type": "Lecture",
+    "description": "Lecture delivered on 1st December 2020 in Webinar Series-6 organized by Department of Linguistics, Central University of Kerala.",
+    "downloads": []
+  },
+  {
+    "title": "Building Machine Translation Systems: Various Methods and Challenges",
+    "institution": "EFLU Hyderabad (Webinar)",
+    "year": 2020,
+    "type": "Lecture",
+    "description": "Lecture delivered on 29th October 2020 at a two-day webinar on Language Technology organized by Department of Computational Linguistics, EFLU Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Machine Translation: Handling Cross-linguistic Variations using Divergence Index",
+    "institution": "Bharathiar University, Coimbatore (Webinar)",
+    "year": 2020,
+    "type": "Lecture",
+    "description": "Lecture delivered on 30th September 2020 at webinar on Amalgamation of Man, Machine and Language in Contemporary Translation Activities organized by Department of Linguistics, Bharathiar University.",
+    "downloads": []
+  },
     {
       "title": "Linguistic Features of Dravidian Languages",
       "institution": "CIIL, Mysore",

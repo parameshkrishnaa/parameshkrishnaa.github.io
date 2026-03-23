@@ -1038,6 +1038,10 @@ async function initStudents() {
       html += '<div class="stu-group-title">Ongoing PhD Students</div>';
       html += twoColWrap(current);
     }
+	 if (alumni.length) {
+      html += '<div class="stu-group-title">PhD Students Supervised</div>';
+      html += twoColWrap(alumni);
+    }
 	if( dual_degree.length) {
 	  html += '<div class="stu-group-title">MS/Dual Degree Students</div>';
 	  html += twoColWrap(dual_degree);
@@ -1046,10 +1050,7 @@ async function initStudents() {
 	//   html += '<div class="stu-group-title">MS Students</div>';
 	//   html += twoColWrap(ms);
 	// }
-    if (alumni.length) {
-      html += '<div class="stu-group-title">Alumni</div>';
-      html += twoColWrap(alumni);
-    }
+   
 
     c.innerHTML = html;
     attachStudentListeners(c);

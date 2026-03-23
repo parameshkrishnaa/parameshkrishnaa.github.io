@@ -55,6 +55,56 @@
       "socials": []
     }
   ],
+   "alumni": [
+    {
+      "name": "Sangeetha Perugu",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2023,
+      "period": "2018 – 2023",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "Senior Linguist, Language Division, Kolkata, Govt. ofIndia",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Prabhakar",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2023,
+      "period": "2016 – 2023",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "Assistant Professor, Gitam University",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Krishna Maya Magar",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2023,
+      "period": "2015 – 2023",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "Assistant Professor, Department of Nepali at the University of North Bengal",
+      "papers": [],
+      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}]
+    },
+    {
+      "name": "Keerthana Balasubramaniyam",
+      "photo": "",
+      "degree": "Ph.D.",
+      "year": 2022,
+      "period": "2016 - 2024",
+      "status": "alumni",
+      "institution": "University of Hyderabad",
+      "placement": "",
+      "papers": [],
+      "socials": []
+    }
+  ],
   "dual_degree": [
     {
       "name": "Jerrin John Thomas",
@@ -191,55 +241,5 @@
   ],
   "#ms_students":[
 	 
-  ],
-  "alumni": [
-    {
-      "name": "Sangeetha Perugu",
-      "photo": "",
-      "degree": "Ph.D.",
-      "year": 2023,
-      "period": "2018 – 2023",
-      "status": "alumni",
-      "institution": "University of Hyderabad",
-      "placement": "Senior Linguist, Language Division, Kolkata, Govt. ofIndia",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Prabhakar",
-      "photo": "",
-      "degree": "Ph.D.",
-      "year": 2023,
-      "period": "2016 – 2023",
-      "status": "alumni",
-      "institution": "University of Hyderabad",
-      "placement": "Assistant Professor, Gitam University",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Krishna Maya Magar",
-      "photo": "",
-      "degree": "Ph.D.",
-      "year": 2023,
-      "period": "2015 – 2023",
-      "status": "alumni",
-      "institution": "University of Hyderabad",
-      "placement": "Assistant Professor, Department of Nepali at the University of North Bengal",
-      "papers": [],
-      "socials": [{"label":"Scholar","url":"https://scholar.google.com"}]
-    },
-    {
-      "name": "Keerthana Balasubramaniyam",
-      "photo": "",
-      "degree": "Ph.D.",
-      "year": 2022,
-      "period": "2016 - 2024",
-      "status": "alumni",
-      "institution": "University of Hyderabad",
-      "placement": "",
-      "papers": [],
-      "socials": []
-    }
   ]
 }

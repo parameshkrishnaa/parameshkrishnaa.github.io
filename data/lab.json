@@ -2,7 +2,7 @@
   "publications": [
     {
       "id": "the_riddle_of_reflection:_evaluating_reasoning_and",
-      "year": 2025,
+      "year": 2026,
       "title": "The Riddle of Reflection: Evaluating Reasoning and Self-Awareness in Multilingual LLMs using Indian Riddles",
       "venue": "",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
@@ -16,9 +16,26 @@
         }
       ]
     },
+	{
+		"id": "star_il_2026",
+		"year": 2026,
+		"type": "conference",
+		"title": "STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages",
+		"venue": "LREC 2026, Spain",
+		"image": "",
+		"description": "Ketaki MS, Dipti Misra Sharma and Parameswari Krishnamurthy",
+		"abstract": "This paper introduces STAR-IL, a dataset designed for style-aware machine translation of product reviews in Indian languages. The dataset captures stylistic variations such as sentiment, formality, and user-generated content characteristics, enabling models to generate translations that preserve both meaning and stylistic intent. We benchmark multiple machine translation systems and demonstrate that incorporating stylistic signals improves translation quality and user relevance. The dataset aims to facilitate research in nuanced translation for real-world applications such as e-commerce and multilingual content generation.",
+		"bibtex": "@inproceedings{star_il_2026,\n  author = {Ketaki MS and Dipti Misra Sharma and Parameswari Krishnamurthy},\n  title = {STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages},\n  booktitle = {Proceedings of the Language Resources and Evaluation Conference (LREC)},\n  address = {Spain},\n  year = {2026}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
     {
       "id": "santham:_a_curated_sanskrit\u2013tamil_dataset_with_anv",
-      "year": 0,
+      "year": 2026,
       "title": "Santham: A Curated Sanskrit\u2013Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation",
       "venue": "",
       "image": "",
@@ -951,43 +968,10 @@
       "downloads": []
     },
     {
-      "id": "cmh_working_paper_series",
-      "year": 2001,
-      "title": "CMH Working Paper Series",
-      "venue": "",
-      "image": "",
-      "description": "S Ramasundaram and K Allaudin and B Charles and K Gopal and P Krishnamurthy and R Poornalingam and D Warren",
-      "abstract": "India\\",
-      "bibtex": "@inproceedings{cmh_working_paper_series,\n  author    = {S Ramasundaram and K Allaudin and B Charles and K Gopal and P Krishnamurthy and R Poornalingam and D Warren},\n  title     = {CMH Working Paper Series},\n  booktitle = {},\n  year      = {2001}\n}",
-      "downloads": []
-    },
-    {
-      "id": "the_influence_of_operational_factors_in_the_profil",
-      "year": 1994,
-      "title": "The influence of operational factors in the profile of monolesional leprosy cases in South India",
-      "venue": "",
-      "image": "",
-      "description": "P Krishnamurthy and PS Rao and M Subramanian and M Inderparkash",
-      "abstract": "A comparison of the profile of monolesional cases among new PB cases detected in a Government Leprosy Control Unit (GLCU) and the field area of a Central Leprosy Teaching and Research Institute (CL TRI), both located in South India, demonstrates that the proportion of mono Ie siona I cases among new cases detected between 1987 and 1991 was higher in children than adults, higher in females than males (only in the CLTRI)-over 95% were the tuberculoid type. A significantly increasing trend in this proportion could be seen in the GLCU but not in the CLTRI; an explanation of this is based on the difference in operational aspects in case detection methodology adopted by the 2 areas-eg intersurvey interval and mode of case detection. Such studies, focusing on single skin lesions, help us in understanding the role of various possible operational factors in influencing the behaviour of the disease.There is considerable controversy and uncertainty over the natural history ofleprosy, but there is general agreement that treatment of single-lesion patients may assist an early diagnosis ofleprosy. l Ifuntreated this lesion may persist, progress or disappear. There is a renewed resurgence of interest in single-lesion cases. Though their ability to transmit infection in the community is unknown their significance in the context ofleprosy control is undeniable. The proportion (and significance) of single-lesion cases among the new PB cases detected, the trend ofthis proportion over a period in areas where multidrug therapy (MDT) has been implemented, and any factors influencing this trend, are some of the features that need to be explored and examined to \u2026",
-      "bibtex": "@inproceedings{the_influence_of_operational_factors_in_the_profil,\n  author    = {P Krishnamurthy and PS Rao and M Subramanian and M Inderparkash},\n  title     = {The influence of operational factors in the profile of monolesional leprosy cases in South India},\n  booktitle = {},\n  year      = {1994}\n}",
-      "downloads": []
-    },
-    {
-      "id": "cutis_laxa",
-      "year": 1988,
-      "title": "Cutis laxa",
-      "venue": "",
-      "image": "",
-      "description": "Jayakar Thomas and P Krishnamurthy and TC Muthuswami",
-      "abstract": "Cutis Laxa",
-      "bibtex": "@inproceedings{cutis_laxa,\n  author    = {Jayakar Thomas and P Krishnamurthy and TC Muthuswami},\n  title     = {Cutis laxa},\n  booktitle = {},\n  year      = {1988}\n}",
-      "downloads": []
-    },
-    {
       "id": "balance_scale_to_disambiguate_postpositions_in_tel",
-      "year": 0,
+      "year": 2020,
       "title": "Balance Scale to Disambiguate Postpositions in Telugu and Tamil: An Implementation in Transfer Based Machine Translation",
-      "venue": "",
+      "venue": "Tamil Internet Conference 2020",
       "image": "",
       "description": "Parameswari Krishnamurthy",
       "abstract": "Postpositions in languages may have different functions and it is obvious that they lead to mismatches in Machine Translation between a pair of languages. We propose a device, a balance scale for postpositions explicating a functional cline in order to disambiguate the role of them in a particular context and substitute them with appropriate postpositions in the target language.A balance scale is developed on the basis of the ordering of substitutable elements distributed across a scale with two polar ends, the left and the right poles with a neutral in the middle. A form in the middle is substitutable in case there is no context that is discovered in order to replace with the most appropriate equivalent. Whereas, the left and right pole elements compete for the context. Substitutability of the elements on the balance scale depends on the ontology of nouns and the class of verbs which are used as tools to disambiguate the postposition in the source language.",
@@ -995,81 +979,38 @@
       "downloads": []
     },
     {
-      "id": "findings_of_the_shared_task_on_machine_translation",
-      "year": 0,
-      "title": "Findings of the Shared Task on Machine Translation in Dravidian languages",
-      "venue": "",
-      "image": "",
-      "description": "",
-      "abstract": "",
-      "bibtex": "@inproceedings{findings_of_the_shared_task_on_machine_translation,\n  author    = {},\n  title     = {Findings of the Shared Task on Machine Translation in Dravidian languages},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "proceedings_of_the_first_workshop_on_speech_and_la",
-      "year": 0,
-      "title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
-      "venue": "",
-      "image": "",
-      "description": "",
-      "abstract": "",
-      "bibtex": "@inproceedings{proceedings_of_the_first_workshop_on_speech_and_la,\n  author    = {},\n  title     = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "invited_talks",
-      "year": 0,
-      "title": "Invited Talks",
-      "venue": "",
-      "image": "",
-      "description": "Parameswari Krishnamurthy",
-      "abstract": "This paper provides a comprehensive overview of the evolving landscape of Tamil computing, spanning from the foundational concept of shallow parsing to cutting-edge developments in machine translation using different techniques spanning from Rule-based to Machine Learning approaches. Tamil, with its rich linguistic nuances and intricate morphology, presents unique challenges and opportunities in the realm of computational linguistics. Through this journey, we will explore how shallow parsing techniques have been instrumental in understanding and processing Tamil text, and then delve into the transformative potential of machine translation for bridging language barriers and promoting cross-cultural communication.",
-      "bibtex": "@inproceedings{invited_talks,\n  author    = {Parameswari Krishnamurthy},\n  title     = {Invited Talks},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "reverse_engineering_a_stateful_reasoning_circuit",
-      "year": 0,
-      "title": "Reverse Engineering a Stateful Reasoning Circuit",
-      "venue": "",
-      "image": "",
-      "description": "Akshit Kumar and Dipti Sharma and Parameswari Krishnamurthy",
-      "abstract": "We study Gemma-2-2B on a controlled role-gated retrieval task where a\nprepositional gate ($\\texttt{to}$ or $\\texttt{from}$) selects which of two\nentities is correct. On 60 single-token name pairs the model attains\n100\\% accuracy with a mean flip magnitude \\($\\approx$ 3.5\\) (sum of\nper-condition correctness margins). Using causal tracing, we identify\na Query-Gated Courier circuit with three stages: (1) a gate\ntoken (from/to) writes a role feature at the answer; (2) this feature perturbs\nlate-layer courier queries, shifting their $\\(q \\cdot k\\)$ preference;\n(3) couriers attend to the correct name and inject it via OV, raising\nits logit. Gate-residual swaps flip predictions, and a compact\nnine-head keep set reproduces the behavior with high fidelity. The\ncircuit gives a potential algorithm for role tracking and aligns with\nthe Paninian K\u0101raka analysis, mapping $\\texttt{to}$ to samprad\u0101na\nand $\\texttt{from}$ to ap\u0101d\u0101na.",
-      "bibtex": "@inproceedings{reverse_engineering_a_stateful_reasoning_circuit,\n  author    = {Akshit Kumar and Dipti Sharma and Parameswari Krishnamurthy},\n  title     = {Reverse Engineering a Stateful Reasoning Circuit},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "elizabeth_sherly,_editors._2021",
-      "year": 0,
-      "title": "Elizabeth Sherly, editors. 2021",
-      "venue": "",
-      "image": "",
-      "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and M Anand Kumar and Parameswari Krishnamurthy",
-      "abstract": "",
-      "bibtex": "@inproceedings{elizabeth_sherly,_editors._2021,\n  author    = {Bharathi Raja Chakravarthi and Ruba Priyadharshini and M Anand Kumar and Parameswari Krishnamurthy},\n  title     = {Elizabeth Sherly, editors. 2021},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "kishor_kumar_pandiyan._2022._findings_of_the_share",
-      "year": 0,
-      "title": "Kishor Kumar Pandiyan. 2022. Findings of the shared task on Emotion Analysis in Tamil",
-      "venue": "",
-      "image": "",
-      "description": "Anbukkarasi Sampath and Thenmozhi Durairaj and Bharathi Raja Chakravarthi and Ruba Priyadharshini and Subalalitha Chinnaudayar Navaneethakrishnan and Kogilavani Shanmugavadivel and Sajeetha Thavareesan and Sathiyaraj Thangasamy and Parameswari Krishnamurthy and Adeep Hande and Sean Benhur and Santhiya Ponnusamy",
-      "abstract": "",
-      "bibtex": "@inproceedings{kishor_kumar_pandiyan._2022._findings_of_the_share,\n  author    = {Anbukkarasi Sampath and Thenmozhi Durairaj and Bharathi Raja Chakravarthi and Ruba Priyadharshini and Subalalitha Chinnaudayar Navaneethakrishnan and Kogilavani Shanmugavadivel and Sajeetha Thavareesan and Sathiyaraj Thangasamy and Parameswari Krishnamurthy and Adeep Hande and Sean Benhur and Santhiya Ponnusamy},\n  title     = {Kishor Kumar Pandiyan. 2022. Findings of the shared task on Emotion Analysis in Tamil},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "anand_kumar_m,_parameswari_krishnamurthy,_and_melv",
-      "year": 0,
-      "title": "Anand Kumar M, Parameswari Krishnamurthy, and Melvin Johnson. 2021. Findings of the shared task on machine translation in Dravidian languages",
-      "venue": "",
-      "image": "",
-      "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and Shubhanker Banerjee and Richard Saldanha and John P McCrae",
-      "abstract": "",
-      "bibtex": "@inproceedings{anand_kumar_m,_parameswari_krishnamurthy,_and_melv,\n  author    = {Bharathi Raja Chakravarthi and Ruba Priyadharshini and Shubhanker Banerjee and Richard Saldanha and John P McCrae},\n  title     = {Anand Kumar M, Parameswari Krishnamurthy, and Melvin Johnson. 2021. Findings of the shared task on machine translation in Dravidian languages},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    }
+		"id": "dravidian_shared_task_multitask_2022",
+		"year": 2022,
+		"type": "conference",
+		"title": "Findings of the Shared Task on Multi-task Learning in Dravidian Languages",
+		"venue": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+		"image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.0.jpg",
+		"description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Subalalitha Cn; S. Sangeetha; Malliga Subramanian; Kogilavani Shanmugavadivel; Parameswari Krishnamurthy et al.",
+		"abstract": "This paper presents the findings of the shared task on multi-task learning in Dravidian languages, organized as part of the Second Workshop on Speech and Language Technologies for Dravidian Languages. The shared task focuses on addressing multiple NLP tasks such as sentiment analysis and offensive language identification across Dravidian languages. The study evaluates various participating systems and highlights the effectiveness of multi-task learning approaches in handling low-resource language challenges. Results demonstrate improvements in performance when leveraging shared representations across tasks, providing insights into future directions for multilingual and multi-task learning in Dravidian language processing.",
+		"bibtex": "@inproceedings{dravidian_shared_task_multitask_2022,\n  author = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Subalalitha, Cn and Sangeetha, S. and Subramanian, Malliga and Shanmugavadivel, Kogilavani and Krishnamurthy, Parameswari},\n  title = {Findings of the Shared Task on Multi-task Learning in Dravidian Languages},\n  booktitle = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  pages = {286--291},\n  year = {2022}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": "https://aclanthology.org/2022.dravidianlangtech-1.0.pdf"
+			}
+		]
+	},
+   {
+	"id": "dravidianlangtech_proceedings_2021",
+	"year": 2021,
+	"type": "conference",
+	"title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
+	"venue": "EACL 2021 Workshop on Speech and Language Technologies for Dravidian Languages",
+	"image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.0.jpg",
+	"description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Parameswari Krishnamurthy; Elizabeth Sherly",
+	"abstract": "This work presents the proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages, held in conjunction with EACL 2021. The workshop focuses on advancing research in low-resource Dravidian languages by bringing together contributions in areas such as machine translation, sentiment analysis, speech processing, and linguistic resource development. It highlights the growing interest and progress in computational approaches for Dravidian languages and provides a platform for collaborative research in this domain.",
+	"bibtex": "@proceedings{dravidianlangtech_proceedings_2021,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Krishnamurthy, Parameswari and Sherly, Elizabeth},\n  title = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2021},\n  organization = {ACL}\n}",
+	"downloads": [
+		{
+		"label": "PDF",
+		"url": "https://aclanthology.org/2021.dravidianlangtech-1.0.pdf"
+		}
+	]
+	}
   ]
 }

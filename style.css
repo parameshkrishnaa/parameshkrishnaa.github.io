@@ -1676,15 +1676,15 @@ body.dark .section-heading {
 /* ================================================================
    PROJECTS
    ================================================================ */
-.proj-entry {
+/*.proj-entry {
   padding      : 1.25rem 0;
   border-bottom: 1px solid var(--border);
 }
 .proj-entry:last-child { border-bottom: none; }
 
 .proj-meta    { display: flex; align-items: baseline; gap: .9rem; flex-wrap: wrap; margin-bottom: .4rem; }
-.proj-name    {
-  /* font-family: var(--display); */
+.proj-name    {*/
+  /* font-family: var(--display); 
   font-size  : 1.1rem;
   font-style : italic;
   color      : var(--text);
@@ -1698,7 +1698,111 @@ body.dark .section-heading {
 }
 .proj-funding { font-family: var(--body); font-size: .875rem; color: var(--text-sub); margin-bottom: .5rem; font-weight: 500; }
 .proj-desc    { font-size: 1rem; color: var(--text-sub); line-height: 1.78; margin-bottom: .5rem; }
-.proj-links   { display: flex; gap: .4rem; flex-wrap: wrap; }
+.proj-links   { display: flex; gap: .4rem; flex-wrap: wrap; }*/
+/* ================================================================
+   PROJECTS
+   ================================================================ */
+.proj-intro {
+  font-size    : .95rem;
+  color        : var(--text-sub);
+  line-height  : 1.8;
+  margin-bottom: 1.5rem;
+  /* max-width    : 72ch; */
+}
+
+.proj-table-wrap {
+  width     : 100%;
+  overflow-x: auto;
+  border    : 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.proj-table {
+  width          : 100%;
+  border-collapse: collapse;
+  font-family    : var(--body);
+  font-size      : .9rem;
+}
+
+.proj-table thead tr {
+  background   : var(--bg-alt);
+  border-bottom: 2px solid var(--border-strong);
+}
+
+.proj-table th {
+  padding       : .75rem 1rem;
+  text-align    : left;
+  font-family   : var(--body);
+  font-size     : .9rem;
+  font-weight   : 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color         : black;
+  white-space   : nowrap;
+}
+
+.proj-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition   : background .15s;
+}
+.proj-table tbody tr:last-child { border-bottom: none; }
+.proj-table tbody tr:hover      { background: var(--bg-alt); }
+
+.proj-table td {
+  padding    : 1rem;
+  vertical-align: top;
+  color      : var(--text-sub);
+  line-height: 1.6;
+}
+
+.ptbl-name {
+  min-width: 260px;
+  font-size : 1rem;
+  font-style: italic;
+  color     : var(--text);
+  font-weight: 500;
+}
+
+.ptbl-role {
+  font-family: var(--body);
+  font-size  : .85rem;
+  color      : var(--text-sub);
+  white-space: nowrap;
+  min-width  : 120px;
+  font-weight: 500;
+}
+
+.ptbl-funding {
+  font-size : .875rem;
+  color     : var(--text-sub);
+  min-width : 200px;
+}
+
+/* reuse existing classes inside table cells */
+.proj-period {
+  font-family   : var(--mono);
+  font-size     : .75rem;
+  color         : var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  display       : block;
+  margin-top    : .15rem;
+}
+.proj-desc {
+  font-size  : .85rem;
+  color      : var(--text-sub);
+  line-height: 1.72;
+  margin     : .5rem 0 .4rem;
+  font-style : normal;
+}
+.proj-links { display: flex; gap: .4rem; flex-wrap: wrap; margin-top: .3rem; }
+
+@media (max-width: 600px) {
+  .proj-table th,
+  .proj-table td { padding: .65rem .6rem; }
+  .ptbl-name     { min-width: 160px; }
+  .ptbl-funding  { min-width: 140px; }
+}
 
 
 /* ================================================================
@@ -2300,24 +2404,33 @@ body.dark .section-heading {
    RESPONSIVE — Large desktop ≥ 1400px
    ================================================================ */
 @media (min-width: 1400px) {
-  .home-wrapper { padding: 5.5rem 4.5rem; gap: 6rem; }
+  .home-wrapper { padding: 4rem 4.5rem; gap: 4rem; }
 }
 
+@media (min-width: 1281px) and (max-width: 1399px) {
+  .home-wrapper {
+    grid-template-columns: minmax(0, 1fr) 290px;
+    gap    : 3.5rem;
+    padding: 3.5rem 4rem;
+  }
+}
 
 /* ================================================================
    RESPONSIVE — Laptop ≤ 1280px
    ================================================================ */
 @media (max-width: 1280px) {
   .home-wrapper {
-    grid-template-columns: minmax(0, 1fr) 290px;
-    gap    : 4rem;
-    padding: 4rem 3rem;
+    grid-template-columns: minmax(0, 1fr) 270px;
+    gap    : 3rem;
+    padding: 3rem 3.5rem;
   }
   .page-content      { padding: 2.5rem 3rem 3rem; }
   .map-section       { padding: 0 3rem 3rem; }
   .site-footer       { padding: 1.4rem 3rem; }
   .flag-counter-wrap { padding: 0 3rem 1.2rem; }
 }
+
+
 
 
 /* ================================================================

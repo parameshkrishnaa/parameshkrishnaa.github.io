@@ -780,43 +780,72 @@ async function initProjects() {
   try {
     var d  = await loadJSON('data/projects.json');
     var ps = d.projects || [];
-    renderProjects(ps);
+    renderProjects(ps,d);
   } catch(e) {
     document.getElementById('proj-container').innerHTML = '<p>Could not load projects.</p>';
     console.error(e);
   }
 }
 
-function renderProjects(ps) {
+// function renderProjects(ps) {
+//   var c = document.getElementById('proj-container');
+//   if (!ps.length) { c.innerHTML = '<p style="padding:1rem 0;color:#888;">No projects found.</p>'; return; }
+
+//   var byYear = {};
+//   ps.forEach(function(p) { if (!byYear[p.year]) byYear[p.year]=[]; byYear[p.year].push(p); });
+//   var sortedYrs = Object.keys(byYear).sort(function(a,b){return b-a;});
+
+//   c.innerHTML = sortedYrs.map(function(yr) {
+//     return '<div class="tl-year">' +
+//       '<div class="tl-yr-label">' + yr + '</div>' +
+//       // ' <span class="tl-yr-count">' + byYear[yr].length + ' project' + (byYear[yr].length>1?'s':'') + '</span></div>' +
+//       byYear[yr].map(function(p) {
+//         return '<div class="proj-entry">' +
+//           '<div class="proj-meta">' +
+//           '<span class="proj-name">' + esc(p.name) + '</span>' +
+//           '<span class="proj-period">' + esc(p.period) + '</span>' +
+//           '</div>' +
+//           (p.funding ? '<p class="proj-funding">' + esc(p.funding) + '</p>' : '') +
+//           '<p class="proj-desc">' + esc(p.description) + '</p>' +
+//           (p.links && p.links.length ?
+//             '<div class="proj-links">' +
+//             p.links.map(function(l) {
+//               return '<a class="proj-link" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + '</a>';
+//             }).join('') + '</div>' : '') +
+//           '</div>';
+//       }).join('') +
+//       '</div>';
+//   }).join('');
+// }
+function renderProjects(ps,d) {
   var c = document.getElementById('proj-container');
   if (!ps.length) { c.innerHTML = '<p style="padding:1rem 0;color:#888;">No projects found.</p>'; return; }
 
-  var byYear = {};
-  ps.forEach(function(p) { if (!byYear[p.year]) byYear[p.year]=[]; byYear[p.year].push(p); });
-  var sortedYrs = Object.keys(byYear).sort(function(a,b){return b-a;});
+var rows = ps.map(function(p) {
+    var nameCell = esc(p.name); 
 
-  c.innerHTML = sortedYrs.map(function(yr) {
-    return '<div class="tl-year">' +
-      '<div class="tl-yr-label">' + yr + '</div>' +
-      // ' <span class="tl-yr-count">' + byYear[yr].length + ' project' + (byYear[yr].length>1?'s':'') + '</span></div>' +
-      byYear[yr].map(function(p) {
-        return '<div class="proj-entry">' +
-          '<div class="proj-meta">' +
-          '<span class="proj-name">' + esc(p.name) + '</span>' +
-          '<span class="proj-period">' + esc(p.period) + '</span>' +
-          '</div>' +
-          (p.funding ? '<p class="proj-funding">' + esc(p.funding) + '</p>' : '') +
-          '<p class="proj-desc">' + esc(p.description) + '</p>' +
-          (p.links && p.links.length ?
-            '<div class="proj-links">' +
-            p.links.map(function(l) {
-              return '<a class="proj-link" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + '</a>';
-            }).join('') + '</div>' : '') +
-          '</div>';
-      }).join('') +
-      '</div>';
+    var roleCell   = p.role    ? esc(p.role)    : '<span style="color:var(--text-muted)">—</span>';
+    var fundCell   = p.funding ? esc(p.funding) : '<span style="color:var(--text-muted)">—</span>';
+
+    return '<tr>' +
+      '<td class="ptbl-name">'    + nameCell  + '</td>' +
+      '<td class="ptbl-role">'    + roleCell  + '</td>' +
+      '<td class="ptbl-funding">' + fundCell  + '</td>' +
+      '</tr>';
   }).join('');
-}
+
+  c.innerHTML =
+    c.innerHTML =
+    (d.intro ? '<p class="proj-intro">' + esc(d.intro) + '</p>' : '')  +
+    '<div class="proj-table-wrap">' +
+    '<table class="proj-table">' +
+    '<thead><tr>' +
+    '<th>Project Name</th>' +
+    '<th>Role</th>' +
+    '<th>Funded By</th>' +
+    '</tr></thead>' +
+    '<tbody>' + rows + '</tbody>' +
+    '</table></div>';}
 
 
 /* ================================================================

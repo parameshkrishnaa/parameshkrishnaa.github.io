@@ -22,7 +22,26 @@
   ],
   "academic_philosophy": " sample lines",
   "education": [
-    { "degree": "sample ",             "institution": "sample ", "year": "2026 " }
+   {
+    "degree": "Ph.D. Applied Linguistics",
+    "institution": "University of Hyderabad",
+    "year": "2009 - 2014"
+  },
+  {
+    "degree": "M.Phil. Applied Linguistics",
+    "institution": "University of Hyderabad",
+    "year": "2008 - 2009"
+  },
+  {
+    "degree": "Masters in Computational Linguistics",
+    "institution": "Bharathiar University",
+    "year": "2006 - 2008"
+  },
+  {
+    "degree": "Bachelors in English Language and Literature",
+    "institution": "Navarasam Arts and Science College, Bharathiar University Affiliation, Arachalur, Erode",
+    "year": "2003 - 2006"
+  }
     
   ],
   "affiliations": [

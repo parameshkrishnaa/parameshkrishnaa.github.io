@@ -442,8 +442,8 @@ async function initHome() {
     document.getElementById('h-intro').innerText = d.introduction;
 
     document.getElementById('p-image').src = d.sidebar.image;
-    document.getElementById('p-name').innerText = d.name;
-    document.getElementById('p-role').innerText = d.title;
+    document.getElementById('p-name').innerText = '';
+    document.getElementById('p-role').innerText = '';//d.title'';
     document.getElementById('p-location').innerText = d.sidebar.location;
     document.getElementById('p-email').innerHTML =
       '<a href="mailto:' + d.sidebar.email + '">' + d.sidebar.email + '</a>';

@@ -44,6 +44,23 @@
   }
     
   ],
+  "experience": [
+  {
+    "degree": "Assistant Professor",
+    "institution": "Language Technologies Research Centre, International Institute of Information Technology, Hyderabad, India",
+    "year": "Oct 2022 - Present"
+  },
+  {
+    "degree": "Assistant Professor",
+    "institution": "Centre for Applied Linguistics and Translation Studies, University of Hyderabad, India",
+    "year": "Nov 2010 - Oct 2022"
+  },
+  {
+    "degree": "Invited Guest Faculty",
+    "institution": "International Institute of Information Technology, Hyderabad, India",
+     "year": "Jan 2020 - May 2020\n\t\t&\nJan 2021 - May 2021"
+  }
+],
   "affiliations": [
   "Senior Area Chair, Track T23: Parsing, Tagging, Chunking, Grammar, Syntax, Morphosyntax, Morphology, LREC 2026.",
   "Reviewed papers for COLING, LREC, IJCNLP, TALLIP, LRE, Journal of NLP, Machine Translation (Springer Nature), Asian Journal of Interdisciplinary Research."

@@ -869,22 +869,6 @@
       ]
     },
     {
-      "id": "universal_dependencies",
-      "year": 2018,
-      "title": "Universal dependencies",
-      "venue": "",
-      "image": "",
-      "description": "Universal Dependencies",
-      "abstract": "Cross-linguistically consistent annotation is necessary for sound comparative evaluation and cross-lingual learning experiments. It is also useful for multilingual system development and comparative linguistic studies. Universal Dependencies is an open community effort to create cross-linguistically consistent treebank annotation for many languages within a dependency-based lexicalist framework. In this paper, we describe v1 of the universal guidelines, the underlying design principles, and the currently available treebanks for 33 languages.",
-      "bibtex": "@inproceedings{universal_dependencies,\n  author    = {Universal Dependencies},\n  title     = {Universal dependencies},\n  booktitle = {},\n  year      = {2018}\n}",
-      "downloads": [
-        {
-          "label": "Link",
-          "url": "https://www.semanticscholar.org/paper/d115eceab7153d2a1dc6fbf6b99c3bdf1b0cdd46"
-        }
-      ]
-    },
-    {
       "id": "development_of_telugu-tamil_transfer-based_machine",
       "year": 2015,
       "title": "Development of Telugu-Tamil transfer-based machine translation system: With special reference to divergence index",
@@ -1030,17 +1014,6 @@
       "description": "",
       "abstract": "",
       "bibtex": "@inproceedings{proceedings_of_the_first_workshop_on_speech_and_la,\n  author    = {},\n  title     = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {},\n  year      = {0}\n}",
-      "downloads": []
-    },
-    {
-      "id": "universal_dependencies_2.8._1",
-      "year": 0,
-      "title": "Universal dependencies 2.8. 1",
-      "venue": "",
-      "image": "",
-      "description": "",
-      "abstract": "",
-      "bibtex": "@inproceedings{universal_dependencies_2.8._1,\n  author    = {},\n  title     = {Universal dependencies 2.8. 1},\n  booktitle = {},\n  year      = {0}\n}",
       "downloads": []
     },
     {

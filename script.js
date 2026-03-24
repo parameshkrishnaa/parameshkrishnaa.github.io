@@ -604,6 +604,20 @@ function generateCV(d) {
    PUBLICATIONS
    ================================================================ */
 
+// async function initLab() {
+//   var container = document.getElementById('pub-container');
+//   if (!container) return;
+//   try {
+//     var data = await loadJSON('data/lab.json');
+//     var pubs = data.publications || [];
+//     setupFilters(pubs);
+//     renderPubs(pubs);
+//   } catch(e) {
+//     console.error(e);
+//     container.innerHTML = '<p style="padding:2rem;color:#888;">Could not load publications.</p>';
+//   }
+// }
+
 async function initLab() {
   var container = document.getElementById('pub-container');
   if (!container) return;
@@ -612,6 +626,26 @@ async function initLab() {
     var pubs = data.publications || [];
     setupFilters(pubs);
     renderPubs(pubs);
+    document.querySelectorAll('.pub-type-filter').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelectorAll('.pub-type-filter').forEach(function(l) {
+          l.classList.remove('active');
+        });
+        this.classList.add('active');
+
+        var type = this.dataset.type;
+        var filtered = type === 'all'
+          ? pubs
+          : type === ''
+          ? pubs.filter(function(p) { return !p.type || p.type === 'conference'; })
+          : pubs.filter(function(p) { return p.type === type; });
+        var ySel = document.getElementById('flt-year');
+        if (ySel) ySel.value = '';
+        renderPubs(filtered);
+      });
+    });
+
   } catch(e) {
     console.error(e);
     container.innerHTML = '<p style="padding:2rem;color:#888;">Could not load publications.</p>';

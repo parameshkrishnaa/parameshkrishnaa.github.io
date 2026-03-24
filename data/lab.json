@@ -4,10 +4,10 @@
       "id": "the_riddle_of_reflection:_evaluating_reasoning_and",
       "year": 2026,
       "title": "The Riddle of Reflection: Evaluating Reasoning and Self-Awareness in Multilingual LLMs using Indian Riddles",
-      "venue": "",
+      "venue": "LREC 2026, Spain",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "description": "Parameswari Krishnamurthy Abhinav P M and Ojasva Saxena and Oswald C",
-      "abstract": "The extent to which large language models (LLMs) can perform culturally grounded reasoning across non-English languages remains underexplored. This paper examines the reasoning and self-assessment abilities of LLMs across seven major Indian languages-Bengali, Gujarati, Hindi, Kannada, Malayalam, Tamil, and Telugu. We introduce a multilingual riddle dataset combining traditional riddles with context-reconstructed variants and evaluate five LLMs-Gemini 2.5 Pro, Gemini 2.5 Flash, Mistral-Saba, LLaMA 4 Scout, and LLaMA 4 Maverick-under seven prompting strategies. In the first stage, we assess riddle-solving performance and find that while Gemini 2.5 Pro performs best overall, few-shot methods yield only marginal gains, and accuracy varies notably across languages. In the second stage, we conduct a self-evaluation experiment to measure reasoning consistency. The results reveal a key finding: a model\u2019s initial accuracy is inversely correlated with its ability to identify its own mistakes. Top-performing models such as Gemini 2.5 Pro are overconfident (4.34% True Negative Rate), whereas lower-performing models like LLaMA 4 Scout are substantially more self-aware (42.09% True Negative Rate). These results point to clear gaps in multilingual reasoning and highlight the need for models that not only reason effectively but also recognize their own limitations.",
+      "abstract": "The extent to which large language models (LLMs) can perform culturally grounded reasoning across non-English languages remains underexplored. This paper examines the reasoning and self-assessment abilities of LLMs across seven major Indian languages-Bengali, Gujarati, Hindi, Kannada, Malayalam, Tamil, and Telugu. We introduce a multilingual riddle dataset combining traditional riddles with context-reconstructed variants and evaluate five LLMs-Gemini 2.5 Pro, Gemini 2.5 Flash, Mistral-Saba, LLaMA 4 Scout, and LLaMA 4 Maverick-under seven prompting strategies. In the first stage, we assess riddle-solving performance and find that while Gemini 2.5 Pro performs best overall, few-shot methods yield only marginal gains, and accuracy varies notably across languages. In the second stage, we conduct a self-evaluation experiment to measure reasoning consistency. The results reveal a key finding: a model’s initial accuracy is inversely correlated with its ability to identify its own mistakes. Top-performing models such as Gemini 2.5 Pro are overconfident (4.34% True Negative Rate), whereas lower-performing models like LLaMA 4 Scout are substantially more self-aware (42.09% True Negative Rate). These results point to clear gaps in multilingual reasoning and highlight the need for models that not only reason effectively but also recognize their own limitations.",
       "bibtex": "@inproceedings{the_riddle_of_reflection:_evaluating_reasoning_and,\n  author    = {Parameswari Krishnamurthy Abhinav P M and Ojasva Saxena and Oswald C},\n  title     = {The Riddle of Reflection: Evaluating Reasoning and Self-Awareness in Multilingual LLMs using Indian Riddles},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -16,39 +16,39 @@
         }
       ]
     },
-	{
-		"id": "star_il_2026",
-		"year": 2026,
-		"type": "conference",
-		"title": "STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages",
-		"venue": "LREC 2026, Spain",
-		"image": "",
-		"description": "Ketaki MS, Dipti Misra Sharma and Parameswari Krishnamurthy",
-		"abstract": "This paper introduces STAR-IL, a dataset designed for style-aware machine translation of product reviews in Indian languages. The dataset captures stylistic variations such as sentiment, formality, and user-generated content characteristics, enabling models to generate translations that preserve both meaning and stylistic intent. We benchmark multiple machine translation systems and demonstrate that incorporating stylistic signals improves translation quality and user relevance. The dataset aims to facilitate research in nuanced translation for real-world applications such as e-commerce and multilingual content generation.",
-		"bibtex": "@inproceedings{star_il_2026,\n  author = {Ketaki MS and Dipti Misra Sharma and Parameswari Krishnamurthy},\n  title = {STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages},\n  booktitle = {Proceedings of the Language Resources and Evaluation Conference (LREC)},\n  address = {Spain},\n  year = {2026}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
     {
-      "id": "santham:_a_curated_sanskrit\u2013tamil_dataset_with_anv",
+      "id": "star_il_2026",
       "year": 2026,
-      "title": "Santham: A Curated Sanskrit\u2013Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation",
-      "venue": "",
+      "type": "conference",
+      "title": "STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages",
+      "venue": "LREC 2026, Spain",
+      "image": "",
+      "description": "Ketaki MS, Dipti Misra Sharma and Parameswari Krishnamurthy",
+      "abstract": "This paper introduces STAR-IL, a dataset designed for style-aware machine translation of product reviews in Indian languages. The dataset captures stylistic variations such as sentiment, formality, and user-generated content characteristics, enabling models to generate translations that preserve both meaning and stylistic intent. We benchmark multiple machine translation systems and demonstrate that incorporating stylistic signals improves translation quality and user relevance. The dataset aims to facilitate research in nuanced translation for real-world applications such as e-commerce and multilingual content generation.",
+      "bibtex": "@inproceedings{star_il_2026,\n  author = {Ketaki MS and Dipti Misra Sharma and Parameswari Krishnamurthy},\n  title = {STAR-IL: A Dataset for Style-Aware Machine Translation of Product Reviews in Indian Languages},\n  booktitle = {Proceedings of the Language Resources and Evaluation Conference (LREC)},\n  address = {Spain},\n  year = {2026}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "santham:_a_curated_sanskrit–tamil_dataset_with_anv",
+      "year": 2026,
+      "title": "Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation",
+      "venue": "8th International Sanskrit Computational Linguistics Symposium (March 911, 2026, IIT Roorkee, India)",
       "image": "",
       "description": "TS Prasanna Venkatesh and Ketaki Mangesh Shetye and Vishnuraj Arjunasamy and Ayush Kumar Sahu and Sriram Krishnan and Parameswari Krishnamurthy",
-      "abstract": "Sanskrit-to-Tamil machine translation remains significantly under-researched due to the lack of high-quality parallel corpora and the deep morphological and syntactical divergences between the two languages. To address this gap, we introduce Santham, a curated Sanskrit-Tamil parallel dataset comprising over 90,000 pairs drawn from classical texts such as the Mah\u0101bh\u0101rata, R\u0101m\u0101ya\u1e47a, and Bhagavad G\u012bta, as well as modern prose collections. We establish a human-evaluated benchmark to assess translation quality and investigate the efficacy of linguistic preprocessing techniques. Specifically, we explore state-of-the-art segmentation tools to resolve sandhi (euphonic combinations) and samasa (compounds), and utilize anvaya (prose-order reordering) to mitigate the structural complexity of poetic verses. Our experiments involve fine-tuning state-of-the-art Large Language Models (LLMs), such as Gemma and Qwen, which demonstrate better performance compared to specialized multilingual models like IndicTrans2. The results indicate that while segmentation yields performance gains, the use of anvaya leads to substantial improvements in translation quality, achieving a relative increase of over 46% in BLEU scores. This work underscores the importance of domain-specific data curation and linguistic preprocessing in advancing low-resource translation for classical languages.",
-      "bibtex": "@inproceedings{santham:_a_curated_sanskrit\u2013tamil_dataset_with_anv,\n  author    = {TS Prasanna Venkatesh and Ketaki Mangesh Shetye and Vishnuraj Arjunasamy and Ayush Kumar Sahu and Sriram Krishnan and Parameswari Krishnamurthy},\n  title     = {Santham: A Curated Sanskrit\u2013Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation},\n  booktitle = {},\n  year      = {0}\n}",
+      "abstract": "Sanskrit-to-Tamil machine translation remains significantly under-researched due to the lack of high-quality parallel corpora and the deep morphological and syntactical divergences between the two languages. To address this gap, we introduce Santham, a curated Sanskrit-Tamil parallel dataset comprising over 90,000 pairs drawn from classical texts such as the Mahābhārata, Rāmāyaṇa, and Bhagavad Gīta, as well as modern prose collections. We establish a human-evaluated benchmark to assess translation quality and investigate the efficacy of linguistic preprocessing techniques. Specifically, we explore state-of-the-art segmentation tools to resolve sandhi (euphonic combinations) and samasa (compounds), and utilize anvaya (prose-order reordering) to mitigate the structural complexity of poetic verses. Our experiments involve fine-tuning state-of-the-art Large Language Models (LLMs), such as Gemma and Qwen, which demonstrate better performance compared to specialized multilingual models like IndicTrans2. The results indicate that while segmentation yields performance gains, the use of anvaya leads to substantial improvements in translation quality, achieving a relative increase of over 46% in BLEU scores. This work underscores the importance of domain-specific data curation and linguistic preprocessing in advancing low-resource translation for classical languages.",
+      "bibtex": "@inproceedings{santham:_a_curated_sanskrit–tamil_dataset_with_anv,\n  author    = {TS Prasanna Venkatesh and Ketaki Mangesh Shetye and Vishnuraj Arjunasamy and Ayush Kumar Sahu and Sriram Krishnan and Parameswari Krishnamurthy},\n  title     = {Santham: A Curated Sanskrit–Tamil Dataset with Anvaya and Segmentation for Building and Evaluating Machine Translation},\n  booktitle = {},\n  year      = {0}\n}",
       "downloads": []
     },
     {
       "id": "typologically-informed_candidate_reranking_for_llm",
       "year": 2026,
       "title": "Typologically-Informed Candidate Reranking for LLM-based Translation into Low-Resource Languages",
-      "venue": "",
+      "venue": "arXiv",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "description": "Nipuna Abeykoon and Ashen Weerathunga and Pubudu Wijesinghe and Parameswari Krishnamurthy",
       "abstract": "Large language models trained predominantly on high-resource languages exhibit systematic biases toward dominant typological patterns, leading to structural non-conformance when translating into typologically divergent low-resource languages. We present a framework that leverages linguistic typology to improve translation quality without parallel training data or model retraining. The framework consists of two components: the Universal Metalinguistic Framework (UMF), which represents languages as structured profiles across 16 typological dimensions with divergence-weighted scoring, and the Computational Engine, which operates through linguistic disambiguation during generation and typological compliance scoring during selection. Evaluation across nine language pairs demonstrates intervention rates strongly correlating with typological distance from English. In experiments on 341 English sentences each having different morphological and syntactic phenomena, the framework shows an intervention precision of 48.16% for conservatively treated languages, 28.15% for morphologically dense languages, and 86.26% for structurally profiled languages. The framework requires no parallel training data and operates with any LLM capable of producing multiple candidate outputs, enabling practical deployment for under-resourced languages.",
@@ -63,8 +63,9 @@
     {
       "id": "patient-centric_question_answering-overview_of_the",
       "year": 2025,
+      "type": "workshop",
       "title": "Patient-Centric Question Answering-Overview of the Shared Task at the Second Workshop on NLP and AI for Multilingual and Healthcare Communication",
-      "venue": "",
+      "venue": "NLP-AI4Health (2025)",
       "image": "https://aclanthology.org/thumb/2025.nlpai4health-main.5.jpg",
       "description": "Arun Zechariah and Balu Krishna and Hannah Mary Thomas and Joy Mammen and Dipti Misra Sharma and Parameswari Krishnamurthy and Vandan Mujadia and Priyanka Dasari and Vishnuraj Arjunaswamy",
       "abstract": "This paper presents an overview of the Shared Task on Patient-Centric Question Answering, organized as part of the NLP-AI4Health workshop at IJCNLP. The task aims to bridge the digital divide in healthcare by developing inclusive systems for two critical domains: Head and Neck Cancer (HNC) and Cystic Fibrosis (CF). We introduce the NLP4Health-2025 Dataset, a novel, large-scale multilingual corpus consisting of more than 45,000 validated multi-turn dialogues between patients and healthcare providers across 10 languages: Assamese, Bangla, Dogri, English, Gujarati, Hindi, Kannada, Marathi, Tamil, and Telugu. Participants were challenged to develop lightweight models (< 3 billion parameters) to perform two core activities:(1) Clinical Summarization, encompassing both abstractive summaries and structured clinical extraction (SCE), and (2) Patient-Centric QA, generating empathetic, factually accurate answers in the dialogue native language. This paper details the hybrid human-agent dataset construction pipeline, task definitions, evaluation metrics, and analyzes the performance of 9 submissions from 6 teams. The results demonstrate the viability of small language models (SLMs) in low-resource medical settings when optimized via techniques like LoRA and RAG.",
@@ -80,7 +81,7 @@
       "id": "family_helps_one_another:_dravidian_nlp_suite_for_",
       "year": 2025,
       "title": "Family helps one another: Dravidian NLP suite for Natural Language Understanding",
-      "venue": "",
+      "venue": "IJCNLP-AACL",
       "image": "https://aclanthology.org/thumb/2025.findings-ijcnlp.120.jpg",
       "description": "Abhinav Pm and Priyanka Dasari and Vuppala Nagaraju and Parameswari Krishnamurthy",
       "abstract": "Developing robust Natural Language Understanding (NLU) for morphologically rich Dravidian languages like Kannada, Malayalam, Tamil, and Telugu presents significant challenges due to their agglutinative nature and syntactic complexity. In this work, we present the Dravidian NLP Suite tackling five core tasks: Morphological Analysis (MA), POS Tagging (POS), Named Entity Recognition (NER), Dependency Parsing (DEP), and Coreference Resolution (CR), trained for monolingual models and multilingual models. To facilitate this, we present the Dravida dataset, meticulously annotated multilingual corpus for these tasks across all four languages. Our experiments demonstrate that a multilingual model, which utilizes shared linguistic features and cross-lingual patterns inherent to the Dravidian family, consistently outperforms its monolingual counterparts across all tasks. These findings suggest that multilingual learning is an effective approach for enhancing Natural Language Understanding (NLU) capabilities, particularly for languages belonging to the same family. To the best of our knowledge, this is the first work to jointly address all these core tasks on the Dravidian languages.",
@@ -96,10 +97,10 @@
       "id": "rethinking_tokenization_for_rich_morphology:_the_d",
       "year": 2025,
       "title": "Rethinking Tokenization for Rich Morphology: The Dominance of Unigram over BPE and Morphological Alignment",
-      "venue": "",
+      "venue": "IJCNLP 2025",
       "image": "https://aclanthology.org/thumb/2025.ijcnlp-srw.20.jpg",
       "description": "Saketh Reddy Vemula and Sandipan Dandapat and Dipti Misra Sharma and Parameswari Krishnamurthy",
-      "abstract": "The relationship between tokenizer algorithm (eg, Byte-Pair Encoding (BPE), Unigram), morphological alignment, tokenization quality (eg, compression efficiency), and downstream performance remains largely unclear, particularly for languages with complex morphology. In this paper, we conduct a comprehensive evaluation of tokenizers using small-sized BERT models\u2014from pre-training through fine-tuning\u2014for Telugu (agglutinative), along with preliminary evaluation in Hindi (primarily fusional with some agglutination) and English (fusional). To evaluate morphological alignment of tokenizers in Telugu, we create a dataset containing gold morpheme segmentations of 600 derivational and 7000 inflectional word forms. Our experiments reveal two key findings for Telugu. First, the choice of tokenizer algorithm is the most significant factor influencing performance, with Unigram-based tokenizers consistently outperforming BPE across most settings. Second, while better morphological alignment shows a moderate, positive correlation with performance on text classification and structure prediction tasks, its impact is secondary to the tokenizer algorithm. Notably, hybrid approaches that use morphological information for pre-segmentation significantly boost the performance of BPE, though not Unigram. Our results further showcase the need for comprehensive intrinsic evaluation metrics for tokenizers that could explain downstream performance trends consistently.",
+      "abstract": "The relationship between tokenizer algorithm (eg, Byte-Pair Encoding (BPE), Unigram), morphological alignment, tokenization quality (eg, compression efficiency), and downstream performance remains largely unclear, particularly for languages with complex morphology. In this paper, we conduct a comprehensive evaluation of tokenizers using small-sized BERT models—from pre-training through fine-tuning—for Telugu (agglutinative), along with preliminary evaluation in Hindi (primarily fusional with some agglutination) and English (fusional). To evaluate morphological alignment of tokenizers in Telugu, we create a dataset containing gold morpheme segmentations of 600 derivational and 7000 inflectional word forms. Our experiments reveal two key findings for Telugu. First, the choice of tokenizer algorithm is the most significant factor influencing performance, with Unigram-based tokenizers consistently outperforming BPE across most settings. Second, while better morphological alignment shows a moderate, positive correlation with performance on text classification and structure prediction tasks, its impact is secondary to the tokenizer algorithm. Notably, hybrid approaches that use morphological information for pre-segmentation significantly boost the performance of BPE, though not Unigram. Our results further showcase the need for comprehensive intrinsic evaluation metrics for tokenizers that could explain downstream performance trends consistently.",
       "bibtex": "@inproceedings{rethinking_tokenization_for_rich_morphology:_the_d,\n  author    = {Saketh Reddy Vemula and Sandipan Dandapat and Dipti Misra Sharma and Parameswari Krishnamurthy},\n  title     = {Rethinking Tokenization for Rich Morphology: The Dominance of Unigram over BPE and Morphological Alignment},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -112,10 +113,10 @@
       "id": "realizing_llms'_causal_potential_requires_science-",
       "year": 2025,
       "title": "Realizing LLMs' Causal Potential Requires Science-Grounded, Novel Benchmarks",
-      "venue": "",
+      "venue": "NeurIPS 2025 Workshop on CauScien: Uncovering Causality in Science. (2025)",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "description": "Ashutosh Srivastava and Lokesh Nagalapatti and Gautam Jajoo and Aniket Vashishtha and Parameswari Krishnamurthy and Amit Sharma",
-      "abstract": "Recent claims of strong performance by Large Language Models (LLMs) on causal discovery tasks are undermined by a critical flaw: many evaluations rely on widelyused benchmarks that likely appear in LLMs\u2019 pretraining corpora. As a result, empirical success on these benchmarks seem to suggest that LLM-only methods, which ignore observational data, outperform classical statistical approaches on causal discovery. In this position paper, we challenge this emerging narrative by raising a fundamental question: Are LLMs truly reasoning about causal structure, and if so, how do we measure it reliably without any memorization concerns? And can they be trusted for causal discovery in real-world scientific domains? We argue that realizing the true potential of LLMs for causal analysis in scientific research demands two key shifts. First, (P.1) the development of robust evaluation protocols based on recent scientific studies that effectively guard against dataset leakage. Second, (P.2) the design of hybrid methods that combine LLM-derived world knowledge with data-driven statistical methods. \nTo address P.1, we motivate the research community to evaluate discovery methods on real-world, novel scientific studies, so that the results hold relevance for modern science. We provide a practical recipe for extracting causal graphs from recent scientific publications released after the training cutoff date of a given LLM. These graphs not only prevent verbatim memorization but also typically encompass a balanced mix of well-established and novel causal relationships. Compared to widely used benchmarks from BNLearn, where LLMs achieve near-perfect accuracy, LLMs perform significantly worse on our curated graphs, underscoring the need for statistical methods to bridge the gap. To support our second position (P.2), we show that a simple hybrid approach that uses LLM predictions as priors for the classical PC algorithm significantly improves accuracy over both LLM-only and traditional data-driven methods. These findings motivate a call to the research community: adopt science-grounded benchmarks that minimize dataset leakage, and invest in hybrid methodologies that are better suited to the nuanced demands of real-world scientific inquiry.",
+      "abstract": "Recent claims of strong performance by Large Language Models (LLMs) on causal discovery tasks are undermined by a critical flaw: many evaluations rely on widelyused benchmarks that likely appear in LLMs’ pretraining corpora. As a result, empirical success on these benchmarks seem to suggest that LLM-only methods, which ignore observational data, outperform classical statistical approaches on causal discovery. In this position paper, we challenge this emerging narrative by raising a fundamental question: Are LLMs truly reasoning about causal structure, and if so, how do we measure it reliably without any memorization concerns? And can they be trusted for causal discovery in real-world scientific domains? We argue that realizing the true potential of LLMs for causal analysis in scientific research demands two key shifts. First, (P.1) the development of robust evaluation protocols based on recent scientific studies that effectively guard against dataset leakage. Second, (P.2) the design of hybrid methods that combine LLM-derived world knowledge with data-driven statistical methods. \nTo address P.1, we motivate the research community to evaluate discovery methods on real-world, novel scientific studies, so that the results hold relevance for modern science. We provide a practical recipe for extracting causal graphs from recent scientific publications released after the training cutoff date of a given LLM. These graphs not only prevent verbatim memorization but also typically encompass a balanced mix of well-established and novel causal relationships. Compared to widely used benchmarks from BNLearn, where LLMs achieve near-perfect accuracy, LLMs perform significantly worse on our curated graphs, underscoring the need for statistical methods to bridge the gap. To support our second position (P.2), we show that a simple hybrid approach that uses LLM predictions as priors for the classical PC algorithm significantly improves accuracy over both LLM-only and traditional data-driven methods. These findings motivate a call to the research community: adopt science-grounded benchmarks that minimize dataset leakage, and invest in hybrid methodologies that are better suited to the nuanced demands of real-world scientific inquiry.",
       "bibtex": "@inproceedings{realizing_llms'_causal_potential_requires_science-,\n  author    = {Ashutosh Srivastava and Lokesh Nagalapatti and Gautam Jajoo and Aniket Vashishtha and Parameswari Krishnamurthy and Amit Sharma},\n  title     = {Realizing LLMs' Causal Potential Requires Science-Grounded, Novel Benchmarks},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -128,10 +129,10 @@
       "id": "do_multilingual_transformers_encode_paninian_gramm",
       "year": 2025,
       "title": "Do Multilingual Transformers Encode Paninian Grammatical Relations? A Layer-wise Probing Study",
-      "venue": "",
+      "venue": "QUASY / SyntaxFest 2025",
       "image": "https://aclanthology.org/thumb/2025.quasy-1.15.jpg",
       "description": "Akshit Kumar and Dipti Misra Sharma and Parameswari Krishnamurthy",
-      "abstract": "Large multilingual transformers such as XLM-RoBERTa achieve impressive performance on diverse NLP benchmarks, but understanding how they internally encode grammatical information remains challenging. This study investigates the encoding of syntactic and morphological information derived from the Paninian grammatical framework\u2014specifically designed for morphologically rich Indian languages\u2014across model layers. Using diagnostic probing, we analyze the hidden representations of frozen XLM-RoBERTa-base, mBERT, and IndicBERT models across seven Indian languages (Hindi, Kannada, Malayalam, Marathi, Telugu, Urdu, Bengali). Probes are trained to predict Paninian dependency relations (by edge probing) and essential morphosyntactic features (UPOS tags, Vibhakti markers). We find that syntactic structure (dependencies) is primarily encoded in the middle-to-upper-middle layers (layers 6\u20139), while lexical features peak slightly earlier. Although the general layer-wise trends are shared across models, significant variations in absolute probing performance reflect differences in model capacity, pre-training data, and language-specific characteristics. These findings shed light on how theory-specific grammatical information emerges implicitly within multilingual transformer representations trained largely on unstructured raw text.",
+      "abstract": "Large multilingual transformers such as XLM-RoBERTa achieve impressive performance on diverse NLP benchmarks, but understanding how they internally encode grammatical information remains challenging. This study investigates the encoding of syntactic and morphological information derived from the Paninian grammatical framework—specifically designed for morphologically rich Indian languages—across model layers. Using diagnostic probing, we analyze the hidden representations of frozen XLM-RoBERTa-base, mBERT, and IndicBERT models across seven Indian languages (Hindi, Kannada, Malayalam, Marathi, Telugu, Urdu, Bengali). Probes are trained to predict Paninian dependency relations (by edge probing) and essential morphosyntactic features (UPOS tags, Vibhakti markers). We find that syntactic structure (dependencies) is primarily encoded in the middle-to-upper-middle layers (layers 6–9), while lexical features peak slightly earlier. Although the general layer-wise trends are shared across models, significant variations in absolute probing performance reflect differences in model capacity, pre-training data, and language-specific characteristics. These findings shed light on how theory-specific grammatical information emerges implicitly within multilingual transformer representations trained largely on unstructured raw text.",
       "bibtex": "@inproceedings{do_multilingual_transformers_encode_paninian_gramm,\n  author    = {Akshit Kumar and Dipti Misra Sharma and Parameswari Krishnamurthy},\n  title     = {Do Multilingual Transformers Encode Paninian Grammatical Relations? A Layer-wise Probing Study},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -144,7 +145,7 @@
       "id": "shared_task_at_biolaysumm2025:_extract_then_summar",
       "year": 2025,
       "title": "Shared Task at Biolaysumm2025: Extract then summarize approach Augmented with UMLS based Definition Retrieval for Lay Summary generation.",
-      "venue": "",
+      "venue": "BIONLP 2025",
       "image": "https://aclanthology.org/thumb/2025.bionlp-share.23.jpg",
       "description": "Aaradhya Gupta and Parameswari Krishnamurthy",
       "abstract": "We present LayForge, a two-track lay summary generation system developed for the BioLaySumm2025 shared task(Xiao et al., 2025) . Task 1.1 addresses the lay summarization using only the internal content of the article, while Task 1.2 augments this process with domain knowledge such as biomedical definitions and concept explanations. BioLaySumm employs a modular architecture that leverages large language models (LLMs), a BioBERTbased named entity recognizer (NER), and the UMLS(Bodenreider, 2004) knowledge base to create readable, informative, and faithful lay summaries. Our system shows strong performance on both tasks when evaluated on the PLOS and elife subset(Goldsack et al., 2022), particularly in readability and factuality metrics. The architecture illustrates how modularity and domain adaptation can be effectively combined for accessible biomedical communication.",
@@ -160,7 +161,7 @@
       "id": "towards_resource-rich_mizo_and_khasi_in_nlp:_resou",
       "year": 2025,
       "title": "Towards resource-rich Mizo and Khasi in NLP: Resource development, synthetic data generation and model building",
-      "venue": "",
+      "venue": "LAW 2025",
       "image": "https://aclanthology.org/thumb/2025.law-1.18.jpg",
       "description": "Soumyadip Ghosh and Henry Lalsiam and Dorothy Marbaniang and Gracious Mary Temsen and Rahul Mishra and Parameswari Krishnamurthy",
       "abstract": "In the rapidly evolving field of Natural Language Processing (NLP), Indian regional languages remain significantly underrepresented due to their limited digital presence and lack of annotated resources. This work presents the first comprehensive effort toward developing high quality linguistic datasets for two extremely low resource languages Mizo and Khasi. We introduce human annotated, gold standard datasets for three core NLP tasks: Part-of-Speech (POS) tagging, Named Entity Recognition (NER), and Keyword Identification. To overcome annotation bottlenecks in NER, we further explore a synthetic data generation pipeline involving translation from Hindi and cross lingual word alignment. For POS tagging, we adopt and subsequently modify the Universal Dependencies (UD) framework to better suit the linguistic characteristics of Mizo and Khasi, while custom annotation guidelines are developed for NER and Keyword Identification. The constructed datasets are evaluated using multilingual language models, demonstrating that structured resource development, coupled with gradual fine-tuning, yields significant improvements in performance. This work represents a critical step toward advancing linguistic resources and computational tools for Mizo and Khasi.",
@@ -176,7 +177,7 @@
       "id": "progressive_perturbation_with_kto_for_enhanced_mac",
       "year": 2025,
       "title": "Progressive Perturbation with KTO for Enhanced Machine Translation of Indian Languages",
-      "venue": "",
+      "venue": "Machine Translation Summit 2025",
       "image": "https://aclanthology.org/thumb/2025.mtsummit-1.26.jpg",
       "description": "Yash Bhaskar and Ketaki Shetye and Vandan Mujadia and Dipti Misra Sharma and Parameswari Krishnamurthy",
       "abstract": "This study addresses the critical challenge of data scarcity in machine translation for Indian languages, particularly given their morphological complexity and limited parallel data. We investigate an effective strategy to maximize the utility of existing data by generating negative samples from positive training instances using a progressive perturbation approach. This is used for aligning the model with preferential data using Kahneman-Tversky Optimization (KTO). Comparing it against traditional Supervised Fine-Tuning (SFT), we demonstrate how generating negative samples and leveraging KTO enhances data efficiency. By creating rejected samples through progressively perturbed translations from the available dataset, we fine-tune the Llama 3.1 Instruct 8B model using QLoRA across 16 language directions, including English, Hindi, Bangla, Tamil, Telugu, and Santali. Our results show that KTO-based preference alignment with progressive perturbation consistently outperforms SFT, achieving significant gains in translation quality with an average BLEU increase of 1.84 to 2.47 and CHRF increase of 2.85 to 4.01 compared to SFT for selected languages, while using the same positive training samples and under similar computational constraints. This highlights the potential of our negative sample generation strategy within KTO, especially in low resource scenarios.",
@@ -192,7 +193,7 @@
       "id": "improving_genomic_models_via_task-specific_self-pr",
       "year": 2025,
       "title": "Improving Genomic Models via Task-Specific Self-Pretraining",
-      "venue": "",
+      "venue": "ICML 2025 Generative AI and Biology (GenBio)Workshop (2025).",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "description": "Sohan Mupparapu and Parameswari Krishnamurthy and Ratish Puduppully",
       "abstract": "Pretraining DNA language models (DNALMs) on the full human genome is resource-intensive, yet often considered necessary for strong downstream performance. Inspired by recent findings in NLP and long-context modeling, we explore an alternative: self-pretraining on task-specific, unlabeled data. Using the BEND benchmark, we show that DNALMs trained with self-pretraining match or exceed the performance of models trained from scratch under identical compute. While genomescale pretraining may still offer higher absolute performance, task-specific self-pretraining provides a practical and compute-efficient strategy for building stronger supervised baselines.",
@@ -208,10 +209,10 @@
       "id": "keepitsimple_at_semeval-2025_task_3:_llm-uncertain",
       "year": 2025,
       "title": "keepitsimple at SemEval-2025 task 3: LLM-uncertainty based approach for multilingual hallucination span detection",
-      "venue": "",
+      "venue": "SemEval 2025",
       "image": "https://aclanthology.org/thumb/2025.semeval-1.11.jpg",
       "description": "Saketh Vemula and Parameswari Krishnamurthy",
-      "abstract": "Identification of hallucination spans in black-box language model generated text is essential for applications in the real world. A recent attempt at this direction is SemEval-2025 Task 3, Mu-SHROOM\u2014a Multilingual Shared Task onHallucinations and Related Observable Over-generation Errors. In this work, we present our solution to this problem, which capitalizes on the variability of stochastically-sampled responses in order to identify hallucinated spans. Our hypothesis is that if a language model is certain of a fact, its sampled responses will be uniform, while hallucinated facts will yield different and conflicting results. We measure this divergence through entropy-based analysis, allowing for accurate identification of hallucinated segments. Our method is not dependent on additional training and hence is cost-effective and adaptable. In addition, we conduct extensive hyperparameter tuning and perform error analysis, giving us crucial insights into model behavior and where improvement can be made.",
+      "abstract": "Identification of hallucination spans in black-box language model generated text is essential for applications in the real world. A recent attempt at this direction is SemEval-2025 Task 3, Mu-SHROOM—a Multilingual Shared Task onHallucinations and Related Observable Over-generation Errors. In this work, we present our solution to this problem, which capitalizes on the variability of stochastically-sampled responses in order to identify hallucinated spans. Our hypothesis is that if a language model is certain of a fact, its sampled responses will be uniform, while hallucinated facts will yield different and conflicting results. We measure this divergence through entropy-based analysis, allowing for accurate identification of hallucinated segments. Our method is not dependent on additional training and hence is cost-effective and adaptable. In addition, we conduct extensive hyperparameter tuning and perform error analysis, giving us crucial insights into model behavior and where improvement can be made.",
       "bibtex": "@inproceedings{keepitsimple_at_semeval-2025_task_3:_llm-uncertain,\n  author    = {Saketh Vemula and Parameswari Krishnamurthy},\n  title     = {keepitsimple at SemEval-2025 task 3: LLM-uncertainty based approach for multilingual hallucination span detection},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -224,10 +225,10 @@
       "id": "ltrc-iiith_at_peranssumm_2025:_spansense-perspecti",
       "year": 2025,
       "title": "LTRC-IIITH at PerAnsSumm 2025: SpanSense-Perspective-specific span identification and Summarization",
-      "venue": "",
+      "venue": "CL4Health",
       "image": "https://aclanthology.org/thumb/2025.cl4health-1.37.jpg",
       "description": "Sushvin Marimuthu and Parameswari Krishnamurthy",
-      "abstract": "Healthcare community question-answering (CQA) forums have become popular for users seeking medical advice, offering answers that range from personal experiences to factual information. Traditionally, CQA summarization relies on the best-voted answer as a reference summary. However, this approach overlooks the diverse perspectives across multiple responses. Structuring summaries by perspective could better meet users\u2019 informational needs. The PerAnsSumm shared task addresses this by identifying and classifying perspective-specific spans (Task_A) and generating perspective-specific summaries from question-answer threads (Task_B). In this paper, we present our work on the PerAnsSumm shared task 2025 at the CL4Health Workshop, NAACL 2025. Our system leverages the RoBERTa-large model for identifying perspective-specific spans and the BART-large model for summarization. We achieved a Macro-F1 score of 0.9 (90%) and a Weighted-F1 score of 0.92 (92%) for classification. For span matching, our strict matching F1 score was 0.21 (21%), while proportional matching reached 0.68 (68%), resulting in an average Task A score of 0.6 (60%). For Task B, we achieved a ROUGE-1 score of 0.4 (40%), ROUGE-2 of 0.18 (18%), and ROUGE-L of 0.36 (36%). Additionally, we obtained a BERTScore of 0.84 (84%), METEOR of 0.37 (37%), and BLEU of 0.13 (13%), resulting in an average Task B score of 0.38 (38%). Combining both tasks, our system achieved an overall average score of 49% and ranked 6th on the official leaderboard for the shared task.",
+      "abstract": "Healthcare community question-answering (CQA) forums have become popular for users seeking medical advice, offering answers that range from personal experiences to factual information. Traditionally, CQA summarization relies on the best-voted answer as a reference summary. However, this approach overlooks the diverse perspectives across multiple responses. Structuring summaries by perspective could better meet users’ informational needs. The PerAnsSumm shared task addresses this by identifying and classifying perspective-specific spans (Task_A) and generating perspective-specific summaries from question-answer threads (Task_B). In this paper, we present our work on the PerAnsSumm shared task 2025 at the CL4Health Workshop, NAACL 2025. Our system leverages the RoBERTa-large model for identifying perspective-specific spans and the BART-large model for summarization. We achieved a Macro-F1 score of 0.9 (90%) and a Weighted-F1 score of 0.92 (92%) for classification. For span matching, our strict matching F1 score was 0.21 (21%), while proportional matching reached 0.68 (68%), resulting in an average Task A score of 0.6 (60%). For Task B, we achieved a ROUGE-1 score of 0.4 (40%), ROUGE-2 of 0.18 (18%), and ROUGE-L of 0.36 (36%). Additionally, we obtained a BERTScore of 0.84 (84%), METEOR of 0.37 (37%), and BLEU of 0.13 (13%), resulting in an average Task B score of 0.38 (38%). Combining both tasks, our system achieved an overall average score of 49% and ranked 6th on the official leaderboard for the shared task.",
       "bibtex": "@inproceedings{ltrc-iiith_at_peranssumm_2025:_spansense-perspecti,\n  author    = {Sushvin Marimuthu and Parameswari Krishnamurthy},\n  title     = {LTRC-IIITH at PerAnsSumm 2025: SpanSense-Perspective-specific span identification and Summarization},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -240,7 +241,7 @@
       "id": "sandhi_splitting_in_tamil_and_telugu:_a_sequence-t",
       "year": 2025,
       "title": "Sandhi splitting in tamil and telugu: A sequence-to-sequence approach leveraging transformer models",
-      "venue": "",
+      "venue": "CHiPSAL (COLING) 2025",
       "image": "https://aclanthology.org/thumb/2025.chipsal-1.9.jpg",
       "description": "Priyanka Dasari and Mupparapu Sohan Gupta and Nagaraju Vuppala and Pruthwik Mishra and Parameswari Krishnamurthy",
       "abstract": "Dravidian languages like Tamil and Telugu are agglutinative languages, they form wordforms by combining two or more elements into a single string with morpho-phonemic changes at the point of concatenation, known as sandhi. This linguistic feature adds complexity to automatic language processing, making the pre-processing of sandhi words essential for NLP applications. We developed extensive sandhi-annotated corpora of 15K for Telugu and Tamil, focusing on the systematic application of sandhi rules which explains the word formation patterns by showing how lexical and functional categories combine to create composite non-compound words. We implemented compact sequence-to-sequence transformer networks for the automatic sandhi processing. To evaluate our models, we manually annotated Telugu and Tamil IN22-Conv Benchmark datasets with sandhi annotations. Our experiments aim to enhance the language processing tasks like machine translation in morphologically rich languages.",
@@ -256,10 +257,10 @@
       "id": "pos-aware_neural_approaches_for_word_alignment_in_",
       "year": 2025,
       "title": "POS-Aware Neural Approaches for Word Alignment in Dravidian Languages",
-      "venue": "",
+      "venue": "CHiPSAL (COLING) 2025",
       "image": "https://aclanthology.org/thumb/2025.chipsal-1.15.jpg",
       "description": "Antony Alexander James and Parameswari Krishnamurthy",
-      "abstract": "This research explores word alignment in low-resource languages, specifically focusing on Telugu and Tamil, two languages within the Dravidian language family. Traditional statistical models such as FastAlign, GIZA++, and Eflomal serve as baselines but are often limited in low-resource settings. Neural methods, including SimAlign and AWESOME-align, which leverage multilingual BERT, show promising results by achieving alignment without extensive parallel data. Applying these neural models to Telugu-Tamil and Tamil-Telugu alignments, we found that fine-tuning with POS-tagged data significantly improves alignment accuracy compared to untagged data, achieving an improvement of 6\u20137%. However, our combined embeddings approach, which merges word embeddings with POS tags, did not yield additional gains. Expanding the study, we included Tamil, Telugu, and English alignments to explore linguistic mappings between Dravidian and an Indo-European languages. Results demonstrate the comparative performance across models and language pairs, emphasizing both the benefits of POS-tag fine-tuning and the complexities of cross-linguistic alignment.",
+      "abstract": "This research explores word alignment in low-resource languages, specifically focusing on Telugu and Tamil, two languages within the Dravidian language family. Traditional statistical models such as FastAlign, GIZA++, and Eflomal serve as baselines but are often limited in low-resource settings. Neural methods, including SimAlign and AWESOME-align, which leverage multilingual BERT, show promising results by achieving alignment without extensive parallel data. Applying these neural models to Telugu-Tamil and Tamil-Telugu alignments, we found that fine-tuning with POS-tagged data significantly improves alignment accuracy compared to untagged data, achieving an improvement of 6–7%. However, our combined embeddings approach, which merges word embeddings with POS tags, did not yield additional gains. Expanding the study, we included Tamil, Telugu, and English alignments to explore linguistic mappings between Dravidian and an Indo-European languages. Results demonstrate the comparative performance across models and language pairs, emphasizing both the benefits of POS-tag fine-tuning and the complexities of cross-linguistic alignment.",
       "bibtex": "@inproceedings{pos-aware_neural_approaches_for_word_alignment_in_,\n  author    = {Antony Alexander James and Parameswari Krishnamurthy},\n  title     = {POS-Aware Neural Approaches for Word Alignment in Dravidian Languages},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -272,7 +273,7 @@
       "id": "decoding_fake_narratives_in_spreading_hateful_stor",
       "year": 2024,
       "title": "Decoding Fake Narratives in Spreading Hateful Stories: A Dual-Head RoBERTa Model with Multi-Task Learning",
-      "venue": "",
+      "venue": "ICON 2024",
       "image": "https://aclanthology.org/thumb/2024.icon-fauxhate.3.jpg",
       "description": "Yash Bhaskar and Sankalp Bahad and Parameswari Krishnamurthy",
       "abstract": "Social media platforms, while enabling globalconnectivity, have become hubs for the rapidspread of harmful content, including hatespeech and fake narratives (Davidson et al., 2017; Shu et al., 2017). The Faux-Hateshared task focuses on detecting a specific phe-nomenon: the generation of hate speech drivenby fake narratives, termed Faux-Hate. Partici-pants are challenged to identify such instancesin code-mixed Hindi-English social media text. This paper describes our system developed forthe shared task, addressing two primary sub-tasks:(a) Binary Faux-Hate detection, involv-ing fake and hate speech classification, and (b) Target and Severity prediction, categoriz-ing the intended target and severity of hate-ful content. Our approach combines advancednatural language processing techniques withdomain-specific pretraining to enhance perfor-mance across both tasks. The system achievedcompetitive results, demonstrating the efficacyof leveraging multi-task learning for this com-plex problem.",
@@ -288,10 +289,10 @@
       "id": "automating_humor:_a_novel_approach_to_joke_generat",
       "year": 2024,
       "title": "Automating humor: A novel approach to joke generation using template extraction and infilling",
-      "venue": "",
+      "venue": "ICON 2024",
       "image": "https://aclanthology.org/thumb/2024.icon-1.51.jpg",
       "description": "Mayank Goel and Parameswari Krishnamurthy and Radhika Mamidi",
-      "abstract": "This paper presents a novel approach to humor generation in natural language processing by automating the creation of jokes through template extraction and infilling. Traditional methods have relied on predefined templates or neural network models, which either lack complexity or fail to produce genuinely humorous content. Our method introduces a technique to extract templates from existing jokes based on semantic salience and BERT\u2019s attention weights. We then infill these templates using advanced techniques, through BERT and large language models (LLMs) like GPT-4, to generate new jokes. Our results indicate that the generated jokes are novel and human-like, with BERT showing promise in generating funny content and GPT-4 excelling in creating clever jokes. The study contributes to a deeper understanding of humor generation and the potential of AI in creative domains.",
+      "abstract": "This paper presents a novel approach to humor generation in natural language processing by automating the creation of jokes through template extraction and infilling. Traditional methods have relied on predefined templates or neural network models, which either lack complexity or fail to produce genuinely humorous content. Our method introduces a technique to extract templates from existing jokes based on semantic salience and BERT’s attention weights. We then infill these templates using advanced techniques, through BERT and large language models (LLMs) like GPT-4, to generate new jokes. Our results indicate that the generated jokes are novel and human-like, with BERT showing promise in generating funny content and GPT-4 excelling in creating clever jokes. The study contributes to a deeper understanding of humor generation and the potential of AI in creative domains.",
       "bibtex": "@inproceedings{automating_humor:_a_novel_approach_to_joke_generat,\n  author    = {Mayank Goel and Parameswari Krishnamurthy and Radhika Mamidi},\n  title     = {Automating humor: A novel approach to joke generation using template extraction and infilling},\n  booktitle = {},\n  year      = {2024}\n}",
       "downloads": [
         {
@@ -301,14 +302,14 @@
       ]
     },
     {
-      "id": "yes-mt\u2019s_submission_to_the_low-resource_indic_lang",
+      "id": "yes-mt’s_submission_to_the_low-resource_indic_lang",
       "year": 2024,
-      "title": "Yes-MT\u2019s Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024",
-      "venue": "",
+      "title": "Yes-MT’s Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024",
+      "venue": "WMT 2024",
       "image": "https://aclanthology.org/thumb/2024.wmt-1.71.jpg",
       "description": "Yash Bhaskar and Parameswari Krishnamurthy",
       "abstract": "This paper presents the systems submitted by the Yes-MT team for the Low-Resource Indic Language Translation Shared Task at WMT 2024 (Pakray et al., 2024), focusing on translating between English and the Assamese, Mizo, Khasi, and Manipuri languages. The experiments explored various approaches, including fine-tuning pre-trained models like mT5 (Xue et al., 2020) and IndicBart (Dabre et al., 2021) in both multilingual and monolingual settings, LoRA (Hu et al., 2021) fine-tuning IndicTrans2 (Gala et al., 2023), zero-shot and few-shot prompting (Brown, 2020) with large language models (LLMs) like Llama 3 (Dubey et al., 2024) and Mixtral 8x7b (Jiang et al., 2024), LoRA supervised fine-tuning of Llama 3 (Mecklenburg et al., 2024), and training Transformer models (Vaswani, 2017) from scratch. The results were evaluated on the WMT23 Low-Resource Indic Language Translation Shared Task test data using SacreBLEU (Post, 2018) and CHRF (Popovic, 2015), highlighting the challenges of low-resource translation and the potential of LLMs for these tasks, particularly with fine-tuning.",
-      "bibtex": "@inproceedings{yes-mt\u2019s_submission_to_the_low-resource_indic_lang,\n  author    = {Yash Bhaskar and Parameswari Krishnamurthy},\n  title     = {Yes-MT\u2019s Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024},\n  booktitle = {},\n  year      = {2024}\n}",
+      "bibtex": "@inproceedings{yes-mt’s_submission_to_the_low-resource_indic_lang,\n  author    = {Yash Bhaskar and Parameswari Krishnamurthy},\n  title     = {Yes-MT’s Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024},\n  booktitle = {},\n  year      = {2024}\n}",
       "downloads": [
         {
           "label": "PDF",
@@ -320,7 +321,7 @@
       "id": "mtnlp-iiith:_machine_translation_for_low-resource_",
       "year": 2024,
       "title": "MTNLP-IIITH: Machine translation for low-resource Indic languages",
-      "venue": "",
+      "venue": "WMT 2024",
       "image": "https://aclanthology.org/thumb/2024.wmt-1.65.jpg",
       "description": "PM Abhinav and Ketaki Shetye and Parameswari Krishnamurthy",
       "abstract": "Machine Translation for low-resource languages presents significant challenges, primarily due to limited data availability. We have a baseline model and a primary model. For the baseline model, we first fine-tune the mBART model (mbart-large-50-many-to-many-mmt) for the language pairs English-Khasi, Khasi-English, English-Manipuri, and Manipuri-English. We then augment the dataset by back-translating from Indic languages to English. To enhance data quality, we fine-tune the LaBSE model specifically for Khasi and Manipuri, generating sentence embeddings and applying a cosine similarity threshold of 0.84 to filter out low-quality back-translations. The filtered data is combined with the original training data and used to further fine-tune the mBART model, creating our primary model. The results show that the primary model slightly outperforms the baseline model, with the best performance achieved by the English-to-Khasi (en-kh) primary model, which recorded a BLEU score of 0.0492, a chrF score of 0.3316, and a METEOR score of 0.2589 (on a scale of 0 to 1), with similar results for other language pairs.",
@@ -336,7 +337,7 @@
       "id": "ltrc-iiith_at_mediqa-m3g_2024:_medical_visual_ques",
       "year": 2024,
       "title": "LTRC-IIITH at MEDIQA-M3G 2024: Medical Visual Question Answering with Vision-Language Models",
-      "venue": "",
+      "venue": "ClinicalNLP 2024",
       "image": "https://aclanthology.org/thumb/2024.clinicalnlp-1.67.jpg",
       "description": "Jerrin Thomas and Sushvin Marimuthu and Parameswari Krishnamurthy",
       "abstract": "In this paper, we present our work to the MEDIQA-M3G 2024 shared task, which tackles multilingual and multimodal medical answer generation. Our system consists of a lightweight Vision-and-Language Transformer (ViLT) model which is fine-tuned for the clinical dermatology visual question-answering task. In the official leaderboard for the task, our system ranks 6th. After the challenge, we experiment with training the ViLT model on more data. We also explore the capabilities of large Vision-Language Models (VLMs) such as Gemini and LLaVA.",
@@ -352,7 +353,7 @@
       "id": "fine-tuning_language_models_for_ai_vs_human_genera",
       "year": 2024,
       "title": "Fine-tuning language models for ai vs human generated text detection",
-      "venue": "",
+      "venue": "SemEval 2024",
       "image": "https://aclanthology.org/thumb/2024.semeval-1.132.jpg",
       "description": "Sankalp Bahad and Yash Bhaskar and Parameswari Krishnamurthy",
       "abstract": "In this paper, we introduce a machine-generated text detection system designed totackle the challenges posed by the prolifera-tion of large language models (LLMs). Withthe rise of LLMs such as ChatGPT and GPT-4, there is a growing concern regarding the po-tential misuse of machine-generated content, including misinformation dissemination. Oursystem addresses this issue by automating theidentification of machine-generated text acrossmultiple subtasks: binary human-written vs. machine-generated text classification, multi-way machine-generated text classification, andhuman-machine mixed text detection. We em-ploy the RoBERTa Base model and fine-tuneit on a diverse dataset encompassing variousdomains, languages, and sources. Throughrigorous evaluation, we demonstrate the effec-tiveness of our system in accurately detectingmachine-generated text, contributing to effortsaimed at mitigating its potential misuse.",
@@ -368,7 +369,7 @@
       "id": "nootnoot_at_semeval-2024_task_6:_hallucinations_an",
       "year": 2024,
       "title": "Nootnoot at semeval-2024 task 6: Hallucinations and related observable overgeneration mistakes detection",
-      "venue": "",
+      "venue": "SemEval 2024",
       "image": "https://aclanthology.org/thumb/2024.semeval-1.139.jpg",
       "description": "Sankalp Bahad and Yash Bhaskar and Parameswari Krishnamurthy",
       "abstract": "Semantic hallucinations in neural language gen-eration systems pose a significant challenge tothe reliability and accuracy of natural languageprocessing applications. Current neural mod-els often produce fluent but incorrect outputs, undermining the usefulness of generated text. In this study, we address the task of detectingsemantic hallucinations through the SHROOM (Semantic Hallucinations Real Or Mistakes) dataset, encompassing data from diverse NLGtasks such as definition modeling, machinetranslation, and paraphrase generation. We in-vestigate three methodologies: fine-tuning onlabelled training data, fine-tuning on labelledvalidation data, and a zero-shot approach usingthe Mixtral 8x7b instruct model. Our resultsdemonstrate the effectiveness of these method-ologies in identifying semantic hallucinations, with the zero-shot approach showing compet-itive performance without additional training. Our findings highlight the importance of robustdetection mechanisms for ensuring the accu-racy and reliability of neural language genera-tion systems.",
@@ -384,7 +385,7 @@
       "id": "noot_noot_at_semeval-2024_task_7:_numerical_reason",
       "year": 2024,
       "title": "Noot Noot at SemEval-2024 Task 7: Numerical Reasoning and Headline Generation",
-      "venue": "",
+      "venue": "SemEval 2024",
       "image": "https://aclanthology.org/thumb/2024.semeval-1.131.jpg",
       "description": "Sankalp Bahad and Yash Bhaskar and Parameswari Krishnamurthy",
       "abstract": "Natural language processing (NLP) modelshave achieved remarkable progress in recentyears, particularly in tasks related to semanticanalysis. However, many existing benchmarksprimarily focus on lexical and syntactic un-derstanding, often overlooking the importanceof numerical reasoning abilities. In this pa-per, we argue for the necessity of incorporatingnumeral-awareness into NLP evaluations andpropose two distinct tasks to assess this capabil-ity: Numerical Reasoning and Headline Gener-ation. We present datasets curated for each taskand evaluate various approaches using both au-tomatic and human evaluation metrics. Ourresults demonstrate the diverse strategies em-ployed by participating teams and highlight thepromising performance of emerging modelslike Mixtral 8x7b instruct. We discuss the im-plications of our findings and suggest avenuesfor future research in advancing numeral-awarelanguage understanding and generation.",
@@ -400,7 +401,7 @@
       "id": "ltrc-iiith_at_ehrsql_2024:_enhancing_reliability_o",
       "year": 2024,
       "title": "Ltrc-iiith at ehrsql 2024: Enhancing reliability of text-to-sql systems through abstention and confidence thresholding",
-      "venue": "",
+      "venue": "ClinicalNLP 2024",
       "image": "https://aclanthology.org/thumb/2024.clinicalnlp-1.66.jpg",
       "description": "Jerrin Thomas and Pruthwik Mishra and Dipti Misra Sharma and Parameswari Krishnamurthy",
       "abstract": "In this paper, we present our work in the EHRSQL 2024 shared task which tackles reliable text-to-SQL modeling on Electronic Health Records. Our proposed system tackles the task with three modules - abstention module, text-to-SQL generation module, and reliability module. The abstention module identifies whether the question is answerable given the database schema. If the question is answerable, the text-to-SQL generation module generates the SQL query and associated confidence score. The reliability module has two key components - confidence score thresholding, which rejects generations with confidence below a pre-defined level, and error filtering, which identifies and excludes SQL queries that result in execution errors. In the official leaderboard for the task, our system ranks 6th. We have also made the source code public.",
@@ -416,10 +417,10 @@
       "id": "fine-tuning_pre-trained_named_entity_recognition_m",
       "year": 2024,
       "title": "Fine-tuning pre-trained named entity recognition models for Indian languages",
-      "venue": "",
+      "venue": "NAACL 2024",
       "image": "https://aclanthology.org/thumb/2024.naacl-srw.9.jpg",
       "description": "Sankalp Bahad and Pruthwik Mishra and Parameswari Krishnamurthy and Dipti Misra Sharma",
-      "abstract": "Named Entity Recognition (NER) is a use-ful component in Natural Language Process-ing (NLP) applications. It is used in varioustasks such as Machine Translation, Summa-rization, Information Retrieval, and Question-Answering systems. The research on NER iscentered around English and some other ma-jor languages, whereas limited attention hasbeen given to Indian languages. We analyze thechallenges and propose techniques that can betailored for Multilingual Named Entity Recog-nition for Indian Languages. We present a hu-man annotated named entity corpora of\u223c 40Ksentences for 4 Indian languages from two ofthe major Indian language families. Addition-ally, we show the transfer learning capabilitiesof pre-trained transformer models from a highresource language to multiple low resource lan-guages through a series of experiments. Wealso present a multilingual model fine-tunedon our dataset, which achieves an F1 score of\u223c 0.80 on our dataset on average. We achievecomparable performance on completely unseenbenchmark datasets for Indian languages whichaffirms the usability of our model.",
+      "abstract": "Named Entity Recognition (NER) is a use-ful component in Natural Language Process-ing (NLP) applications. It is used in varioustasks such as Machine Translation, Summa-rization, Information Retrieval, and Question-Answering systems. The research on NER iscentered around English and some other ma-jor languages, whereas limited attention hasbeen given to Indian languages. We analyze thechallenges and propose techniques that can betailored for Multilingual Named Entity Recog-nition for Indian Languages. We present a hu-man annotated named entity corpora of∼ 40Ksentences for 4 Indian languages from two ofthe major Indian language families. Addition-ally, we show the transfer learning capabilitiesof pre-trained transformer models from a highresource language to multiple low resource lan-guages through a series of experiments. Wealso present a multilingual model fine-tunedon our dataset, which achieves an F1 score of∼ 0.80 on our dataset on average. We achievecomparable performance on completely unseenbenchmark datasets for Indian languages whichaffirms the usability of our model.",
       "bibtex": "@inproceedings{fine-tuning_pre-trained_named_entity_recognition_m,\n  author    = {Sankalp Bahad and Pruthwik Mishra and Parameswari Krishnamurthy and Dipti Misra Sharma},\n  title     = {Fine-tuning pre-trained named entity recognition models for Indian languages},\n  booktitle = {},\n  year      = {2024}\n}",
       "downloads": [
         {
@@ -432,10 +433,10 @@
       "id": "exploring_news_summarization_and_enrichment_in_a_h",
       "year": 2024,
       "title": "Exploring News Summarization and Enrichment in a Highly Resource-Scarce Indian Language: A Case Study of Mizo",
-      "venue": "",
+      "venue": "WiLDRE 2024",
       "image": "https://aclanthology.org/thumb/2024.wildre-1.6.jpg",
       "description": "Abhinaba Bala and Ashok Urlana and Rahul Mishra and Parameswari Krishnamurthy",
-      "abstract": "Obtaining sufficient information in one\u2019s mother tongue is crucial for satisfying the information needs of the users. While high-resource languages have abundant online resources, the situation is less than ideal for very low-resource languages. Moreover, the insufficient reporting of vital national and international events continues to be a worry, especially in languages with scarce resources, like Mizo. In this paper, we conduct a study to investigate the effectiveness of a simple methodology designed to generate a holistic summary for Mizo news articles, which leverages English-language news to supplement and enhance the information related to the corresponding news events. Furthermore, we make available 500 Mizo news articles and corresponding enriched holistic summaries. Human evaluation confirms that our approach significantly enhances the information coverage of Mizo news articles.",
+      "abstract": "Obtaining sufficient information in one’s mother tongue is crucial for satisfying the information needs of the users. While high-resource languages have abundant online resources, the situation is less than ideal for very low-resource languages. Moreover, the insufficient reporting of vital national and international events continues to be a worry, especially in languages with scarce resources, like Mizo. In this paper, we conduct a study to investigate the effectiveness of a simple methodology designed to generate a holistic summary for Mizo news articles, which leverages English-language news to supplement and enhance the information related to the corresponding news events. Furthermore, we make available 500 Mizo news articles and corresponding enriched holistic summaries. Human evaluation confirms that our approach significantly enhances the information coverage of Mizo news articles.",
       "bibtex": "@inproceedings{exploring_news_summarization_and_enrichment_in_a_h,\n  author    = {Abhinaba Bala and Ashok Urlana and Rahul Mishra and Parameswari Krishnamurthy},\n  title     = {Exploring News Summarization and Enrichment in a Highly Resource-Scarce Indian Language: A Case Study of Mizo},\n  booktitle = {},\n  year      = {2024}\n}",
       "downloads": [
         {
@@ -448,7 +449,7 @@
       "id": "assessing_translation_capabilities_of_large_langua",
       "year": 2024,
       "title": "Assessing translation capabilities of large language models involving English and Indian languages",
-      "venue": "",
+      "venue": "EAMT 2024",
       "image": "https://aclanthology.org/thumb/2024.eamt-1.19.jpg",
       "description": "Vandan Mujadia and Ashok Urlana and Yash Bhaskar and Penumalla Aditya Pavani and Kukkapalli Shravya and Parameswari Krishnamurthy and Dipti Misra Sharma",
       "abstract": "Generative Large Language Models (LLMs) have achieved remarkable advances in various NLP tasks. In this work, our aim is to explore the multilingual capabilities of large language models by using machine translation as a task involving English and 22 Indian languages. We first investigate the translation capabilities of raw large-language models, followed by exploring the in-context learning capabilities of the same raw models. We fine-tune these large language models using parameter-efficient fine-tuning methods such as LoRA and additionally with full fine-tuning. Through our study, we have identified the model that performs best among the large language models available for the translation task.Our results demonstrate significant progress, with average BLEU scores of 13.42, 15.93, 12.13, 12.30, and 12.07, as well as chrF scores of 43.98, 46.99, 42.55, 42.42, and 45.39, respectively, using two-stage fine-tuned LLaMA-13b for English to Indian languages on IN22 (conversational), IN22 (general), flores200-dev, flores200-devtest, and newstest2019 testsets. Similarly, for Indian languages to English, we achieved average BLEU scores of 14.03, 16.65, 16.17, 15.35 and 12.55 along with chrF scores of 36.71, 40.44, 40.26, 39.51, and 36.20, respectively, using fine-tuned LLaMA-13b on IN22 (conversational), IN22 (general), flores200-dev, flores200-devtest and newstest2019 testsets. Overall, our findings highlight the potential and strength of large language models for machine translation capabilities, including languages that are currently underrepresented in LLMs.",
@@ -464,7 +465,7 @@
       "id": "transformer-based_context_aware_morphological_anal",
       "year": 2023,
       "title": "Transformer-based Context Aware Morphological Analyzer for Telugu",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2023",
       "image": "https://aclanthology.org/thumb/2023.dravidianlangtech-1.4.jpg",
       "description": "Priyanka Dasari and Abhijith Chelpuri and Nagaraju Vuppala and Mounika Marreddy and Parameshwari Krishnamurthy and Radhika Mamidi",
       "abstract": "This paper addresses the challenges faced by Indian languages in leveraging deep learning for natural language processing (NLP) due to limited resources, annotated datasets, and Transformer-based architectures. We specifically focus on Telugu and aim to construct a Telugu morph analyzer dataset comprising 10,000 sentences. Furthermore, we assess the performance of established multi-lingual Transformer models (m-Bert, XLM-R, IndicBERT) and mono-lingual Transformer models trained from scratch on an extensive Telugu corpus comprising 80, 15,588 sentences (BERT-Te). Our findings demonstrate the efficacy of Transformer-based representations pretrained on Telugu data in improving the performance of the Telugu morph analyzer, surpassing existing multi-lingual approaches. This highlights the necessity of developing dedicated corpora, annotated datasets, and machine learning models in a mono-lingual setting. We present benchmark results for the Telugu morph analyzer achieved through simple fine-tuning on our dataset.",
@@ -480,7 +481,7 @@
       "id": "abhipaw@_dravidianlangtech:_abusive_comment_detect",
       "year": 2023,
       "title": "AbhiPaw@ DravidianLangTech: Abusive comment detection in Tamil and Telugu using logistic regression",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2023",
       "image": "https://aclanthology.org/thumb/2023.dravidianlangtech-1.33.jpg",
       "description": "Abhinaba Bala and Parameswari Krishnamurthy",
       "abstract": "Abusive comments in online platforms have become a significant concern, necessitating the development of effective detection systems. However, limited work has been done in low resource languages, including Dravidian languages. This paper addresses this gap by focusing on abusive comment detection in a dataset containing Tamil, Tamil-English and Telugu-English code-mixed comments. Our methodology involves logistic regression and explores suitable embeddings to enhance the performance of the detection model. Through rigorous experimentation, we identify the most effective combination of logistic regression and embeddings. The results demonstrate the performance of our proposed model, which contributes to the development of robust abusive comment detection systems in low resource language settings. Keywords: Abusive comment detection, Dravidian languages, logistic regression, embeddings, low resource languages, code-mixed dataset.",
@@ -496,10 +497,10 @@
       "id": "abhipaw@_dravidianlangtech:_fake_news_detection_in",
       "year": 2023,
       "title": "Abhipaw@ dravidianlangtech: Fake news detection in dravidian languages using multilingual bert",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2023",
       "image": "https://aclanthology.org/thumb/2023.dravidianlangtech-1.34.jpg",
       "description": "Abhinaba Bala and Parameswari Krishnamurthy",
-      "abstract": "This study addresses the challenge of detecting fake news in Dravidian languages by leveraging Google\u2019s MuRIL (Multilingual Representations for Indian Languages) model. Drawing upon previous research, we investigate the intricacies involved in identifying fake news and explore the potential of transformer-based models for linguistic analysis and contextual understanding. Through supervised learning, we fine-tune the \u201cmuril-base-cased\u201d variant of MuRIL using a carefully curated dataset of labeled comments and posts in Dravidian languages, enabling the model to discern between original and fake news. During the inference phase, the fine-tuned MuRIL model analyzes new textual content, extracting contextual and semantic features to predict the content\u2019s classification. We evaluate the model\u2019s performance using standard metrics, highlighting the effectiveness of MuRIL in detecting fake news in Dravidian languages and contributing to the establishment of a safer digital ecosystem. Keywords: fake news detection, Dravidian languages, MuRIL, transformer-based models, linguistic analysis, contextual understanding.",
+      "abstract": "This study addresses the challenge of detecting fake news in Dravidian languages by leveraging Google’s MuRIL (Multilingual Representations for Indian Languages) model. Drawing upon previous research, we investigate the intricacies involved in identifying fake news and explore the potential of transformer-based models for linguistic analysis and contextual understanding. Through supervised learning, we fine-tune the “muril-base-cased” variant of MuRIL using a carefully curated dataset of labeled comments and posts in Dravidian languages, enabling the model to discern between original and fake news. During the inference phase, the fine-tuned MuRIL model analyzes new textual content, extracting contextual and semantic features to predict the content’s classification. We evaluate the model’s performance using standard metrics, highlighting the effectiveness of MuRIL in detecting fake news in Dravidian languages and contributing to the establishment of a safer digital ecosystem. Keywords: fake news detection, Dravidian languages, MuRIL, transformer-based models, linguistic analysis, contextual understanding.",
       "bibtex": "@inproceedings{abhipaw@_dravidianlangtech:_fake_news_detection_in,\n  author    = {Abhinaba Bala and Parameswari Krishnamurthy},\n  title     = {Abhipaw@ dravidianlangtech: Fake news detection in dravidian languages using multilingual bert},\n  booktitle = {},\n  year      = {2023}\n}",
       "downloads": [
         {
@@ -512,7 +513,7 @@
       "id": "abhipaw@_dravidianlangtech:_multimodal_abusive_lan",
       "year": 2023,
       "title": "Abhipaw@ dravidianlangtech: Multimodal abusive language detection and sentiment analysis",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2023",
       "image": "https://aclanthology.org/thumb/2023.dravidianlangtech-1.18.jpg",
       "description": "Abhinaba Bala and Parameswari Krishnamurthy",
       "abstract": "Detecting abusive language in multimodal videos has become a pressing need in ensuring a safe and inclusive online environment. This paper focuses on addressing this challenge through the development of a novel approach for multimodal abusive language detection in Tamil videos and sentiment analysis for Tamil/Malayalam videos. By leveraging state-of-the-art models such as Multiscale Vision Transformers (MViT) for video analysis, OpenL3 for audio analysis, and the bert-base-multilingual-cased model for textual analysis, our proposed framework integrates visual, auditory, and textual features. Through extensive experiments and evaluations, we demonstrate the effectiveness of our model in accurately detecting abusive content and predicting sentiment categories. The limited availability of effective tools for performing these tasks in Dravidian Languages has prompted a new avenue of research in these domains.",
@@ -528,10 +529,10 @@
       "id": "tablewise_at_semeval-2025_task_8:_llm_agents_for_t",
       "year": 2025,
       "title": "TableWise at SemEval-2025 Task 8: LLM Agents for TabQA",
-      "venue": "",
+      "venue": "SemEval 2025",
       "image": "https://aclanthology.org/thumb/2025.semeval-1.87.jpg",
       "description": "Harsh Bansal and Aman Raj and Akshit Sharma and Parameswari Krishnamurthy",
-      "abstract": "In this study, we present our approach to SemEval Task 8: Question Answering over Tabular Data (Os\u2019es Grijalba et al., 2025), where we develop a Large Language Models(LLM)- based agent capable of answering questions over tabular data. Our agent leverages a set of custom defined tools incorporating structured table parsing and reasoning mechanisms to enhance semantic understanding of tabular data. Extending our methodology, we apply chain-ofthought prompting to further refine it\u2019s understanding of the task. Our findings suggest that LLM-based agents, when properly adapted, can significantly improve their table-based question answering capabilities.",
+      "abstract": "In this study, we present our approach to SemEval Task 8: Question Answering over Tabular Data (Os’es Grijalba et al., 2025), where we develop a Large Language Models(LLM)- based agent capable of answering questions over tabular data. Our agent leverages a set of custom defined tools incorporating structured table parsing and reasoning mechanisms to enhance semantic understanding of tabular data. Extending our methodology, we apply chain-ofthought prompting to further refine it’s understanding of the task. Our findings suggest that LLM-based agents, when properly adapted, can significantly improve their table-based question answering capabilities.",
       "bibtex": "@inproceedings{tablewise_at_semeval-2025_task_8:_llm_agents_for_t,\n  author    = {Harsh Bansal and Aman Raj and Akshit Sharma and Parameswari Krishnamurthy},\n  title     = {TableWise at SemEval-2025 Task 8: LLM Agents for TabQA},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -560,10 +561,10 @@
       "id": "vidai:_vidukathai_interpretation_through_analysis_",
       "year": 2025,
       "title": "VIDAI: VIDukathAI Interpretation Through Analysis of In-context Reasoning in Tamil using LLMs",
-      "venue": "",
+      "venue": "PACLIC 2025",
       "image": "",
       "description": "RS Mughil Srinivasan and T Kesavan and Abhijith Balan and Abhinav Pm and Parameswari Krishnamurthy and C Oswald",
-      "abstract": "This work investigates VIDAI, a study on Tamil vidukathai, where vidai means \u2018answer\u2019and vidukathai means \u2018riddle\u2019in the Tamil language, focusing on the challenges Large Language Models (LLMs) face in solving them. Tamil, a morphologically rich and culturally embedded classical Dravidian language of India, with over 2000 years of history, is spoken o\ufb00icially in three countries and across global diaspora communities. Although models such as LLaMA, Phi, Gemma, and Qwen excel in general NLP tasks, they struggle with Tamil riddles due to their reliance on nexttoken prediction and limited reasoning ability. Tamil riddles frequently use metaphors, puns, cultural references, and abstract logic, posing di\ufb00iculties for models trained primarily on generic corpora. We curated a dataset of 2,283 riddles 1 and evaluated the models under various prompting strategies. The highest performance achieved was a BERTScore of 0.846 with a random 1-shot no-CoT prompt. VIDAI\u2019s findings highlight riddles as a promising benchmark for testing reasoning in LLMs.",
+      "abstract": "This work investigates VIDAI, a study on Tamil vidukathai, where vidai means ‘answer’and vidukathai means ‘riddle’in the Tamil language, focusing on the challenges Large Language Models (LLMs) face in solving them. Tamil, a morphologically rich and culturally embedded classical Dravidian language of India, with over 2000 years of history, is spoken oﬀicially in three countries and across global diaspora communities. Although models such as LLaMA, Phi, Gemma, and Qwen excel in general NLP tasks, they struggle with Tamil riddles due to their reliance on nexttoken prediction and limited reasoning ability. Tamil riddles frequently use metaphors, puns, cultural references, and abstract logic, posing diﬀiculties for models trained primarily on generic corpora. We curated a dataset of 2,283 riddles 1 and evaluated the models under various prompting strategies. The highest performance achieved was a BERTScore of 0.846 with a random 1-shot no-CoT prompt. VIDAI’s findings highlight riddles as a promising benchmark for testing reasoning in LLMs.",
       "bibtex": "@inproceedings{vidai:_vidukathai_interpretation_through_analysis_,\n  author    = {RS Mughil Srinivasan and T Kesavan and Abhijith Balan and Abhinav Pm and Parameswari Krishnamurthy and C Oswald},\n  title     = {VIDAI: VIDukathAI Interpretation Through Analysis of In-context Reasoning in Tamil using LLMs},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -579,7 +580,7 @@
       "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)",
       "image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "description": "Soham Bhattacharjee and Mukund K Roy and Yathish Poojary and Bhargav Dave and Mihir Raj and Vandan Mujadia and Baban Gain and Pruthwik Mishra and Arafat Ahsan and Parameswari Krishnamurthy and Ashwath Rao and Gurpreet Singh Josan and Preeti Dubey and Aadil Amin Kak and Anna Rao Kulkarni and Narendra VG and Sunita Arora and Rakesh Balbantray and Prasenjit Majumdar and Karunesh K Arora and Asif Ekbal and Dipti Mishra Sharma",
-      "abstract": "India's linguistic landscape is one of the most diverse in the world, comprising over 120 major languages and approximately 1,600 additional languages, with 22 officially recognized as scheduled languages in the Indian Constitution 1 . Despite recent progress in multilingual neural machine translation (NMT), highquality parallel corpora for Indian languages remain scarce, especially across varied domains. In this paper, we introduce a large-scale, high-quality annotated parallel corpus covering 11 of these languages\u2014English, Telugu, Hindi, Punjabi, Odia, Kashmiri, Sindhi, Dogri, Kannada, Urdu, and Gujarati\u2014comprising a total of 772,000 bi-text sentence pairs. The dataset is carefully curated and systematically categorized into three key domains: Government, Health, and General, to enable domain-aware machine translation research and facilitate effective domain adaptation.\nTo demonstrate the utility of CorIL and establish strong benchmarks for future research, we fine-tune and evaluate several state-of-the-art NMT models, including IndicTrans2, NLLB, and BhashaVerse. Our analysis reveals important performance trends and highlights the corpus's value in probing model capabilities. For instance, the results show distinct performance patterns based on language script, with massively multilingual models showing an advantage on Perso-Arabic scripts (Urdu, Sindhi) while other models excel on Indic scripts. This paper provides a detailed domain-wise performance analysis, offering insights into domain sensitivity and cross-script transfer learning. By publicly releasing CorIL, we aim to significantly improve the availability of high-quality training data for Indian languages and provide a valuable resource for the machine translation research community.",
+      "abstract": "India's linguistic landscape is one of the most diverse in the world, comprising over 120 major languages and approximately 1,600 additional languages, with 22 officially recognized as scheduled languages in the Indian Constitution 1 . Despite recent progress in multilingual neural machine translation (NMT), highquality parallel corpora for Indian languages remain scarce, especially across varied domains. In this paper, we introduce a large-scale, high-quality annotated parallel corpus covering 11 of these languages—English, Telugu, Hindi, Punjabi, Odia, Kashmiri, Sindhi, Dogri, Kannada, Urdu, and Gujarati—comprising a total of 772,000 bi-text sentence pairs. The dataset is carefully curated and systematically categorized into three key domains: Government, Health, and General, to enable domain-aware machine translation research and facilitate effective domain adaptation.\nTo demonstrate the utility of CorIL and establish strong benchmarks for future research, we fine-tune and evaluate several state-of-the-art NMT models, including IndicTrans2, NLLB, and BhashaVerse. Our analysis reveals important performance trends and highlights the corpus's value in probing model capabilities. For instance, the results show distinct performance patterns based on language script, with massively multilingual models showing an advantage on Perso-Arabic scripts (Urdu, Sindhi) while other models excel on Indic scripts. This paper provides a detailed domain-wise performance analysis, offering insights into domain sensitivity and cross-script transfer learning. By publicly releasing CorIL, we aim to significantly improve the availability of high-quality training data for Indian languages and provide a valuable resource for the machine translation research community.",
       "bibtex": "@inproceedings{coril:_towards_enriching_indian_language_to_indian,\n  author    = {Soham Bhattacharjee and Mukund K Roy and Yathish Poojary and Bhargav Dave and Mihir Raj and Vandan Mujadia and Baban Gain and Pruthwik Mishra and Arafat Ahsan and Parameswari Krishnamurthy and Ashwath Rao and Gurpreet Singh Josan and Preeti Dubey and Aadil Amin Kak and Anna Rao Kulkarni and Narendra VG and Sunita Arora and Rakesh Balbantray and Prasenjit Majumdar and Karunesh K Arora and Asif Ekbal and Dipti Mishra Sharma},\n  title     = {CorIL: Towards Enriching Indian Language to Indian Language Parallel Corpora and Machine Translation Systems},\n  booktitle = {},\n  year      = {2025}\n}",
       "downloads": [
         {
@@ -587,13 +588,13 @@
           "url": "https://arxiv.org/pdf/2509.19941"
         }
       ],
-	  "type": "journal"
+      "type": "journal"
     },
     {
       "id": "findings_of_the_shared_task_on_multi-task_learning",
       "year": 2022,
       "title": "Findings of the Shared Task on Multi-task Learning in Dravidian Languages",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2022",
       "image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.43.jpg",
       "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and Subalalitha Cn and Malliga Subramanian and Kogilavani Shanmugavadivel and Parameswari Krishnamurthy and Adeep Hande and Siddhanth U Hegde and Roshan Nayak and Swetha Valli",
       "abstract": "We present our findings from the first shared task on Multi-task Learning in Dravidian Languages at the second Workshop on Speech and Language Technologies for Dravidian Languages. In this task, a sentence in any of three Dravidian Languages is required to be classified into two closely related tasks namely Sentiment Analyis (SA) and Offensive Language Identification (OLI). The task spans over three Dravidian Languages, namely, Kannada, Malayalam, and Tamil. It is one of the first shared tasks that focuses on Multi-task Learning for closely related tasks, especially for a very low-resourced language family such as the Dravidian language family. In total, 55 people signed up to participate in the task, and due to the intricate nature of the task, especially in its first iteration, 3 submissions have been received.",
@@ -609,10 +610,10 @@
       "id": "proceedings_of_the_second_workshop_on_speech_and_l",
       "year": 2022,
       "title": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2022",
       "image": "",
       "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and Parameswari Krishnamurthy and Elizabeth Sherly and Sinnathamby Mahesan",
-      "abstract": "We are excited to welcome you to DravidianLangTech 2022, the 60th Annual Meeting of the Association for Computational Linguistics. This year the workshop is being held hybrid (online and at Dublin), on May 26, 2022 with ACL 2022 that will take place also hybrid May 22-27, 2022. The development of technology increases our internet use, and most of the global languages have adapted themselves to the digital era. However, many regional, under-resourced languages face challenges as they still lack developments in language technology. One such language family is the Dravidian (Tamil) family of languages. Dravidian is the name for the Tamil languages or Tamil people in Sanskrit, and all the current Dravidian languages were called a branch of Tamil in old Jain, Bhraminic, and Buddhist literature (Caldwell, 1875). Tamil languages are primarily spoken in south India, Sri Lanka, and Singapore. Pockets of speakers are found in Nepal, Pakistan, Malaysia, other parts of India, and elsewhere globally. The Tamil languages, which are 4,500 years old and spoken by millions of speakers, are underresourced in speech and natural language processing. The Dravidian languages were first documented in Tamili script on pottery and cave walls in the Keezhadi (Keeladi), Madurai and Tirunelveli regions of Tamil Nadu, India, from the 6th century BCE. The Tamil languages are divided into four groups: South, South-Central, Central, and North groups. Tamil morphology is agglutinating and exclusively suffixal. Syntactically, Tamil languages are head-final and left-branching. They are free-constituent order languages. To improve access to and \u2026",
+      "abstract": "We are excited to welcome you to DravidianLangTech 2022, the 60th Annual Meeting of the Association for Computational Linguistics. This year the workshop is being held hybrid (online and at Dublin), on May 26, 2022 with ACL 2022 that will take place also hybrid May 22-27, 2022. The development of technology increases our internet use, and most of the global languages have adapted themselves to the digital era. However, many regional, under-resourced languages face challenges as they still lack developments in language technology. One such language family is the Dravidian (Tamil) family of languages. Dravidian is the name for the Tamil languages or Tamil people in Sanskrit, and all the current Dravidian languages were called a branch of Tamil in old Jain, Bhraminic, and Buddhist literature (Caldwell, 1875). Tamil languages are primarily spoken in south India, Sri Lanka, and Singapore. Pockets of speakers are found in Nepal, Pakistan, Malaysia, other parts of India, and elsewhere globally. The Tamil languages, which are 4,500 years old and spoken by millions of speakers, are underresourced in speech and natural language processing. The Dravidian languages were first documented in Tamili script on pottery and cave walls in the Keezhadi (Keeladi), Madurai and Tirunelveli regions of Tamil Nadu, India, from the 6th century BCE. The Tamil languages are divided into four groups: South, South-Central, Central, and North groups. Tamil morphology is agglutinating and exclusively suffixal. Syntactically, Tamil languages are head-final and left-branching. They are free-constituent order languages. To improve access to and …",
       "bibtex": "@inproceedings{proceedings_of_the_second_workshop_on_speech_and_l,\n  author    = {Bharathi Raja Chakravarthi and Ruba Priyadharshini and Parameswari Krishnamurthy and Elizabeth Sherly and Sinnathamby Mahesan},\n  title     = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {},\n  year      = {2022}\n}",
       "downloads": [
         {
@@ -625,7 +626,7 @@
       "id": "findings_of_the_shared_task_on_emotion_analysis_in",
       "year": 2022,
       "title": "Findings of the shared task on Emotion Analysis in Tamil",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2022",
       "image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.42.jpg",
       "description": "Anbukkarasi Sampath and Thenmozhi Durairaj and Bharathi Raja Chakravarthi and Ruba Priyadharshini and Subalalitha Cn and Kogilavani Shanmugavadivel and Sajeetha Thavareesan and Sathiyaraj Thangasamy and Parameswari Krishnamurthy and Adeep Hande and Sean Benhur and Kishore Ponnusamy and Santhiya Pandiyan",
       "abstract": "This paper presents the overview of the shared task on emotional analysis in Tamil. The result of the shared task is presented at the workshop. This paper presents the dataset used in the shared task, task description, and the methodology used by the participants and the evaluation results of the submission. This task is organized as two Tasks. Task A is carried with 11 emotions annotated data for social media comments in Tamil and Task B is organized with 31 fine-grained emotion annotated data for social media comments in Tamil. For conducting experiments, training and development datasets were provided to the participants and results are evaluated for the unseen data. Totally we have received around 24 submissions from 13 teams. For evaluating the models, Precision, Recall, micro average metrics are used.",
@@ -637,7 +638,7 @@
         }
       ]
     },
-	 {
+    {
       "id": "rule_based_telugu_parser_2021",
       "year": 2021,
       "type": "journal",
@@ -649,92 +650,92 @@
       "bibtex": "@article{rule_based_telugu_parser_2021,\n  author = {Sangeetha, P. and Krishnamurthy, Parameswari and Kulkarni, Amba},\n  title = {A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences},\n  journal = {Translation Today},\n  year = {2021}\n}",
       "downloads": []
     },
-	{
-		"id": "divergence_index_telugu_tamil_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence",
-		"venue": "Tamil Internet Conference 2019, Anna University, Chennai",
-		"image": "",
-		"description": "Parameswari K.",
-		"abstract": "This paper presents the development of a divergence index for Telugu-Tamil machine translation, focusing on the quantification of case divergence between the two languages. It analyzes structural and grammatical differences, particularly in case marking, and proposes a systematic method to measure divergence. The study contributes to improving transfer-based machine translation by addressing linguistic mismatches and enhancing translation accuracy.",
-		"bibtex": "@inproceedings{divergence_index_telugu_tamil_2019,\n  author = {Parameswari, K.},\n  title = {Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {138--143},\n  address = {Anna University, Chennai}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "tamil_dependency_parser_tags_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "Towards Building a Dependency Parser for Tamil: A Discussion on Tags",
-		"venue": "Tamil Internet Conference 2019, Anna University, Chennai",
-		"image": "",
-		"description": "Keerthana B. and Parameswari K.",
-		"abstract": "This paper discusses the development of a dependency parser for Tamil with a focus on designing and standardizing syntactic tags. It examines challenges arising from Tamil’s rich morphology and syntactic structures, and proposes strategies for effective tag representation. The work contributes to advancing parsing resources and methodologies for Tamil language processing.",
-		"bibtex": "@inproceedings{tamil_dependency_parser_tags_2019,\n  author = {Keerthana, B. and Parameswari, K.},\n  title = {Towards Building a Dependency Parser for Tamil: A Discussion on Tags},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {83--89},\n  address = {Anna University, Chennai}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "indigenous_languages_technology_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "Connecting Language and Technology: Can Indigenous Languages Benefit?",
-		"venue": "International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI-2019), University of Hyderabad, India",
-		"image": "",
-		"description": "Parameswari K.",
-		"abstract": "This paper explores the relationship between language and technology with a focus on indigenous languages. It examines how technological advancements can support the preservation, documentation, and development of indigenous languages. The study discusses challenges such as lack of resources and digital tools, and highlights opportunities for leveraging computational approaches to promote linguistic diversity and inclusion.",
-		"bibtex": "@inproceedings{indigenous_languages_technology_2019,\n  author = {Parameswari, K.},\n  title = {Connecting Language and Technology: Can Indigenous Languages Benefit?},\n  booktitle = {International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI)},\n  year = {2019},\n  note = {University of Hyderabad, February 21--22}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "white_paper_telugu_language_technology_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "White Paper on Telugu Language Technology",
-		"venue": "SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology, Jawaharlal Nehru University, New Delhi",
-		"image": "",
-		"description": "Uma Maheshwar Rao, Parameswari et al.",
-		"abstract": "This white paper presents an overview of Telugu language technology, focusing on the current state of resources, tools, and research developments. It discusses challenges in processing Telugu, including issues related to morphology, syntax, and resource scarcity. The paper outlines future directions for advancing language technology in Telugu, emphasizing the need for collaborative efforts in building linguistic resources and computational tools.",
-		"bibtex": "@inproceedings{white_paper_telugu_language_technology_2019,\n  author = {Uma Maheshwar Rao and Parameswari et al.},\n  title = {White Paper on Telugu Language Technology},\n  booktitle = {SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology},\n  year = {2019},\n  note = {Jawaharlal Nehru University, New Delhi, February 15--17}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "mt_india_telugu_systems_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems",
-		"venue": "Brainstorming Workshop on Spoken Language Machine Translation, IIIT Hyderabad, India",
-		"image": "",
-		"description": "Parameswari K. and Uma Maheshwar Rao",
-		"abstract": "This paper presents a report on machine translation efforts in India, focusing on Telugu-Tamil and Telugu-Hindi translation systems. It reviews system architectures, linguistic challenges, and resource requirements, highlighting issues related to morphology, syntax, and divergence between languages. The study provides insights into improving translation quality and outlines future directions for spoken language machine translation in Indian languages.",
-		"bibtex": "@inproceedings{mt_india_telugu_systems_2019,\n  author = {Parameswari, K. and Uma Maheshwar Rao},\n  title = {Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems},\n  booktitle = {Brainstorming Workshop on Spoken Language Machine Translation},\n  year = {2019},\n  note = {IIIT Hyderabad, January 31--February 1}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
+    {
+      "id": "divergence_index_telugu_tamil_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence",
+      "venue": "Tamil Internet Conference 2019, Anna University, Chennai",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper presents the development of a divergence index for Telugu-Tamil machine translation, focusing on the quantification of case divergence between the two languages. It analyzes structural and grammatical differences, particularly in case marking, and proposes a systematic method to measure divergence. The study contributes to improving transfer-based machine translation by addressing linguistic mismatches and enhancing translation accuracy.",
+      "bibtex": "@inproceedings{divergence_index_telugu_tamil_2019,\n  author = {Parameswari, K.},\n  title = {Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {138--143},\n  address = {Anna University, Chennai}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "tamil_dependency_parser_tags_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "Towards Building a Dependency Parser for Tamil: A Discussion on Tags",
+      "venue": "Tamil Internet Conference 2019, Anna University, Chennai",
+      "image": "",
+      "description": "Keerthana B. and Parameswari K.",
+      "abstract": "This paper discusses the development of a dependency parser for Tamil with a focus on designing and standardizing syntactic tags. It examines challenges arising from Tamil’s rich morphology and syntactic structures, and proposes strategies for effective tag representation. The work contributes to advancing parsing resources and methodologies for Tamil language processing.",
+      "bibtex": "@inproceedings{tamil_dependency_parser_tags_2019,\n  author = {Keerthana, B. and Parameswari, K.},\n  title = {Towards Building a Dependency Parser for Tamil: A Discussion on Tags},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {83--89},\n  address = {Anna University, Chennai}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "indigenous_languages_technology_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "Connecting Language and Technology: Can Indigenous Languages Benefit?",
+      "venue": "International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI-2019), University of Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper explores the relationship between language and technology with a focus on indigenous languages. It examines how technological advancements can support the preservation, documentation, and development of indigenous languages. The study discusses challenges such as lack of resources and digital tools, and highlights opportunities for leveraging computational approaches to promote linguistic diversity and inclusion.",
+      "bibtex": "@inproceedings{indigenous_languages_technology_2019,\n  author = {Parameswari, K.},\n  title = {Connecting Language and Technology: Can Indigenous Languages Benefit?},\n  booktitle = {International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI)},\n  year = {2019},\n  note = {University of Hyderabad, February 21--22}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "white_paper_telugu_language_technology_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "White Paper on Telugu Language Technology",
+      "venue": "SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology, Jawaharlal Nehru University, New Delhi",
+      "image": "",
+      "description": "Uma Maheshwar Rao, Parameswari et al.",
+      "abstract": "This white paper presents an overview of Telugu language technology, focusing on the current state of resources, tools, and research developments. It discusses challenges in processing Telugu, including issues related to morphology, syntax, and resource scarcity. The paper outlines future directions for advancing language technology in Telugu, emphasizing the need for collaborative efforts in building linguistic resources and computational tools.",
+      "bibtex": "@inproceedings{white_paper_telugu_language_technology_2019,\n  author = {Uma Maheshwar Rao and Parameswari et al.},\n  title = {White Paper on Telugu Language Technology},\n  booktitle = {SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology},\n  year = {2019},\n  note = {Jawaharlal Nehru University, New Delhi, February 15--17}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "mt_india_telugu_systems_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems",
+      "venue": "Brainstorming Workshop on Spoken Language Machine Translation, IIIT Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K. and Uma Maheshwar Rao",
+      "abstract": "This paper presents a report on machine translation efforts in India, focusing on Telugu-Tamil and Telugu-Hindi translation systems. It reviews system architectures, linguistic challenges, and resource requirements, highlighting issues related to morphology, syntax, and divergence between languages. The study provides insights into improving translation quality and outlines future directions for spoken language machine translation in Indian languages.",
+      "bibtex": "@inproceedings{mt_india_telugu_systems_2019,\n  author = {Parameswari, K. and Uma Maheshwar Rao},\n  title = {Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems},\n  booktitle = {Brainstorming Workshop on Spoken Language Machine Translation},\n  year = {2019},\n  note = {IIIT Hyderabad, January 31--February 1}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
       "id": "yamtranuwada_2021",
       "year": 2021,
       "type": "journal",
@@ -749,12 +750,12 @@
     {
       "id": "proceedings_of_the_first_workshop_on_parsing_and_i",
       "year": 2021,
-	  "type": "workshop",
+      "type": "workshop",
       "title": "Proceedings of the First Workshop on Parsing and its Applications for Indian Languages",
-      "venue": "",
+      "venue": "PAIL 2021",
       "image": "",
       "description": "Kengatharaiyer Sarveswaran and Parameswari Krishnamurthy and Pruthwik Mishra",
-      "abstract": "A workshop on Parsing and its Applications for Indian Languages (PAIL-2021) was organized in conjunction with 18th International Conference on Natural Language Processing held in NIT, Silchar, India. The workshop was organized virtually as a one-day event with two sessions. The first session included a keynote on\" Computational Paninian Framework and Parsing Indian Languages\" by Prof. Dipti Misra Sharma, followed by the technical sessions of the accepted papers. The afternoon session started with a keynote talk on\" Parsing and its applications: Current Status and Future Perspectives\" by Prof Marie-Catherine de Marneffe. The workshop was concluded with an insightful panel discussion on\" Parsing and its applications: Current Status and Future Perspectives\".Annotated corpora are vital resources for deep learning application development and linguistic analyses. In the case of Indian languages, sufficient annotated quality data are not available publicly for researchers and developers to build upon. Although there are different levels of annotations, syntactically annotated corpora or treebank are very resourceful, especially for Indian languages, which are morphosyntactically rich. They are incorporated in downstream applications for various information extraction. Treebanks are being created for only a few Indian languages, and still, there is a high requirement for building more data in different domains while involving other languages. Indian languages do show languagespecific complexities that require special attention. When a handful of languages representing different language families of India are ready with quality treebanks \u2026",
+      "abstract": "A workshop on Parsing and its Applications for Indian Languages (PAIL-2021) was organized in conjunction with 18th International Conference on Natural Language Processing held in NIT, Silchar, India. The workshop was organized virtually as a one-day event with two sessions. The first session included a keynote on\" Computational Paninian Framework and Parsing Indian Languages\" by Prof. Dipti Misra Sharma, followed by the technical sessions of the accepted papers. The afternoon session started with a keynote talk on\" Parsing and its applications: Current Status and Future Perspectives\" by Prof Marie-Catherine de Marneffe. The workshop was concluded with an insightful panel discussion on\" Parsing and its applications: Current Status and Future Perspectives\".Annotated corpora are vital resources for deep learning application development and linguistic analyses. In the case of Indian languages, sufficient annotated quality data are not available publicly for researchers and developers to build upon. Although there are different levels of annotations, syntactically annotated corpora or treebank are very resourceful, especially for Indian languages, which are morphosyntactically rich. They are incorporated in downstream applications for various information extraction. Treebanks are being created for only a few Indian languages, and still, there is a high requirement for building more data in different domains while involving other languages. Indian languages do show languagespecific complexities that require special attention. When a handful of languages representing different language families of India are ready with quality treebanks …",
       "bibtex": "@inproceedings{proceedings_of_the_first_workshop_on_parsing_and_i,\n  author    = {Kengatharaiyer Sarveswaran and Parameswari Krishnamurthy and Pruthwik Mishra},\n  title     = {Proceedings of the First Workshop on Parsing and its Applications for Indian Languages},\n  booktitle = {},\n  year      = {2021}\n}",
       "downloads": [
         {
@@ -767,7 +768,7 @@
       "id": "proceedings_of_the_first_workshop_on_speech_and_la",
       "year": 2021,
       "title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2021",
       "image": "",
       "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and Parameswari Krishnamurthy and Elizabeth Sherly",
       "abstract": "The development of technology increases our internet use, and most of the global languages have adapted themselves to the digital era. However, many regional, under-resourced languages face challenges as they still lack developments in language technology. One such language family is the Dravidian (Tamil) family of languages. Dravidian is the name for the Tamil languages or Tamil people in Sanskrit, and all the current Dravidian languages were called a branch of Tamil in old Jain, Bhraminic, and Buddhist literature (Caldwell, 1875). Tamil languages are primarily spoken in south India, Sri Lanka, and Singapore. Pockets of speakers are found in Nepal, Pakistan, Malaysia, other parts of India, and elsewhere globally. The Tamil languages, which are 4,500 years old and spoken by millions of speakers, are under-resourced in speech and natural language processing. The Dravidian languages were first documented in Tamili script on pottery and cave walls in the Keezhadi (Keeladi), Madurai and Tirunelveli regions of Tamil Nadu, India, from the 6th century BCE.",
@@ -783,7 +784,7 @@
       "id": "nitk-uoh:_tamil-telugu_machine_translation_systems",
       "year": 2021,
       "title": "NITK-UoH: Tamil-Telugu Machine Translation Systems for the WMT21 Similar Language Translation Task",
-      "venue": "",
+      "venue": "WMT 2021",
       "image": "https://aclanthology.org/thumb/2021.wmt-1.32.jpg",
       "description": "Richard Saldanha and VS Ananthanarayana and Parameswari Krishnamurthy",
       "abstract": "In this work, two Neural Machine Translation (NMT) systems have been developed and evaluated as part of the bidirectional Tamil-Telugu similar languages translation subtask in WMT21. The OpenNMT-py toolkit has been used to create quick prototypes of the systems, following which models have been trained on the training datasets containing the parallel corpus and finally the models have been evaluated on the dev datasets provided as part of the task. Both the systems have been trained on a DGX station with 4-V100 GPUs. The first NMT system in this work is a Transformer based 6 layer encoder-decoder model, trained for 100000 training steps, whose configuration is similar to the one provided by OpenNMT-py and this is used to create a model for bidirectional translation. The second NMT system contains two unidirectional translation models with the same configuration as the first system, with the addition of utilizing Byte Pair Encoding (BPE) for subword tokenization through the pre-trained MultiBPEmb model. Based on the dev dataset evaluation metrics for both the systems, the first system ie the vanilla Transformer model has been submitted as the Primary system. Since there were no improvements in the metrics during training of the second system with BPE, it has been submitted as a contrastive system.",
@@ -795,28 +796,28 @@
         }
       ]
     },
-	{
-	"id": "rule_based_tamil_parser_2021",
-	"year": 2021,
-	"type": "conference",
-	"title": "A Rule-Based Dependency Parsing for Tamil",
-	"venue": "Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC 2021)",
-	"image": "",
-	"description": "Parameswari Krishnamurthy, Keerthana B., Sangeetha P.",
-	"abstract": "This paper presents a rule-based dependency parsing approach for Tamil, focusing on handling the syntactic structures of a morphologically rich language. The study explores linguistic rules tailored for Tamil grammar and demonstrates how rule-based methods can effectively capture dependencies in low-resource settings. The work contributes toward improving parsing accuracy and developing linguistic resources for Tamil language processing.",
-	"bibtex": "@inproceedings{rule_based_tamil_parser_2021,\n  author = {Parameswari Krishnamurthy and Keerthana B. and Sangeetha P.},\n  title = {A Rule-Based Dependency Parsing for Tamil},\n  booktitle = {Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC)},\n  year = {2021},\n  note = {March 12--13}\n}",
-	"downloads": [
-		{
-		"label": "PDF",
-		"url": ""
-		}
-	]
-	},
+    {
+      "id": "rule_based_tamil_parser_2021",
+      "year": 2021,
+      "type": "conference",
+      "title": "A Rule-Based Dependency Parsing for Tamil",
+      "venue": "Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC 2021)",
+      "image": "",
+      "description": "Parameswari Krishnamurthy, Keerthana B., Sangeetha P.",
+      "abstract": "This paper presents a rule-based dependency parsing approach for Tamil, focusing on handling the syntactic structures of a morphologically rich language. The study explores linguistic rules tailored for Tamil grammar and demonstrates how rule-based methods can effectively capture dependencies in low-resource settings. The work contributes toward improving parsing accuracy and developing linguistic resources for Tamil language processing.",
+      "bibtex": "@inproceedings{rule_based_tamil_parser_2021,\n  author = {Parameswari Krishnamurthy and Keerthana B. and Sangeetha P.},\n  title = {A Rule-Based Dependency Parsing for Tamil},\n  booktitle = {Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC)},\n  year = {2021},\n  note = {March 12--13}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
     {
       "id": "parsing_subordinate_clauses_in_telugu_using_rule-b",
       "year": 2021,
       "title": "Parsing Subordinate Clauses in Telugu using Rule-based Dependency Parser",
-      "venue": "",
+      "venue": "PAIL 2021",
       "image": "https://aclanthology.org/thumb/2021.pail-1.2.jpg",
       "description": "P Sangeetha and Parameswari Krishnamurthy and Amba Kulkarni",
       "abstract": "Parsing has been gaining popularity in recent years and attracted the interest of NLP researchers around the world. It is challenging when the language under study is a free-word order language that allows ellipsis like Telugu. In this paper, an attempt is made to parse subordinate clauses especially, non-finite verb clauses and relative clauses in Telugu which are highly productive and constitute a large chunk in parsing tasks. This study adopts a knowledge-driven approach to parse subordinate structures using linguistic cues as rules. Challenges faced in parsing ambiguous structures are elaborated alongside providing enhanced tags to handle them. Results are encouraging and this parser proves to be efficient for Telugu.",
@@ -832,7 +833,7 @@
       "id": "towards_building_a_modern_written_tamil_treebank",
       "year": 2022,
       "title": "Towards building a modern written tamil treebank",
-      "venue": "",
+      "venue": "TLT 2021",
       "image": "",
       "description": "Parameswari Krishnamurthy and Kengatharaiyer Sarveswaran",
       "abstract": "In this paper, we describe the creation of a morphosyntactically annotated treebank for modern written Tamil following the Universal Dependencies (UD) framework to support the implementation and evaluation of Tamil dependency parsers. At present, this treebank consists of 534 sentences. This paper discusses unique constructions found in Tamil and explains sub-relations and language-specific relations introduced, apart from outlining the methodology. This carefully annotated treebank can also serve as the benchmark dataset to evaluate Tamil Natural Language Processing (NLP) tools. The treebank will be extended further to cover more complex constructions in Tamil, and annotations will be enriched by incorporating the Enhanced Universal Dependencies scheme.",
@@ -844,65 +845,65 @@
         }
       ]
     },
-	{
-		"id": "icolsi_mt_error_analysis_2021",
-		"year": 2021,
-		"type": "conference",
-		"title": "Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis",
-		"venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
-		"image": "",
-		"description": "Danaveni Madhukar and Parameswari Krishnamurthy",
-		"abstract": "This paper discusses the evaluation of English-Telugu machine translation output with a focus on systematic error analysis. It examines linguistic and structural errors arising in translation, highlighting challenges specific to Telugu such as morphology, syntax, and lexical ambiguity. The study provides insights into improving translation quality by identifying recurring error patterns and proposing strategies for refining machine translation systems for low-resource languages.",
-		"bibtex": "@inproceedings{icolsi_mt_error_analysis_2021,\n  author = {Danaveni Madhukar and Parameswari Krishnamurthy},\n  title = {Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "icolsi_linguistic_capital_2021",
-		"year": 2021,
-		"type": "conference",
-		"title": "Linguistic Capital In Production: An Evidence From a Worksite",
-		"venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
-		"image": "",
-		"description": "J. D. Prabhakar and Parameswari Krishnamurthy",
-		"abstract": "This paper examines the role of linguistic capital in workplace settings, focusing on how language functions as a resource in production environments. Through an analysis of real-world worksite interactions, the study highlights how linguistic abilities influence communication, efficiency, and social dynamics. The findings provide insights into the intersection of language, labor, and socio-economic structures, emphasizing the importance of language in shaping workplace practices.",
-		"bibtex": "@inproceedings{icolsi_linguistic_capital_2021,\n  author = {Prabhakar, J. D. and Krishnamurthy, Parameswari},\n  title = {Linguistic Capital In Production: An Evidence From a Worksite},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "multiword_token_expansion_tamil_2021",
-		"year": 2021,
-		"type": "conference",
-		"title": "Multi-Word Token Expansion for Tamil: A Parsing Perspective",
-		"venue": "Tamil Internet Conference 2021, Virtual",
-		"image": "",
-		"description": "Parameswari Krishnamurthy and Sarveswaran K.",
-		"abstract": "This paper explores the problem of multi-word token expansion in Tamil from a parsing perspective. It addresses challenges arising due to agglutinative morphology and complex token structures in Tamil. The study proposes methods to improve parsing accuracy by effectively handling multi-word tokens, contributing to better syntactic analysis and downstream NLP applications for Tamil.",
-		"bibtex": "@inproceedings{multiword_token_expansion_tamil_2021,\n  author = {Parameswari Krishnamurthy and Sarveswaran K.},\n  title = {Multi-Word Token Expansion for Tamil: A Parsing Perspective},\n  booktitle = {Tamil Internet Conference},\n  year = {2021},\n  note = {Virtual conference, December 2--5}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
+    {
+      "id": "icolsi_mt_error_analysis_2021",
+      "year": 2021,
+      "type": "conference",
+      "title": "Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis",
+      "venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
+      "image": "",
+      "description": "Danaveni Madhukar and Parameswari Krishnamurthy",
+      "abstract": "This paper discusses the evaluation of English-Telugu machine translation output with a focus on systematic error analysis. It examines linguistic and structural errors arising in translation, highlighting challenges specific to Telugu such as morphology, syntax, and lexical ambiguity. The study provides insights into improving translation quality by identifying recurring error patterns and proposing strategies for refining machine translation systems for low-resource languages.",
+      "bibtex": "@inproceedings{icolsi_mt_error_analysis_2021,\n  author = {Danaveni Madhukar and Parameswari Krishnamurthy},\n  title = {Evaluating English-Telugu Machine Translation Output: Discussion on Error Analysis},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "icolsi_linguistic_capital_2021",
+      "year": 2021,
+      "type": "conference",
+      "title": "Linguistic Capital In Production: An Evidence From a Worksite",
+      "venue": "43rd International Conference of the Linguistic Society of India (ICOLSI), Virtual",
+      "image": "",
+      "description": "J. D. Prabhakar and Parameswari Krishnamurthy",
+      "abstract": "This paper examines the role of linguistic capital in workplace settings, focusing on how language functions as a resource in production environments. Through an analysis of real-world worksite interactions, the study highlights how linguistic abilities influence communication, efficiency, and social dynamics. The findings provide insights into the intersection of language, labor, and socio-economic structures, emphasizing the importance of language in shaping workplace practices.",
+      "bibtex": "@inproceedings{icolsi_linguistic_capital_2021,\n  author = {Prabhakar, J. D. and Krishnamurthy, Parameswari},\n  title = {Linguistic Capital In Production: An Evidence From a Worksite},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2021},\n  note = {Virtual conference, December 21--23}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "multiword_token_expansion_tamil_2021",
+      "year": 2021,
+      "type": "conference",
+      "title": "Multi-Word Token Expansion for Tamil: A Parsing Perspective",
+      "venue": "Tamil Internet Conference 2021, Virtual",
+      "image": "",
+      "description": "Parameswari Krishnamurthy and Sarveswaran K.",
+      "abstract": "This paper explores the problem of multi-word token expansion in Tamil from a parsing perspective. It addresses challenges arising due to agglutinative morphology and complex token structures in Tamil. The study proposes methods to improve parsing accuracy by effectively handling multi-word tokens, contributing to better syntactic analysis and downstream NLP applications for Tamil.",
+      "bibtex": "@inproceedings{multiword_token_expansion_tamil_2021,\n  author = {Parameswari Krishnamurthy and Sarveswaran K.},\n  title = {Multi-Word Token Expansion for Tamil: A Parsing Perspective},\n  booktitle = {Tamil Internet Conference},\n  year = {2021},\n  note = {Virtual conference, December 2--5}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
     {
       "id": "findings_of_the_shared_task_on_machine_translation",
       "year": 2021,
       "title": "Findings of the shared task on machine translation in dravidian languages",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2021",
       "image": "",
       "description": "Bharathi Raja Chakravarthi and Ruba Priyadharshini and Shubhanker Banerjee and Richard Saldanha and John Philip McCrae and Parameswari Krishnamurthy and Melvin Johnson",
-      "abstract": "This paper presents an overview of the shared task on machine translation of Dravidian languages. We presented the shared task results at the EACL 2021 workshop on Speech and Language Technologies for Dravidian Languages. This paper describes the datasets used, the methodology used for the evaluation of participants, and the experiments\u2019 overall results. As a part of this shared task, we organized four sub-tasks corresponding to machine translation of the following language pairs: English to Tamil, English to Malayalam, English to Telugu and Tamil to Telugu which are available at https://competitions.codalab. org/competitions/27650. We provided the participants with training and development datasets to perform experiments, and the results were evaluated on unseen test data. In total, 46 research groups participated in the shared task and 7 experimental runs were submitted for evaluation. We used BLEU scores for assessment of the translations.",
+      "abstract": "This paper presents an overview of the shared task on machine translation of Dravidian languages. We presented the shared task results at the EACL 2021 workshop on Speech and Language Technologies for Dravidian Languages. This paper describes the datasets used, the methodology used for the evaluation of participants, and the experiments’ overall results. As a part of this shared task, we organized four sub-tasks corresponding to machine translation of the following language pairs: English to Tamil, English to Malayalam, English to Telugu and Tamil to Telugu which are available at https://competitions.codalab. org/competitions/27650. We provided the participants with training and development datasets to perform experiments, and the results were evaluated on unseen test data. In total, 46 research groups participated in the shared task and 7 experimental runs were submitted for evaluation. We used BLEU scores for assessment of the translations.",
       "bibtex": "@inproceedings{findings_of_the_shared_task_on_machine_translation,\n  author    = {Bharathi Raja Chakravarthi and Ruba Priyadharshini and Shubhanker Banerjee and Richard Saldanha and John Philip McCrae and Parameswari Krishnamurthy and Melvin Johnson},\n  title     = {Findings of the shared task on machine translation in dravidian languages},\n  booktitle = {},\n  year      = {2021}\n}",
       "downloads": [
         {
@@ -915,10 +916,10 @@
       "id": "iiitk@_dravidianlangtech-eacl2021:_offensive_langu",
       "year": 2021,
       "title": "IIITK@ DravidianLangTech-EACL2021: Offensive language identification and meme classification in Tamil, Malayalam and Kannada",
-      "venue": "",
+      "venue": "DravidianLangTech Workshop 2021",
       "image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.30.jpg",
       "description": "Nikhil Ghanghor and Parameswari Krishnamurthy and Sajeetha Thavareesan and Ruba Priyadharshini and Bharathi Raja Chakravarthi",
-      "abstract": "This paper describes the IIITK team\u2019s submissions to the offensive language identification, and troll memes classification shared tasks for Dravidian languages at DravidianLangTech 2021 workshop@ EACL 2021. Our best configuration for Tamil troll meme classification achieved 0.55 weighted average F1 score, and for offensive language identification, our system achieved weighted F1 scores of 0.75 for Tamil, 0.95 for Malayalam, and 0.71 for Kannada. Our rank on Tamil troll meme classification is 2, and offensive language identification in Tamil, Malayalam and Kannada are 3, 3 and 4 respectively.",
+      "abstract": "This paper describes the IIITK team’s submissions to the offensive language identification, and troll memes classification shared tasks for Dravidian languages at DravidianLangTech 2021 workshop@ EACL 2021. Our best configuration for Tamil troll meme classification achieved 0.55 weighted average F1 score, and for offensive language identification, our system achieved weighted F1 scores of 0.75 for Tamil, 0.95 for Malayalam, and 0.71 for Kannada. Our rank on Tamil troll meme classification is 2, and offensive language identification in Tamil, Malayalam and Kannada are 3, 3 and 4 respectively.",
       "bibtex": "@inproceedings{iiitk@_dravidianlangtech-eacl2021:_offensive_langu,\n  author    = {Nikhil Ghanghor and Parameswari Krishnamurthy and Sajeetha Thavareesan and Ruba Priyadharshini and Bharathi Raja Chakravarthi},\n  title     = {IIITK@ DravidianLangTech-EACL2021: Offensive language identification and meme classification in Tamil, Malayalam and Kannada},\n  booktitle = {},\n  year      = {2021}\n}",
       "downloads": [
         {
@@ -927,7 +928,7 @@
         }
       ]
     },
-	 {
+    {
       "id": "classification_anaphoric_telugu_2020",
       "year": 2020,
       "type": "journal",
@@ -940,14 +941,14 @@
       "downloads": []
     },
     {
-      "id": "mo\u1e3biv\u0101dam,_collected_papers_in_applied_linguistics",
+      "id": "moḻivādam,_collected_papers_in_applied_linguistics",
       "year": 2020,
-      "title": "mo\u1e3biv\u0101dam, Collected Papers in Applied Linguistics",
+      "title": "moḻivādam, Collected Papers in Applied Linguistics",
       "venue": "",
       "image": "",
       "description": "sampath Kumar Tokala Parameswari Krishnamurthy",
       "abstract": "",
-      "bibtex": "@inproceedings{mo\u1e3biv\u0101dam,_collected_papers_in_applied_linguistics,\n  author    = {sampath Kumar Tokala Parameswari Krishnamurthy},\n  title     = {mo\u1e3biv\u0101dam, Collected Papers in Applied Linguistics},\n  booktitle = {},\n  year      = {2020}\n}",
+      "bibtex": "@inproceedings{moḻivādam,_collected_papers_in_applied_linguistics,\n  author    = {sampath Kumar Tokala Parameswari Krishnamurthy},\n  title     = {moḻivādam, Collected Papers in Applied Linguistics},\n  booktitle = {},\n  year      = {2020}\n}",
       "downloads": []
     },
     {
@@ -966,35 +967,35 @@
         }
       ]
     },
-	{
-		"id": "anaphora_annotation_telugu_2019",
-		"year": 2019,
-		"type": "workshop",
-		"title": "Issues and Challenges in Anaphora Annotation for Telugu",
-		"venue": "Working Papers on Linguistics and Literature, Vol. XIII No. 2",
-		"image": "",
-		"description": "Sangeetha P., Parameswari K.",
-		"abstract": "This paper discusses the issues and challenges involved in annotating anaphora in Telugu. It highlights linguistic complexities such as agreement, reference resolution, and discourse-level dependencies that make annotation difficult. The study also examines annotation strategies and proposes guidelines to improve consistency and accuracy, contributing to the development of annotated corpora for Telugu language processing.",
-		"bibtex": "@article{anaphora_annotation_telugu_2019,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Issues and Challenges in Anaphora Annotation for Telugu},\n  journal = {Working Papers on Linguistics and Literature},\n  volume = {XIII},\n  number = {2},\n  pages = {486--497},\n  year = {2019}\n}",
-		"downloads": []
-	},
-	{
-		"id": "telugu_dependency_parser_poster_2019",
-		"year": 2019,
-		"type": "conference",
-		"title": "A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences",
-		"venue": "Women in NLP Workshop, co-located with ICON-2019, IIIT Hyderabad, India",
-		"image": "",
-		"description": "Sangeetha P., Parameswari K. and Amba Kulkarni",
-		"abstract": "This work presents a rule-based dependency parser for Telugu, focusing on simple sentence structures. The study explores linguistic rules derived from Telugu grammar and evaluates the parser's performance in capturing syntactic dependencies. The results demonstrate the effectiveness of rule-based approaches in low-resource settings and highlight challenges in handling morphological richness and structural variations.",
-		"bibtex": "@inproceedings{telugu_dependency_parser_poster_2019,\n  author = {Sangeetha, P. and Parameswari, K. and Kulkarni, Amba},\n  title = {A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences},\n  booktitle = {Women in NLP Workshop, co-located with ICON-2019},\n  year = {2019},\n  note = {Poster presentation, IIIT Hyderabad, India, December 18--21}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
+    {
+      "id": "anaphora_annotation_telugu_2019",
+      "year": 2019,
+      "type": "workshop",
+      "title": "Issues and Challenges in Anaphora Annotation for Telugu",
+      "venue": "Working Papers on Linguistics and Literature, Vol. XIII No. 2",
+      "image": "",
+      "description": "Sangeetha P., Parameswari K.",
+      "abstract": "This paper discusses the issues and challenges involved in annotating anaphora in Telugu. It highlights linguistic complexities such as agreement, reference resolution, and discourse-level dependencies that make annotation difficult. The study also examines annotation strategies and proposes guidelines to improve consistency and accuracy, contributing to the development of annotated corpora for Telugu language processing.",
+      "bibtex": "@article{anaphora_annotation_telugu_2019,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Issues and Challenges in Anaphora Annotation for Telugu},\n  journal = {Working Papers on Linguistics and Literature},\n  volume = {XIII},\n  number = {2},\n  pages = {486--497},\n  year = {2019}\n}",
+      "downloads": []
+    },
+    {
+      "id": "telugu_dependency_parser_poster_2019",
+      "year": 2019,
+      "type": "conference",
+      "title": "A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences",
+      "venue": "Women in NLP Workshop, co-located with ICON-2019, IIIT Hyderabad, India",
+      "image": "",
+      "description": "Sangeetha P., Parameswari K. and Amba Kulkarni",
+      "abstract": "This work presents a rule-based dependency parser for Telugu, focusing on simple sentence structures. The study explores linguistic rules derived from Telugu grammar and evaluates the parser's performance in capturing syntactic dependencies. The results demonstrate the effectiveness of rule-based approaches in low-resource settings and highlight challenges in handling morphological richness and structural variations.",
+      "bibtex": "@inproceedings{telugu_dependency_parser_poster_2019,\n  author = {Sangeetha, P. and Parameswari, K. and Kulkarni, Amba},\n  title = {A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences},\n  booktitle = {Women in NLP Workshop, co-located with ICON-2019},\n  year = {2019},\n  note = {Poster presentation, IIIT Hyderabad, India, December 18--21}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
     {
       "id": "development_of_telugu-tamil_transfer-based_machine",
       "year": 2019,
@@ -1010,21 +1011,21 @@
           "url": "https://www.degruyterbrill.com/document/doi/10.1515/jisys-2018-0214/html"
         }
       ],
-	  "type":"journal"
+      "type": "journal"
     },
-	{
-		"id": "mozivdam_book_2018",
-		"year": 2018,
-		"type": "book",
-		"title": "moḻivādam: Collected Papers in Applied Linguistics",
-		"venue": "KY Publications, India",
-		"image": "",
-		"description": "Parameswari K. & Sampathbabu Tokala (Eds.)",
-		"abstract": "",
-		"bibtex": "@book{mozivdam_book_2018,\n  editor = {Parameswari, K. and Sampathbabu Tokala},\n  title = {moḻivādam: Collected Papers in Applied Linguistics},\n  publisher = {KY Publications},\n  address = {India},\n  year = {2018}\n}",
-		"downloads": []
-	},
-	 {
+    {
+      "id": "mozivdam_book_2018",
+      "year": 2018,
+      "type": "book",
+      "title": "moḻivādam: Collected Papers in Applied Linguistics",
+      "venue": "KY Publications, India",
+      "image": "",
+      "description": "Parameswari K. & Sampathbabu Tokala (Eds.)",
+      "abstract": "",
+      "bibtex": "@book{mozivdam_book_2018,\n  editor = {Parameswari, K. and Sampathbabu Tokala},\n  title = {moḻivādam: Collected Papers in Applied Linguistics},\n  publisher = {KY Publications},\n  address = {India},\n  year = {2018}\n}",
+      "downloads": []
+    },
+    {
       "id": "accusative_case_telugu_tamil_2018",
       "year": 2018,
       "type": "journal",
@@ -1064,91 +1065,91 @@
         }
       ]
     },
-	{
-		"id": "case_markers_tamil_malayalam_2018",
-		"year": 2018,
-		"type": "conference",
-		"title": "Case Markers in Tamil and Malayalam: A Study in Divergence",
-		"venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
-		"image": "",
-		"description": "Atheena M. and Parameswari K.",
-		"abstract": "This paper investigates case markers in Tamil and Malayalam, focusing on divergence between the two Dravidian languages. It analyzes structural and functional differences in case marking and examines their implications for linguistic theory and machine translation. The study highlights challenges in handling divergence and suggests approaches for improving cross-linguistic analysis and translation systems.",
-		"bibtex": "@inproceedings{case_markers_tamil_malayalam_2018,\n  author = {Atheena, M. and Parameswari, K.},\n  title = {Case Markers in Tamil and Malayalam: A Study in Divergence},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "anaphoric_elements_telugu_2018",
-		"year": 2018,
-		"type": "conference",
-		"title": "The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System",
-		"venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
-		"image": "",
-		"description": "Sangeetha P. and Parameswari K.",
-		"abstract": "This paper focuses on the classification of anaphoric elements in Telugu to support the development of an anaphora resolution system. It examines different types of anaphoric references and their linguistic properties, proposing a classification scheme tailored for Telugu. The study aims to improve computational handling of discourse-level phenomena and enhance natural language processing applications for Telugu.",
-		"bibtex": "@inproceedings{anaphoric_elements_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "annotation_issues_anaphora_telugu_2018",
-		"year": 2018,
-		"type": "conference",
-		"title": "Annotation Issues in Building Anaphora Resolution for Telugu",
-		"venue": "9th National Conference of TelF",
-		"image": "",
-		"description": "Sangeetha P. and Parameswari K.",
-		"abstract": "This paper discusses annotation challenges in developing an anaphora resolution system for Telugu. It highlights issues related to identifying antecedents, handling agreement, and capturing discourse-level dependencies in a morphologically rich language. The study proposes strategies to improve annotation consistency and reliability, contributing to the creation of better annotated corpora for Telugu NLP tasks.",
-		"bibtex": "@inproceedings{annotation_issues_anaphora_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Annotation Issues in Building Anaphora Resolution for Telugu},\n  booktitle = {National Conference of TelF},\n  year = {2018},\n  note = {March 7--8}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "linguistic_divergence_mt_telugu_tamil_2018",
-		"year": 2018,
-		"type": "conference",
-		"title": "Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil",
-		"venue": "AMLaP-Asia 2018, University of Hyderabad, India",
-		"image": "",
-		"description": "Parameswari K.",
-		"abstract": "This paper explores the concept of linguistic divergence and its significance in developing machine translation systems, focusing on Telugu and Tamil. It analyzes structural and grammatical differences between the two languages and demonstrates how divergence impacts translation quality. The study proposes methods to quantify and handle divergence, contributing to the improvement of transfer-based machine translation systems.",
-		"bibtex": "@inproceedings{linguistic_divergence_mt_telugu_tamil_2018,\n  author = {Parameswari, K.},\n  title = {Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil},\n  booktitle = {AMLaP-Asia},\n  year = {2018},\n  note = {University of Hyderabad, February 1--3}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
-	{
-		"id": "technology_integration_mother_tongue_2018",
-		"year": 2018,
-		"type": "conference",
-		"title": "Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives",
-		"venue": "National Symposium on Mother Tongue Medium of Instruction in School Education, University of Hyderabad, India",
-		"image": "",
-		"description": "Parameswari K.",
-		"abstract": "This paper discusses the integration of technology in mother tongue medium education, examining current practices, challenges, and future needs. It highlights the importance of leveraging digital tools and language technologies to enhance learning outcomes in native languages. The study provides perspectives on policy, pedagogy, and resource development for strengthening mother tongue-based education systems.",
-		"bibtex": "@inproceedings{technology_integration_mother_tongue_2018,\n  author = {Parameswari, K.},\n  title = {Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives},\n  booktitle = {National Symposium on Mother Tongue Medium of Instruction},\n  year = {2018},\n  note = {University of Hyderabad, January 29--30}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": ""
-			}
-		]
-	},
+    {
+      "id": "case_markers_tamil_malayalam_2018",
+      "year": 2018,
+      "type": "conference",
+      "title": "Case Markers in Tamil and Malayalam: A Study in Divergence",
+      "venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
+      "image": "",
+      "description": "Atheena M. and Parameswari K.",
+      "abstract": "This paper investigates case markers in Tamil and Malayalam, focusing on divergence between the two Dravidian languages. It analyzes structural and functional differences in case marking and examines their implications for linguistic theory and machine translation. The study highlights challenges in handling divergence and suggests approaches for improving cross-linguistic analysis and translation systems.",
+      "bibtex": "@inproceedings{case_markers_tamil_malayalam_2018,\n  author = {Atheena, M. and Parameswari, K.},\n  title = {Case Markers in Tamil and Malayalam: A Study in Divergence},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "anaphoric_elements_telugu_2018",
+      "year": 2018,
+      "type": "conference",
+      "title": "The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System",
+      "venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
+      "image": "",
+      "description": "Sangeetha P. and Parameswari K.",
+      "abstract": "This paper focuses on the classification of anaphoric elements in Telugu to support the development of an anaphora resolution system. It examines different types of anaphoric references and their linguistic properties, proposing a classification scheme tailored for Telugu. The study aims to improve computational handling of discourse-level phenomena and enhance natural language processing applications for Telugu.",
+      "bibtex": "@inproceedings{anaphoric_elements_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "annotation_issues_anaphora_telugu_2018",
+      "year": 2018,
+      "type": "conference",
+      "title": "Annotation Issues in Building Anaphora Resolution for Telugu",
+      "venue": "9th National Conference of TelF",
+      "image": "",
+      "description": "Sangeetha P. and Parameswari K.",
+      "abstract": "This paper discusses annotation challenges in developing an anaphora resolution system for Telugu. It highlights issues related to identifying antecedents, handling agreement, and capturing discourse-level dependencies in a morphologically rich language. The study proposes strategies to improve annotation consistency and reliability, contributing to the creation of better annotated corpora for Telugu NLP tasks.",
+      "bibtex": "@inproceedings{annotation_issues_anaphora_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Annotation Issues in Building Anaphora Resolution for Telugu},\n  booktitle = {National Conference of TelF},\n  year = {2018},\n  note = {March 7--8}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "linguistic_divergence_mt_telugu_tamil_2018",
+      "year": 2018,
+      "type": "conference",
+      "title": "Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil",
+      "venue": "AMLaP-Asia 2018, University of Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper explores the concept of linguistic divergence and its significance in developing machine translation systems, focusing on Telugu and Tamil. It analyzes structural and grammatical differences between the two languages and demonstrates how divergence impacts translation quality. The study proposes methods to quantify and handle divergence, contributing to the improvement of transfer-based machine translation systems.",
+      "bibtex": "@inproceedings{linguistic_divergence_mt_telugu_tamil_2018,\n  author = {Parameswari, K.},\n  title = {Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil},\n  booktitle = {AMLaP-Asia},\n  year = {2018},\n  note = {University of Hyderabad, February 1--3}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "technology_integration_mother_tongue_2018",
+      "year": 2018,
+      "type": "conference",
+      "title": "Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives",
+      "venue": "National Symposium on Mother Tongue Medium of Instruction in School Education, University of Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper discusses the integration of technology in mother tongue medium education, examining current practices, challenges, and future needs. It highlights the importance of leveraging digital tools and language technologies to enhance learning outcomes in native languages. The study provides perspectives on policy, pedagogy, and resource development for strengthening mother tongue-based education systems.",
+      "bibtex": "@inproceedings{technology_integration_mother_tongue_2018,\n  author = {Parameswari, K.},\n  title = {Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives},\n  booktitle = {National Symposium on Mother Tongue Medium of Instruction},\n  year = {2018},\n  note = {University of Hyderabad, January 29--30}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
     {
       "id": "certain_issues_in_the_development_of_telugu-tamil_",
       "year": 2018,
@@ -1165,7 +1166,7 @@
         }
       ]
     },
-	 {
+    {
       "id": "divergence_index_telugu_tamil_2016",
       "year": 2016,
       "type": "conference",
@@ -1231,9 +1232,9 @@
           "url": "https://aclanthology.org/W15-5706.pdf"
         }
       ],
-	  "type":"journal"
+      "type": "journal"
     },
-	 {
+    {
       "id": "telugu_tamil_mt_system_2015",
       "year": 2015,
       "type": "conference",
@@ -1356,7 +1357,7 @@
       "bibtex": "@inproceedings{an_implementation_of_apertium_morphological_analyz,\n  author    = {K Parameshwari},\n  title     = {An implementation of APERTIUM morphological analyzer and generator for Tamil},\n  booktitle = {},\n  year      = {2011}\n}",
       "downloads": []
     },
-	 {
+    {
       "id": "tamil_telugu_mt_2011",
       "year": 2011,
       "type": "conference",
@@ -1479,38 +1480,72 @@
       "downloads": []
     },
     {
-		"id": "dravidian_shared_task_multitask_2022",
-		"year": 2022,
-		"type": "conference",
-		"title": "Findings of the Shared Task on Multi-task Learning in Dravidian Languages",
-		"venue": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
-		"image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.0.jpg",
-		"description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Subalalitha Cn; S. Sangeetha; Malliga Subramanian; Kogilavani Shanmugavadivel; Parameswari Krishnamurthy et al.",
-		"abstract": "This paper presents the findings of the shared task on multi-task learning in Dravidian languages, organized as part of the Second Workshop on Speech and Language Technologies for Dravidian Languages. The shared task focuses on addressing multiple NLP tasks such as sentiment analysis and offensive language identification across Dravidian languages. The study evaluates various participating systems and highlights the effectiveness of multi-task learning approaches in handling low-resource language challenges. Results demonstrate improvements in performance when leveraging shared representations across tasks, providing insights into future directions for multilingual and multi-task learning in Dravidian language processing.",
-		"bibtex": "@inproceedings{dravidian_shared_task_multitask_2022,\n  author = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Subalalitha, Cn and Sangeetha, S. and Subramanian, Malliga and Shanmugavadivel, Kogilavani and Krishnamurthy, Parameswari},\n  title = {Findings of the Shared Task on Multi-task Learning in Dravidian Languages},\n  booktitle = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  pages = {286--291},\n  year = {2022}\n}",
-		"downloads": [
-			{
-			"label": "PDF",
-			"url": "https://aclanthology.org/2022.dravidianlangtech-1.0.pdf"
-			}
-		]
-	},
-   {
-	"id": "dravidianlangtech_proceedings_2021",
-	"year": 2021,
-	"type": "conference",
-	"title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
-	"venue": "EACL 2021 Workshop on Speech and Language Technologies for Dravidian Languages",
-	"image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.0.jpg",
-	"description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Parameswari Krishnamurthy; Elizabeth Sherly",
-	"abstract": "This work presents the proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages, held in conjunction with EACL 2021. The workshop focuses on advancing research in low-resource Dravidian languages by bringing together contributions in areas such as machine translation, sentiment analysis, speech processing, and linguistic resource development. It highlights the growing interest and progress in computational approaches for Dravidian languages and provides a platform for collaborative research in this domain.",
-	"bibtex": "@proceedings{dravidianlangtech_proceedings_2021,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Krishnamurthy, Parameswari and Sherly, Elizabeth},\n  title = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2021},\n  organization = {ACL}\n}",
-	"downloads": [
-		{
-		"label": "PDF",
-		"url": "https://aclanthology.org/2021.dravidianlangtech-1.0.pdf"
-		}
-	]
-	}
+      "id": "dravidian_shared_task_multitask_2022",
+      "year": 2022,
+      "type": "conference",
+      "title": "Findings of the Shared Task on Multi-task Learning in Dravidian Languages",
+      "venue": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+      "image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.0.jpg",
+      "description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Subalalitha Cn; S. Sangeetha; Malliga Subramanian; Kogilavani Shanmugavadivel; Parameswari Krishnamurthy et al.",
+      "abstract": "This paper presents the findings of the shared task on multi-task learning in Dravidian languages, organized as part of the Second Workshop on Speech and Language Technologies for Dravidian Languages. The shared task focuses on addressing multiple NLP tasks such as sentiment analysis and offensive language identification across Dravidian languages. The study evaluates various participating systems and highlights the effectiveness of multi-task learning approaches in handling low-resource language challenges. Results demonstrate improvements in performance when leveraging shared representations across tasks, providing insights into future directions for multilingual and multi-task learning in Dravidian language processing.",
+      "bibtex": "@inproceedings{dravidian_shared_task_multitask_2022,\n  author = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Subalalitha, Cn and Sangeetha, S. and Subramanian, Malliga and Shanmugavadivel, Kogilavani and Krishnamurthy, Parameswari},\n  title = {Findings of the Shared Task on Multi-task Learning in Dravidian Languages},\n  booktitle = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  pages = {286--291},\n  year = {2022}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2022.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dravidianlangtech_proceedings_2022",
+      "year": 2022,
+      "type": "workshop",
+      "title": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+      "venue": "Association for Computational Linguistics, Dublin, Ireland",
+      "image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.0.jpg",
+      "description": "Bharathi Raja Chakravarthi, Ruba Priyadharshini, Anand Kumar Madasamy, Parameswari Krishnamurthy, Elizabeth Sherly, Sinnathamby Mahesan",
+      "abstract": "This volume contains the proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages. The workshop brings together research on low-resource Dravidian languages, covering areas such as machine translation, sentiment analysis, speech processing, and resource development. It highlights advancements and challenges in computational linguistics for Dravidian languages.",
+      "bibtex": "@proceedings{dravidianlangtech_proceedings_2022,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Madasamy, Anand Kumar and Krishnamurthy, Parameswari and Sherly, Elizabeth and Mahesan, Sinnathamby},\n  title = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2022},\n  organization = {Association for Computational Linguistics},\n  address = {Dublin, Ireland}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2022.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dravidianlangtech_proceedings_2021",
+      "year": 2021,
+      "type": "workshop",
+      "title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
+      "venue": "Association for Computational Linguistics, Kyiv",
+      "image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.0.jpg",
+      "description": "Bharathi Raja Chakravarthi, Ruba Priyadharshini, Anand Kumar M, Parameswari Krishnamurthy, Elizabeth Sherly",
+      "abstract": "This volume presents the proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages. It includes research contributions addressing challenges in low-resource language processing, including machine translation, sentiment analysis, and linguistic resource creation for Dravidian languages.",
+      "bibtex": "@proceedings{dravidianlangtech_proceedings_2021,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Anand Kumar, M and Krishnamurthy, Parameswari and Sherly, Elizabeth},\n  title = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2021},\n  organization = {Association for Computational Linguistics},\n  address = {Kyiv}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2021.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dravidianlangtech_proceedings_2021",
+      "year": 2021,
+      "type": "conference",
+      "title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
+      "venue": "EACL 2021 Workshop on Speech and Language Technologies for Dravidian Languages",
+      "image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.0.jpg",
+      "description": "Chakravarthi, Bharathi Raja; Ruba Priyadharshini; Parameswari Krishnamurthy; Elizabeth Sherly",
+      "abstract": "This work presents the proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages, held in conjunction with EACL 2021. The workshop focuses on advancing research in low-resource Dravidian languages by bringing together contributions in areas such as machine translation, sentiment analysis, speech processing, and linguistic resource development. It highlights the growing interest and progress in computational approaches for Dravidian languages and provides a platform for collaborative research in this domain.",
+      "bibtex": "@proceedings{dravidianlangtech_proceedings_2021,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Krishnamurthy, Parameswari and Sherly, Elizabeth},\n  title = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  booktitle = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2021},\n  organization = {ACL}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2021.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    }
   ]
 }

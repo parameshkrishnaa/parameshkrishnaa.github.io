@@ -1238,6 +1238,17 @@ body.dark .search-title mark {
   display       : block;
   margin-top    : .5rem;
 }
+.page-sub a:hover {
+  color          : var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.page-sub a.pub-type-filter.active {
+  color          : var(--text);
+  font-weight    : 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 .section-heading {
   font-family   : var(--body);
@@ -1808,11 +1819,8 @@ body.dark .section-heading {
 /* ================================================================
    TEACHING
    ================================================================ */
-   /* ================================================================
-   TEACHING
-   ================================================================ */
 .teach-group {
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .teach-group-header {

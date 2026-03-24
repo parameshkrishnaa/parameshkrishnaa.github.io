@@ -351,6 +351,7 @@ Optional:
 * `abstract`
 * `bibtex`
 * `downloads`
+* `typpe=Conference|Workshop|Books|Journals(default=conference if not mentioned)`
 
 ## Example
 

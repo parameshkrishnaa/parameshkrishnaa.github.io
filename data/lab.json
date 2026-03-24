@@ -650,6 +650,91 @@
       "downloads": []
     },
 	{
+		"id": "divergence_index_telugu_tamil_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence",
+		"venue": "Tamil Internet Conference 2019, Anna University, Chennai",
+		"image": "",
+		"description": "Parameswari K.",
+		"abstract": "This paper presents the development of a divergence index for Telugu-Tamil machine translation, focusing on the quantification of case divergence between the two languages. It analyzes structural and grammatical differences, particularly in case marking, and proposes a systematic method to measure divergence. The study contributes to improving transfer-based machine translation by addressing linguistic mismatches and enhancing translation accuracy.",
+		"bibtex": "@inproceedings{divergence_index_telugu_tamil_2019,\n  author = {Parameswari, K.},\n  title = {Building Divergence Index for Telugu-Tamil Machine Translation: Quantification of Case Divergence},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {138--143},\n  address = {Anna University, Chennai}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "tamil_dependency_parser_tags_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "Towards Building a Dependency Parser for Tamil: A Discussion on Tags",
+		"venue": "Tamil Internet Conference 2019, Anna University, Chennai",
+		"image": "",
+		"description": "Keerthana B. and Parameswari K.",
+		"abstract": "This paper discusses the development of a dependency parser for Tamil with a focus on designing and standardizing syntactic tags. It examines challenges arising from Tamil’s rich morphology and syntactic structures, and proposes strategies for effective tag representation. The work contributes to advancing parsing resources and methodologies for Tamil language processing.",
+		"bibtex": "@inproceedings{tamil_dependency_parser_tags_2019,\n  author = {Keerthana, B. and Parameswari, K.},\n  title = {Towards Building a Dependency Parser for Tamil: A Discussion on Tags},\n  booktitle = {Tamil Internet Conference},\n  year = {2019},\n  pages = {83--89},\n  address = {Anna University, Chennai}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "indigenous_languages_technology_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "Connecting Language and Technology: Can Indigenous Languages Benefit?",
+		"venue": "International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI-2019), University of Hyderabad, India",
+		"image": "",
+		"description": "Parameswari K.",
+		"abstract": "This paper explores the relationship between language and technology with a focus on indigenous languages. It examines how technological advancements can support the preservation, documentation, and development of indigenous languages. The study discusses challenges such as lack of resources and digital tools, and highlights opportunities for leveraging computational approaches to promote linguistic diversity and inclusion.",
+		"bibtex": "@inproceedings{indigenous_languages_technology_2019,\n  author = {Parameswari, K.},\n  title = {Connecting Language and Technology: Can Indigenous Languages Benefit?},\n  booktitle = {International Conference on Indigenous Languages, Societies and Cultures in India (ICILSCI)},\n  year = {2019},\n  note = {University of Hyderabad, February 21--22}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "white_paper_telugu_language_technology_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "White Paper on Telugu Language Technology",
+		"venue": "SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology, Jawaharlal Nehru University, New Delhi",
+		"image": "",
+		"description": "Uma Maheshwar Rao, Parameswari et al.",
+		"abstract": "This white paper presents an overview of Telugu language technology, focusing on the current state of resources, tools, and research developments. It discusses challenges in processing Telugu, including issues related to morphology, syntax, and resource scarcity. The paper outlines future directions for advancing language technology in Telugu, emphasizing the need for collaborative efforts in building linguistic resources and computational tools.",
+		"bibtex": "@inproceedings{white_paper_telugu_language_technology_2019,\n  author = {Uma Maheshwar Rao and Parameswari et al.},\n  title = {White Paper on Telugu Language Technology},\n  booktitle = {SOIL-Tech-1: Sanskrit and Other Indian Languages - Technology},\n  year = {2019},\n  note = {Jawaharlal Nehru University, New Delhi, February 15--17}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "mt_india_telugu_systems_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems",
+		"venue": "Brainstorming Workshop on Spoken Language Machine Translation, IIIT Hyderabad, India",
+		"image": "",
+		"description": "Parameswari K. and Uma Maheshwar Rao",
+		"abstract": "This paper presents a report on machine translation efforts in India, focusing on Telugu-Tamil and Telugu-Hindi translation systems. It reviews system architectures, linguistic challenges, and resource requirements, highlighting issues related to morphology, syntax, and divergence between languages. The study provides insights into improving translation quality and outlines future directions for spoken language machine translation in Indian languages.",
+		"bibtex": "@inproceedings{mt_india_telugu_systems_2019,\n  author = {Parameswari, K. and Uma Maheshwar Rao},\n  title = {Machine Translation in India: A Report of Telugu-Tamil and Telugu-Hindi Machine Translation Systems},\n  booktitle = {Brainstorming Workshop on Spoken Language Machine Translation},\n  year = {2019},\n  note = {IIIT Hyderabad, January 31--February 1}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
       "id": "yamtranuwada_2021",
       "year": 2021,
       "type": "journal",
@@ -710,6 +795,23 @@
         }
       ]
     },
+	{
+	"id": "rule_based_tamil_parser_2021",
+	"year": 2021,
+	"type": "conference",
+	"title": "A Rule-Based Dependency Parsing for Tamil",
+	"venue": "Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC 2021)",
+	"image": "",
+	"description": "Parameswari Krishnamurthy, Keerthana B., Sangeetha P.",
+	"abstract": "This paper presents a rule-based dependency parsing approach for Tamil, focusing on handling the syntactic structures of a morphologically rich language. The study explores linguistic rules tailored for Tamil grammar and demonstrates how rule-based methods can effectively capture dependencies in low-resource settings. The work contributes toward improving parsing accuracy and developing linguistic resources for Tamil language processing.",
+	"bibtex": "@inproceedings{rule_based_tamil_parser_2021,\n  author = {Parameswari Krishnamurthy and Keerthana B. and Sangeetha P.},\n  title = {A Rule-Based Dependency Parsing for Tamil},\n  booktitle = {Tamil Computing - Tools and Applications Young Researchers’ Conference (TaCTA-YRC)},\n  year = {2021},\n  note = {March 12--13}\n}",
+	"downloads": [
+		{
+		"label": "PDF",
+		"url": ""
+		}
+	]
+	},
     {
       "id": "parsing_subordinate_clauses_in_telugu_using_rule-b",
       "year": 2021,
@@ -775,7 +877,24 @@
 			"url": ""
 			}
 		]
-		},
+	},
+	{
+		"id": "multiword_token_expansion_tamil_2021",
+		"year": 2021,
+		"type": "conference",
+		"title": "Multi-Word Token Expansion for Tamil: A Parsing Perspective",
+		"venue": "Tamil Internet Conference 2021, Virtual",
+		"image": "",
+		"description": "Parameswari Krishnamurthy and Sarveswaran K.",
+		"abstract": "This paper explores the problem of multi-word token expansion in Tamil from a parsing perspective. It addresses challenges arising due to agglutinative morphology and complex token structures in Tamil. The study proposes methods to improve parsing accuracy by effectively handling multi-word tokens, contributing to better syntactic analysis and downstream NLP applications for Tamil.",
+		"bibtex": "@inproceedings{multiword_token_expansion_tamil_2021,\n  author = {Parameswari Krishnamurthy and Sarveswaran K.},\n  title = {Multi-Word Token Expansion for Tamil: A Parsing Perspective},\n  booktitle = {Tamil Internet Conference},\n  year = {2021},\n  note = {Virtual conference, December 2--5}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
     {
       "id": "findings_of_the_shared_task_on_machine_translation",
       "year": 2021,
@@ -847,6 +966,35 @@
         }
       ]
     },
+	{
+		"id": "anaphora_annotation_telugu_2019",
+		"year": 2019,
+		"type": "workshop",
+		"title": "Issues and Challenges in Anaphora Annotation for Telugu",
+		"venue": "Working Papers on Linguistics and Literature, Vol. XIII No. 2",
+		"image": "",
+		"description": "Sangeetha P., Parameswari K.",
+		"abstract": "This paper discusses the issues and challenges involved in annotating anaphora in Telugu. It highlights linguistic complexities such as agreement, reference resolution, and discourse-level dependencies that make annotation difficult. The study also examines annotation strategies and proposes guidelines to improve consistency and accuracy, contributing to the development of annotated corpora for Telugu language processing.",
+		"bibtex": "@article{anaphora_annotation_telugu_2019,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Issues and Challenges in Anaphora Annotation for Telugu},\n  journal = {Working Papers on Linguistics and Literature},\n  volume = {XIII},\n  number = {2},\n  pages = {486--497},\n  year = {2019}\n}",
+		"downloads": []
+	},
+	{
+		"id": "telugu_dependency_parser_poster_2019",
+		"year": 2019,
+		"type": "conference",
+		"title": "A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences",
+		"venue": "Women in NLP Workshop, co-located with ICON-2019, IIIT Hyderabad, India",
+		"image": "",
+		"description": "Sangeetha P., Parameswari K. and Amba Kulkarni",
+		"abstract": "This work presents a rule-based dependency parser for Telugu, focusing on simple sentence structures. The study explores linguistic rules derived from Telugu grammar and evaluates the parser's performance in capturing syntactic dependencies. The results demonstrate the effectiveness of rule-based approaches in low-resource settings and highlight challenges in handling morphological richness and structural variations.",
+		"bibtex": "@inproceedings{telugu_dependency_parser_poster_2019,\n  author = {Sangeetha, P. and Parameswari, K. and Kulkarni, Amba},\n  title = {A Rule-based Dependency Parser for Telugu: An Experiment with Simple Sentences},\n  booktitle = {Women in NLP Workshop, co-located with ICON-2019},\n  year = {2019},\n  note = {Poster presentation, IIIT Hyderabad, India, December 18--21}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
     {
       "id": "development_of_telugu-tamil_transfer-based_machine",
       "year": 2019,
@@ -916,6 +1064,91 @@
         }
       ]
     },
+	{
+		"id": "case_markers_tamil_malayalam_2018",
+		"year": 2018,
+		"type": "conference",
+		"title": "Case Markers in Tamil and Malayalam: A Study in Divergence",
+		"venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
+		"image": "",
+		"description": "Atheena M. and Parameswari K.",
+		"abstract": "This paper investigates case markers in Tamil and Malayalam, focusing on divergence between the two Dravidian languages. It analyzes structural and functional differences in case marking and examines their implications for linguistic theory and machine translation. The study highlights challenges in handling divergence and suggests approaches for improving cross-linguistic analysis and translation systems.",
+		"bibtex": "@inproceedings{case_markers_tamil_malayalam_2018,\n  author = {Atheena, M. and Parameswari, K.},\n  title = {Case Markers in Tamil and Malayalam: A Study in Divergence},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "anaphoric_elements_telugu_2018",
+		"year": 2018,
+		"type": "conference",
+		"title": "The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System",
+		"venue": "40th International Conference of the Linguistic Society of India (ICOLSI-40), CIIL Mysore",
+		"image": "",
+		"description": "Sangeetha P. and Parameswari K.",
+		"abstract": "This paper focuses on the classification of anaphoric elements in Telugu to support the development of an anaphora resolution system. It examines different types of anaphoric references and their linguistic properties, proposing a classification scheme tailored for Telugu. The study aims to improve computational handling of discourse-level phenomena and enhance natural language processing applications for Telugu.",
+		"bibtex": "@inproceedings{anaphoric_elements_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {The Classification of Anaphoric Elements in Telugu for Developing an Anaphora Resolution System},\n  booktitle = {International Conference of the Linguistic Society of India (ICOLSI)},\n  year = {2018},\n  note = {CIIL Mysore, December 5--7}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "annotation_issues_anaphora_telugu_2018",
+		"year": 2018,
+		"type": "conference",
+		"title": "Annotation Issues in Building Anaphora Resolution for Telugu",
+		"venue": "9th National Conference of TelF",
+		"image": "",
+		"description": "Sangeetha P. and Parameswari K.",
+		"abstract": "This paper discusses annotation challenges in developing an anaphora resolution system for Telugu. It highlights issues related to identifying antecedents, handling agreement, and capturing discourse-level dependencies in a morphologically rich language. The study proposes strategies to improve annotation consistency and reliability, contributing to the creation of better annotated corpora for Telugu NLP tasks.",
+		"bibtex": "@inproceedings{annotation_issues_anaphora_telugu_2018,\n  author = {Sangeetha, P. and Parameswari, K.},\n  title = {Annotation Issues in Building Anaphora Resolution for Telugu},\n  booktitle = {National Conference of TelF},\n  year = {2018},\n  note = {March 7--8}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "linguistic_divergence_mt_telugu_tamil_2018",
+		"year": 2018,
+		"type": "conference",
+		"title": "Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil",
+		"venue": "AMLaP-Asia 2018, University of Hyderabad, India",
+		"image": "",
+		"description": "Parameswari K.",
+		"abstract": "This paper explores the concept of linguistic divergence and its significance in developing machine translation systems, focusing on Telugu and Tamil. It analyzes structural and grammatical differences between the two languages and demonstrates how divergence impacts translation quality. The study proposes methods to quantify and handle divergence, contributing to the improvement of transfer-based machine translation systems.",
+		"bibtex": "@inproceedings{linguistic_divergence_mt_telugu_tamil_2018,\n  author = {Parameswari, K.},\n  title = {Computing Linguistic Divergence and Its Relevance in Building Machine Translation Systems: A Case Study with Telugu and Tamil},\n  booktitle = {AMLaP-Asia},\n  year = {2018},\n  note = {University of Hyderabad, February 1--3}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
+	{
+		"id": "technology_integration_mother_tongue_2018",
+		"year": 2018,
+		"type": "conference",
+		"title": "Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives",
+		"venue": "National Symposium on Mother Tongue Medium of Instruction in School Education, University of Hyderabad, India",
+		"image": "",
+		"description": "Parameswari K.",
+		"abstract": "This paper discusses the integration of technology in mother tongue medium education, examining current practices, challenges, and future needs. It highlights the importance of leveraging digital tools and language technologies to enhance learning outcomes in native languages. The study provides perspectives on policy, pedagogy, and resource development for strengthening mother tongue-based education systems.",
+		"bibtex": "@inproceedings{technology_integration_mother_tongue_2018,\n  author = {Parameswari, K.},\n  title = {Technology Integration in Mother Tongue Medium of Instruction: State-of-the-art, Needs and Perspectives},\n  booktitle = {National Symposium on Mother Tongue Medium of Instruction},\n  year = {2018},\n  note = {University of Hyderabad, January 29--30}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": ""
+			}
+		]
+	},
     {
       "id": "certain_issues_in_the_development_of_telugu-tamil_",
       "year": 2018,
@@ -929,6 +1162,57 @@
         {
           "label": "Link",
           "url": "https://books.google.co.in/books?hl=en&lr=&id=3zFxDwAAQBAJ&oi=fnd&pg=PA153&dq=info:IxnjRaOBmlIJ:scholar.google.com&ots=d26rHHtpZU&sig=hNRe6jpvjHK_vLigvkbMVMgTPAI&redir_esc=y#v=onepage&q&f=false"
+        }
+      ]
+    },
+	 {
+      "id": "divergence_index_telugu_tamil_2016",
+      "year": 2016,
+      "type": "conference",
+      "title": "Divergence Index for Quantifying Translation Differences in Machine Translation: An Implementation in Telugu-Tamil Machine Translation",
+      "venue": "International Conference on Dravidian Linguistics (ICDL-2016) & 44th All India Conference of Dravidian Linguists (AICDL), University of Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper introduces a divergence index for quantifying translation differences in machine translation, focusing on Telugu-Tamil language pairs. It analyzes linguistic divergences such as structural and morphological variations and proposes a systematic method to measure and handle them. The study contributes to improving translation accuracy in transfer-based machine translation systems.",
+      "bibtex": "@inproceedings{divergence_index_telugu_tamil_2016,\n  author = {Parameswari, K.},\n  title = {Divergence Index for Quantifying Translation Differences in Machine Translation: An Implementation in Telugu-Tamil Machine Translation},\n  booktitle = {International Conference on Dravidian Linguistics (ICDL) \\\\& All India Conference of Dravidian Linguists (AICDL)},\n  year = {2016},\n  note = {University of Hyderabad, June 16--18}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "infinitival_clauses_tamil_2016",
+      "year": 2016,
+      "type": "conference",
+      "title": "Infinitival Clauses in Tamil: Some Issues and Challenges in Building a Parser",
+      "venue": "International Conference on Dravidian Linguistics (ICDL-2016) & 44th All India Conference of Dravidian Linguists (AICDL), University of Hyderabad, India",
+      "image": "",
+      "description": "Parameswari K. and Keerthana B.",
+      "abstract": "This paper examines infinitival clauses in Tamil and discusses challenges in incorporating them into parsing systems. It highlights syntactic and morphological complexities that arise in handling infinitival constructions and proposes approaches to improve parser design. The study contributes to enhancing computational models for Tamil language processing.",
+      "bibtex": "@inproceedings{infinitival_clauses_tamil_2016,\n  author = {Parameswari, K. and Keerthana, B.},\n  title = {Infinitival Clauses in Tamil: Some Issues and Challenges in Building a Parser},\n  booktitle = {International Conference on Dravidian Linguistics (ICDL) \\\\& All India Conference of Dravidian Linguists (AICDL)},\n  year = {2016},\n  note = {University of Hyderabad, June 16--18}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "handling_divergence_telugu_tamil_2015",
+      "year": 2015,
+      "type": "conference",
+      "title": "Handling Divergence in Telugu-Tamil Machine Translation",
+      "venue": "iDravidian 2015, co-located with ICON-2015, IIITM-K, Trivandrum, India",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper addresses the problem of linguistic divergence in Telugu-Tamil machine translation. It explores differences in syntax, morphology, and structure between the two languages and proposes methods to handle these divergences within machine translation systems. The study contributes to improving translation quality for closely related Dravidian languages.",
+      "bibtex": "@inproceedings{handling_divergence_telugu_tamil_2015,\n  author = {Parameswari, K.},\n  title = {Handling Divergence in Telugu-Tamil Machine Translation},\n  booktitle = {Natural Language Symposium on Dravidian Languages (iDravidian), co-located with ICON},\n  year = {2015},\n  note = {IIITM-K, Trivandrum, December 10--14}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
         }
       ]
     },
@@ -948,6 +1232,91 @@
         }
       ],
 	  "type":"journal"
+    },
+	 {
+      "id": "telugu_tamil_mt_system_2015",
+      "year": 2015,
+      "type": "conference",
+      "title": "Development of Telugu-Tamil Transfer-Based Machine Translation System: With Special Reference to Divergence Index",
+      "venue": "Deep Machine Translation Workshop 2015 & Machine Translation Marathon, Prague",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper presents the development of a Telugu-Tamil transfer-based machine translation system with a focus on handling linguistic divergence. It introduces the use of a divergence index to address structural and grammatical differences between the two languages. The approach improves translation accuracy by systematically managing divergence phenomena in closely related Dravidian languages.",
+      "bibtex": "@inproceedings{telugu_tamil_mt_system_2015,\n  author = {Parameswari, K.},\n  title = {Development of Telugu-Tamil Transfer-Based Machine Translation System: With Special Reference to Divergence Index},\n  booktitle = {Deep Machine Translation Workshop \\\\& Machine Translation Marathon},\n  year = {2015},\n  note = {Prague, September 7--12}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "calts_mata_keyboard_2014",
+      "year": 2014,
+      "type": "conference",
+      "title": "CALTS-mAta: Unicode Based Indian Language Keyboard for Android Device",
+      "venue": "42nd All India Conference of Dravidian Linguistics, Dravidian University, Kuppam",
+      "image": "",
+      "description": "Uma Maheshwar Rao G., Hari Santosh, Parameswari K., Christopher Mala, Nagaraju",
+      "abstract": "This paper presents CALTS-mAta, a Unicode-based keyboard designed for Indian languages on Android devices. It aims to facilitate multilingual text input by supporting complex scripts and improving usability for native speakers. The system contributes to enhancing accessibility and digital inclusion for Indian language users.",
+      "bibtex": "@inproceedings{calts_mata_keyboard_2014,\n  author = {Uma Maheshwar Rao, G. and Hari Santosh and Parameswari, K. and Christopher Mala and Nagaraju},\n  title = {CALTS-mAta: Unicode Based Indian Language Keyboard for Android Device},\n  booktitle = {All India Conference of Dravidian Linguistics},\n  year = {2014},\n  note = {Dravidian University, June}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "telugu_spell_checker_openoffice_2013",
+      "year": 2013,
+      "type": "conference",
+      "title": "Developing a Telugu Spell Checker with an Add-on Plugin for OpenOffice",
+      "venue": "41st All India Conference of Dravidian Linguistics, University of Madras, Chennai",
+      "image": "",
+      "description": "Uma Maheshwar Rao G., Christopher M., Nagaraju V., Parameswari K.",
+      "abstract": "This paper describes the development of a Telugu spell checker integrated as an add-on plugin for OpenOffice. It focuses on detecting spelling errors and providing suggestions using linguistic rules and morphological analysis. The tool enhances support for Telugu in open-source office applications.",
+      "bibtex": "@inproceedings{telugu_spell_checker_openoffice_2013,\n  author = {Uma Maheshwar Rao, G. and Christopher, M. and Nagaraju, V. and Parameswari, K.},\n  title = {Developing a Telugu Spell Checker with an Add-on Plugin for OpenOffice},\n  booktitle = {All India Conference of Dravidian Linguistics},\n  year = {2013},\n  note = {University of Madras, Chennai, June 20--22}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "android_apps_dravidian_languages_2013",
+      "year": 2013,
+      "type": "conference",
+      "title": "Android Apps for Dravidian Languages",
+      "venue": "41st All India Conference of Dravidian Linguistics, University of Madras, Chennai",
+      "image": "",
+      "description": "Uma Maheshwar Rao G., Christopher M., Santosh Kumar H., Parameswari K.",
+      "abstract": "This paper discusses the development of Android applications for Dravidian languages, focusing on improving accessibility and usability of mobile technology for regional language users. It highlights challenges in script handling, input methods, and localization, and proposes solutions to enhance user experience.",
+      "bibtex": "@inproceedings{android_apps_dravidian_languages_2013,\n  author = {Uma Maheshwar Rao, G. and Christopher, M. and Santosh Kumar, H. and Parameswari, K.},\n  title = {Android Apps for Dravidian Languages},\n  booktitle = {All India Conference of Dravidian Linguistics},\n  year = {2013},\n  note = {University of Madras, Chennai, June 20--22}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "telugu_spell_checker_morphological_2012",
+      "year": 2012,
+      "type": "conference",
+      "title": "Telugu Spell Checker Based on Morphological Analyser: Error Detection and Suggestion Generation",
+      "venue": "International Telugu Internet Conference, GITAM University",
+      "image": "",
+      "description": "Uma Maheshwar Rao G., Parameswari K., Christopher M., Ganapathy Raju N.V.",
+      "abstract": "This paper presents a Telugu spell checker based on a morphological analyzer, focusing on error detection and suggestion generation. It leverages linguistic rules and morphological processing to improve accuracy in identifying and correcting spelling errors. The work contributes to developing language tools for Telugu in digital environments.",
+      "bibtex": "@inproceedings{telugu_spell_checker_morphological_2012,\n  author = {Uma Maheshwar Rao, G. and Parameswari, K. and Christopher, M. and Ganapathy Raju, N.V.},\n  title = {Telugu Spell Checker Based on Morphological Analyser: Error Detection and Suggestion Generation},\n  booktitle = {International Telugu Internet Conference},\n  year = {2012},\n  pages = {127--134}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
     },
     {
       "id": "telugu_spell-checker",
@@ -987,6 +1356,90 @@
       "bibtex": "@inproceedings{an_implementation_of_apertium_morphological_analyz,\n  author    = {K Parameshwari},\n  title     = {An implementation of APERTIUM morphological analyzer and generator for Tamil},\n  booktitle = {},\n  year      = {2011}\n}",
       "downloads": []
     },
+	 {
+      "id": "tamil_telugu_mt_2011",
+      "year": 2011,
+      "type": "conference",
+      "title": "A Tamil-Telugu Transfer-based Bidirectional Machine Translation System",
+      "venue": "International Telugu Internet Conference, Milpitas, California",
+      "image": "",
+      "description": "Parameswari K.",
+      "abstract": "This paper presents a transfer-based bidirectional machine translation system for Tamil and Telugu. It focuses on handling linguistic divergences and structural differences between the two languages, aiming to improve translation accuracy and bidirectional mapping in closely related Dravidian languages.",
+      "bibtex": "@inproceedings{tamil_telugu_mt_2011,\n  author = {Parameswari, K.},\n  title = {A Tamil-Telugu Transfer-based Bidirectional Machine Translation System},\n  booktitle = {International Telugu Internet Conference},\n  year = {2011},\n  note = {Milpitas, California, September}\n}",
+      "downloads": []
+    },
+    {
+      "id": "morphological_complexity_indian_languages_2011",
+      "year": 2011,
+      "type": "conference",
+      "title": "Introducing a Measure of Morphological Complexity in Indian Languages from the Perspective of Morphological Analyzers",
+      "venue": "South Asian Languages Analysis Roundtable (SALA), CIIL Mysore",
+      "image": "",
+      "description": "Parameswari K., Uma Maheshwar Rao G., Christopher M.",
+      "abstract": "This paper introduces a measure of morphological complexity in Indian languages from the perspective of morphological analyzers. It examines how linguistic richness affects computational processing and proposes metrics to evaluate morphological structures, contributing to improved design of language processing tools.",
+      "bibtex": "@inproceedings{morphological_complexity_indian_languages_2011,\n  author = {Parameswari, K. and Uma Maheshwar Rao, G. and Christopher, M.},\n  title = {Introducing a Measure of Morphological Complexity in Indian Languages from the Perspective of Morphological Analyzers},\n  booktitle = {South Asian Languages Analysis Roundtable (SALA)},\n  year = {2011},\n  note = {CIIL Mysore, January}\n}",
+      "downloads": []
+    },
+    {
+      "id": "dative_divergence_telugu_tamil_2010",
+      "year": 2010,
+      "type": "conference",
+      "title": "Dative Divergences in Telugu-Tamil Machine Translation",
+      "venue": "All India Conference of Linguistics (AICL-32), Lucknow University",
+      "image": "",
+      "description": "Parameswari K. and Uma Maheshwar Rao G.",
+      "abstract": "This paper examines dative divergence in Telugu-Tamil machine translation, focusing on syntactic and semantic differences in case marking. It highlights challenges in aligning structures across languages and proposes approaches to improve translation quality.",
+      "bibtex": "@inproceedings{dative_divergence_telugu_tamil_2010,\n  author = {Parameswari, K. and Uma Maheshwar Rao, G.},\n  title = {Dative Divergences in Telugu-Tamil Machine Translation},\n  booktitle = {All India Conference of Linguistics (AICL)},\n  year = {2010},\n  note = {Lucknow University, December 21--23}\n}",
+      "downloads": []
+    },
+    {
+      "id": "lexicon_issues_mt_2010",
+      "year": 2010,
+      "type": "conference",
+      "title": "Certain Issues in the Development of Telugu-Tamil Machine Translation System: A View from Lexicon",
+      "venue": "Tamil Internet Conference 2010, Coimbatore",
+      "image": "",
+      "description": "Parameswari K., Uma Maheshwar Rao G., Krupanandam N., Lavanya J., Christopher M.",
+      "abstract": "This paper discusses lexicon-related issues in developing Telugu-Tamil machine translation systems. It highlights challenges in lexical selection, ambiguity resolution, and resource development, emphasizing the role of lexicon design in improving translation performance.",
+      "bibtex": "@inproceedings{lexicon_issues_mt_2010,\n  author = {Parameswari, K. and Uma Maheshwar Rao, G. and Krupanandam, N. and Lavanya, J. and Christopher, M.},\n  title = {Certain Issues in the Development of Telugu-Tamil Machine Translation System: A View from Lexicon},\n  booktitle = {Tamil Internet Conference},\n  year = {2010},\n  pages = {601--608}\n}",
+      "downloads": []
+    },
+    {
+      "id": "syntactic_divergence_telugu_tamil_2010",
+      "year": 2010,
+      "type": "book_chapter",
+      "title": "Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation",
+      "venue": "New Perspectives in Linguistics, Bharathiar University",
+      "image": "",
+      "description": "Parameswari K., Uma Maheshwar Rao G., Krupanandam N., Lavanya J., Christopher M.",
+      "abstract": "This work analyzes syntactic divergences in Telugu-Tamil machine translation, focusing on structural mismatches and their impact on translation quality. It provides insights into handling syntactic variation in computational models for closely related languages.",
+      "bibtex": "@incollection{syntactic_divergence_telugu_tamil_2010,\n  author = {Parameswari, K. and Uma Maheshwar Rao, G. and Krupanandam, N. and Lavanya, J. and Christopher, M.},\n  title = {Some Aspects of Syntactic Divergences in Telugu-Tamil Machine Translation},\n  booktitle = {New Perspectives in Linguistics},\n  year = {2010},\n  pages = {74--84}\n}",
+      "downloads": []
+    },
+    {
+      "id": "tamil_hyper_grammar_2010",
+      "year": 2010,
+      "type": "conference",
+      "title": "Tamil Hyper Grammar",
+      "venue": "Tamil Internet Conference 2010, Coimbatore",
+      "image": "",
+      "description": "Uma Maheshwar Rao G. and Parameswari K.",
+      "abstract": "This paper presents the concept of Tamil Hyper Grammar, focusing on structured grammatical representations for computational processing. It aims to enhance linguistic modeling and support language technology applications.",
+      "bibtex": "@inproceedings{tamil_hyper_grammar_2010,\n  author = {Uma Maheshwar Rao, G. and Parameswari, K.},\n  title = {Tamil Hyper Grammar},\n  booktitle = {Tamil Internet Conference},\n  year = {2010},\n  pages = {585--591}\n}",
+      "downloads": []
+    },
+    {
+      "id": "morphological_data_description_2010",
+      "year": 2010,
+      "type": "book_chapter",
+      "title": "On the Description of Morphological Data for Morphological Analysers and Generators: A Case of Telugu, Tamil and Kannada",
+      "venue": "Morphological Analysers and Generators, CIIL Mysore",
+      "image": "",
+      "description": "Uma Maheshwar Rao G. and Parameswari K.",
+      "abstract": "This work discusses the representation of morphological data for building analyzers and generators for Telugu, Tamil, and Kannada. It focuses on standardizing data structures and improving computational handling of morphology in Indian languages.",
+      "bibtex": "@incollection{morphological_data_description_2010,\n  author = {Uma Maheshwar Rao, G. and Parameswari, K.},\n  title = {On the Description of Morphological Data for Morphological Analysers and Generators: A Case of Telugu, Tamil and Kannada},\n  booktitle = {Morphological Analysers and Generators},\n  publisher = {CIIL},\n  year = {2010}\n}",
+      "downloads": []
+    },
     {
       "id": "an_improvized_morphological_analyzer_cum_generator",
       "year": 2010,
@@ -1005,13 +1458,13 @@
     },
     {
       "id": "an_improvised_morphological_analyzer_for_tamil:_a_",
-      "year": 2009,
+      "year": 2010,
       "title": "An improvised Morphological Analyzer for Tamil: A case of implementing the open source platform Apertium",
       "venue": "",
       "image": "",
       "description": "K Parameswari",
       "abstract": "",
-      "bibtex": "@inproceedings{an_improvised_morphological_analyzer_for_tamil:_a_,\n  author    = {K Parameswari},\n  title     = {An improvised Morphological Analyzer for Tamil: A case of implementing the open source platform Apertium},\n  booktitle = {},\n  year      = {2009}\n}",
+      "bibtex": "@inproceedings{an_improvised_morphological_analyzer_for_tamil:_a_,\n  author    = {K Parameswari},\n  title     = {An improvised Morphological Analyzer for Tamil: A case of implementing the open source platform Apertium},\n  booktitle = {},\n  year      = {2010}\n}",
       "downloads": []
     },
     {

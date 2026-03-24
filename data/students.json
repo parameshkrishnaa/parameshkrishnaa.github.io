@@ -24,7 +24,7 @@
       "papers": [],
       "socials": []
     },
-	{
+	 {
       "name": "Abhinav PM",
       "photo": "",
       "degree": "Ph.D.",
@@ -36,7 +36,7 @@
       "papers": [],
       "socials": []
     },
-	{
+	 {
       "name": "Rajarshi Chatterji",
       "photo": "",
       "degree": "Ph.D.",
@@ -220,13 +220,169 @@
       "papers": [],
       "socials": []
     },
-	{
+	  {
       "name": "Abhinaba Bala",
       "photo": "",
       "degree": "M.S.",
       "year": 2024,
       "period": "2022-2024",
       "status": "alumni",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Aryan Chaudhary",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Amisha",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Aaryan Kashyap",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Kurumeti Sri Sai Nikhil Sri Vastava",
+      "photo": "",
+      "degree": "CSE",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Pasumarthy Deepak",
+      "photo": "",
+      "degree": "CSE",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Surisetty Tulasi Rushwik",
+      "photo": "",
+      "degree": "CSD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Udith Krishna M Nair",
+      "photo": "",
+      "degree": "CSD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Vennela Bairi",
+      "photo": "",
+      "degree": "",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Sushvin Marimuthu",
+      "photo": "",
+      "degree": "",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Yuvrajsinh Bodana",
+      "photo": "",
+      "degree": "",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Surya Teja Thodupunuri",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Heli Hingrajiya",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Askshit Kumar",
+      "photo": "",
+      "degree": "",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],

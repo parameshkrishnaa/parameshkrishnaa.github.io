@@ -536,12 +536,13 @@ async function initAbout() {
 
     setText('ab-philosophy', d.academic_philosophy || '');
 
-    setHTML('ab-education', (d.education || []).map(function(e) {
+   setHTML('ab-education', (d.education || []).map(function(e) {
       return '<div class="edu-row">' +
         '<span class="edu-yr">' + esc(e.year) + '</span>' +
         '<div>' +
           '<p class="edu-deg">' + esc(e.degree) + '</p>' +
           '<p class="edu-uni">' + esc(e.institution) + '</p>' +
+          (e.note ? '<p class="edu-note">' + esc(e.note) + '</p>' : '') +
         '</div></div>';
     }).join(''));
 

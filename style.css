@@ -1410,7 +1410,7 @@ body.dark .section-heading {
   transform   : translateY(-1px);
 }
 
-.edu-row {
+/* .edu-row {
   display              : grid;
   grid-template-columns: 68px 1fr;
   gap                  : 1rem;
@@ -1426,6 +1426,47 @@ body.dark .section-heading {
 }
 .edu-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
 .edu-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
+.edu-note { font-size: .85rem; color: var(--text-muted); margin: .2em 0 0; font-style: italic; }
+.edu-row {
+  display              : grid;
+  grid-template-columns: 120px 1fr;
+  gap                  : 1rem;
+  padding              : .7rem 0;
+  border-bottom        : 1px solid var(--border);
+}
+.exp-row:last-child { border-bottom: none; }
+.edu-yr {
+  font-family: var(--mono);
+  font-size  : .82rem;
+  color      : var(--text-sub);
+  padding-top: .18em;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.exp-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
+.exp-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; } */
+/* .cv-btn { margin-bottom: 1.8rem; } */
+
+.edu-row {
+  display              : grid;
+  grid-template-columns: 120px 1fr;
+  gap                  : 1rem;
+  padding              : .7rem 0;
+  border-bottom        : 1px solid var(--border);
+}
+.edu-row:last-child { border-bottom: none; }
+.edu-yr {
+  font-family: var(--mono);
+  font-size  : .82rem;
+  color      : var(--text-sub);
+  padding-top: .18em;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+.edu-deg  { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
+.edu-uni  { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
+.edu-note { font-size: .9rem; color: var(--text); margin: .2em 0 0;  }/*font-style: italic;*/
+
 .exp-row {
   display              : grid;
   grid-template-columns: 160px 1fr;
@@ -1444,8 +1485,6 @@ body.dark .section-heading {
 .exp-deg { font-size: 1rem; color: var(--text); margin: 0; font-weight: 500; }
 .exp-uni { font-size: .9rem; color: var(--text-muted); margin: .12em 0 0; }
 /* .cv-btn { margin-bottom: 1.8rem; } */
-
-
 /* ================================================================
    PUBLICATIONS — FILTER BOX
    ================================================================ */

@@ -22,28 +22,30 @@
   ],
   "academic_philosophy": " sample lines",
   "education": [
-   {
+  {
     "degree": "Ph.D. Applied Linguistics",
     "institution": "University of Hyderabad",
-    "year": "2009 - 2014"
+    "year": "2009 - 2014",
+    "note": "Thesis: Development of Telugu-Tamil Machine Translation: With Special Reference to Divergence"
   },
   {
     "degree": "M.Phil. Applied Linguistics",
     "institution": "University of Hyderabad",
-    "year": "2008 - 2009"
+    "year": "2008 - 2009",
+    "note": "Dissertation: An improvized Morphological Analyzer for Tamil: A Case of Implementing the Open Source Platform Apertium"
   },
   {
     "degree": "Masters in Computational Linguistics",
     "institution": "Bharathiar University",
-    "year": "2006 - 2008"
+    "year": "2006 - 2008",
+    "note": "Gold Medalist"
   },
   {
     "degree": "Bachelors in English Language and Literature",
     "institution": "Navarasam Arts and Science College, Bharathiar University Affiliation, Arachalur, Erode",
-    "year": "2003 - 2006"
-  }
-    
-  ],
+    "year": "2003 - 2006",
+    "note": "University Rank Holder"
+  }],
   "experience": [
   {
     "degree": "Assistant Professor",

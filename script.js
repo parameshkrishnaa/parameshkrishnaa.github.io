@@ -751,7 +751,7 @@ function pubHTML(p) {
     '  <div class="pub-img-wrap">' + imageHTML + '</div>',
     '  <div class="pub-body">',
     '    <p class="pub-title">' + esc(p.title) + '</p>',
-    '    <p class="pub-venue">' + esc(p.venue) + '</p>',
+    '    <p class="pub-venue">' + esc(p.venue) + ' <span class="lec-type">' + esc(p.year) + '</span></p>',
     '    <p class="pub-desc">' + esc(p.description) + '</p>',
     '    <div class="pub-tags">' + tags + '</div>',
     '    <div class="pub-actions">',

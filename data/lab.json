@@ -63,6 +63,7 @@
     {
       "id": "patient-centric_question_answering-overview_of_the",
       "year": 2025,
+	  "type": "workshop",
       "title": "Patient-Centric Question Answering-Overview of the Shared Task at the Second Workshop on NLP and AI for Multilingual and Healthcare Communication",
       "venue": "",
       "image": "https://aclanthology.org/thumb/2025.nlpai4health-main.5.jpg",
@@ -1495,6 +1496,40 @@
 			}
 		]
 	},
+	 {
+      "id": "dravidianlangtech_proceedings_2022",
+      "year": 2022,
+      "type": "workshop",
+      "title": "Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages",
+      "venue": "Association for Computational Linguistics, Dublin, Ireland",
+      "image": "https://aclanthology.org/thumb/2022.dravidianlangtech-1.0.jpg",
+      "description": "Bharathi Raja Chakravarthi, Ruba Priyadharshini, Anand Kumar Madasamy, Parameswari Krishnamurthy, Elizabeth Sherly, Sinnathamby Mahesan",
+      "abstract": "This volume contains the proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages. The workshop brings together research on low-resource Dravidian languages, covering areas such as machine translation, sentiment analysis, speech processing, and resource development. It highlights advancements and challenges in computational linguistics for Dravidian languages.",
+      "bibtex": "@proceedings{dravidianlangtech_proceedings_2022,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Madasamy, Anand Kumar and Krishnamurthy, Parameswari and Sherly, Elizabeth and Mahesan, Sinnathamby},\n  title = {Proceedings of the Second Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2022},\n  organization = {Association for Computational Linguistics},\n  address = {Dublin, Ireland}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2022.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dravidianlangtech_proceedings_2021",
+      "year": 2021,
+      "type": "workshop",
+      "title": "Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages",
+      "venue": "Association for Computational Linguistics, Kyiv",
+      "image": "https://aclanthology.org/thumb/2021.dravidianlangtech-1.0.jpg",
+      "description": "Bharathi Raja Chakravarthi, Ruba Priyadharshini, Anand Kumar M, Parameswari Krishnamurthy, Elizabeth Sherly",
+      "abstract": "This volume presents the proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages. It includes research contributions addressing challenges in low-resource language processing, including machine translation, sentiment analysis, and linguistic resource creation for Dravidian languages.",
+      "bibtex": "@proceedings{dravidianlangtech_proceedings_2021,\n  editor = {Chakravarthi, Bharathi Raja and Priyadharshini, Ruba and Anand Kumar, M and Krishnamurthy, Parameswari and Sherly, Elizabeth},\n  title = {Proceedings of the First Workshop on Speech and Language Technologies for Dravidian Languages},\n  year = {2021},\n  organization = {Association for Computational Linguistics},\n  address = {Kyiv}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": "https://aclanthology.org/2021.dravidianlangtech-1.0.pdf"
+        }
+      ]
+    },
    {
 	"id": "dravidianlangtech_proceedings_2021",
 	"year": 2021,

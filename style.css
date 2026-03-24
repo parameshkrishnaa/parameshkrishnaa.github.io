@@ -313,7 +313,12 @@ li     { margin-bottom: .4em; }
   padding       : .7rem 1.5rem;
   font-size     : .8125rem;
 }
-
+.page-sub a.news-cat-filter.active {
+  color          : var(--text);
+  font-weight    : 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* ================================================================
    LEFT NAVIGATION SIDEBAR

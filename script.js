@@ -948,6 +948,17 @@ function sortStudents(arr) {
   });
 }
 
+function sortDualDegree(arr) {
+  return arr.slice().sort(function(a, b) {
+    // current/present first, alumni last
+    var aIsAlumni = a.status === 'alumni' ? 1 : 0;
+    var bIsAlumni = b.status === 'alumni' ? 1 : 0;
+    if (aIsAlumni !== bIsAlumni) return aIsAlumni - bIsAlumni;
+    // within same status group, latest year first
+    return (b.year || 0) - (a.year || 0);
+  });
+}
+
 function initials(name) {
   return (name || '').split(/\s+/).map(function(w) { return w[0] || ''; }).join('').toUpperCase().slice(0, 2);
 }
@@ -1085,7 +1096,8 @@ async function initStudents() {
     var d       = await loadJSON('data/students.json');
     var current = sortStudents(d.current_students || []);
     var ms = sortStudents(d.ms_students || []);
-    var dual_degree = sortStudents(d.dual_degree || []);
+    // var dual_degree = sortStudents(d.dual_degree || []);
+    var dual_degree = sortDualDegree(d.dual_degree || []);
     var alumni  = sortStudents(d.alumni || []);
     var html    = '';
 

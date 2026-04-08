@@ -389,6 +389,116 @@
       "socials": []
     }
   ],
+  "research_associates": [
+    {
+      "name": "Nagaraju",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "20 - Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "papers": [ ],
+      "socials": [      ]
+    },
+    {
+      "name": "Prabha",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "20 - Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "papers": [ ],
+      "socials": [      ]
+    },
+    {
+      "name": "Ayush",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "20 - Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [ ],
+      "socials": [      ]
+    },
+    {
+      "name": "Deepika",
+      "photo": "",
+      "degree": "",
+      "year": 2026,
+      "period": "20 - Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [ ],
+      "socials": [      ]
+    }
+  ],
+  "research_interns": [
+    {
+      "name": "Amrutha",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Summer 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+     {
+      "name": "Mahesh",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Summer 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+     {
+      "name": "Syed Farzan",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Summer 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+     {
+      "name": "Rohi",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Summer 2026",
+      "status": "alumni",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+     {
+      "name": "Pragnya",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Summer 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    }
+  ],
   "#ms_students":[
 	 
   ]

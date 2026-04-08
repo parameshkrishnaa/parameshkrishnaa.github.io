@@ -205,6 +205,24 @@ if (d.mphil)
         page, label);
     });
 
+  if (d.research_associates)
+    d.research_associates.forEach(function(s) {
+      addItem(s.name,
+        [s.name, s.degree, s.topic||'',
+         (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+        ].join(' '),
+        page, label);
+    });
+
+  if (d.research_interns)
+    d.research_interns.forEach(function(s) {
+      addItem(s.name,
+        [s.name, s.degree, s.topic||'',
+         (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+        ].join(' '),
+        page, label);
+    });
+
   if (d.lectures)
     d.lectures.forEach(function(l) {
       addItem(l.title,
@@ -982,7 +1000,8 @@ function svgAvatar(name) {
   return 'data:image/svg+xml,' + encodeURIComponent(svg);
 }
 
-function renderStudentCard(s) {
+function renderStudentCard(s, opts) {
+  opts = opts || {};
   var uid = 'stu-' + s.name.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
   var avatar = svgAvatar(s.name);
 
@@ -1001,7 +1020,7 @@ var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S
   var alumBadge = s.institution
     ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
 
-  var completedBadge = isDualDegree && s.status === 'alumni'
+  var completedBadge = opts.showCompletedBadge && isDualDegree && s.status === 'alumni'
     ? '<span class="stu-completed-badge">Completed</span>'
     : '';
   var hasPapers = s.papers && s.papers.length > 0;
@@ -1105,13 +1124,15 @@ async function initStudents() {
     // var dual_degree = sortStudents(d.dual_degree || []);
     var dual_degree = sortDualDegree(d.dual_degree || []);
     var alumni  = sortStudents(d.alumni || []);
+    var researchAssociates = sortStudents(d.research_associates || d.research_associated || []);
+    var researchInterns = sortStudents(d.research_interns || []);
     var html    = '';
 
-    function twoColWrap(students) {
+    function twoColWrap(students, opts) {
       var left  = [];
       var right = [];
       students.forEach(function(s, i) {
-        (i % 2 === 0 ? left : right).push(renderStudentCard(s));
+        (i % 2 === 0 ? left : right).push(renderStudentCard(s, opts));
       });
       return '<div class="stu-col-wrap">' +
         '<div class="stu-col">' + left.join('')  + '</div>' +
@@ -1130,8 +1151,16 @@ async function initStudents() {
     }
 	if( dual_degree.length) {
 	  html += '<div class="stu-group-title">MS/Dual Degree Students</div>';
-	  html += twoColWrap(dual_degree);
+    html += twoColWrap(dual_degree, { showCompletedBadge: true });
 	}
+  if (researchAssociates.length) {
+    html += '<div class="stu-group-title">Research Associates</div>';
+    html += twoColWrap(researchAssociates);
+  }
+  if (researchInterns.length) {
+    html += '<div class="stu-group-title">Research Interns</div>';
+    html += twoColWrap(researchInterns);
+  }
 	// if (ms.length) {
 	//   html += '<div class="stu-group-title">MS Students</div>';
 	//   html += twoColWrap(ms);

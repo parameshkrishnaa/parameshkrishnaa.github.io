@@ -2010,11 +2010,10 @@ body.dark .section-heading {
   overflow     : hidden;
   border       : 2px solid var(--border-strong);
   background   : var(--bg-deep);
-  transition   : transform .28s var(--ease), box-shadow .28s var(--ease);
+  transition   : box-shadow .28s var(--ease);
 }
 .stu-card:hover .stu-photo-wrap {
-  transform : scale(1.07);
-  box-shadow: 0 4px 14px rgba(0,0,0,.13);
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.4), inset 0 0 12px rgba(255, 255, 255, 0.1);
 }
 
 .stu-photo {
@@ -2023,7 +2022,12 @@ body.dark .section-heading {
   object-fit      : cover;
   object-position : center 18%;
   display         : block;
-  transform       : translateZ(0);
+  filter          : brightness(1);
+  transition      : filter .28s var(--ease);
+}
+
+.stu-card:hover .stu-photo {
+  filter: brightness(1.25);
 }
 
 .stu-identity { flex: 1; min-width: 0; }

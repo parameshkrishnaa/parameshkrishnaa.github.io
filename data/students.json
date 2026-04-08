@@ -379,33 +379,33 @@
   ],
   "research_associates": [
     {
-      "name": "Nagaraju",
-      "photo": "",
-      "degree": "",
-      "year": 2026,
-      "period": "20 - Present",
+      "name": "Nagaraju Vuppala",
+      "photo": "images/students/Nagaraju.jpg",
+      "degree": "B. Tech",
+      "#year": 2026,
+      "period": "2022 - Present",
+      "status": "current",
+      "#institution": "IIIT Hyderabad",
+      "papers": [ ],
+      "socials": [      ]
+    },
+    {
+      "name": "Prabhadevi Rajaram",
+      "photo": "images/students/Prabha.jpeg",
+      "degree": "M.Sc Computer Technology",
+      "#year": 2026,
+      "period": "2023 - Present",
       "status": "current",
       "institution": "IIIT Hyderabad",
       "papers": [ ],
       "socials": [      ]
     },
     {
-      "name": "Prabha",
+      "name": "Ayush Sahu",
       "photo": "",
       "degree": "",
-      "year": 2026,
-      "period": "20 - Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "papers": [ ],
-      "socials": [      ]
-    },
-    {
-      "name": "Ayush",
-      "photo": "",
-      "degree": "",
-      "year": 2026,
-      "period": "20 - Present",
+      "#year": 2026,
+      "period": "2026 - Present",
       "status": "current",
       "institution": "IIIT Hyderabad",
       
@@ -413,11 +413,11 @@
       "socials": [      ]
     },
     {
-      "name": "Deepika",
-      "photo": "",
-      "degree": "",
-      "year": 2026,
-      "period": "20 - Present",
+      "name": "Deepika Ketha",
+      "photo": "images/students/Deepika.jpeg",
+      "degree": "M.Sc Computer Science",
+      "#year": 2026,
+      "period": "2024 - Present",
       "status": "current",
       "institution": "IIIT Hyderabad",
       
@@ -427,7 +427,19 @@
   ],
   "research_interns": [
     {
-      "name": "Amrutha",
+      "name": "Amrutha Surabhi",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Jan 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+     {
+      "name": "Mahesh Vasamsetti",
       "photo": "",
       "degree": "B.Tech",
       "year": 2026,
@@ -439,11 +451,11 @@
       "socials": []
     },
      {
-      "name": "Mahesh",
+      "name": "Dr. Syed Farzan",
       "photo": "",
-      "degree": "B.Tech",
+      "degree": "MBBS",
       "year": 2026,
-      "period": "Summer 2026",
+      "period": "2026-2027",
       "status": "current",
       "institution": "IIIT Hyderabad",
       
@@ -451,19 +463,7 @@
       "socials": []
     },
      {
-      "name": "Syed Farzan",
-      "photo": "",
-      "degree": "B.Tech",
-      "year": 2026,
-      "period": "Summer 2026",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      
-      "papers": [],
-      "socials": []
-    },
-     {
-      "name": "Rohi",
+      "name": "Pasunoori Rohi kumar",
       "photo": "",
       "degree": "B.Tech",
       "year": 2026,
@@ -475,7 +475,7 @@
       "socials": []
     },
      {
-      "name": "Pragnya",
+      "name": "Pragnya Kankati",
       "photo": "",
       "degree": "B.Tech",
       "year": 2026,

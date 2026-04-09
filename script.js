@@ -205,8 +205,8 @@ if (d.mphil)
         page, label);
     });
 
-  if (d.research_associates)
-    d.research_associates.forEach(function(s) {
+  if (d.research_staff)
+    d.research_staff.forEach(function(s) {
       addItem(s.name,
         [s.name, s.degree, s.topic||'',
          (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
@@ -1100,7 +1100,7 @@ var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S
     '      <div class="stu-meta">',
     '        <span class="stu-deg">' + esc(s.degree) + '</span>',
     '        <span class="stu-period">' + esc(s.period) + '</span>',
-    '        ' + alumBadge,
+    // '        ' + alumBadge,
     '        ' + completedBadge,
 
     '      </div>',
@@ -1124,7 +1124,7 @@ async function initStudents() {
     // var dual_degree = sortStudents(d.dual_degree || []);
     var dual_degree = sortDualDegree(d.dual_degree || []);
     var alumni  = sortStudents(d.alumni || []);
-    var researchAssociates = sortStudents(d.research_associates || d.research_associated || []);
+    var researchAssociates = sortStudents(d.research_staff || d.research_associated || []);
     var researchInterns = sortStudents(d.research_interns || []);
     var html    = '';
 

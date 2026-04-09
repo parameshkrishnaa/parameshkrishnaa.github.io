@@ -113,18 +113,6 @@
       "socials": []
     },
     {
-      "name": "Aradhya Gupta",
-      "photo": "",
-      "degree": "CLD",
-      "year": 2024,
-      "period": "Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "topic": "",
-      "papers": [],
-      "socials": []
-    },
-    {
       "name": "Yash Bhaskar",
       "photo": "",
       "degree": "CLD",
@@ -136,7 +124,7 @@
       "papers": [],
       "socials": []
     },
-    {
+	{
       "name": "Sankalp Sanjay Bahad",
       "photo": "",
       "degree": "CLD",
@@ -185,7 +173,7 @@
       "socials": []
     },
     {
-      "name": "Modumudi Naga Sai Ritvik",
+      "name": "Surisetty Tulasi Rushwik",
       "photo": "",
       "degree": "CSD",
       "year": 2024,
@@ -197,69 +185,9 @@
       "socials": []
     },
     {
-      "name": "Hari Shankar",
+      "name": "Modumudi Naga Sai Ritvik",
       "photo": "",
-      "degree": "CLD",
-      "year": 2024,
-      "period": "Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "topic": "Co-advised with PK",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Mupparapu Sohan Gupta",
-      "photo": "",
-      "degree": "Honors",
-      "year": 2024,
-      "period": "Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "topic": "",
-      "papers": [],
-      "socials": []
-    },
-	  {
-      "name": "Abhinaba Bala",
-      "photo": "",
-      "degree": "M.S.",
-      "year": 2024,
-      "period": "2022-2024",
-      "status": "alumni",
-      "institution": "IIIT Hyderabad",
-      "topic": "",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Aryan Chaudhary",
-      "photo": "",
-      "degree": "CLD",
-      "year": 2024,
-      "period": "Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "topic": "",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Amisha",
-      "photo": "",
-      "degree": "CLD",
-      "year": 2024,
-      "period": "Present",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      "topic": "",
-      "papers": [],
-      "socials": []
-    },
-    {
-      "name": "Aaryan Kashyap",
-      "photo": "",
-      "degree": "CLD",
+      "degree": "CSD",
       "year": 2024,
       "period": "Present",
       "status": "current",
@@ -281,6 +209,18 @@
       "socials": []
     },
     {
+      "name": "Mupparapu Sohan Gupta",
+      "photo": "",
+      "degree": "Honors",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
       "name": "Pasumarthy Deepak",
       "photo": "",
       "degree": "CSE",
@@ -293,9 +233,45 @@
       "socials": []
     },
     {
-      "name": "Surisetty Tulasi Rushwik",
+      "name": "Hari Shankar",
       "photo": "",
-      "degree": "CSD",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "Co-advised with PK",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Aaryan Kashyap",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Aryan Chaudhary",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Amisha",
+      "photo": "",
+      "degree": "CLD",
       "year": 2024,
       "period": "Present",
       "status": "current",
@@ -375,9 +351,33 @@
       "topic": "",
       "papers": [],
       "socials": []
+    },
+	{
+      "name": "Abhinaba Bala",
+      "photo": "",
+      "degree": "M.S.",
+      "year": 2024,
+      "period": "2022-2024",
+      "status": "alumni",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
+    {
+      "name": "Aradhya Gupta",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2024,
+      "period": "Present",
+      "status": "alumini",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
     }
   ],
-  "research_associates": [
+  "research_staff": [
     {
       "name": "Nagaraju Vuppala",
       "photo": "images/students/Nagaraju.jpg",

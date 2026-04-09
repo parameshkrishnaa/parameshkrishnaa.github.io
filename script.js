@@ -1154,7 +1154,7 @@ async function initStudents() {
     html += twoColWrap(dual_degree, { showCompletedBadge: true });
 	}
   if (researchAssociates.length) {
-    html += '<div class="stu-group-title">Research Associates</div>';
+    html += '<div class="stu-group-title">Research Staff</div>';
     html += twoColWrap(researchAssociates);
   }
   if (researchInterns.length) {

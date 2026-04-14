@@ -306,7 +306,7 @@
     },
     {
       "name": "Sushvin Marimuthu",
-      "photo": "",
+      "photo": "images/students/sushvin.png",
       "degree": "",
       "year": 2024,
       "period": "Present",
@@ -314,7 +314,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"Portfolio","url":"https://www.sushvinmarimuthu.com/"}]
     },
     {
       "name": "Yuvrajsinh Bodana",
@@ -387,7 +387,7 @@
       "status": "current",
       "#institution": "IIIT Hyderabad",
       "papers": [ ],
-      "socials": [      ]
+      "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/nagaraju-vuppala-88167a98/"}, {"label": "GitHub", "url": "https://github.com/nagaraju291990"}]
     },
     {
       "name": "Prabhadevi Rajaram",

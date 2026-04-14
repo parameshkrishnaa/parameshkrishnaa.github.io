@@ -487,6 +487,30 @@
       "socials": []
     }
   ],
+  "btp_students": [
+    {
+      "name": "Billuri Srinivasu",
+      "photo": "",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Jan 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "papers": [],
+      "socials": []
+    },
+	{
+      "name": "Mannem Bheema Siddartha",
+      "photo": "images/students/Bheema.jpeg",
+      "degree": "B.Tech",
+      "year": 2026,
+      "period": "Jan 2026",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "papers": [],
+      "socials": []
+    }
+	],
   "#ms_students":[
 	 
   ]

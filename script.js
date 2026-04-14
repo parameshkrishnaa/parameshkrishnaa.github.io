@@ -222,6 +222,14 @@ if (d.mphil)
         ].join(' '),
         page, label);
     });
+	if (d.btp_students)
+    	d.btp_students.forEach(function(s) {
+      	addItem(s.name,
+        	[s.name, s.degree, s.topic||'',
+       	  (s.papers||[]).map(function(p){return p.title+' '+(p.venue||'');}).join(' ')
+      	  ].join(' '),
+        page, label);
+    });
 
   if (d.lectures)
     d.lectures.forEach(function(l) {
@@ -1126,6 +1134,7 @@ async function initStudents() {
     var alumni  = sortStudents(d.alumni || []);
     var researchAssociates = sortStudents(d.research_staff || d.research_associated || []);
     var researchInterns = sortStudents(d.research_interns || []);
+    var btpStudents = sortStudents(d.btp_students || []);
     var html    = '';
 
     function twoColWrap(students, opts) {
@@ -1160,6 +1169,10 @@ async function initStudents() {
   if (researchInterns.length) {
     html += '<div class="stu-group-title">Research Interns</div>';
     html += twoColWrap(researchInterns);
+  }
+   if (btpStudents.length) {
+    html += '<div class="stu-group-title">BTP Students</div>';
+    html += twoColWrap(btpStudents);
   }
 	// if (ms.length) {
 	//   html += '<div class="stu-group-title">MS Students</div>';

@@ -398,7 +398,7 @@
       "status": "current",
       "institution": "IIIT Hyderabad",
       "papers": [ ],
-      "socials": [      ]
+      "socials": [{"label": "GitHub", "url": "https://github.com/PrabhadeviRajaram"}]
     },
     {
       "name": "Ayush Sahu",

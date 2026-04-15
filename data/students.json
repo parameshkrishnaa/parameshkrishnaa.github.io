@@ -22,7 +22,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "Prosody & Indian English",
       "papers": [],
-      "socials": ["LinkedIn", "https://www.linkedin.com/in/monica-s-a6177a287/", "Portfolio", "https://monica-surtani.github.io/"]
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/monica-s-a6177a287/"}, {"label": "Portfolio", "url":"https://monica-surtani.github.io/"}]
     },
      {
       "name": "Abhinav PM",
@@ -34,7 +34,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "Reasoning & LLMs",
       "papers": [],
-      "socials": ["LinkedIn", "https://www.linkedin.com/in/abhinav-p-m//", "Portfolio", "https://abhinav-pm.github.io/"]
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/abhinav-p-m//"}, {"label": "Portfolio", "url":"https://abhinav-pm.github.io/"}]
     },
      {
       "name": "Rajarshi Chatterji",
@@ -422,7 +422,7 @@
       "institution": "IIIT Hyderabad",
       
       "papers": [ ],
-      "socials": [      ]
+      "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/deepika-ketha-5272051ba//"}, {"label": "GitHub", "url": "https://github.com/deepikaketha"}]
     }
   ],
   "research_interns": [
@@ -496,6 +496,7 @@
       "period": "Jan 2026",
       "status": "current",
       "institution": "IIIT Hyderabad",
+      "topic": "Shallow parser model(POS/CHUNK/Morph Predictor)",
       "papers": [],
       "socials": []
     },
@@ -507,8 +508,9 @@
       "period": "Jan 2026",
       "status": "current",
       "institution": "IIIT Hyderabad",
+      "topic": "Shallow parser model(POS/CHUNK/Morph Predictor)",
       "papers": [],
-      "socials": ["LinkedIn", "https://www.linkedin.com/in/bheema-siddartha-a511a8203/", "GitHub", "https://github.com/bheema270"]
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/bheema-siddartha-a511a8203/"}, {"label": "GitHub", "url":"https://github.com/bheema270"}]
     },
     {
         "name": "Akash Sigullapalli",
@@ -518,8 +520,31 @@
         "period": "Jan 2026",
         "status": "current",
         "institution": "IIIT Hyderabad",
+        "topic": "Grammar Error Correction",
         "papers": [],
-        "socials": ["LinkedIn", "https://www.linkedin.com/in/akash-sigullapalli-75297931b/", "GitHub", "https://github.com/AkashS1945"]
+        "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/akash-sigullapalli-75297931b/"}, {"label": "GitHub", "url":"https://github.com/AkashS1945"}]
+    },
+    {
+        "name": "Varun Alokam",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Grammar Error Correction",
+        "papers": []
+    },
+    {
+        "name": "Jaswanth Reddy Konapalli",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Grammar Error Correction",
+        "papers": []
     },
     {
         "name": "Roshan Lal Kalluri",
@@ -529,8 +554,64 @@
         "period": "Jan 2026",
         "status": "current",
         "institution": "IIIT Hyderabad",
+        "topic": "Video to video translation",
         "papers": [],
-        "socials": ["LinkedIn", "http://www.linkedin.com/in/kalluri-roshan-lal/", "GitHub", "https://github.com/Roshan-o"]
+        "socials": [{"label":"LinkedIn","url":"http://www.linkedin.com/in/kalluri-roshan-lal/"}, {"label": "GitHub", "url":"https://github.com/Roshan-o"}]
+    },
+    {
+        "name": "Ande Karthik ",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Video to video translation",
+        "papers": []
+    },
+    {
+        "name": "Arnav Deshmukh ",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Information Retrieval using Knowledge Graphs",
+        "papers": []
+    },
+    {
+        "name": "Bibek Dhody ",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Information Retrieval using Knowledge Graphs",
+        "papers": []
+    },
+    {
+        "name": "Raghav Grover  ",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Information Retrieval using Knowledge Graphs",
+        "papers": []
+    },
+    {
+        "name": "Sanyam Agrawal ",
+        "photo": "images/students/blank_profile.png",
+        "degree": "B.Tech",
+        "year": 2026,
+        "period": "Jan 2026",
+        "status": "current",
+        "institution": "IIIT Hyderabad",
+        "topic": "Information Retrieval using Knowledge Graphs",
+        "papers": []
     }
     ],
   "#ms_students":[

@@ -10,7 +10,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "A discourse-integrated Machine Translation",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/priyanka-dasari-4b5104185/"}, {"label": "GitHub", "url":"https://github.com/priyankadasari077"}]
     },
     {
       "name": "Surtani Monica",
@@ -52,7 +52,7 @@
    "alumni": [
     {
       "name": "Sangeetha Perugu",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/C5603AQFGGTLH2mCijQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1611309901559?e=1778112000&v=beta&t=L6AbVn1HNRYHba6i_o9K0rHzuX0-LVMv9-1EwQNfvVU",
       "degree": "Ph.D.",
       "year": 2023,
       "period": "2018 – 2023",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Prabhakar",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D5603AQGXRO8_IkpCqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715147199113?e=1778112000&v=beta&t=XFPKeaMhxvTXnitz6Nde1xBr-LvQHjrYndwJDpLPqZ8",
       "degree": "Ph.D.",
       "year": 2023,
       "period": "2016 – 2023",
@@ -72,7 +72,7 @@
       "institution": "University of Hyderabad",
       "placement": "Assistant Professor, Gitam University",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/jd-prabhakar-b0a30a114/"}]
     },
     {
       "name": "Krishna Maya Magar",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Keerthana Balasubramaniyam",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/C4E03AQE7brBmr6-ngQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516767485237?e=1778112000&v=beta&t=D-zmjPulymDMSCJtyKN4R3X0vJ4cNHRCk174Fu4N4Zs",
       "degree": "Ph.D.",
       "year": 2022,
       "period": "2016 - 2024",
@@ -96,7 +96,7 @@
       "institution": "University of Hyderabad",
       "placement": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/keerthana-balasubramani/"}]
     }
   ],
   "dual_degree": [
@@ -114,7 +114,7 @@
     },
     {
       "name": "Yash Bhaskar",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D5603AQH56Rbon9sxjQ/profile-displayphoto-scale_200_200/B56ZfqD4_ZGoAY-/0/1751978580520?e=1778112000&v=beta&t=KXm8iHmcO5NfhOu3pVxSztp0k3skvZ4yfbUNzZKbgvY",
       "degree": "CLD",
       "year": 2024,
       "period": "Present",
@@ -122,11 +122,11 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/yash-bhaskar/"}]
     },
     {
       "name": "Sankalp Sanjay Bahad",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHqKpirZ91YbA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702991019494?e=1778112000&v=beta&t=AzIRVh43tKvthcPChqrQCVQLWxDDiuqn6_s6jru_XGE",
       "degree": "CLD",
       "year": 2024,
       "period": "Present",
@@ -134,7 +134,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/sankalp-bahad/"}]
     },
     {
       "name": "Akshit Kumar",
@@ -150,7 +150,7 @@
     },
     {
       "name": "Ketaki Mangesh Shetye",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D4D03AQEu9FXxSN9bCQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1715018980759?e=1778112000&v=beta&t=J_M3ODbkHdFKYt_RWhlRkENbisZevxzM_KnJIlnoI_w",
       "degree": "CLD",
       "year": 2024,
       "period": "Present",
@@ -158,11 +158,11 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/ketaki-shetye/"}]
     },
     {
       "name": "Saketh Reddy Vemula",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/C4E03AQE_bjnDpEEauQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1663917975702?e=1778112000&v=beta&t=olvckquRekQiO5bEpxjMysFVjYCeacdqEzSs8-kMstY",
       "degree": "CLD",
       "year": 2024,
       "period": "Present",
@@ -170,7 +170,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{ "label":"LinkedIn","url":"https://www.linkedin.com/in/saketh-reddy-vemula/"}]
     },
     {
       "name": "Surisetty Tulasi Rushwik",
@@ -294,7 +294,7 @@
     },
     {
       "name": "Vennela Bairi",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D5603AQHcPnXtgqQ3Lw/profile-displayphoto-scale_200_200/B56ZferEVaHEAY-/0/1751787524396?e=1778112000&v=beta&t=s-KmGaQ303zZo4yPDdbBEBBZHbxEvkGjhSbuDv1yRtI",
       "degree": "",
       "year": 2024,
       "period": "Present",
@@ -302,7 +302,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/vennela-bairi/"}]
     },
     {
       "name": "Sushvin Marimuthu",
@@ -330,7 +330,7 @@
     },
     {
       "name": "Surya Teja Thodupunuri",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D5603AQEovd2P1KL5zQ/profile-displayphoto-scale_200_200/B56ZujbSjoHkAY-/0/1767973399336?e=1778112000&v=beta&t=K6sb71o-r1Xc_G2vEKJ7w98x2NH_wTmcfSmHqADVJmc",
       "degree": "",
       "year": 2026,
       "period": "Present",
@@ -338,7 +338,7 @@
       "institution": "IIIT Hyderabad",
       "topic": "",
       "papers": [],
-      "socials": []
+      "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/suryatejathodupunuri/"}]
     },
     {
       "name": "Askshit Kumar",
@@ -402,7 +402,7 @@
     },
     {
       "name": "Ayush Sahu",
-      "photo": "",
+      "photo": "https://media.licdn.com/dms/image/v2/D5603AQFE5IyKk9DPVw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698074462570?e=1778112000&v=beta&t=7-MnL2fLX7JJN0I-xwlIuHUglBWMvTcCNGsgtfJ3eto",
       "degree": "",
       "#year": 2026,
       "period": "2026 - Present",
@@ -410,7 +410,7 @@
       "institution": "IIIT Hyderabad",
       
       "papers": [ ],
-      "socials": [      ]
+      "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/ayush-sahu-7699b91b6/"}]
     },
     {
       "name": "Deepika Ketha",
@@ -520,31 +520,33 @@
         "period": "Jan 2026",
         "status": "current",
         "institution": "IIIT Hyderabad",
-        "topic": "Grammar Error Correction",
+        "topic": "Text Normalization",
         "papers": [],
         "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/akash-sigullapalli-75297931b/"}, {"label": "GitHub", "url":"https://github.com/AkashS1945"}]
     },
     {
         "name": "Varun Alokam",
-        "photo": "images/students/blank_profile.png",
+        "photo": "images/students/Varun_alokam.jpeg",
         "degree": "B.Tech",
         "year": 2026,
         "period": "Jan 2026",
         "status": "current",
         "institution": "IIIT Hyderabad",
-        "topic": "Grammar Error Correction",
-        "papers": []
+        "topic": "Text Normalization",
+        "papers": [],
+        "socials": [{"label":"LinkedIn","url":"https://www.linkedin.com/in/varun-alokam-b59b14285/"}, {"label": "GitHub", "url":"https://github.com/Varun2345"}]
     },
     {
         "name": "Jaswanth Reddy Konapalli",
-        "photo": "images/students/blank_profile.png",
+        "photo": "images/students/Jaswanth_reddy.jpeg",
         "degree": "B.Tech",
         "year": 2026,
         "period": "Jan 2026",
         "status": "current",
         "institution": "IIIT Hyderabad",
-        "topic": "Grammar Error Correction",
-        "papers": []
+        "topic": "Text Normalization",
+        "papers": [],
+        "socials": [{"label": "GitHub", "url":"https://github.com/Jaswanth2534"}]
     },
     {
         "name": "Roshan Lal Kalluri",

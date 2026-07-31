@@ -1,6 +1,38 @@
 {
   "lectures": [
-	 {
+    {
+    "title": "AI Adoption in LMIC Healthcare",
+    "institution": "IIIT Hyderabad",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered at AI Adoption in LMIC Healthcare 2026 on 13th July 2026 at IIIT  Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "LLM Prompting, Evaluation, Hallucination and Bias",
+    "institution": "VNR Vignana Jyothi Inst of Engg & Tech",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered at Faculty Development Program (FDP) on Generative AI and Large Language Models on 1st July 2026 at VNR Vignana Jyothi Inst of Engg & Tech, Bachupally, Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Low resource challenges in Speech LLMs",
+    "institution": "IIIT Hyderabad",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered at IASNLP 2026 on 24th June 2026 at IIIT Hyderabad.",
+    "downloads": []
+  },
+  {
+    "title": "Evaluation Frameworks for Benchmarking AI in Radiology Workflows ",
+    "institution": "Yashoda Hospitals",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered at International Conference AI in Healthcare on 14th June 2026 at Yashoda Hospitals, Hitech City, Hyderabad.",
+    "downloads": []
+  },
+	{
     "title": "Excitements in Natural Language Processing",
     "institution": "SRM University AP, Amaravati (ACM ROCS 2026)",
     "year": 2026,

@@ -1,29 +1,40 @@
 {
   "news": [
-    {
-      "date": "March 2025",
-      "year": 2025,
-      "category": "Grant",
-      "description": "sample lines"
-    },
-    {
-      "date": "January 2025",
-      "year": 2025,
-      "category": "Publication",
-      "description": "sample lines"
-    },
-    {
-      "date": "November 2024",
-      "year": 2024,
-      "category": "Invited Talk",
-      "description": "sample lines"
-    },
-    {
-      "date": "October 2024",
-      "year": 2024,
-      "category": "Award",
-      "description": "sample lines"
-    }
-    
+	{
+		"date": "September 2nd",
+		"year": 2026,
+		"category": "News Article",
+		"highlight": "FEATURED IN THE NEWS/THE HINDU",
+		"title": "Fun, Future and linguistics",
+		"description": "A recent feature by Indulekha S in The Hindu explores how technology, linguistics and playful learning are coming together to shape new ways of engaging with language. The journalist also taps into Language Technologies Research Centre (LTRC)'s Parameswari Krishnamurthy's expertise who highlights the role of language technologies in making learning more engaging, accessible and future-ready. https://lnkd.in/dcxUbxY2",
+		"link": "https://www.thehindu.com/children/fun-future-and-linguistics/article71364308.ece"
+	},
+	{
+  "year": "2026",
+  "date": "2026",
+  "category": "ACL Main Conference",
+    "highlight": "PAPER PUBLISHED",
+  "title": "IndicWinoBias: Measuring Occupational Gender Bias and Error Asymmetry in Indian Languages",
+  "description": "We introduce a benchmark to measure occupational gender bias in LLMs across eight Indian languages. Our findings reveal systematic gender bias and higher error rates when the correct referent is female, highlighting the need for multilingual fairness evaluation.",
+  "links": []
+},
+{
+  "year": "2026",
+  "date": "2026",
+  "category": "ACL Main Conference",
+    "highlight": "PAPER PUBLISHED",
+  "title": "Per-Category LoRA for Paraphrase Robustness in Medical Vision",
+  "description": "We study how medical vision-language models respond to clinically equivalent questions phrased in different ways. We identify category-specific weaknesses and show that targeted LoRA adaptation can substantially improve paraphrase robustness.",
+  "links": []
+},
+{
+  "year": "2026",
+  "date": "2026",
+  "category": "Findings of ACL",
+    "highlight": "PAPER PUBLISHED",
+  "title": "What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
+  "description": "We investigate how tokenizer-free models learn token structures across 18 diverse languages and compare them with traditional tokenizers. Our results show a trade-off between morphological alignment and computational efficiency, with tokenization strongly influenced by language typology and script.",
+  "links": []
+}
   ]
 }

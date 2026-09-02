@@ -1332,32 +1332,83 @@ async function initNews() {
 }
 function renderNews(ns) {
   var c = document.getElementById('news-container');
-  if (!ns.length) { c.innerHTML = '<p style="padding:1rem 0;color:#888;">No news found.</p>'; return; }
+
+  if (!ns.length) {
+    c.innerHTML = '<p style="padding:1rem 0;color:#888;">No news found.</p>';
+    return;
+  }
 
   c.innerHTML = ns.map(function(n) {
+
     var actionHTML = '';
+
     if (Array.isArray(n.links) && n.links.length) {
-      actionHTML = '<div class="pub-actions" style="margin-top:.6rem">' +
+      actionHTML =
+        '<div class="pub-actions" style="margin-top:.6rem">' +
         n.links.map(function(lnk) {
-          var lbl  = (lnk.label || '').trim().toLowerCase();
+          var lbl = (lnk.label || '').trim().toLowerCase();
           var icon = '↗ ' + esc(lnk.label);
-          if (lbl.indexOf('video') !== -1 || lbl.indexOf('play') !== -1 || lbl.indexOf('watch') !== -1) icon = '▶ Play';
-          else if (lbl.indexOf('view') !== -1 || lbl.indexOf('read') !== -1) icon = '↗ View';
-          else if (lbl.indexOf('pdf') !== -1) icon = '↓ PDF';
-          return '<a class="pub-link" href="' + esc(lnk.url) + '" target="_blank" rel="noopener">' + icon + '</a>';
-        }).join('') + '</div>';
+
+          if (
+            lbl.indexOf('video') !== -1 ||
+            lbl.indexOf('play') !== -1 ||
+            lbl.indexOf('watch') !== -1
+          ) {
+            icon = '▶ Play';
+          }
+          else if (
+            lbl.indexOf('view') !== -1 ||
+            lbl.indexOf('read') !== -1
+          ) {
+            icon = '↗ View';
+          }
+          else if (lbl.indexOf('pdf') !== -1) {
+            icon = '↓ PDF';
+          }
+
+          return '<a class="pub-link" href="' + esc(lnk.url) +
+            '" target="_blank" rel="noopener">' +
+            icon + '</a>';
+        }).join('') +
+        '</div>';
     }
-    return '<div class="news-row">' +
+
+    // Whole card clickable if n.link exists
+    var clickableClass = n.link ? ' news-row-clickable' : '';
+    var linkAttr = n.link ? ' data-link="' + esc(n.link) + '"' : '';
+
+    return '<div class="news-row' + clickableClass + '"' + linkAttr + '>' +
       '<div class="news-meta">' +
-      '<span class="news-date">' + esc(n.date) + '</span>' +
-      '<span class="news-cat">' + esc(n.category) + '</span>' +
-      '</div>' +
+        '<span class="news-date">' + esc(n.date) + '</span>' +
+        '<span class="news-cat">' + esc(n.category) + '</span>' +
+     
+	   (n.highlight
+		? '<span class="news-highlight">' + esc(n.highlight) + '</span>'
+		: ''
+	) +
+	 '</div>' +
       '<div>' +
-      '<p class="news-ttl">' + esc(n.title) + '</p>' +
-      '<p class="news-body">' + esc(n.description) + '</p>' +
-      actionHTML +
-      '</div></div>';
+        '<p class="news-ttl">' + esc(n.title) + '</p>' +
+        '<p class="news-body">' + esc(n.description) + '</p>' +
+        actionHTML +
+      '</div>' +
+    '</div>';
   }).join('');
+
+  // Open the news link when the card is clicked
+  c.querySelectorAll('.news-row-clickable').forEach(function(row) {
+    row.addEventListener('click', function(e) {
+
+      // Don't interfere with links inside the card
+      if (e.target.closest('a')) return;
+
+      var link = row.getAttribute('data-link');
+
+      if (link) {
+        window.open(link, '_blank', 'noopener,noreferrer');
+      }
+    });
+  });
 }
 
 async function initHomeNews() {

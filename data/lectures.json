@@ -1,5 +1,21 @@
 {
   "lectures": [
+	{
+    "title": "The Age of Large Language Models: Opportunities for Language Research and Society",
+    "institution": "North East Hill University, Shillong",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered on The Age of Large Language Models: Opportunities for Language Research and Society on August 27th 2026 at North East Hill University, Shillong.",
+    "downloads": []
+  },
+	{
+    "title": "Speaking Across Languages: The Promise of Machine Translation",
+    "institution": "North East Hill University, Shillong",
+    "year": 2026,
+    "type": "Lecture",
+    "description": "A lecture delivered on Speaking Across Languages: The Promise of Machine Translation on August 27th 2026 at North East Hill University, Shillong.",
+    "downloads": []
+  },
     {
     "title": "AI Adoption in LMIC Healthcare",
     "institution": "IIIT Hyderabad",

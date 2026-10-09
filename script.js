@@ -556,7 +556,7 @@ async function initAbout() {
     var photoEl = document.getElementById('about-photo');
     if (photoEl) photoEl.src = d.photo;
     var nameEl = document.getElementById('about-name');
-    if (nameEl) nameEl.textContent = d.name || 'Dr. Parameswari Krishnamurthy';
+    if (nameEl) nameEl.textContent = d.name || 'Parameswari Krishnamurthy';
 
     setHTML('ab-bio', (d.biography || []).map(function(p) {
       return '<p>' + esc(p) + '</p>';

@@ -14,10 +14,6 @@
 		"bibtex": "@inproceedings{per_category_lora_emnlp_2026,\n  author = {Syed Faizan and Anuradha Chandramohan and Parameswari Krishnamurthy},\n  title = {Per-Category LoRA for Paraphrase Robustness in Medical Vision-Language Models: A Clinician-Grounded Audit, Mitigation, and Mechanistic Analysis},\n  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},\n  address = {Budapest, Hungary},\n  year = {2026}\n}",
 		"downloads": [
 		{
-			"label": "OpenReview Profile",
-			"url": "https://openreview.net/profile?id=%7ESyed_Faizan1"
-		},
-		{
 			"label": "PDF",
 			"url": ""
 		}

@@ -88,7 +88,7 @@
       "year": 2026,
       "type": "conference",
       "title": "BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages",
-      "venue": "WMT Colocated at EMNLP",
+      "venue": "WMT, Colocated at EMNLP",
       "image": "",
       "description": "Priyanka Dasari, Yuvrajsinh D. Bodana, Vandan Mujadia, Arafat Ahsan, Dipti Misra Sharma, Parameswari Krishnamurthy",
       "abstract": " Existing translation models are typically trained on sentence-level and formal text, limiting their ability to capture everyday conversational dialogue phenomena such as informality, speaker interaction, and discourse coherence. Most existing Indic translation resources and evaluation benchmarks focus on sentence-level or formal text, making it difficult to assess translation quality of the dialogue phenomena. In this work, we introduce BaatCheet, a multilingual dialogue corpus named after the Hindi term for conversation or chitchat, containing approximately 49,000 dialogues for dialogue translation across five translation directions. We fine-tune five open-source LLMs across seven training data configurations and find that fine-tuning yields substantial gains over zero- and few-shot baselines. To comprehensively evaluate dialogue translation quality, we employ multiple evaluation strategies, including automatic metrics, LLM-as-judge, and human assessments using an SQM-guided Direct Assessment (DA) Protocol. ",

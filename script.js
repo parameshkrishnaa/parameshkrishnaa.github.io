@@ -1340,6 +1340,17 @@ function renderNews(ns) {
 
   c.innerHTML = ns.map(function(n) {
 
+	var imageHTML = '';
+
+	if (n.image) {
+	imageHTML =
+		'<div class="news-image-wrapper">' +
+		'<img class="news-image" src="' + esc(n.image) +
+		'" alt="' + esc(n.title || 'News article image') +
+		'" loading="lazy">' +
+		'</div>';
+	}
+
     var actionHTML = '';
 
     if (Array.isArray(n.links) && n.links.length) {
@@ -1390,6 +1401,7 @@ function renderNews(ns) {
       '<div>' +
         '<p class="news-ttl">' + esc(n.title) + '</p>' +
         '<p class="news-body">' + esc(n.description) + '</p>' +
+		imageHTML +
         actionHTML +
       '</div>' +
     '</div>';

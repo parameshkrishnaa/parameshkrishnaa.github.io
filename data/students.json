@@ -100,6 +100,18 @@
     }
   ],
   "dual_degree": [
+	{
+      "name": "Mahesh Vasamsetti",
+      "photo": "",
+      "degree": "CLD",
+      "year": 2026,
+      "period": "Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      "topic": "",
+      "papers": [],
+      "socials": []
+    },
     {
       "name": "Jerrin John Thomas",
       "photo": "",
@@ -423,6 +435,18 @@
       
       "papers": [ ],
       "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/deepika-ketha-5272051ba//"}, {"label": "GitHub", "url": "https://github.com/deepikaketha"}]
+    },
+     {
+      "name": "Dr. Syed Farzan",
+      "photo": "",
+      "degree": "MBBS",
+      "year": 2026,
+      "period": "2026-2027",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
     }
   ],
   "research_interns": [
@@ -444,19 +468,7 @@
       "degree": "B.Tech",
       "year": 2026,
       "period": "Summer 2026",
-      "status": "current",
-      "institution": "IIIT Hyderabad",
-      
-      "papers": [],
-      "socials": []
-    },
-     {
-      "name": "Dr. Syed Farzan",
-      "photo": "",
-      "degree": "MBBS",
-      "year": 2026,
-      "period": "2026-2027",
-      "status": "current",
+      "status": "Completed",
       "institution": "IIIT Hyderabad",
       
       "papers": [],

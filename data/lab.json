@@ -1,5 +1,106 @@
 {
   "publications": [
+	{
+		"id": "per_category_lora_emnlp_2026",
+		"year": 2026,
+		"type": "conference",
+		"title": "Per-Category LoRA for Paraphrase Robustness in Medical Vision-Language Models: A Clinician-Grounded Audit, Mitigation, and Mechanistic Analysis",
+		"venue": "Findings of the Association for Computational Linguistics: EMNLP 2026, Budapest, Hungary",
+		"image": "",
+		"description": "Syed Faizan, Anuradha Chandramohan and Parameswari Krishnamurthy",
+		"abstract": "",
+		"status": "Accepted",
+		"acceptance_date": "21 August 2026",
+		"bibtex": "@inproceedings{per_category_lora_emnlp_2026,\n  author = {Syed Faizan and Anuradha Chandramohan and Parameswari Krishnamurthy},\n  title = {Per-Category LoRA for Paraphrase Robustness in Medical Vision-Language Models: A Clinician-Grounded Audit, Mitigation, and Mechanistic Analysis},\n  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},\n  address = {Budapest, Hungary},\n  year = {2026}\n}",
+		"downloads": [
+		{
+			"label": "OpenReview Profile",
+			"url": "https://openreview.net/profile?id=%7ESyed_Faizan1"
+		},
+		{
+			"label": "PDF",
+			"url": ""
+		}
+		]
+	},
+	{
+		"id": "structured_radiology_intelligence_isgar_2026",
+		"year": 2026,
+		"type": "conference",
+		"title": "Structured Radiology Intelligence in Rectal Cancer MRI Reports: Annotation Schema, Inter-Annotator Agreement, and Error Taxonomy",
+		"venue": "ISGAR 2026 — Indian Society of Gastrointestinal and Abdominal Radiology",
+		"image": "",
+		"description": "Syed Faizan, Afnan Azeez, Parameswari Krishnamurthy, Dipti Misra Sharma and Anuradha Chandramohan",
+		"abstract": "",
+		"status": "Accepted and Presented",
+		"acceptance_date": "8 July 2026",
+		"presentation_date": "1 August 2026",
+		"bibtex": "@inproceedings{structured_radiology_intelligence_isgar_2026,\n  author = {Syed Faizan and Afnan Azeez and Parameswari Krishnamurthy and Dipti Misra Sharma and Anuradha Chandramohan},\n  title = {Structured Radiology Intelligence in Rectal Cancer MRI Reports: Annotation Schema, Inter-Annotator Agreement, and Error Taxonomy},\n  booktitle = {ISGAR 2026},\n  year = {2026}\n}",
+		"downloads": [
+		{
+			"label": "Presentation Certificate",
+			"url": ""
+		},
+		{
+			"label": "PDF",
+			"url": ""
+		}
+		]
+	},
+	{
+		"id": "chest_xray_attention_imimic_miccai_2026",
+		"year": 2026,
+		"type": "workshop",
+		"title": "How Well Do Chest X-Ray VLM Attention Overlays Match Radiologist Boxes? A Cross-Model Audit and Radiologist Reader Study",
+		"venue": "iMIMIC Workshop — MICCAI 2026 Satellite Event (Interpretability of Machine Intelligence in Medical Image Computing)",
+		"image": "",
+		"description": "Syed Faizan, Mahesh Vasamsetti, Kotak Shivam Dilipbhai, Gundamaraju Madhavi Latha and Parameswari Krishnamurthy",
+		"abstract": "This supplement provides the attention-extraction pipeline, the full robustnesscontrol battery, extended qualitative evidence, and protocol details for the main paper. It is not required to follow the main results; section, table and figure numbers refixed “S” are supplementary, and references to sections such as “§4.3” point to the main paper.",
+		"status": "Accepted as Poster",
+		"submission_number": "10",
+		"acceptance_date": "20 July 2026",
+		"bibtex": "@inproceedings{chest_xray_attention_imimic_miccai_2026,\n  author = {Syed Faizan and Mahesh Vasamsetti and Kotak Shivam Dilipbhai and Gundamaraju Madhavi Latha and Parameswari Krishnamurthy},\n  title = {How Well Do Chest X-Ray VLM Attention Overlays Match Radiologist Boxes? A Cross-Model Audit and Radiologist Reader Study},\n  booktitle = {iMIMIC Workshop, MICCAI 2026},\n  year = {2026}\n}",
+		"downloads": [
+		{
+			"label": "PDF",
+			"url": "https://papers.miccai.org/miccai-2026-sat/supp/iMIMIC_010_supp.pdf"
+		}
+		]
+	},
+	 {
+      "id": "BaatCheet_2026_WMT_EMNLP",
+      "year": 2026,
+      "type": "conference",
+      "title": "BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages",
+      "venue": "WMT Colocated at EMNLP",
+      "image": "",
+      "description": "Priyanka Dasari, Yuvrajsinh D. Bodana, Vandan Mujadia, Arafat Ahsan, Dipti Misra Sharma, Parameswari Krishnamurthy",
+      "abstract": " Existing translation models are typically trained on sentence-level and formal text, limiting their ability to capture everyday conversational dialogue phenomena such as informality, speaker interaction, and discourse coherence. Most existing Indic translation resources and evaluation benchmarks focus on sentence-level or formal text, making it difficult to assess translation quality of the dialogue phenomena. In this work, we introduce BaatCheet, a multilingual dialogue corpus named after the Hindi term for conversation or chitchat, containing approximately 49,000 dialogues for dialogue translation across five translation directions. We fine-tune five open-source LLMs across seven training data configurations and find that fine-tuning yields substantial gains over zero- and few-shot baselines. To comprehensively evaluate dialogue translation quality, we employ multiple evaluation strategies, including automatic metrics, LLM-as-judge, and human assessments using an SQM-guided Direct Assessment (DA) Protocol. ",
+      "bibtex": "@misc{dasari2026baatcheetmultilingualcorpusdialogue,\ntitle={BaatCheetMultilingual Corpus for Dialogue Translation in Indian Languages}, \n      author={Priyanka Dasari and Yuvrajsinh D. Bodana and Vandan Mujadia and Arafat Ahsan and Dipti Misra Sharma and Parameswari Krishnamurthy},\n      year={2026},\n      eprint={2609.33296},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2609.33296}\n}",
+      "downloads": [
+        {
+          "label": "PDF",
+          "url": ""
+        }
+      ]
+    },
+	{
+		"id": "surakshaeval_2026",
+		"year": 2026,
+		"type": "conference",
+		"title": "SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs",
+		"venue": "AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society (AIES)",
+		"image": "",
+		"description": "Debopriyo Banerjee, Kapil Rajesh Kavitha, Angana Borah, Xudong Han, Yuxia Wang, Parameswari Krishnamurthy, Utkarsh Agarwal, Atharva Kulkarni, Swaran Lata, Ayush Munot, Dhruv Sahnan, Aaryamonvikram Singh, Preslav Nakov and Monojit Choudhury",
+		"abstract": "Existing safety evaluation datasets for large language models (LLMs) predominantly focus on English and Western contexts, often overlooking the linguistic diversity and culturally grounded safety risks present in other languages. To address this gap, we introduce SurakshaEval, a novel safety benchmark composed of human-written prompts spanning real-world scenarios, explicitly designed for ten major Indian languages - Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Punjabi, Tamil, and Telugu, along with English. SurakshaEval includes both generic prompts common across India and region- and language-specific prompts that capture localized sociocultural sensitivities. We benchmark a broad range of state-of-the-art LLMs on SurakshaEval, establish baseline safety performance, and identify recurring failure modes, including over-refusal, missed detection of implicit bias, and insufficient contextual awareness in regionally sensitive settings. Our results show that even strong multilingual LLMs struggle to reliably meet nuanced safety requirements when operating in Indic languages, particularly in native scripts. These findings highlight the urgent need for safety evaluation frameworks that incorporate region-specific data and structured assessment protocols, enabling the development and deployment of AI systems that operate securely, ethically, and in alignment with diverse societal values.",
+		"bibtex": "@inproceedings{surakshaeval_2026,\n  author = {Debopriyo Banerjee and Kapil Rajesh Kavitha and Angana Borah and Xudong Han and Yuxia Wang and Parameswari Krishnamurthy and Utkarsh Agarwal and Atharva Kulkarni and Swaran Lata and Ayush Munot and Dhruv Sahnan and Aaryamonvikram Singh and Preslav Nakov and Monojit Choudhury},\n  title = {SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs},\n  booktitle = {AAAI/ACM Conference on Artificial Intelligence, Ethics, and Society},\n  year = {2026}\n}",
+		"downloads": [
+			{
+			"label": "PDF",
+			"url": "https://arxiv.org/pdf/2608.07862"
+			}
+		]
+	},
     {
       "id": "Multilingual_Idioms_in_Sentences_and_Conversations",
       "year": 2026,

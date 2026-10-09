@@ -1,5 +1,14 @@
 {
   "teaching": [
+	{
+      "year_range": "2025-2026",
+      "season": "Monsoon",
+      "institute": "IIIT Hyderabad",
+      "course_code": "",
+      "subjects": ["NLP in Health Care"],
+      "level": "Open Elective",
+      "notes": "Co-teaching with Prof Dipti Misra Sharma, Dr.Hannah Marry Thomas."
+    },
     {
       "year_range": "2023-2026",
       "season": "Spring",

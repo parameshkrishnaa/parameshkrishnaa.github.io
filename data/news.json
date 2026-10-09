@@ -10,12 +10,8 @@
 		"image": "images/news/eenadu_news_oct_9_2026.jpg",
 		"links": [
 			{
-			"label": "Hyderabad Mail",
-			"url": "https://hyderabadmail.com/iiit-h-medical-ai-heatmaps-radiologist-chest-xray-study/"
-			},
-			{
-			"label": "Telangana Today",
-			"url": "https://telanganatoday.com/iiit-hyderabad-study-cautions-against-blindly-trusting-medical-ai-models"
+			"label": "The Hindu",
+			"url": "https://www.thehindu.com/news/cities/Hyderabad/iiit-h-study-caution-doctors-against-relying-entirely-on-ai-for-medical-diagnosis/article71562754.ece/amp/"
 			},
 			{
 			"label": "The New Indian Express",
@@ -24,6 +20,14 @@
 			{
 			"label": "Deccan Chronicle",
 			"url": "https://www.deccanchronicle.com/southern-states/telangana/ai-may-spot-disease-but-mark-wrong-area-iiit-h-study-1994265"
+			},
+			{
+			"label": "Hyderabad Mail",
+			"url": "https://hyderabadmail.com/iiit-h-medical-ai-heatmaps-radiologist-chest-xray-study/"
+			},
+			{
+			"label": "Telangana Today",
+			"url": "https://telanganatoday.com/iiit-hyderabad-study-cautions-against-blindly-trusting-medical-ai-models"
 			},
 			{
 			"label": "IIIT Hyderabad Blog",
@@ -47,7 +51,7 @@
 	{
   "year": "2026",
   "date": "2026",
-  "category": "ACL Main Conference",
+  "category": "EMNLP Main",
     "highlight": "PAPER PUBLISHED",
   "title": "IndicWinoBias: Measuring Occupational Gender Bias and Error Asymmetry in Indian Languages",
   "description": "We introduce a benchmark to measure occupational gender bias in LLMs across eight Indian languages. Our findings reveal systematic gender bias and higher error rates when the correct referent is female, highlighting the need for multilingual fairness evaluation.",
@@ -56,7 +60,7 @@
 {
   "year": "2026",
   "date": "2026",
-  "category": "ACL Main Conference",
+  "category": "EMNLP Findings",
     "highlight": "PAPER PUBLISHED",
   "title": "Per-Category LoRA for Paraphrase Robustness in Medical Vision",
   "description": "We study how medical vision-language models respond to clinically equivalent questions phrased in different ways. We identify category-specific weaknesses and show that targeted LoRA adaptation can substantially improve paraphrase robustness.",
@@ -65,7 +69,7 @@
 {
   "year": "2026",
   "date": "2026",
-  "category": "Findings of ACL",
+  "category": "EMNLP Findings",
     "highlight": "PAPER PUBLISHED",
   "title": "What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
   "description": "We investigate how tokenizer-free models learn token structures across 18 diverse languages and compare them with traditional tokenizers. Our results show a trade-off between morphological alignment and computational efficiency, with tokenization strongly influenced by language typology and script.",

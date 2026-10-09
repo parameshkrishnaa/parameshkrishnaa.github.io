@@ -63,6 +63,26 @@
 		}
 		]
 	},
+	{
+		"id": "codeblooded_trimixgen_indic_fire_2026",
+		"year": 2026,
+		"type": "Shared Task",
+		"title": "CodeBlooded@TriMixGen-Indic: Prompt-Based Trilingual Code-Mixed Generation and Hybrid Word-Level Language Identification",
+		"venue": "FIRE 2026 - Forum for Information Retrieval Evaluation (TriMixGen-Indic Shared Task)",
+		"image": "",
+		"description": "Rohi Kumar Pasunoori, Surya Teja Thodupunuri, Surya Thota and Parameswari Krishnamurthy",
+		"abstract": "We present the CodeBlooded system submitted to the TriMixGen-Indic shared task at FIRE 2026. We participated in both trilingual code-mixed sentence generation (Subtask A) and word-level language identification (Subtask B) for Hindi–Bengali–English and Hindi–Gujarati–English. For Subtask A, we used GPT-4o through the OpenRouter API with track-specific few-shot prompts containing human-curated demonstrations. For Subtask B, we jointly trained a five-class hybrid token classifier using MuRIL and HingRoBERTa contextual representations, character-CNN features, and lexicon features, followed by ensemble averaging, calibration, and track-specific label masking.",
+		"status": "Accepted",
+		"submission_number": "50",
+		"acceptance_date": "17 September 2026",
+		"bibtex": "@inproceedings{codeblooded_trimixgen_indic_fire_2026,\n  author = {Rohi Kumar Pasunoori and Surya Teja Thodupunuri and Surya Thota and Parameswari Krishnamurthy},\n  title = {CodeBlooded@TriMixGen-Indic: Prompt-Based Trilingual Code-Mixed Generation and Hybrid Word-Level Language Identification},\n  booktitle = {Working Notes of FIRE 2026},\n  year = {2026}\n}",
+		"downloads": [
+			{
+			"label": "Paper PDF",
+			"url": ""
+			}
+		]
+		},
 	 {
       "id": "BaatCheet_2026_WMT_EMNLP",
       "year": 2026,

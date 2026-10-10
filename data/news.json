@@ -55,31 +55,58 @@
 		]
 	},
 	{
-  "year": "2026",
-  "date": "2026",
-  "category": "EMNLP Main",
-    "highlight": "PAPER PUBLISHED",
-  "title": "IndicWinoBias: Measuring Occupational Gender Bias and Error Asymmetry in Indian Languages",
-  "description": "We introduce a benchmark to measure occupational gender bias in LLMs across eight Indian languages. Our findings reveal systematic gender bias and higher error rates when the correct referent is female, highlighting the need for multilingual fairness evaluation.",
-  "links": []
-},
-{
-  "year": "2026",
-  "date": "2026",
-  "category": "EMNLP Findings",
-    "highlight": "PAPER PUBLISHED",
-  "title": "Per-Category LoRA for Paraphrase Robustness in Medical Vision",
-  "description": "We study how medical vision-language models respond to clinically equivalent questions phrased in different ways. We identify category-specific weaknesses and show that targeted LoRA adaptation can substantially improve paraphrase robustness.",
-  "links": []
-},
-{
-  "year": "2026",
-  "date": "2026",
-  "category": "EMNLP Findings",
-    "highlight": "PAPER PUBLISHED",
-  "title": "What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
-  "description": "We investigate how tokenizer-free models learn token structures across 18 diverse languages and compare them with traditional tokenizers. Our results show a trade-off between morphological alignment and computational efficiency, with tokenization strongly influenced by language typology and script.",
-  "links": []
-}
+	"year": "2026",
+	"date": "2026",
+	"category": "EMNLP Main",
+		"highlight": "PAPER PUBLISHED",
+	"title": "IndicWinoBias: Measuring Occupational Gender Bias and Error Asymmetry in Indian Languages",
+	"description": "We introduce a benchmark to measure occupational gender bias in LLMs across eight Indian languages. Our findings reveal systematic gender bias and higher error rates when the correct referent is female, highlighting the need for multilingual fairness evaluation.",
+	"links": []
+	},
+	{
+	"year": "2026",
+	"date": "2026",
+	"category": "EMNLP Findings",
+		"highlight": "PAPER PUBLISHED",
+	"title": "Per-Category LoRA for Paraphrase Robustness in Medical Vision",
+	"description": "We study how medical vision-language models respond to clinically equivalent questions phrased in different ways. We identify category-specific weaknesses and show that targeted LoRA adaptation can substantially improve paraphrase robustness.",
+	"links": []
+	},
+	{
+	"year": "2026",
+	"date": "2026",
+	"category": "EMNLP Findings",
+		"highlight": "PAPER PUBLISHED",
+	"title": "What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
+	"description": "We investigate how tokenizer-free models learn token structures across 18 diverse languages and compare them with traditional tokenizers. Our results show a trade-off between morphological alignment and computational efficiency, with tokenization strongly influenced by language typology and script.",
+	"links": []
+	},
+	{
+	"year": "2024",
+	"date": "Feb 2024",
+	"category": "Tamil_Parser",
+	"highlight": "Tamil Parser Launch",
+	"title": "India’s First Deep Tamil Parser Aims To Bridge Language Gaps",
+	"description": "In an advancement that is set to boost Indic machine translation systems, a team of researchers from IIITH led by Prof. Parameswari Krishnamurthy has contributed to the development of a Tamil syntactic parser. The research funded by the Tamil Virtual Academy, an arm of the Information Technology and Digital Services Department, Govt. of Tamil Nadu saw the formal launch of the Kalaignar Tamil parser – named so in honour of the former chief minister of TN - at a special event held on the sidelines of KaniTamil24, an international conference organised for promoting language technology by the TN government. ",
+	"links": [
+		{
+			"label": "IIIT Hyderabad Blog",
+			"url": "https://blogs.iiit.ac.in/tamil-parser/"
+		},
+		{
+			"label": "Try it out here - Server1",
+			"url": "https://plural.iiit.ac.in/tamilparser"
+		},
+		{
+			"label": "Try it out here- Server2",
+			"url": "https://www.tamilvu.in/tamilparser"
+		},
+		{
+			"label": "R&D Showcase 2024 - PDF",
+			"url": "https://cdn.iiit.ac.in/cdn/rndshowcase.iiit.ac.in/tto2024/TTO_website_data/PDF/230.pdf"
+		}
+	],
+	"image": "images/news/TamilParser.jpg"
+	}
   ]
 }

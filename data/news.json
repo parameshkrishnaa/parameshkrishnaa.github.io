@@ -46,7 +46,13 @@
 		"highlight": "FEATURED IN THE NEWS/THE HINDU",
 		"title": "Fun, Future and linguistics",
 		"description": "A recent feature by Indulekha S in The Hindu explores how technology, linguistics and playful learning are coming together to shape new ways of engaging with language. The journalist also taps into Language Technologies Research Centre (LTRC)'s Parameswari Krishnamurthy's expertise who highlights the role of language technologies in making learning more engaging, accessible and future-ready. https://lnkd.in/dcxUbxY2",
-		"link": "https://www.thehindu.com/children/fun-future-and-linguistics/article71364308.ece"
+		"link": "https://www.thehindu.com/children/fun-future-and-linguistics/article71364308.ece",
+		"links": [
+			{
+			"label": "Read about it here",
+			"url": "/data/linguistics.pdf"
+			}
+		]
 	},
 	{
   "year": "2026",

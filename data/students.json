@@ -269,18 +269,6 @@
       "socials": []
     },
     {
-      "#name": "Hari Shankar",
-      "#photo": "",
-      "#degree": "CLD",
-      "#year": 2024,
-      "#period": "Present",
-      "#status": "current",
-      "#institution": "IIIT Hyderabad",
-      "#topic": "Co-advised with PK",
-      "#papers": [],
-      "#socials": []
-    },
-    {
       "name": "Aaryan Kashyap",
       "photo": "",
       "degree": "CLD",
@@ -698,7 +686,163 @@
         "institution": "IIIT Hyderabad",
         "topic": "Information Retrieval using Knowledge Graphs",
         "papers": []
-    }
+    },
+	{
+		"name": "Patel Sahil Manishkumar",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Project Management Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Divyarajsinh Rajendrasinh Mahida",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Project Management Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Gopal Garg",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Project Management Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Janya Gupta",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Archit Pethani",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Project Management Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Kripi Singla",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Paridhi Jain",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Ashwin Kumar",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Arush Pran Nandankar",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Navdha Bansal",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2025,
+		"period": "Spring 2025",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Annotation Tool Building",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Mitansh Kayathwal",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2024,
+		"period": "Spring 2024",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Universal Dependency Parser Annotation Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Anushka Agrawal",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2024,
+		"period": "Spring 2024",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Universal Dependency Parser Annotation Tool",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Chirag Jain",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2024,
+		"period": "Spring 2024",
+		"status": "completed",
+		"institution": "IIIT Hyderabad",
+		"topic": "Universal Dependency Parser Annotation Tool",
+		"papers": [],
+		"socials": []
+	}
     ],
   "#ms_students":[
      

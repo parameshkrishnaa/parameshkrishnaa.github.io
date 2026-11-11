@@ -460,6 +460,18 @@
       "papers": [ ],
       "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/deepika-ketha-5272051ba//"}, {"label": "GitHub", "url": "https://github.com/deepikaketha"}]
     },
+	{
+      "name": "Prasanati T V N",
+      "photo": "",
+      "degree": "B.Tech-ECE",
+      "year": 2026,
+      "period": "2026 - Present",
+      "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [ ],
+      "socials": [{"label": "LinkedIn", "url": "https://www.linkedin.com/in/deepika-ketha-5272051ba//"}, {"label": "GitHub", "url": "https://github.com/deepikaketha"}]
+    },
      {
       "name": "Dr. Syed Farzan",
       "photo": "",
@@ -467,6 +479,42 @@
       "year": 2026,
       "period": "2026-2027",
       "status": "current",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+	{
+      "name": "Soumyadip",
+      "photo": "",
+      "degree": "R.A",
+      "year": 2025,
+      "period": "2024-2025",
+      "status": "Completed",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+	{
+      "name": "Sravani Geetha",
+      "photo": "",
+      "degree": "R.A",
+      "year": 2024,
+      "period": "2023-2024",
+      "status": "Completed",
+      "institution": "IIIT Hyderabad",
+      
+      "papers": [],
+      "socials": []
+    },
+	{
+      "name": "Chandra Babu",
+      "photo": "",
+      "degree": "R.A",
+      "year": 2024,
+      "period": "2023-2024",
+      "status": "Completed",
       "institution": "IIIT Hyderabad",
       
       "papers": [],
@@ -479,8 +527,8 @@
       "photo": "",
       "degree": "B.Tech",
       "year": 2026,
-      "period": "Jan 2026",
-      "status": "current",
+      "period": "Jan 2026 - June 2026",
+      "status": "Completed",
       "institution": "IIIT Hyderabad",
       
       "papers": [],

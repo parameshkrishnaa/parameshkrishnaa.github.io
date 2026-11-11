@@ -1171,7 +1171,7 @@ async function initStudents() {
     html += twoColWrap(researchInterns);
   }
    if (btpStudents.length) {
-    html += '<div class="stu-group-title">BTP Students</div>';
+    html += '<div class="stu-group-title">BTP Students (B.Tech Projects Students)</div>';
     html += twoColWrap(btpStudents);
   }
 	// if (ms.length) {

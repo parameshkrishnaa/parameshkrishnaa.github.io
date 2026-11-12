@@ -877,6 +877,30 @@
 		"topic": "Universal Dependency Parser Annotation Tool",
 		"papers": [],
 		"socials": []
+	},
+	{
+		"name": "Mudhireddy Nandini Reddy",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2023,
+		"period": "Monsoon 2023",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "OCR+Machine translation pipeline setup and exploration",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Jujjuru Ruchitha",
+		"photo": "",
+		"degree": "B.Tech",
+		"year": 2023,
+		"period": "Monsonn 2023",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "OCR+Machine translation pipeline setup and exploration",
+		"papers": [],
+		"socials": []
 	}
     ],
   "#ms_students":[

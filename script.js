@@ -1017,13 +1017,14 @@ function renderStudentCard(s, opts) {
   var photoHTML = '<img class="stu-photo" src="' + photoSrc + '" alt="' + esc(s.name) + '"' +
     ' onerror="this.src=\'' + avatar + '\'">';
 
-  var infoHTML = s.status === 'current'
+  var infoHTML = s.status === 'current' || s.status === 'alumni'
     ? (s.topic     ? '<p class="stu-topic">'     + esc(s.topic)     + '</p>' : '')
     : (s.placement ? '<p class="stu-placement">' + esc(s.placement) + '</p>' : '');
 
+
   // var alumBadge = s.institution
   //   ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
-var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S.' || s.degree === 'MS' || s.degree === 'Honors';
+var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S.' || s.degree === 'MS' || s.degree === 'Honors' || s.degree === 'B.Tech';
 
   var alumBadge = s.institution
     ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
@@ -1164,15 +1165,15 @@ async function initStudents() {
 	}
   if (researchAssociates.length) {
     html += '<div class="stu-group-title">Research Associates</div>';
-    html += twoColWrap(researchAssociates);
+    html += twoColWrap(researchAssociates, { showCompletedBadge: true });
   }
   if (researchInterns.length) {
     html += '<div class="stu-group-title">Research Interns</div>';
-    html += twoColWrap(researchInterns);
+    html += twoColWrap(researchInterns, { showCompletedBadge: true });
   }
    if (btpStudents.length) {
     html += '<div class="stu-group-title">BTP Students (B.Tech Projects Students)</div>';
-    html += twoColWrap(btpStudents);
+    html += twoColWrap(btpStudents, { showCompletedBadge: true });
   }
 	// if (ms.length) {
 	//   html += '<div class="stu-group-title">MS Students</div>';

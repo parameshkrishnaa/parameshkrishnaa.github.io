@@ -972,12 +972,21 @@ async function initTeaching() {
 var DEG_ORDER = { 'Ph.D.': 0, 'PhD': 0, 'M.S.': 1, 'MS': 1, 'CLD': 2, 'CLS': 3 };
 
 function sortStudents(arr) {
-  return arr.slice().sort(function(a, b) {
-    var da = DEG_ORDER[a.degree] != null ? DEG_ORDER[a.degree] : 99;
-    var db = DEG_ORDER[b.degree] != null ? DEG_ORDER[b.degree] : 99;
-    if (da !== db) return da - db;
+return arr.slice().sort(function(a, b) {
+    // current/present first, alumni last
+    var aIsAlumni = a.status === 'alumni' ? 1 : 0;
+    var bIsAlumni = b.status === 'alumni' ? 1 : 0;
+    if (aIsAlumni !== bIsAlumni) return aIsAlumni - bIsAlumni;
+    // within same status group, latest year first
     return (b.year || 0) - (a.year || 0);
   });
+	
+//   return arr.slice().sort(function(a, b) {
+//     var da = DEG_ORDER[a.degree] != null ? DEG_ORDER[a.degree] : 99;
+//     var db = DEG_ORDER[b.degree] != null ? DEG_ORDER[b.degree] : 99;
+//     if (da !== db) return da - db;
+//     return (b.year || 0) - (a.year || 0);
+//   });
 }
 
 function sortDualDegree(arr) {
@@ -1024,12 +1033,12 @@ function renderStudentCard(s, opts) {
 
   // var alumBadge = s.institution
   //   ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
-var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S.' || s.degree === 'MS' || s.degree === 'Honors' || s.degree === 'B.Tech';
+// var isDualDegree = s.degree === 'CLD' || s.degree === 'CSD' || s.degree === 'M.S.' || s.degree === 'MS' || s.degree === 'Honors' || s.degree === 'B.Tech' || s.degree === "R.A";
 
   var alumBadge = s.institution
     ? '<span class="stu-alumni-badge">' + esc(s.institution) + '</span>' : '';
 
-  var completedBadge = opts.showCompletedBadge && isDualDegree && s.status === 'alumni'
+  var completedBadge = opts.showCompletedBadge  && s.status === 'alumni'
     ? '<span class="stu-completed-badge">Completed</span>'
     : '';
   var hasPapers = s.papers && s.papers.length > 0;

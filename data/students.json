@@ -556,7 +556,55 @@
       
       "papers": [],
       "socials": []
-    }
+    },
+	{
+		"name": "Manish Maurya",
+		"photo": "",
+		"degree": "",
+		"year": 2026,
+		"period": "May 2026 - Oct 2026",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "Multilingual Named Entity Recognition (NER) and Large Language Models (LLMs)",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Pasunoori Rohi Kumar",
+		"photo": "",
+		"degree": "Research Intern",
+		"year": 2026,
+		"period": "January 2026 - August 2026",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "Synthetic Data Generation and LLM-as-Judge Frameworks",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Surya Thota",
+		"photo": "",
+		"degree": "Research Intern",
+		"year": 2026,
+		"period": "May 2026 - Nov 2026",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "",
+		"papers": [],
+		"socials": []
+	},
+	{
+		"name": "Antony Alexander James",
+		"photo": "",
+		"degree": "Research Intern",
+		"year": 2024,
+		"period": "May 2024 - December 2024",
+		"status": "alumni",
+		"institution": "IIIT Hyderabad",
+		"topic": "POS-Aware Neural Approaches for Word Alignment in Dravidian Languages",
+		"papers": [],
+		"socials": []
+	}
   ],
   "btp_students": [
     {

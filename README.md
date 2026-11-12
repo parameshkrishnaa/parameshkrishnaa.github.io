@@ -221,7 +221,7 @@ Optional fields:
   ]
 }
 ```
-
+### for completed status put alumni in json
 ---
 
 # teaching.json

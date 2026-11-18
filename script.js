@@ -1024,7 +1024,7 @@ function renderStudentCard(s, opts) {
 
   var photoSrc = (s.photo && s.photo.trim()) ? esc(s.photo) : avatar;
   var photoHTML = '<img class="stu-photo" src="' + photoSrc + '" alt="' + esc(s.name) + '"' +
-    ' onerror="this.src=\'' + avatar + '\'">';
+    ' onerror="this.src=\'' + avatar + '\'" loading="lazy">';
 
   var infoHTML = s.status === 'current' || s.status === 'alumni'
     ? (s.topic     ? '<p class="stu-topic">'     + esc(s.topic)     + '</p>' : '')
